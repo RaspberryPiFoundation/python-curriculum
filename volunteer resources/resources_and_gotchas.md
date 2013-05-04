@@ -9,6 +9,8 @@ Volunteer resources
 
 [Codecademy python track](http://www.codecademy.com/tracks/python)
 
+[Dive into Python](http://www.diveintopython.net/)
+
 ##Python gotchas
 
 As a friend put it:
