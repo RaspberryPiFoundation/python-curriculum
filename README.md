@@ -19,7 +19,7 @@ The 4th term of lessons for Code Club
 ###Resources
 
 * How to install python
-* Turtle commands
+* List of Turtle commands
 
 ###Ideas further lessons
 
@@ -28,3 +28,4 @@ The 4th term of lessons for Code Club
 * battleship
 * make a bot (to play a game, like unicorns playing football, huge tournament against other bots from other clubs)
 * fractal maze/ maze solving robot
+* scraper
