@@ -27,8 +27,16 @@ course outline
     + Drawing a mountain by hand (Translating _____ --> __/\__) 
     + A Snowflake. (The Koch snowflake)
     + Bumps? Boxes? 
-    + A sacred relic (The triforce/sierpinski gasket)
-    + (Maybe sierpinsky curve too ?)
+    + A sacred relic (The triforce/Sierpinski gasket)
+    + (Maybe Sierpinski curve too ?)
 
 * Breaking the Code
     + Counting letters ?
+    
+* Hangman
+	+ lists (create, index, slice, add, delete, append, sort etc.)
+	+ random module
+	+ in operator
+	+ ascii art
+	
+	

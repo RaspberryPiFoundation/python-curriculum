@@ -14,6 +14,7 @@ The 4th term of lessons for Code Club
 * 03 Turtle fractals 
 * 04 ciphers / sending secret messages
 * 05 breaking the codez
+* 06-07 Hangman
 
 
 ###Resources
