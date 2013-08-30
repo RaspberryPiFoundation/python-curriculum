@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'VAG Rundschrift Regular';
+    src: url('http://f.fontdeck.com/f/1/Y29JLVNLTkwAAbpXNyV5glzXllnzf0SuBwd6jeXXoljUQg.eot');
+    src: url('http://f.fontdeck.com/f/1/Y29JLVNLTkwAAbpXNyV5glzXllnzf0SuBwd6jeXXoljUQg.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/Y29JLVNLTkwAAbpXNyV5glzXllnzf0SuBwd6jeXXoljUQg.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/Y29JLVNLTkwAAbpXNyV5glzXllnzf0SuBwd6jeXXoljUQg.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VAG Rundschrift Light';
+    src: url('http://f.fontdeck.com/f/1/RGk5OHBuX1AAARDPY7Ezk1g537cThlgHl6B59l1gB9m2cQ.eot');
+    src: url('http://f.fontdeck.com/f/1/RGk5OHBuX1AAARDPY7Ezk1g537cThlgHl6B59l1gB9m2cQ.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/RGk5OHBuX1AAARDPY7Ezk1g537cThlgHl6B59l1gB9m2cQ.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/RGk5OHBuX1AAARDPY7Ezk1g537cThlgHl6B59l1gB9m2cQ.ttf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
