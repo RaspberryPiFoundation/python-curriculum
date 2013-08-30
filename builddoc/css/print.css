@@ -1,1 +1,120 @@
 .sourceCode { page-break-inside: avoid; page-break-before: avoid; }
+
+
+@font-face {
+    font-family: 'VAG Rundschrift Regular';
+    src: url('http://f.fontdeck.com/f/1/Y29JLVNLTkwAAbpXNyV5glzXllnzf0SuBwd6jeXXoljUQg.eot');
+    src: url('http://f.fontdeck.com/f/1/Y29JLVNLTkwAAbpXNyV5glzXllnzf0SuBwd6jeXXoljUQg.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/Y29JLVNLTkwAAbpXNyV5glzXllnzf0SuBwd6jeXXoljUQg.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/Y29JLVNLTkwAAbpXNyV5glzXllnzf0SuBwd6jeXXoljUQg.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VAG Rundschrift Light';
+    src: url('http://f.fontdeck.com/f/1/RGk5OHBuX1AAARDPY7Ezk1g537cThlgHl6B59l1gB9m2cQ.eot');
+    src: url('http://f.fontdeck.com/f/1/RGk5OHBuX1AAARDPY7Ezk1g537cThlgHl6B59l1gB9m2cQ.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/RGk5OHBuX1AAARDPY7Ezk1g537cThlgHl6B59l1gB9m2cQ.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/RGk5OHBuX1AAARDPY7Ezk1g537cThlgHl6B59l1gB9m2cQ.ttf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+html {
+    font-size: 18px;
+    line-height: 1.22222em;
+}
+
+body {
+    color: #333333;
+    font-family: "VAG Rundschrift Light","Verdana",sans-serif;
+    margin: 0 2cm;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #F9A81B -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: medium none;
+    border-style: dotted none none;
+    border-width: 3px medium medium;
+    margin-bottom: 1.22222em;
+    margin-top: 1.22222em;
+}
+ul li, ol li {
+    margin-bottom: 1.22222em;
+}
+pre, code, pre span, code span {
+    font-family: "Source Code Pro",Courier,monospace;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+pre {
+    background:#F0EFF1;
+    overflow:visible;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    font-size: 1.11111em;
+    line-height: 2.2em;
+    padding: 0 1em;
+    margin: 0 0 1.22222em;
+}
+
+h1 {
+    background: #B9E5FA;
+    color: #0E86C0;
+    font-size: 1.55556em;
+    line-height: 2.35714em;
+}
+
+h2 {
+    background:#40AE49;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 1.11111em;
+    line-height: 2.2em;
+    padding: 0 1em;
+    margin-top:40px;
+}
+
+h3 {
+    background: #FEF4E2;
+    color: #F9A81B;
+}
+
+h1, h2,  h3, h4, h5, h6, strong {
+    font-family: "VAG Rundschrift Regular","Verdana",sans-serif;
+    font-weight: normal;
+}
+
+em, strong {
+    font-family: "VAG Rundschrift Regular","Verdana",sans-serif;
+    white-space: nowrap;
+}
+em {
+    font-style:italic;
+}
+strong {
+    font-weight: bold;
+}
+code {
+    border-radius: 4px 4px 4px 4px;
+    background: #CCCCCC;
+    padding:2px 5px;
+}
+pre code {
+    background:transparent;
+}
+ul li, ol li {
+    margin-bottom: 1.22222em;
+}
+
