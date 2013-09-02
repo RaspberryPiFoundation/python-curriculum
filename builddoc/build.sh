@@ -12,7 +12,7 @@ do
 	base=`basename "$f"`
 	output="lesson${base%%.*}.html"
 	pandoc -f markdown_github -t html5  -s --highlight-style pygments \
-		-c css/codeclub.css -c css/print.css \
+		-c css/codeclub.css \
 		 --section-divs \
 		"$f" -o "$OUT/$output"
 done
