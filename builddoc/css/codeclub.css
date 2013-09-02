@@ -52,6 +52,7 @@ pre, code, pre span, code span {
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.5;
+    text-indent: 0;
 }
 pre {
     background:#F0EFF1;
