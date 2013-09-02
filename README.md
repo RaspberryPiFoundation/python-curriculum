@@ -1,32 +1,26 @@
 python-curriculum
 =================
 
-work in progress
+These lessons are __work in progress__, and we're releasing the first four in time for term in the UK.
 
-The 4th term of lessons for Code Club 
+They will make up term four of Code Club, and we're focusing on Python. The earliest lessons use Turtle Graphics
 
-##TODO:
+# Completed Lessons
 
-###Lessons
+* 01 Turtles 
+* 02 Turtles and Functions
+* 03 Ceasar Ciphers and sending secret messages
+* 04 Turtles and Fractals
 
-* 01 Turtles 1
-* 02 Turtles 2
-* 03 Turtle fractals 
-* 04 ciphers / sending secret messages
-* 05 breaking the codez
-* 06-07 Hangman
+# Proposed Lessons
+
+* Tic-Tac-Toe/Noughts and Crosses
+* Hangman
+* Breaking the Ceasar Cipher
+
+# Feedback
+
+Open an issue on github or drop us a line directly, tef is currently responsible for the python coursework, and can be reached on tef@codeclub.org.uk. 
 
 
-###Resources
 
-* How to install python
-* List of Turtle commands
-
-###Ideas further lessons
-
-* angry birds
-* space invaders
-* battleship
-* make a bot (to play a game, like unicorns playing football, huge tournament against other bots from other clubs)
-* fractal maze/ maze solving robot
-* scraper

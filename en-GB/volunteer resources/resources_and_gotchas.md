@@ -10,18 +10,52 @@ Although a little daunting, the python download page at http://www.python.org/do
 
 We've suggesting Python 3 over Python 2, and you will need to know which operating system and hardware to use.
 
+## An all too fast introduction to Python
 
-## Python 2 vs Python 3
+Python is a scripting language, with variables and objects. Objects can be numbers, `1` or strings `"abc"`, or lists `[ 1,2,3]`, or dictionaries `{'one': 123, 'two': 123}`. Variables don't need to be explicitly defined, just assigned to be used.
 
-The course currently suggests using Python 3, but none of the examples depend on Python 3 features. All the code should work under Python 2, although there are some minor caveats.
+```python
+x = 1
+x = x + 2
+y = [ 1, 2, 3]
+```
 
-### The Print statement
+Python uses whitespace to delimit blocks of control, in functions, if, for and while loops:
 
-In python 2, print is a keyword, and so is normally written `print "foo"`, but in Python 3, print is an ordinary function and usually written `print("foo")`. Due to syntactic quirks, the python 3 style works in python 2, but it may lead to some confusion if a trailing comma appears, i.e `print("foo",)` works differently in Python 2 and 3.
+```python
 
-### Floating Point
+def foo(a,b,c):
+    return a * b * c
 
-In python 2, `1/2` is 0, as python assumes integer division. In python 3, `1/2` is 0.5. We've tried to avoid relying on one behaviour or the other, and for python 2 this can be remedied by using floating point, i.e `1.0/2` or `1/2.0`. 
+if foo(1,2,3) < 8:
+    print("Hello")
+else:
+    print("Nope")
+
+x = 10
+while x > 0:
+    x = x -1
+    print(x)
+
+for x in range(10):
+    print(x)
+```
+
+One thing that will trip people up is that python variables don't store the values themselves, but a reference to the value.
+
+```python
+x = [ 1,2,3 ]
+y = x 
+y.append(4)
+print(x) # prints 1,2,3,4
+```
+
+Don't worry if this seems a little confusing, we're trying to stay away from the more awkward bits of python for the introductory lessons. If you're comfortable with scratch, you should be able to start playing with Python.
+
+There is much more to python than this, and the offical python tutorial is a good place to get started.
+
+- http://docs.python.org/3/tutorial/introduction.html
+- http://docs.python.org/2/tutorial/introduction.html
 
 ## Python Problems
 
@@ -53,6 +87,19 @@ We don't touch on any advanced or intermediate features in this course so far, a
 
     This is ok, the student can just rerun the program and it quits and restarts.
 
+## Python 2 vs Python 3
+
+The course currently suggests using Python 3, but none of the examples depend on Python 3 features. All the code should work under Python 2, although there are some minor caveats.
+
+### The Print statement
+
+In python 2, print is a keyword, and so is normally written `print "foo"`, but in Python 3, print is an ordinary function and usually written `print("foo")`. Due to syntactic quirks, the python 3 style works in python 2, but it may lead to some confusion if a trailing comma appears, i.e `print("foo",)` works differently in Python 2 and 3.
+
+In python 2, print("foo",) is the same as print(("Foo",)) in python three: printing a one element list containing "Foo".
+
+### Floating Point
+
+In python 2, `1/2` is 0, as python assumes integer division. In python 3, `1/2` is 0.5. We've tried to avoid relying on one behaviour or the other, and for python 2 this can be remedied by using floating point, i.e `1.0/2` or `1/2.0`. 
 
 ## Other Python Courses
 
