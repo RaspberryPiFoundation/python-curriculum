@@ -56,11 +56,15 @@ We don't touch on any advanced or intermediate features in this course so far, a
 
 ## Other Python Courses
 
-[Learn Python the Hard Way](http://learnpythonthehardway.org/)
+Learn Python the Hard Way
+http://learnpythonthehardway.org/
 
-[Introduction to Computer Science 101](https://www.udacity.com/course/cs101)
+Introduction to Computer Science 101
+https://www.udacity.com/course/cs101
 
-[Codecademy python track](http://www.codecademy.com/tracks/python)
+Codecademy python track
+http://www.codecademy.com/tracks/python
 
-[Dive into Python](http://www.diveintopython.net/)
+Dive into Python 
+http://www.diveintopython.net/
 
