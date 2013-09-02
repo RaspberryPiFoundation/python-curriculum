@@ -18,5 +18,6 @@ do
 done
 
 cp -r css $OUT
+cp *.svg $OUT
 
 
