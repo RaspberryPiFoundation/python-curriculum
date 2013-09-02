@@ -75,10 +75,11 @@
     }
 
     h1 {
-        background: #B9E5FA;
+        background: #B9E5FA url("https://www.codeclub.org.uk/assets/logo-8f4e1ca6525af0d4b681e5bea5dbe3d6.svg") no-repeat 97% 50%;
+        background-size:90px;
         color: #0E86C0;
         font-size: 1.55556em;
-        line-height: 2.35714em;
+        line-height: 3em;
     }
 
     h2 {
@@ -118,6 +119,7 @@
     }
     pre code {
         background:transparent;
+        padding:0;
     }
     ul li, ol li {
         margin-bottom: 1.22222em;
