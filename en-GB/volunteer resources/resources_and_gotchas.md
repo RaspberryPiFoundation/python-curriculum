@@ -35,14 +35,10 @@ We don't touch on any advanced or intermediate features in this course so far, a
 
     `-` is an operator and can't appear in variable names
 
-3 . Missing or wrong indentation. 
+3. Missing or wrong indentation. 
 
-    Python is very pedantic about whitespace. Tabs count as 8 spaces, but thankfully
-    IDLE will convert tabs into 4 spaces (the python coding standard, so mixing them
-    shouldn't come up)
-
-    We've tried to cover indentation as much as possible without boring the students to
-    death
+    Python is very pedantic about whitespace. Tabs count as 8 spaces, but thankfully IDLE will convert tabs into 4 spaces (the python coding standard, so mixing them
+    shouldn't come up). We've tried to cover indentation as much as possible without boring the students to death
 
 4. Other classic syntax errors
 
