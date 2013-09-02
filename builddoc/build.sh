@@ -7,14 +7,16 @@ rm -fR $OUT
 mkdir -p $OUT
 
 
+legal="UK_LEGAL.md"
+
 for f in ../en-GB/lessons/*/*.md;
 do
 	base=`basename "$f"`
 	output="lesson${base%%.*}.html"
-	pandoc -f markdown_github -t html5  -s --highlight-style pygments \
+	cat "$f" "$legal" | pandoc -f markdown_github -t html5  -s --highlight-style pygments \
 		-c css/codeclub.css \
 		 --section-divs \
-		"$f" -o "$OUT/$output"
+		 -o "$OUT/$output"
 done
 
 cp -r css $OUT

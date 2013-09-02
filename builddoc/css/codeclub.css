@@ -98,6 +98,10 @@
         font-weight: normal;
     }
 
+    .legal {
+        font-size:0.5em;
+    }
+
     em, strong {
         font-family: "VAG Rundschrift Regular","Verdana",sans-serif;
         white-space: nowrap;
