@@ -19,6 +19,9 @@ do
 		 -o "$OUT/$output"
 done
 
+cat "../en-GB/volunteer resources/resources_and_gotchas.md" |\
+   pandoc -f markdown_github -t html5  -s --highlight-style pygments -c css/codeclub.css --section-divs -o "$OUT/guide.html"
+
 cp -r css $OUT
 cp *.svg $OUT
 
