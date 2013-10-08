@@ -87,6 +87,10 @@ We don't touch on any advanced or intermediate features in this course so far, a
 
     This is ok, the student can just rerun the program and it quits and restarts.
 
+7. The student uses a file name with the same name as a library
+
+    For example, `turtle.py` will break if you have `from turtle import *`
+
 ## Python 2 vs Python 3
 
 The course currently suggests using Python 3, but none of the examples depend on Python 3 features. All the code should work under Python 2, although there are some minor caveats.
