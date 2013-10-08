@@ -115,3 +115,7 @@ http://www.codecademy.com/tracks/python
 Dive into Python 
 http://www.diveintopython.net/
 
+## This might be relevant to your interests
+Cheat sheet for translating Scratch blocks to python commands
+https://docs.google.com/document/d/1PExbraZ6a1yK7EG0M8nHWfIuQz7-SL8XZOmPmpF05Uo/pub
+
