@@ -19,10 +19,10 @@ og la oss begynne.
     ```
 2. Lagre det som en ny fil, og kjør programmet fra menyen ved å trykke `Run > Run Module`.
 
-    Husk at `for n in range(4)` gjentar koden, og at koden må grupperes med mellomrom (indenteres) for å være en del av for-løkken. Brukt 'Tab' (knappen over Caps lock) for å flytte kode.
+    Husk at `for n in range(4)` gjentar koden, og at koden må grupperes med mellomrom (innrykk) for å være en del av for-løkken. Brukt 'Tab' (knappen over Caps lock) for å flytte kode.
 
 
-## Steg 22: Forskjellige firkanter
+## Steg 2: Forskjellige firkanter
 
 La oss bruke variabler for å gjøre programmet vårt letter å lese og lettere å endre, akkurat som vi gjorde i forrige modul.
 
@@ -46,7 +46,7 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
 
 ## Steg 3: En ny kommando dukker opp
 
-1. Vi endrer koden og legger til `def poly():`, indenter koden (du kan merke den og trykke Tab), og bruk den nye kommandoen (Å bruke en kommando kaller vi gjerne å kalle).
+1. Vi endrer koden og legger til `def poly():`, pass på at koden har riktig innrykk (du kan merke den og trykke Tab) og bruk den nye prosedyren (Å bruke en prosedyre heter å kalle).
 
     ```python
     from turtle import *
@@ -68,16 +68,11 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
 
 2. Kjør den, hvis det virker skal den tegne to røde firkanter.
 
-Vi sparte litt tid ved å definere en ny kommando i Python, og nå kan vi
-tegne en rød firkant to ganger, uten å skrive hele greia to ganger. Disse
-nye kommandoene heter funksjoner i Python, og de er fine for å slippe å
-skrive så mye.
+Vi sparte litt tid ved å definere en ny prosedyre i Python, og nå kan vi tegne en rød firkant to ganger, uten å skrive hele greia to ganger. Disse nye kommandoene heter prosedyrer i Python, og de er fine for å slippe å skrive så mye.
 
 ## Steg 4: Hvorfor stoppe med firkanter
 
-Vi er ikke ferdige ennå, hva med å endre funksjonen så den kan tegne hvilken
-som helst form? Som med `forward` og `right`, kan vi sende verdier inn i
-funksjonen istedenfor å endre koden hver gang.
+Vi er ikke ferdige ennå, hva med å endre prosedyren så den kan tegne hvilken som helst form? Som med `forward` og `right`, kan vi sende verdier inn i prosedyren istedenfor å endre koden hver gang.
 
 1. Endre koden fra forrige gang så den ser slik ut:
 
@@ -100,11 +95,15 @@ funksjonen istedenfor å endre koden hver gang.
 
 2. Kjør den og se hva som skjer.
 
-    La oss ta dette lit sagte, for dette er ganske kule greier. Istedenfor å bestemme variablene i funksjonen, sier vi at funksjonen tar noen verdier som har navn, og så bruker vi verdiene der vi trenger dem.
+    La oss ta dette lit sakte, for dette er ganske kule greier. Istedenfor å bestemme variablene i prosedyren, sier vi at prosedyren tar noen verdier som har navn, og så bruker vi verdiene der vi trenger dem.
 
-    Vi flyttet noen verdier ut av funksjonen, og flyttet dem til den delen av koden som bruker dem. Nå kan vi, med en eneste funksjon, tegne *hvilken som helst* funksjon, av *hvilken som helst farge*. Jeg vet ikke hva du tenker, men dette imponerer meg hver gang jeg tenker på det: Vi kan lære datamaskine nye triks, og så få den til å gjøre triksene.
+    Vi flyttet noen verdier ut av prosedyren, og flyttet dem til den delen av koden som bruker dem. Nå kan vi, med en eneste prosedyre, tegne *hvilken som helst* funksjon, av *hvilken som helst farge*. Jeg vet ikke hva du tenker, men dette imponerer meg hver gang jeg tenker på det: Vi kan lære datamaskine nye triks, og så få den til å gjøre triksene.
 
-Å være i stand til å definere nye kommandoer, som kan oppføre seg forskjellig basert på verdiene vi gir en, er et av de kraftigste verktøyene i programmering.
+Å være i stand til å definere nye prosedyrer, som kan oppføre seg forskjellig basert på verdiene vi gir en, er et av de kraftigste verktøyene i programmering.
+
+__Protip:__
+Vi skiller mellom prosedyrer og funksjoner når vi snakker om dem, men de er ser helt like ut i Python. Det kommer funksjoner i neste kapittel, men vi nevner det allerede nå så du har hørt om det. Forskjellen er at en prosedyre kan gjøre noe med omverdenen, for eksempel kan den tegne noe eller skrive noe på skjermen. Både prosedyrer og funksjoner kan returnere en verdi også, det kommer vi til, men prosedyren kan da gi deg forskjellig resultat selv om du gir den samme verdi. For eksempel om du har en prosedyre `erDet("fredag")` kan svare ja på fredager og nei på lørdager. En funksjon derimot må alltid svare det samme hvis den får de samme verdiene.
+
 
 ## Steg 5: Skilpaddestreker
 
@@ -159,7 +158,7 @@ Vi kan koble figur og stiplet-linje programmet sammen ved å bytte ut kommandoen
 
 ## Steg 7: Byggeklosser for figurer
 
-1. La oss bruke funksjoner igjen for å rense opp i koden. Endre koden fra steg 6 og la oss dele koden i biter.
+1. La oss bruke prosedyreer igjen for å rense opp i koden. Endre koden fra steg 6 og la oss dele koden i biter.
 
     ```python
     from turtle import *
@@ -220,7 +219,7 @@ Hva om vi gjør litt tilfeldige sprell rett før vi er ferdige?  Vi kan be datam
 
 2. Lagre og kjør koden
 
-    Programmet skal tegne ti figurer i forskjellige farger med forskjellige størrelse. Linjen  `from random import randrange, random` gir oss to nye funksjoner, `randrange()` og `choice()`.
+    Programmet skal tegne ti figurer i forskjellige farger med forskjellige størrelse. Linjen  `from random import randrange, random` gir oss to nye prosedyrer, `randrange()` og `choice()`.
 
     `randrange()` plukker ut et tall mellom det laveste og det høyeste, så `randrange(1, 10)` velger et tall mellom 1 and 9 (Python begynner med 1, og stopper rett før 10).
 
