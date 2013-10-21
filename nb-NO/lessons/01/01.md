@@ -227,7 +227,7 @@ Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skri
     ```
 2. Lagre programmet og velg: Run -> Run module.
 
-    Legg merke til at programmer er skjøvet inn, *indentert*, eller dyttet til venstre under for-løkken. Python bruker mellomrom for å vite hvilke kommandoer som skal gjentaes. Du kan bruke Tab tasten for å få IDLE til å *indentere*, eller bruke Shift-Tab til å ta dem bort.
+    Legg merke til at koden er skjøvet inn, *indentert*, eller dyttet til venstre under for-løkken. Python bruker mellomrom for å vite hvilke kommandoer som skal gjentas. Du kan bruke Tab-tasten for å få IDLE til å *indentere*, eller bruke Shift-Tab til å ta dem bort.
 
 3. La oss se hva som skjer hvis vi bare indenterer (skyver inn) `forward`. Gjør om programmet ditt så det ser ut som dette:
 
@@ -242,12 +242,12 @@ Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skri
     right(90)
     ```
 
-4. Legg merke til hvordan `forward` er indendert og `right` ikke er det. Hva
-tror du dette programmet gjør? Forsøk å kjøre det og finne det ut.
+4. Legg merke til at `forward` er indendert og `right` ikke er det. Hva
+tror du dette programmet gjør? Forsøk å kjøre det og finn det ut.
 
     Fikk du en rett linje? Python vil gjenta `forward` fire ganger, og deretter snu til høyre. Python bruker mellomrom for å gruppere kommandoer sammen, akkurat som Scratch bruker blokker. Python klager til deg om du ikke har fått mellomrommene riktig.
 
-5. La oss endre det tilbake til programmet før det, og få det til å lage en firkant, men istedenfor å bruke tall i koden skal vi gi tallene navn. Dette gjør det lettere å se hva programmet gjør, og det hjelper oss til å ikke gjenta oss selv.
+5. La oss endre programmet tilbake slik at det lager en firkant igjen, men istedenfor å bruke tall i koden skal vi gi tallene navn. Dette gjør det lettere å se hva programmet gjør, og gjør at vi slipper å gjenta oss selv.
 
     Endre filen så den ser slik ut:
 
@@ -276,19 +276,18 @@ Kan du tegne noen av figurene under bare ved å endre verdiene?
 * Et hexagram? (seks sider)
 * Et oktagram? (åtte sider)
 
-Husk, en trekant har tre sider og snur 120 grader. Å snu 120 grader i hvert
-hjørne betyr at vi snur 360 grader tilsammen. For en firkant må vi snu 90
-grader i hjørnene, som også blir 360 grader.
+Husk, en trekant har tre sider og vi må derfor snu 120 grader i hvert av de tre hjørnene for at det skal bli 360 grader tilsammen. For en firkant må vi snu 90
+grader i hvert hjørne, som også blir 360 grader.
 
 Hvis du snur seks ganger, hvor mange ganger må du snu for at det skal bli
-360 grader? Prøv med forskjellige tall å se hva som skjer.
+360 grader? Prøv med forskjellige tall og se hva som skjer.
 
 ##Steg 6: Snu, snu, snu
 
 Istedenfor å regne ut vinklene, kan vi ikke heller få datamaskinen til å gjøre det for oss? Python lar deg plusse, trekke fra, gange og dele.
 Vi kan skrive `sides = 4 + 1` istedenfor 5, eller `sides = 4 - 1` istedenfor 3. For multiplikasjon bruker Python `*`, og for divisjon skriver vi `/`.
 Hvis vi må snu 360 grader tilsammen, kan vi regne ut vinkelen vi trenger.
-For en firkant er `360 / 4` 90, for trekanten er `360/3` 120.
+For en firkant er `360 / 4` lik 90, for trekanten er `360 / 3` lik 120.
 
 1. Endre programmet ditt til å regne ut vinkelen.
 
@@ -369,14 +368,14 @@ bruke `penup()` og `pendown()` for å slå av og på at skilpadden skal tegne.
 
 2. Dette burde tegne en stiplet strek over skjermen din. Kjør det og se!
 
-### Hjem, hjem på skjermen
+### Hjem, kjære hjem på skjermen
 
-Et siste triks, `home()` får skilpadden til å gå hjem dit den begynte. `clear()` tørker alle sporene av skjermen, og `reset()` flytter skilpadden og renser opp skjermen.
+Et par triks på slutten: `home()` får skilpadden til å gå hjem dit den begynte, `clear()` tørker alle sporene av skjermen, og `reset()` flytter skilpadden og renser opp skjermen.
 
 ## Steg 8: Gjør hva du vil!
 
 Du kan `forward()`, `backward()`, `left()`, `right()`, du kan gjenta ting
-med `for count in range(4)`, endre rager, endre fart og til og med fylle
+med `for count in range(4)`, endre farger, endre fart og til og med fylle
 figurer!
 
 Kan du tegne et hus, en fugl? En slange? En katt? En hund? En løve? Du kan kombinere figurer og se hva du kan lage. Kan du tegne en robot?
