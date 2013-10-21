@@ -4,7 +4,7 @@ Legg bort skilpaddene dine, i dag skal vi lære hvordan vi kan sende hemmelige b
 
 ## Kodeklubb-koden
 
-Et chiffer er et system for å gjøre om vanlig tekst til kode som ikke andre skal kunne lese. Vi skal her gjøre et av de eldste og mest berømte chifferene, Caesar-chifferet eller Caesars kode, etter Gaius Julius Caesar som sannsynligvis brukte dette for å sende hemmelige beskjeder. Det er neppe den beste metoden å sende beskjeder hvis du ikke vil at andre skal lese dem, men det kommer vi til. Det finnes ferdige moduler til Python du kan bruke hvis du vil lage noe som skal være vanskelig å knekke, men nå skal vi forsøke å lage Caesar-chifferet selv.
+Et chiffer er et system for å gjøre om vanlig tekst til kode som ikke andre skal kunne lese. Vi skal bruke et av de eldste og mest berømte chifferene, Cæsar-chifferet eller Cæsars kode - oppkalt etter Gaius Julius Cæsar som sannsynligvis brukte det til å sende hemmelige beskjeder. Det er neppe den beste måten å hindre andre i å lese beskjedene dine, men det kommer vi tilbake til. Det finnes ferdige moduler til Python du kan bruke hvis du vil lage noe som skal være vanskelig å knekke, men nå skal vi forsøke å lage Cæsar-chifferet selv.
 
 
 Start med å tegne alle bokstavene i en sirkel.
@@ -34,7 +34,7 @@ Start med å tegne alle bokstavene i en sirkel.
 
 ```
 
-For å lage en hemmelig bokstav fra en vanlig bokstav, trenger vi en hemmelig nøkkel. Jeg liker tallet 3, det er et magisk tall, så vi bruker det.
+For å lage en hemmelig bokstav fra en vanlig bokstav, trenger vi et tall vi kan bruke som hemmelig nøkkel. Jeg liker tallet 3, det er et magisk tall, så vi bruker det.
 
 ```
     A + 3 = D       T + 3 = W       Å + 3 = C
@@ -90,7 +90,7 @@ under:
 
 3. La oss ta en titt på koden igjen, men vi tar det sakte.
 
-    Du trenger ikke å skrive dette! Alt som står bak firkanten bryr python seg vanligvis ikke om, det er bare kommentarer til mennesker som skal lese koden.
+    Du trenger ikke å skrive dette! Alt som står bak firkant-tegnet bryr python seg vanligvis ikke om, det er bare kommentarer til mennesker som skal lese koden.
 
     ```python
 
@@ -122,7 +122,7 @@ under:
     print(secretletter)
     ```
 
-    Det er mye python-ting som skjer her, men ikke bli skremt om du ikke forstår alt til å begynne med. Mye av dette er akkurat som i scratch. `if newpos >= 29` er bare en `if` setning, en ting som bare kjører koden under hvis det som står etter if er sant. If bruker en innrykksblokk, akkurat som `for` og `def` som vi har sett tidligere.
+    Det er mye python-ting som skjer her, men ikke bli skremt om du ikke forstår alt til å begynne med. Mye av dette er akkurat som i scratch. `if newpos >= 29` er bare en `if`-setning, en ting som bare kjører koden under hvis det som står etter `if` er sant. En `if`-setning bruker en innrykksblokk, akkurat som `for` og `def` som vi har sett tidligere.
 
 
 Nå som vi kan kode en bokstav, hva med å dekode en?
@@ -136,7 +136,7 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
     ```python
     alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
 
-    secret =17
+    secret = 17
     secretletter = "r"
 
     pos = alphabet.find(secretletter)
@@ -153,14 +153,12 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
 
 ## Oppgave 4: Bygge funksjoner
 
-Oppgave: Ser du hvorfor dette er en funksjon og ikke en prosedyre? De ser helt like ut, men de har noen forskjellige egenskaper likevel. Dette spiller ikke så stor rolle nå, men det er like greit å lære seg forskjellen nå.
+La oss ta den første programkoden (som laget Cæsar-kode av bokstaver) og gjøre den om til en
+funksjon 'encode' og den andre programkoden til en funksjon `decode`. I modul to snakket vi om å bruke prosedyrer for å unngå gjentagelser, denne gangen skal vi lage funksjoner i stedet. Ved første øyekast er prosedyrer og funksjoner veldig like (og Python bryr seg strengt tatt ikke om forskjellen), men når man ser nærmere etter har de ulike egenskaper. Dette spiller ikke så stor rolle nå, men det er like greit å lære seg forskjellen med en gang.
 
-La oss ta den første koden (som laget kode av bokstaver) å lage det til en
-funksjon 'encode' og den andre koden til en funksjon `decode`. Vi laget
-hvordan vi definerte prosedyrer i modul to. For å få den til å returnere en
-verdi som vi kan bruke senere, bruker vi kommandoen `return`.
+Prosedyrer bare gjør ting, mens funksjoner bare beregner ting. Noen ganger blander man de to tingene sammen og lager prosedyrer som både beregner og gjør ting, men jo mer du kan skille disse fra hverandre jo enklere blir programmet ditt både for deg selv og for andre. Grunnen til at vi kaller det vi lager nå for funksjoner, er at de bare beregner en verdi - de skriver ingenting ut, de tegner ingenting på skjermen og resultatet blir likt hver eneste gang hvis man gir inn samme bokstav og hemmelige tall.
 
-Prosedyrer bare gjør ting, og funksjoner beregner ting. Noen ganger blander man det også sammen og lager prosedyrer som både beregner og gjør ting, men jo mer du kan skille disse fra hverandre jo enklere blir programmet ditt både for deg å andre. Det vi lager nå er funksjoner, fordi de ikke bare beregner en verdi, de skriver ingenting ut, de tegner ingenting på skjermen og resultatet blir likt hver eneste gang hvis man gir inn samme bokstav og hemmelige tall.
+For å få en funksjon (eller en prosedyre som beregner noe) til å returnere en verdi som vi kan bruke senere, bruker vi kommandoen `return`.
 
 1. Lag en fil som ser slik ut:
 
@@ -193,16 +191,16 @@ Prosedyrer bare gjør ting, og funksjoner beregner ting. Noen ganger blander man
     print(decode("r", 17))
     ```
 
-    Husk at du kan bruke Tab i Idle for å få innrykk. Du kan også merke deler av koden og rykke alt inn på en gang.
+    Husk at du kan bruke 'Tab' i IDLE for å få innrykk. Du kan også merke deler av koden og rykke alt inn på en gang.
 
 2. Prøv å kode og dekode noen bokstaver!
 
 
-## Oppgave 5: Send ett hemmelig ord eller to, og finn dem tilbake igjen
+## Oppgave 5: Send et hemmelig ord eller to, og finn dem tilbake igjen
 
 Nå har vi noen funksjoner, la oss bruke dem til å kode ord. Vi kommer til å gå igjennom hver bokstav i ordet og kode det hvis det finnes i alfabetet (vi hopper over tegn som punktum og mellomrom).
 
-1. Under de nye funksjonene fra forrige oppgave kan du skrive inn koden under (altså behold det du gjorde i oppgave 4).
+1. Under de nye funksjonene fra forrige oppgave kan du skrive inn koden under (med andre ord: behold det du gjorde i oppgave 4, og legg til koden under).
 
     ```python
 
@@ -233,7 +231,7 @@ Nå har vi noen funksjoner, la oss bruke dem til å kode ord. Vi kommer til å g
     print(output)
     ```
 
-2. Kjør programmet og se hva som skjer
+2. Kjør programmet og se hva som skjer.
 
     Den første delen av koden burde skrive ut "yvååc kcfåu", som er den hemmelige versjonen av "hello world". Den andre delen dekoder det igjen og skriver ut "hello world"
 
@@ -245,4 +243,4 @@ Her er noen hemmelige beskjeder, forsøk å dekode dem!
 
 2. `æxkxånwn næ bnwwnwn mrwn`, hemmeligheten er 9.
 
-Prøv og send noen beskjeder til vennene dine! Hva med å lage et Python program som forsøker seg på alle mulige hemmelige tall og forsøker å knekke koder selv om du ikke kan det hemmelige tallet?
+Prøv å sende noen beskjeder til vennene dine! Hva med å lage et Python-program som forsøker seg på alle mulige hemmelige tall og forsøker å knekke koder selv om du ikke kan det hemmelige tallet?
