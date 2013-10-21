@@ -82,9 +82,9 @@ ____/\___/      \___/\___
 
 ```
 
-Du kan se at vi tegner den første figuren, deretter snur vi, tegner den igjen, snur, tegner igjen, snur og tegner den en siste gang.
+Du kan se at vi tegner den andre figuren (det enkle fjellet), deretter snur vi, tegner den igjen, snur, tegner igjen, snur og tegner den en siste gang.
 
-1. Istedenfor å skrive alle bevegelsene, la oss tegne den ved å kalle `second`
+1. Istedenfor å skrive alle bevegelsene, la oss tegne den tredje figuren ved å kalle `second`
 
     ```
     from turtle import *
@@ -112,12 +112,12 @@ Du kan se at vi tegner den første figuren, deretter snur vi, tegner den igjen, 
 
     `third` ser veldig lik ut som `second`, men istedenfor å kalle `forward`, kaller vi `second`. Hvis vi ville, kunne vi til og med skrive en fjerde utgave og kalle `third` istedenfor. Dette høres fort ut som mye å skrive, det må da være en måte vi kan få datamaskinen til å forstå dette på?
 
-    Denne figuren er en spesiell figur som du tegner ved å tegne figuren om igjen og om igjen: Den tredje er laget av den andre, og den andre er laget av den første. Det vi virkelig har lyst til å få til er å be datamaskinen om å tegne dette igjen og igjen helt til det er ferdig.
+    Disse figurene er spesielle på den måten at vi tegner dem ved å sette sammen enklere versjon av figurene om igjen og om igjen: Den tredje er laget av den andre, og den andre er laget av den første. Det vi virkelig har lyst til er å be datamaskinen om å tegne dette igjen og igjen helt til det er ferdig.
 
 ## Steg 3: Igjen og igjen
 
 
-Vi får til dette ved å dele problemet i to. Det enkle problemet og spesialtilfellet av problemet. Det enkle problemet er enkelt: Det er bare `forward(100)`. Spesialtilfellet er litt vanskeligere, det må si: Tegn spesialtilfellet, men en mindre enn i sted, helt til du kommer til det enkle tilfellet. Det er kanskje enklere å se på programmet enn å forklare.
+Vi får til dette ved å dele problemet i to: Det enkle problemet og spesialtilfellet av problemet. Det enkle problemet er enkelt: Det er bare `forward(100)`. Spesialtilfellet er litt vanskeligere, det vil si: Tegn spesialtilfellet, men en mindre enn i sted, helt til du kommer til det enkle tilfellet. Det er kanskje enklere å se på programmet enn å forklare.
 
 1. Lag en ny fil med koden under:
 
@@ -140,13 +140,13 @@ Vi får til dette ved å dele problemet i to. Det enkle problemet og spesialtilf
     mountain(3)
     ```
 
-    Du kan se at vi har brukt kode som er veldig likt `first, `second` og `third`. Vi bruker en `if`-setning til å finne ut om vi skal tegne det enkle tilfellet eller spesialtilfellet. I det spesielle tilfellet ber vi om å tegne et fjell, akkurat slik som `third` kalte `second`, men vi ber den om å tegne en enklere hver gang, med en ny verdi for `depth`, en mindre enn det vi startet med.
+    Du kan se at vi har brukt kode som er veldig likt `first, `second` og `third`. Vi bruker en `if`-setning for å finne ut om vi skal tegne det enkle tilfellet eller spesialtilfellet. I det spesielle tilfellet ber vi om å tegne et fjell, akkurat slik som `third` kalte `second`, men vi ber den om å tegne en enklere hver gang, med en ny verdi for `depth`, en mindre enn det vi startet med.
 
 2. Kjør det og se hva som skjer. Hva skjer om du prøver `mountain(1)`, `mountain(2)`, eller `mountain(4)`?
 
 ## Steg 4: Tegn et snøflak av fjell
 
-1. La oss bare legge til en siste ting til filen fra i sted, så den blir seende slik ut. Vi legger til en ny prosedyre `snowflake`:
+1. La oss bare legge til en siste ting til filen fra i sted, så den ser ut som under. Vi legger til en ny prosedyre `snowflake`:
 
     ```python
 
@@ -184,7 +184,7 @@ Vi får til dette ved å dele problemet i to. Det enkle problemet og spesialtilf
 
 ## Steg 5: Bokser, flere bokser, og enda flere bokser
 
-Ls oss se på en annen figur, en som ligner veldig my på snøflaket, men med
+La oss se på en annen figur, en som ligner veldig på snøflaket, men med
 bokser istedenfor fjell.
 
 ```
@@ -210,9 +210,9 @@ ___| |__|         |__| |___
 
 ```
 
-Akkurat som med fjellet er det et enkelt tilfelle: en rett linje, og et spesialtilfelle: Tegn en linje med en firkanthump på. Vi ser også at den tredje er akkurat som før, tegn den andre figuren et par ganger.
+Akkurat som med fjellet er det et enkelt tilfelle: en rett linje, og et spesialtilfelle: Tegn en linje med en firkanthump på. Vi ser også at den tredje er akkurat som før, tegn den andre figuren noen ganger.
 
-1. La oss åpne en ny fil og forsøk og tegne det andre bildet, som er det vi skal gjenta:
+1. La oss åpne en ny fil og forsøke å tegne det andre bildet, som er det vi skal gjenta:
 
     ```python
 
