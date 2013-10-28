@@ -11,12 +11,14 @@ They will make up term four of Code Club, and we're focusing on Python. The earl
 * 02 Turtles and Functions
 * 03 Ceasar Ciphers and sending secret messages
 * 04 Turtles and Fractals
+* 05 Hangman
+* 06 Noughts and Crosses
+* 07 Playing Against the Computer
 
 # Proposed Lessons
 
-* Tic-Tac-Toe/Noughts and Crosses
-* Hangman
 * Breaking the Ceasar Cipher
+* flocking 
 
 # Feedback
 
