@@ -1,10 +1,10 @@
 # 05 — Hangman
 
-La oss lage et spill: Hangman! Datamaskinen vil velge et ord, og spillerene kan gjette det bokstav for bokstav. Men dersom de gjetter feil for mange ganger taper de.
+La oss lage et spill: Hangman! Datamaskinen vil velge et ord, og du kan gjette det bokstav for bokstav. Men dersom du gjetter feil for mange ganger taper du.
 
 ## Steg 1: Velg et ord
 
-Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne
+Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne.
 
 1. Åpne IDLE, og åpne et nytt vindu
 
@@ -18,17 +18,17 @@ Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne
     print(word)
     ```
 
-3. Save your program, and run it. What word does it print?
+3. Lagre programmet ditt, og kjør det. Hvilket ord skrives ut?
 
-4. Run it again, does it print a different word?
+4. Kjør programmet en gang til. Skriver det ut et annet ord?
 
-Each time you run this program, it picks a random word from the list `["code", "club"]`, using the `choice` function. 
+Hver gang du kjører dette programmet vil det velge et tilfeldig ord fra listen `["code", "club"]`, ved hjelp av `choice`-funksjonen.
 
-## Step 2: Guess a letter
+## Steg 2: Gjett en bokstav
 
-Now we've picked a word, let's find out how to guess a letter.
+Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
 
-1. With the same file, edit the code so it looks like this
+1. I den samme filen, endre koden så den ser ut som følger
 
     ```python
     from random import choice
@@ -43,7 +43,7 @@ Now we've picked a word, let's find out how to guess a letter.
     print("Guess a letter in the word:", out)
     ```
 
-2. Save and run the program. 
+2. Lagre og kjør programmet.
 
 3. You should see "Guess a letter in the word: ____", in the output window (the other window, not the one you've written your program in.)
 
