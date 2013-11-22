@@ -1,6 +1,6 @@
 # 05—Hangman
 
-La oss lage et spill: Hangman! Datamaskinen vil velge et ord, og du kan gjette det bokstav for bokstav. Men dersom du gjetter feil for mange ganger taper du.
+La oss lage et spill: Hangman! Datamaskinen vil velge et ord og du kan gjette det bokstav for bokstav. Men dersom du gjetter feil for mange ganger taper du.
 
 ## Steg 1: Velg et ord
 
@@ -18,11 +18,11 @@ Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne
     print(word)
     ```
 
-3. Lagre programmet ditt, og kjør det. Hvilket ord skrives ut?
+3. Lagre programmet ditt og kjør det. Hvilket ord skrives ut?
 
 4. Kjør programmet en gang til. Skriver det ut et annet ord?
 
-Hver gang du kjører dette programmet vil det velge et tilfeldig ord fra listen `["kode", "kurs"]`, ved hjelp av `choice`-funksjonen.
+Hver gang du kjører dette programmet vil det velge et tilfeldig ord fra listen `["kode", "kurs"]` ved hjelp av `choice`-funksjonen.
 
 ## Steg 2: Gjett en bokstav
 
@@ -45,7 +45,7 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
 
 2. Lagre og kjør programmet.
 
-3. Du burde se `Gjett en bokstav i ordet: ____`, i output vinduet (det andre vinduet, ikke det du har skrevet programmet ditt i).
+3. Du burde se `Gjett en bokstav i ordet: ____`, i output-vinduet (det andre vinduet, ikke det du har skrevet programmet ditt i).
 
     Vi bruker en `for`-løkke for å bygge en tekst hvor hver bokstav i ordet er byttet med en understrek `_`. Ordet `kode` vil da for eksempel skrives som `____` til skjermen.
 
@@ -108,7 +108,7 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
         guess = input()
 
         if guess in guessed:
-            print("Bokstaven er allerede gjettet på", guess)
+            print("Bokstaven er allerede gjettet på:", guess)
         elif guess in word:
             print("Yay")
             guessed.append(guess)
@@ -122,7 +122,7 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
 
     Vi har laget en løkke, som `for alltid` i scratch, som vil fortsette å spørre spilleren om å gjette bokstaver helt til ordet er funnet. 
 
-    Vi bruker også en liste, `guessed`, hvor vi legger til bokstavene som er riktige. Dette programmet vil gå i løkke helt til alle bokstavene er gjettet.    
+    Vi bruker også en liste, `guessed`, hvor vi legger til bokstavene som er riktige.
 
 
 ## Steg 4: Tell feilene
@@ -157,7 +157,7 @@ Hangman burde bare gi deg noen få sjanser til å gjette, i stedet for å la deg
         guess = input()
 
         if guess in guessed or guess in wrong:
-            print("Bokstaven er allerede gjettet på", guess)
+            print("Bokstaven er allerede gjettet på:", guess)
         elif guess in word:
             print("Yay")
             guessed.append(guess)
@@ -204,7 +204,7 @@ Bare en ting gjenstår før spillet er ferdig, vi vil begrense hvor mange forsø
         guess = input()
 
         if guess in guessed or guess in wrong:
-            print("Bokstaven er allerede gjettet på", guess)
+            print("Bokstaven er allerede gjettet på:", guess)
         elif guess in word:
             print("Yay")
             guessed.append(guess)
@@ -237,7 +237,7 @@ Bare en ting gjenstår før spillet er ferdig, vi vil begrense hvor mange forsø
     word = choice(["kode", "kurs", "robot", "klubb"])
     ```
     
-    Husk at ordene må stå i anførselstegn, og at det må være komma mellom ordene for å lage en liste. Legg til flere ord som du finner på selv.
+    Husk at ordene må stå i anførselstegn og at det må være komma mellom ordene for å lage en liste. Legg til flere ord som du finner på selv.
 
 
 
