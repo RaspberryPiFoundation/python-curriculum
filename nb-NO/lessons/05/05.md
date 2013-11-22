@@ -1,4 +1,4 @@
-# 05 — Hangman
+# 05—Hangman
 
 La oss lage et spill: Hangman! Datamaskinen vil velge et ord, og du kan gjette det bokstav for bokstav. Men dersom du gjetter feil for mange ganger taper du.
 
@@ -13,7 +13,7 @@ Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne
     ```python
     from random import choice
 
-    word = choice(["code", "club"])
+    word = choice(["kode", "kurs"])
 
     print(word)
     ```
@@ -22,7 +22,7 @@ Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne
 
 4. Kjør programmet en gang til. Skriver det ut et annet ord?
 
-Hver gang du kjører dette programmet vil det velge et tilfeldig ord fra listen `["code", "club"]`, ved hjelp av `choice`-funksjonen.
+Hver gang du kjører dette programmet vil det velge et tilfeldig ord fra listen `["kode", "kurs"]`, ved hjelp av `choice`-funksjonen.
 
 ## Steg 2: Gjett en bokstav
 
@@ -33,36 +33,35 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
     ```python
     from random import choice
 
-    word = choice(["code", "club"])
+    word = choice(["kode", "kurs"])
 
     out = ""
 
     for letter in word:
         out = out + "_"
 
-    print("Guess a letter in the word:", out)
+    print("Gjett en bokstav i ordet:", out)
     ```
 
 2. Lagre og kjør programmet.
 
-3. You should see "Guess a letter in the word: ____", in the output window (the other window, not the one you've written your program in.)
+3. Du burde se `Gjett en bokstav i ordet: ____`, i output vinduet (det andre vinduet, ikke det du har skrevet programmet ditt i).
 
-    We use a for loop to build up some text with an underscore `_` for each letter in the word. The word "code" put in, will write out `____` to the screen.
+    Vi bruker en `for`-løkke for å bygge en tekst hvor hver bokstav i ordet er byttet med en understrek `_`. Ordet `kode` vil da for eksempel skrives som `____` til skjermen.
 
-
-4. Let's guess a letter! Change the code to look like this
+4. La oss gjette på en bokstav! Endre koden så den ser ut som dette
 
     ```python
     from random import choice
 
-    word = choice(["code", "club"])
+    word = choice(["kode", "kurs"])
 
     out = ""
 
     for letter in word:
         out = out + "_"
 
-    print("Guess a letter in the word, then press enter:", out)
+    print("Gjett en bokstav i ordet, avslutt med enter:", out)
 
     guess = input()
 
@@ -72,22 +71,22 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
         print("Nope")
     ``` 
 
-    We use a new function `input()` to find out what the player typed. We use `if` to find out if the letter was in the word.
+    Vi bruker en ny prosedyre `input()` for å finne ut hvilken bokstav spilleren skriver. Vi bruker `if` for å sjekke om bokstaven er i ordet.
 
-We've got the essentials down, so let's continue onward. 
+Da har vi gjort det viktigste, la oss fortsette videre.
 
-(Python 2 Note: Use `raw_input` if you're on an old version of python)
+(Python 2 tips: Bruk `raw_input` i stedet for `input` dersom du bruker en gammel version av python)
 
-## Step 3: Track the guesses
+## Steg 3: Husk bokstavene som er gjettet
 
-Now we're going to use two features of python, lists and the `while` loop. 
+Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
 
-1. In the same file, edit the code to look like this:
+1. I den samme filen, endre koden så den ser slik ut:
 
     ```python
     from random import choice
 
-    word = choice(["code", "club"])
+    word = choice(["kode", "kurs"])
 
     guessed = []
 
@@ -101,15 +100,15 @@ Now we're going to use two features of python, lists and the `while` loop.
                 out = out + "_"
 
         if out == word:
-            print("You guessed", word)
+            print("Du gjettet", word)
             break
             
 
-        print("Guess the word:", out)
+        print("Gjett en bokstav i ordet:", out)
         guess = input()
 
         if guess in guessed:
-            print("Already guessed", guess)
+            print("Bokstaven er allerede gjettet på", guess)
         elif guess in word:
             print("Yay")
             guessed.append(guess)
@@ -119,23 +118,23 @@ Now we're going to use two features of python, lists and the `while` loop.
         print()
     ```
 
-2. Run the code, try guessing the letters. 
+2. Kjør koden og prøv å gjette bokstavene.
 
-    What we've done is put a loop, like `forever` in scratch, that will keep asking for letters from the player, until they guess the word.
+    Vi har laget en løkke, som `for alltid` i scratch, som vil fortsette å spørre spilleren om å gjette bokstaver helt til ordet er funnet. 
 
-    We also use a list, `guessed`, which we add the letters to when they're right. This program will loop forever until all the letters are guessed.
+    Vi bruker også en liste, `guessed`, hvor vi legger til bokstavene som er riktige. Dette programmet vil gå i løkke helt til alle bokstavene er gjettet.    
 
 
-## Step 4: Track the mistakes
+## Steg 4: Tell feilene
 
-Hangman should only give you a few chances to guess, rather than trying every letter in turn
+Hangman burde bare gi deg noen få sjanser til å gjette, i stedet for å la deg gjette alle mulige bokstaver inntil du finner svaret.
 
-1. Edit the existing file, and change it to look like the following:
+1. Endre filen du jobber med slik at den blir seende ut som dette:
 
     ```python
     from random import choice
 
-    word = choice(["code", "club"])
+    word = choice(["kode", "kurs"])
 
     guessed = []
     wrong = []
@@ -150,15 +149,15 @@ Hangman should only give you a few chances to guess, rather than trying every le
                 out = out + "_"
 
         if out == word:
-            print("You guessed", word)
+            print("Du gjettet", word)
             break
 
-        print("Guess the word:", out)
+        print("Gjett en bokstav i ordet:", out)
 
         guess = input()
 
         if guess in guessed or guess in wrong:
-            print("Already guessed", guess)
+            print("Bokstaven er allerede gjettet på", guess)
         elif guess in word:
             print("Yay")
             guessed.append(guess)
@@ -169,18 +168,18 @@ Hangman should only give you a few chances to guess, rather than trying every le
         print()
 
     ```
-    We're using a new list, `wrong`, to store all the guesses that weren't right
+    Vi bruker en ny liste `wrong` som tar vare på alle bokstavene vi har gjettet som er feil.
 
-Only one last thing before the game is complete, which is to only have a few chances to guess.
+Bare en ting gjenstår før spillet er ferdig, vi vil begrense hvor mange forsøk man har til å gjette.
 
-## Step 5: Only a few chances
+## Steg 5: Bare noen få forsøk
 
-1. Edit the file, to introduce a new variable, `tries`:
+1. Endre filen for å legge til en ny variabel, `tries`:
 
     ```python
     from random import choice
 
-    word = choice(["code", "club"])
+    word = choice(["kode", "kurs"])
 
     guessed = []
     wrong = []
@@ -199,13 +198,13 @@ Only one last thing before the game is complete, which is to only have a few cha
         if out == word:
             break
 
-        print("Guess the word:", out)
-        print(tries, "chances left")
+        print("Gjett en bokstav i ordet:", out)
+        print(tries, "forsøk igjen")
 
         guess = input()
 
         if guess in guessed or guess in wrong:
-            print("Already guessed", guess)
+            print("Bokstaven er allerede gjettet på", guess)
         elif guess in word:
             print("Yay")
             guessed.append(guess)
@@ -217,28 +216,28 @@ Only one last thing before the game is complete, which is to only have a few cha
         print()
 
     if tries:
-        print("You guessed", word)
+        print("Du gjettet", word)
     else:
-        print("You didn't get", word)
+        print("Du klarte ikke å gjette", word)
     ```
 
-2. Run the file, and see what happens when you guess wrong letters
+2. Kjør programmet, og se hva som skjer når du gjetter feil bokstaver.
 
-## Step 6: Add some new words in
+## Steg 6: Legg til nye ord
 
-1. Find the line in the source code:
+1. Finn linjen i programkoden som sier:
 
     ```python
-    word = choice(["code", "club"])
+    word = choice(["kode", "kurs"])
     ```
 
-2. Edit it to add more words, why not try
+2. Vi kan endre denne linjen for å legge til flere ord i spillet. Prøv for eksempel
 
     ```python
-    word = choice(["code", "club", "robot", "party"])
+    word = choice(["kode", "kurs", "robot", "klubb"])
     ```
     
-    Remember to put the words in quotes, and put a comma between them to make a list of words.
+    Husk at ordene må stå i anførselstegn, og at det må være komma mellom ordene for å lage en liste. Legg til flere ord som du finner på selv.
 
 
 
