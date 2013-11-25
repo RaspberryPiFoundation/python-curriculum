@@ -1,6 +1,6 @@
 # 06—Tre på rad
 
-På tide med et nytt spill! I dag skal vi lage tre på rad, hvor spillerne etter tur merker med ruter med X eller O inntil en av spillerne får tre på rad.
+På tide med et nytt spill! I dag skal vi lage tre på rad, hvor spillerne etter tur merker ruter med X eller O inntil en av spillerne får tre på rad.
 
 ## Steg 1: Tegne rutenettet
 
@@ -39,7 +39,7 @@ Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag skal vi i
 
 ### Lerretet
 
-Vi lager et 600 ganger 600-piksler vindu med kommandoen `c = Canvas(main, width=600, height=600)`. For datamaskinen ser dette slik ut:
+På samme måte som vi brukte `turtle`-biblioteket når vi tegnet med skilpadder bruker vi her `tkinter`-biblioteket. Vi lager et 600 ganger 600-piksler vindu med kommandoen `c = Canvas(main, width=600, height=600)`. For datamaskinen ser dette slik ut:
 
 ```
     0       200      400      600   ...
@@ -104,11 +104,11 @@ c.create_line(0, 400, 600, 400) # N til P
 
 ```
 
-Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Dette rutenettet ligner ganske mye på koordinatene du kanskje har lært om i mattetimen. Forskjellen er at her begynner vi i øvre venstre hjørne.
+Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Dette rutenettet ligner ganske mye på koordinatene du kanskje har lært om i mattetimen. Forskjellen er at her begynner vi i øvre, i stedet for nedre, venstre hjørne.
 
-## Step 2: Drawing a O
+## Steg 2: Tegne en sirkel
 
-1. In the same file, let's add a new function to draw when you click the mouse!
+1. I den samme filen vil vi nå legge til en prosedyre som kan tegne når du klikker med musen!
 
     ```python
     from tkinter import *
@@ -132,13 +132,13 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
     mainloop()
     ```
 
-2. Run your code, and click on the grid, what happens?
+2. Kjør koden din, og klikk et sted i rutenettet. Hva skjer?
 
-   You should see a circle in the centre of the grid.
+    Du skal se en sirkel i den midterste ruta på skjermen.
 
-3. Let's edit the code, so it will draw where you click
+3. La oss endre på koden slik at vi tegner sirkelen i den samme ruta som du klikker i.
 
-    For this we'll need to take the mouse position, and work out which grid square it is in, and change the `click` function
+    For å gjøre dette må vi finne posisjonen til muspekeren og regne ut hvilken rute i rutenettet dette tilsvarer. Dette gjør vi ved å endre på `click`-prosedyren.
 
     ```python
     from tkinter import *
@@ -168,15 +168,15 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
     mainloop()
     ```
 
-    `int(c.canvasx(event.x)/200)` takes the mouse position `event.x`, turns it into the canvas position, `c.canvas(event.x)` and then divides it by 200, and rounds it down, so we get a number 0, 1 or 2 to tell us how far across the mouse is.
+    Linjen `int(c.canvasx(event.x)/200)` finner først posisjonen til muspekeren `event.x`, gjør om denne til en lerret-posisjon, `c.canvas(event.x)` og deler denne på 200 og runder nedover slik at vi får et tall som er enten 0, 1 eller 2. Dette tallet forteller oss i hvilken kolonne muspekeren er. Linjen `int(c.canvasy(event.y)/200)` finner på samme måte ut hvilken rad muspekeren befinner seg i.
 
-4. Run the code, click in the grid squares, each one should fill in with a circle!
+4. Kjør koden. Legg merke til at hver gang du klikker i en rute tegnes en sirkel i den ruten.
 
-    The code `c.create_oval(across*200,down*200,(across+1)*200,(down+1)*200)` turns 'Along 1, Down 2' into positions on the grid, like Along 200, Down 400. 
+    Koden `c.create_oval(across*200,down*200,(across+1)*200,(down+1)*200)` gjør om 'Bortover 1, Nedover 2' til posisjoner på lerretet som Bortover 200, Nedover 400.
 
-## Step 3: Drawing an X
+## Steg 3: Tegne et kryss
 
-1. In the same file, let's add some code to draw an X, then an O, then an X, ...
+1. I den samme filen legger vi nå inn kode som først tegner en sirkel, deretter et kryss, deretter en sirkel, ...
 
     ```python
     from tkinter import *
@@ -220,20 +220,20 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
 
     mainloop()
     ```
-2. Run your program, try click on a grid, it should draw a O, click elsewhere it should draw an X
+2. Kjør programmet ditt. Prøv å trykk på en rute. Det skal tegnes en O. Klikk på en annen rute. Nå tegnes en X.
 
-    We've used a new feature of python, `global` to let us change the variable `shape` in the function `click`.
-    If you change variables defined outside of a function, then you have to use `global`. 
+    Vi har brukt en ny kommando i python, `global` lar oss endre variabelen `shape` inne i prosedyren `click`.
+    Dersom du endrer variabler som er definert utenfor funksjoner og prosedyrer må du bruke `global`.
 
-3. What happens if you click on the same square twice? 
+3. Hva skjer om du trykker på samme rute to ganger på rad?
 
-    This is because our code doesn't keep track of what has been drawn, or where players have moved. We will have write some more code to fix this.
+    Dette skjer fordi koden vår enda ikke følger med på hva som faktisk har blitt tegnet eller hvor spillerne har flyttet. Vi må skrive litt mer kode for å holde styr på dette.
 
-## Step 4: Keeping track
+## Steg 4: Hvor er det allerede klikket?
 
-To stop players playing the same move twice, we'll have to keep track of the moves they make. To do this we'll introduce a list called `grid`
+For å hindre at spillerene klikker i samme rute to ganger vil vi følge med på hvilke flytt de gjør. For å gjøre dette bruker vi en liste kalt `grid`.
 
-1. In the same file, 
+1. I den samme filen,
 
     ```python
     from tkinter import *
@@ -289,15 +289,15 @@ To stop players playing the same move twice, we'll have to keep track of the mov
 
     mainloop()
     ```
-2. Run your program, and try and click in the same square twice? What happens?
+2. Kjør programmet ditt. Hva skjer nå om du prøver å klikke i samme rute to ganger på rad?
 
-## Step 5: Finding a winner
+## Steg 5: Å finne en vinner
 
-Now we have got the game working, we need to find a winner!
+Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre på rad!
 
-1. In the same file, we're going to introduce a new function `winner`, and call it to check if the game has been won
+1. I den samme filen vil vi nå skrive en ny prosedyre `winner`. Vi kaller denne etter hvert klikk for å sjekke om en av spillerene har vunnet.
     
-    The completed code looks like this!
+    Den ferdige koden ser ut som følger:
 
     ```python
     from tkinter import *
@@ -366,12 +366,10 @@ Now we have got the game working, we need to find a winner!
                 return True
 
         line = grid[0]+grid[4]+grid[8]
-
         if line == "XXX" or line == "OOO":
                 return True
 
         line = grid[2]+grid[4]+grid[6]
-            
         if line == "XXX" or line == "OOO":
                 return True
 
@@ -380,18 +378,18 @@ Now we have got the game working, we need to find a winner!
 
     mainloop()
     ```
-2. Try playing the game and winning, can you make any more moves?
+2. Prøv å spill spillet slik at du får tre på rad. Kan du klikke i noen flere ruter?
 
-    We have four checks in `winner`
+    Vi sjekker fire forskjellige tilfeller i prosedyren `winner`:
 
-    1. Check each row for three X's or  O's
+    1. Sjekk hver rad om det er tre X'er eller O'er,
 
-    2. Check each column for three X's or O's
+    2. Sjekk hver kolonne om det er tre X'er eller O'er,
 
-    3. Check the diagonal from left to right 
+    3. Sjekk diagonalen fra øvre venstre til nedre høyre hjørne,
 
-    4. Check the diagonal from right to left.
+    4. Sjekk diagonalen fra øvre høyre til nedre venstre hjørne.
 
-## Step 6:
+## Steg 6:
 
-You're all done! Why not change the code to draw different shapes! 
+Du er ferdig med en enkel versjon av tre på rad! Prøv å endre koden, for eksempel slik at den tegner andre symboler.
