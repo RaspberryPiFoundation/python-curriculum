@@ -3,12 +3,12 @@ import random
 
 main = Tk()
 
-
 c = Canvas(main, width=600, height=600)
 c.pack()
 
 xpos = 60
 ypos = 300
+
 
 size = 10
 walls = []
@@ -16,7 +16,7 @@ blocks = []
 
 
 def setup():
-    global walls, blocks, ypos
+    global walls, blocks, ypos, distance
     walls = []
 
     x = 0
@@ -36,10 +36,12 @@ def setup():
         blocks.append([x, y, height])
 
     ypos = 300
+    distance = 0
 
 
 playing = False
 gravity = 5
+distance = 0
 
 def click(event):
     global playing, gravity
@@ -56,10 +58,11 @@ def release(event):
 
  
 def draw():        
-    global ypos, playing
+    global ypos, playing, distance
     global walls, blocks
 
     ypos = ypos + gravity
+    distance = distance + size
 
     newwalls = []
     for x,y in walls:
@@ -69,7 +72,7 @@ def draw():
         else:
             walls.append([600,y+random.randint(-5,5)])
             
-        if (x <= xpos <= xpos+size) and (ypos<=100-y or ypos+size>= 600-y):
+        if (x <= xpos < x+size) and (ypos<=100-y or ypos+size>= 600-y):
             playing = False
             
     walls = newwalls
@@ -81,9 +84,7 @@ def draw():
             newblocks.append([x,y,h])
         else:
             newblocks.append([600, random.randint(0,600), random.randint(size,size*5)])
-        if (x <= xpos <= x+size) and (y <= ypos <= y+h):
-            print(x,y)
-            print(xpos, ypos)
+        if (x <= xpos < x+size) and (y <= ypos < y+h):
             playing = False
     blocks = newblocks
 
@@ -95,16 +96,16 @@ def draw():
 
 
     for x,y,height in blocks:
-        #print(x,y,h)
         c.create_rectangle(x,y,x+size,y+height,fill="black")
 
 
     if playing:
         c.create_rectangle(xpos,ypos,xpos+size,ypos+size, fill="black")
-        c.after(30, draw)
+        c.after(15, draw)
     else:
         c.create_rectangle(xpos,ypos,xpos+size,ypos+size, fill="red")
-
+        c.create_text(xpos, 300, text=str(distance), fill="red")
+        print(distance)
 
 c.bind("<Button-1>", click)
 c.bind("<ButtonRelease-1>", release)
