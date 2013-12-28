@@ -93,7 +93,7 @@ Hver av kodelinjene `c.create_line(bortover1, nedover1, bortover2, nedover2)` te
    nedover
 ```
 
-Med de nye punktene i denne figuren vil vi tegne linjer fra A til C, B til D, M til O og N til P.  
+Med punktene som i den siste figuren vil vi tegne linjer fra A til C, B til D, M til O og N til P.  
 
 ```python
 c.create_line(200, 0, 200, 600) # A til C
@@ -104,7 +104,7 @@ c.create_line(0, 400, 600, 400) # N til P
 
 ```
 
-Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Dette rutenettet ligner ganske mye på koordinatene du kanskje har lært om i mattetimen. Forskjellen er at her begynner vi i øvre, i stedet for nedre, venstre hjørne.
+Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Dette rutenettet ligner ganske mye på koordinatene du kanskje har lært om i mattetimen. Forskjellen er at her begynner vi i øvre, i stedet for nedre, venstre hjørne, slik at `y` blir større når vi går nedover.
 
 ## Steg 2: Tegne en sirkel
 
@@ -125,7 +125,7 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
     c.create_line(0, 400, 600, 400)
 
     def click(event):
-        c.create_oval(200,200,400,400)
+        c.create_oval(200, 200, 400, 400)
 
     c.bind("<Button-1>", click)
 
@@ -155,12 +155,12 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
     c.create_line(0, 400, 600, 400)
 
     def click(event):
-        across = int(c.canvasx(event.x)/200)
-        down = int(c.canvasy(event.y)/200)
+        across = int(c.canvasx(event.x) / 200)
+        down = int(c.canvasy(event.y) / 200)
 
         c.create_oval(
-                across*200,down*200,
-                (across+1)*200,(down+1)*200
+                across * 200, down * 200,
+                (across+1) * 200, (down+1) * 200
         )
 
     c.bind("<Button-1>", click)
@@ -168,11 +168,11 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
     mainloop()
     ```
 
-    Linjen `int(c.canvasx(event.x)/200)` finner først posisjonen til muspekeren `event.x`, gjør om denne til en lerret-posisjon, `c.canvas(event.x)` og deler denne på 200 og runder nedover slik at vi får et tall som er enten 0, 1 eller 2. Dette tallet forteller oss i hvilken kolonne muspekeren er. Linjen `int(c.canvasy(event.y)/200)` finner på samme måte ut hvilken rad muspekeren befinner seg i.
+    Linjen `int(c.canvasx(event.x) / 200)` finner først posisjonen til muspekeren `event.x`, gjør om denne til en lerret-posisjon, `c.canvas(event.x)` og deler denne på 200 og runder nedover slik at vi får et tall som er enten 0, 1 eller 2. Dette tallet forteller oss i hvilken kolonne muspekeren er. Linjen `int(c.canvasy(event.y) / 200)` finner på samme måte ut hvilken rad muspekeren befinner seg i.
 
 4. Kjør koden. Legg merke til at hver gang du klikker i en rute tegnes en sirkel i den ruten.
 
-    Koden `c.create_oval(across*200,down*200,(across+1)*200,(down+1)*200)` gjør om 'Bortover 1, Nedover 2' til posisjoner på lerretet som Bortover 200, Nedover 400.
+    Koden `c.create_oval(across * 200, down * 200, (across+1) * 200, (down+1) * 200)` gjør om 'Bortover 1, Nedover 2' til posisjoner på lerretet som Bortover 200, Nedover 400.
 
 ## Steg 3: Tegne et kryss
 
@@ -196,23 +196,23 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
 
     def click(event):
         global shape
-        across = int(c.canvasx(event.x)/200)
-        down = int(c.canvasy(event.y)/200)
+        across = int(c.canvasx(event.x) / 200)
+        down = int(c.canvasy(event.y) / 200)
 
         if shape == "O":
             c.create_oval(
-                across*200,down*200,
-                (across+1)*200,(down+1)*200
+                across * 200, down * 200,
+                (across+1) * 200, (down+1) * 200
             )
             shape = "X"
         else:
             c.create_line(
-                across*200, down*200,
-                (across+1)*200, (down+1)*200
+                across * 200, down * 200,
+                (across+1) * 200, (down+1) * 200
             )
             c.create_line(
-                across*200, (down+1)*200,
-                (across+1)*200, down*200
+                across * 200, (down+1) * 200,
+                (across+1) * 200, down * 200
             )
             shape = "O"
 
@@ -223,7 +223,7 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
 2. Kjør programmet ditt. Prøv å trykk på en rute. Det skal tegnes en O. Klikk på en annen rute. Nå tegnes en X.
 
     Vi har brukt en ny kommando i python, `global` lar oss endre variabelen `shape` inne i prosedyren `click`.
-    Dersom du endrer variabler som er definert utenfor funksjoner og prosedyrer må du bruke `global`.
+    Dersom du endrer variabler som er definert utenfor funksjoner og prosedyrer må du bruke `global` inne i funksjonen eller prosedyren.
 
 3. Hva skjer om du trykker på samme rute to ganger på rad?
 
@@ -231,7 +231,7 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
 
 ## Steg 4: Hvor er det allerede klikket?
 
-For å hindre at spillerene klikker i samme rute to ganger vil vi følge med på hvilke flytt de gjør. For å gjøre dette bruker vi en liste kalt `grid`.
+For å hindre at spillerene klikker i samme rute to ganger vil vi følge med på hvor de klikker. For å gjøre dette bruker vi en liste kalt `grid`.
 
 1. I den samme filen,
 
@@ -258,29 +258,29 @@ For å hindre at spillerene klikker i samme rute to ganger vil vi følge med på
 
     def click(event):
         global shape, grid
-        across = int(c.canvasx(event.x)/200)
-        down = int(c.canvasy(event.y)/200)
+        across = int(c.canvasx(event.x) / 200)
+        down = int(c.canvasy(event.y) / 200)
 
-        square = across + (down*3)
+        square = across + (down * 3)
 
         if grid[square] == "X" or grid[square] == "O":
             return
 
         if shape == "O":
             c.create_oval(
-                cross*200,down*200,
-                (across+1)*200,(down+1)*200
+                cross * 200, down * 200,
+                (across+1) * 200, (down+1) * 200
             )
             grid[square] = "O"
             shape = "X"
         else:
             c.create_line(
-                across*200, down*200,
-                (across+1)*200, (down+1)*200
+                across * 200, down * 200,
+                (across+1) * 200, (down+1) * 200
             )
             c.create_line(
-                across*200, (down+1)*200,
-                (across+1)*200, down*200
+                across * 200, (down+1) * 200,
+                (across+1) * 200, down * 200
             )
             grid[square] = "X"
             shape = "O"
@@ -319,14 +319,13 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
         "3", "4", "5",
         "6", "7", "8", 
     ]
-        
 
     def click(event):
         global shape, grid
-        across = int(c.canvasx(event.x)/200)
-        down = int(c.canvasy(event.y)/200)
+        across = int(c.canvasx(event.x) / 200)
+        down = int(c.canvasy(event.y) / 200)
 
-        square = across + (down*3)
+        square = across + (down * 3)
 
         if grid[square] == "X" or grid[square] == "O":
             return
@@ -336,26 +335,26 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
 
         if shape == "O":
             c.create_oval(
-                across*200,down*200,
-                (across+1)*200,(down+1)*200
+                across * 200, down * 200,
+                (across+1) * 200, (down+1) * 200
             )
             grid[square] = "O"
             shape = "X"
         else:
             c.create_line(
-                across*200, down*200,
-                (across+1)*200, (down+1)*200
+                across * 200, down * 200,
+                (across+1) * 200, (down+1) * 200
             )
             c.create_line(
-                across*200, (down+1)*200,
-                (across+1)*200, down*200
+                across * 200, (down+1) * 200,
+                (across+1) * 200, down * 200
             )
             grid[square] = "X"
             shape = "O"
 
     def winner():
         for across in range(3):
-            row = across*3
+            row = across * 3
             line = grid[row] + grid[row+1] + grid[row+2]
             if line == "XXX" or line == "OOO":
                 return True
@@ -365,14 +364,13 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
             if line == "XXX" or line == "OOO":
                 return True
 
-        line = grid[0]+grid[4]+grid[8]
+        line = grid[0] + grid[4] + grid[8]
         if line == "XXX" or line == "OOO":
                 return True
 
-        line = grid[2]+grid[4]+grid[6]
+        line = grid[2] + grid[4] + grid[6]
         if line == "XXX" or line == "OOO":
                 return True
-
             
     c.bind("<Button-1>", click)
 
@@ -380,7 +378,7 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
     ```
 2. Prøv å spill spillet slik at du får tre på rad. Kan du klikke i noen flere ruter?
 
-    Vi sjekker fire forskjellige tilfeller i prosedyren `winner`:
+    Prosedyren `winner` undersøker de fire forskjellige måtene man kan få tre på rad på:
 
     1. Sjekk hver rad om det er tre X'er eller O'er,
 
