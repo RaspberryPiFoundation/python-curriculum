@@ -1,6 +1,6 @@
 # 05—Hangman
 
-La oss lage et spill: Hangman! Datamaskinen vil velge et ord og du kan gjette det bokstav for bokstav. Men dersom du gjetter feil for mange ganger taper du.
+La oss lage et spill: Hangman! Datamaskinen vil velge et ord og du kan gjette det bokstav for bokstav. Dersom du gjetter feil for mange ganger taper du.
 
 ## Steg 1: Velg et ord
 
@@ -45,7 +45,7 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
 
 2. Lagre og kjør programmet.
 
-3. Du burde se `Gjett en bokstav i ordet: ____`, i output-vinduet (det andre vinduet, ikke det du har skrevet programmet ditt i).
+3. Du burde se `Gjett en bokstav i ordet: ____`, i output-vinduet (det andre vinduet, ikke vinduet du har skrevet programmet ditt i).
 
     Vi bruker en `for`-løkke for å bygge en tekst hvor hver bokstav i ordet er byttet med en understrek `_`. Ordet `kode` vil da for eksempel skrives som `____` til skjermen.
 
@@ -120,14 +120,14 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
 
 2. Kjør koden og prøv å gjette bokstavene.
 
-    Vi har laget en løkke, som `for alltid` i scratch, som vil fortsette å spørre spilleren om å gjette bokstaver helt til ordet er funnet. 
+    Vi har laget en `while True`-løkke, tilsvarende `for alltid` i scratch. Denne vil i utgangspunktet fortsette å spørre spilleren om å gjette bokstaver for alltid. For å komme ut av løkken bruker vi kommandoen `break` når ordet har blitt gjettet.
 
-    Vi bruker også en liste, `guessed`, hvor vi legger til bokstavene som er riktige.
+    Vi bruker også en liste, `guessed`, hvor vi legger til bokstavene som er riktige for å huske dem senere.
 
 
 ## Steg 4: Tell feilene
 
-Hangman burde bare gi deg noen få sjanser til å gjette, i stedet for å la deg gjette alle mulige bokstaver inntil du finner svaret.
+For at Hangman skal holde oversikt over alle bokstavene som er gjettet på må vi også huske på når spilleren gjetter feil.
 
 1. Endre filen du jobber med slik at den blir seende ut som dette:
 
@@ -222,6 +222,8 @@ Bare en ting gjenstår før spillet er ferdig, vi vil begrense hvor mange forsø
     ```
 
 2. Kjør programmet, og se hva som skjer når du gjetter feil bokstaver.
+
+    Legg merke til at vi endret `while`-løkken ved å legge inn en forutsetning, `while tries > 0`. Dette betyr at løkken bare kjøres så lenge variabelen `tries` er større enn 0. Kikker du litt rundt i koden ser du at `tries` starter med verdien 7, også blir den 1 mindre for hver feil bokstav som gjettes. Altså vil spilleren kunne gjette opp til 7 bokstaver feil før spillet er slutt.
 
 ## Steg 6: Legg til nye ord
 
