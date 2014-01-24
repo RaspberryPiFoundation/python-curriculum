@@ -1,0 +1,43 @@
+{
+    "name": "python",
+    "language": "en-GB",
+    "term": 4,
+
+    "projects": [
+        {
+            "filename": "lessons/01/01.md",
+            "number": 1
+        },
+        {
+            "filename": "lessons/02/02.md",
+            "number": 2
+        },
+        {
+            "filename": "lessons/03/03.md",
+            "number": 3
+        },
+        {
+            "filename": "lessons/04/04.md",
+            "number": 4
+        },
+        {
+            "filename": "lessons/05/05.md",
+            "number": 5
+        },
+        {
+            "filename": "lessons/06/06.md",
+            "number": 6
+        },
+        {
+            "filename": "lessons/07/07.md",
+            "number": 7
+        }
+    ],
+    "resources": [
+        { 
+            "name": "Volunteer Notes",
+            "files": ["volunteer resources/*.md"]
+        }
+    ]
+}
+
