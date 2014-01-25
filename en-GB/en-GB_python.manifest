@@ -1,7 +1,7 @@
 {
     "name": "python",
     "language": "en-GB",
-    "term": 4,
+    "number": 4,
 
     "projects": [
         {
@@ -33,10 +33,10 @@
             "number": 7
         }
     ],
-    "resources": [
+    "extras": [
         { 
             "name": "Volunteer Notes",
-            "files": ["volunteer resources/*.md"]
+            "notes": ["volunteer resources/*.md"]
         }
     ]
 }
