@@ -1,5 +1,7 @@
 {
-    "name": "python",
+    "id": "python",
+    "title":"Python",
+    "description":"Python is a text based programming language, used by many people around the world to make interesting things.",
     "language": "en-GB",
     "number": 4,
 
