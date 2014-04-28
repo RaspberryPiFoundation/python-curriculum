@@ -1,6 +1,6 @@
 ---
 title: Secret Codes
-level: Level 3
+level: Level 2
 language: en
 stylesheet: python
 ...
@@ -36,7 +36,7 @@ We start by drawing the letters in a circle.
                         O    N    M
 ```
 
-To make a secret letter from a normal one, we need to have a secret key.  I like the number 3, it's a magic number, so we'll use that.
+To make a secret letter from a normal one, we need to have a secret key. For our example let's use the number 3.
 
 ```
     A + 3 = D       T + 3 = W       Z + 3 = C
@@ -44,33 +44,25 @@ To make a secret letter from a normal one, we need to have a secret key.  I like
 
 We start at A, and count forward 3 letters: B, C, D. So the letter A turns into the letter D.  To decode, we do the same thing, but in reverse. We start at D and count backwards to get A.
 
-
 # Task 1: The Alphabet { .activity}
 
 ## Activity Checklist { .check}
 
-1. First we'll have to tell python the alphabet. Open up IDLE, create and save a new file with the following code.
-
-    ```python
++ First we'll have to tell python the alphabet. Open up IDLE, create and save a new file with the following code.
+```{.language-python}
     alphabet = "abcdefghijklmnopqrstuvwxyz"
 
     print(len(alphabet))
-    ```
-
-2. When you run it (from the menu), it should print 26. Make sure you've got all the letters in, or your secret code won't work.
-
-    If you're happy with your alphabet, we can start to encode a letter. 
+```
++ When you run it (from the menu), it should print 2+ Make sure you've got all the letters in, or your secret code won't work. If you're happy with your alphabet, we can start to encode a letter.
 
 # Task 2: Encoding a letter { .activity}
 
 ## Activity Checklist { .check}
 
-1. Like on the wheel above, we find the position of the letter, we count forwards, and then use the letter we end up at. 
-
-    Write in the code below and run it:
-
-    ```python
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
++ Like on the wheel above, we find the position of the letter, we count forwards, and then use the letter we end up at. Write in the code below and run it:
+```{.language-python}
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 
     letter = "a"
     secret = 3
@@ -79,25 +71,23 @@ We start at A, and count forward 3 letters: B, C, D. So the letter A turns into 
 
     newpos = (pos + secret)
 
-    if newpos >= 26: 
+    if newpos >= 26:
         newpos = newpos - 26
 
     secretletter = alphabet[newpos]
 
     print(secretletter)
-    ```
+```
 
-    We look up where "a" occurs in the alphabet, add the secret number to count forwards, check to see if we've gone too far, and then look up the letter again.
-  
-2. Run the code, and see what happens.
+We look up where "a" occurs in the alphabet, add the secret number to count forwards, check to see if we've gone too far, and then look up the letter again.
 
-3. Let's look at the code again, but take it slowly.
++ Run the code, and see what happens.
++ Let's look at the code again, but take it slowly.
 
-    You don't have to type this in!
+You don't have to type this in!
 
-    ```python
-
-    # alphabet is the name for the text of a to z
+```{.language-python}
+# alphabet is the name for the text of a to z
     alphabet = "abcdefghijklmnopqrstuvwxyz"
 
     # the letter and secret we'll use to encode it
@@ -111,9 +101,9 @@ We start at A, and count forward 3 letters: B, C, D. So the letter A turns into 
     # we count forward a few letters
     newpos = (pos + secret)
 
-    # if we count too far, we'll have to start 
+    # if we count too far, we'll have to start
     # from the beginning
-    if newpos >= 26: 
+    if newpos >= 26:
         newpos = newpos - 26
 
     # now we look up the letter at this new pos
@@ -121,10 +111,9 @@ We start at A, and count forward 3 letters: B, C, D. So the letter A turns into 
 
     # and output it to the screen
     print(secretletter)
-    ```
+```
 
-    There is a lot of python going on here, so don't worry if it seems a bit too much to understand at first. Much of is quite like scratch. `if newpos >= 26` is just an `if` statement, a thing that only runs the code underneath if the condition is correct. It uses an indented block, just like `for` and `def` that we've seen earlier.
-
+There is a lot of python going on here, so don't worry if it seems a bit too much to understand at first. Much of is quite like scratch. `if newpos >= 26` is just an `if` statement, a thing that only runs the code underneath if the condition is correct. It uses an indented block, just like `for` and `def` that we've seen earlier.
 
 Now we can encode a letter, how about decoding one?
 
@@ -134,10 +123,9 @@ Like the code from the earlier task, we find the position of the letter, but we 
 
 ## Activity Checklist { .check}
 
-1. Try copying the following code in and running it!
-
-    ```python
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
++ Try copying the following code in and running it!
+```{.language-python}
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 
     secret =17
     secretletter = "r"
@@ -152,7 +140,7 @@ Like the code from the earlier task, we find the position of the letter, but we 
     letter = alphabet[newpos]
 
     print(letter)
-    ```
+```
 
 # Task 4: Building functions { .activity}
 
@@ -162,17 +150,16 @@ Some functions just do things, other functions can calculate things. Although we
 
 ## Activity Checklist { .check}
 
-1. Copy and paste the earlier code into a new file, and edit it to look like this:
-
-    ```python
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
++ Copy and paste the earlier code into a new file, and edit it to look like this:
+```{.language-python}
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 
     def encode(letter, secret):
         pos = alphabet.find(letter)
 
         newpos = (pos + secret)
 
-        if newpos >= 26: 
+        if newpos >= 26:
             newpos = newpos - 26
 
         return alphabet[newpos]
@@ -184,19 +171,18 @@ Some functions just do things, other functions can calculate things. Although we
 
         newpos = (pos - secret)
 
-        if newpos < 0: 
+        if newpos < 0:
             newpos = newpos + 26
 
         return alphabet[newpos]
-        
+
     print(encode("a", 17))
     print(decode("r", 17))
-    ```
+```
 
-    Remember you can use the Tab key in Idle to indent code (and selections too)
+Remember you can use the Tab key in Idle to indent code (and selections too)
 
-2. Try encoding and decoding some letters!
-
++ Try encoding and decoding some letters!
 
 # Task 5: Sending a Secret Word or two, and back again { .activity}
 
@@ -204,11 +190,9 @@ Now we have some functions, let's use them to encode words. What we're going to 
 
 ## Activity Checklist { .check}
 
-1. Underneath the new functions in the last Task, write the following code in the same file: 
-
-    ```python
-
-    secret = 17
++ Underneath the new functions in the last Task, write the following code in the same file:
+```{.language-python}
+secret = 17
     message = "hello world"
 
     output = ""
@@ -231,27 +215,22 @@ Now we have some functions, let's use them to encode words. What we're going to 
             output = output + decode(character, secret)
         else:
             output = output + character
-            
+
     print(output)
-    ```
+```
 
-2. Run it and see what happens.
++ Run it and see what happens.
 
-    The first bit of code should print "yvccf nficu", which is the secret version of "hello world". The second bit decodes it back, and should print "hello world"
+The first bit of code should print "yvccf nficu", which is the secret version of "hello world". The second bit decodes it back, and should print "hello world"
 
 # Task 6: Decode some secret messages { .activity}
 
-
 ## Here are some secret messages to try and decode! { .challenge}
 
-1. `n frperg clguba`, the secret is 13.
-
-2. `yj tjp gdfz xjyz xgpw?`, the secret is 21.
-
-3. `axkxcb jan hxda oarnwmb`, the secret is 9.
++ `n frperg clguba`, the secret is 13.
++ `yj tjp gdfz xjyz xgpw?`, the secret is 21.
++ `axkxcb jan hxda oarnwmb`, the secret is 9.
 
 ## Try { .try}
 
-Why not try and send your own secret messages? 
-
-
+Why not try and send your own secret messages?

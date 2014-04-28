@@ -3,9 +3,9 @@ title: Volunteer resources
 language: en
 ...
 
-This is a new course, and unfortunately may have bugs, issues and problems. If you have ideas, comments or would like to help, come and join us on github https://github.com/CodeClub/python-curriculum
+This is a new-ish course, and unfortunately may have a few bugs. If you have ideas, comments or would like to help, come and join us on Github https://github.com/CodeClub/python-curriculum
 
-You can also email tef, (tef@codeclub.org.uk) too. We've tested the coursework, but your feedback will be invaluable for making it better, easier and more fun.
+You can also email support@codeclub.org.uk too if you get really stuck. We've tested the coursework, but your feedback will be invaluable for making it better, easier and more fun.
 
 # Installing python
 
@@ -17,7 +17,7 @@ We've suggesting Python 3 over Python 2, and you will need to know which operati
 
 Python is a scripting language, with variables and objects. Objects can be numbers, `1` or strings `"abc"`, or lists `[ 1,2,3]`, or dictionaries `{'one': 123, 'two': 123}`. Variables don't need to be explicitly defined, just assigned to be used.
 
-```python
+```{.language-python}
 x = 1
 x = x + 2
 y = [ 1, 2, 3]
@@ -25,7 +25,7 @@ y = [ 1, 2, 3]
 
 Python uses whitespace to delimit blocks of control, in functions, if, for and while loops:
 
-```python
+```{.language-python}
 
 def foo(a,b,c):
     return a * b * c
@@ -46,9 +46,9 @@ for x in range(10):
 
 One thing that will trip people up is that python variables don't store the values themselves, but a reference to the value.
 
-```python
+```{.language-python}
 x = [ 1,2,3 ]
-y = x 
+y = x
 y.append(4)
 print(x) # prints 1,2,3,4
 ```
@@ -68,18 +68,18 @@ We don't touch on any advanced or intermediate features in this course so far, a
 
     Everyone does this. I do this. This is probably the first syntax error people will encounter
 
-2. Using `-` instead of `_`. 
+2. Using `-` instead of `_`.
 
     `-` is an operator and can't appear in variable names
 
-3. Missing or wrong indentation. 
+3. Missing or wrong indentation.
 
     Python is very pedantic about whitespace. Tabs count as 8 spaces, but thankfully IDLE will convert tabs into 4 spaces (the python coding standard, so mixing them
     shouldn't come up). We've tried to cover indentation as much as possible without boring the students to death
 
 4. Other classic syntax errors
 
-    Misspelled names, missing or excess punctuation. 
+    Misspelled names, missing or excess punctuation.
 
 5. Forgetting to open a new window in IDLE
 
@@ -106,7 +106,7 @@ In python 2, print("foo",) is the same as print(("Foo",)) in python three: print
 
 ## Floating Point
 
-In python 2, `1/2` is 0, as python assumes integer division. In python 3, `1/2` is 0.5. We've tried to avoid relying on one behaviour or the other, and for python 2 this can be remedied by using floating point, i.e `1.0/2` or `1/2.0`. 
+In python 2, `1/2` is 0, as python assumes integer division. In python 3, `1/2` is 0.5. We've tried to avoid relying on one behaviour or the other, and for python 2 this can be remedied by using floating point, i.e `1.0/2` or `1/2.0`.
 
 # Other Python Courses
 
@@ -119,7 +119,7 @@ https://www.udacity.com/course/cs101
 Codecademy python track
 http://www.codecademy.com/tracks/python
 
-Dive into Python 
+Dive into Python
 http://www.diveintopython.net/
 
 # This might be relevant to your interests
