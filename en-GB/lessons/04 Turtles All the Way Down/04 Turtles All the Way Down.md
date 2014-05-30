@@ -1,5 +1,5 @@
 ---
-title: Turtles all the way down
+title: Turtles All The Way Down
 level: Level 2
 language: en
 stylesheet: python
