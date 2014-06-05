@@ -46,6 +46,12 @@
             "number":   7,
             "filename": "lessons/07 Playing Against the Computer/07 Playing Against the Computer.md",
             "pdf":      "lessons/07 Playing Against the Computer/07 Playing Against the Computer.pdf"
+        },
+
+        {
+            "number":   8,
+            "filename": "lessons/Minecraft2D/Minecraft2D.md",
+            "note":     "lessons/Minecraft2D/Minecraft2D - notes.md"
         }
     ],
 
