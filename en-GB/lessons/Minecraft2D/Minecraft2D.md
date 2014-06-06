@@ -187,7 +187,7 @@ Use the instructions above to add your own resources. You can add lava, metal, s
 
 #Step 4: Crafting new resources { .activity}
 
-You can add more resources to our game that we can only get by crafting them. Let’s create a new ‘plank’ resource, so that the player can combine 3 wood resources together to make a nice shiny plank of wood!
+You can add more resources to your game that the player can only get by crafting them. Let’s create a new ‘plank’ resource, so that the player can combine 3 wood resources together to make a nice shiny plank of wood!
 
 ## Activity Checklist { .check}
 
