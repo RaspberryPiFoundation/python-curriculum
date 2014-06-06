@@ -29,7 +29,7 @@ In this project, you’ll design and code improvements to a 2D version of Minecr
 
 ![screenshot](mine1-3.png)
 
-+ Press the number keys (1 to 4)  to place a resource on the map. For example, press 3 to place some water on the map. This will only work if you have some spare water in your inventory.
++ Press the number keys (1 to 4) to place a resource on the map. For example, press 3 to place some water on the map. This will only work if you have some spare water in your inventory.
 
 ![screenshot](mine1-4.png)
 
@@ -64,7 +64,7 @@ Just having blocks of colour for each resource isn’t very interesting, so let�
 
 + In the Minecraft2D folder you’ll see that there are lots of images, one for each of the resources. If you right-click one of these images and open it in an image editor, you can change the graphics for a resource.
 
-Here are my improved graphics for the grass. I’ve added different shades of grass and even a few flowers: 
+Here are some improved graphics for the grass. I’ve added different shades of grass and even a few flowers: 
 
 ![screenshot](mine2-1.png)
 
@@ -92,7 +92,7 @@ Edit these 2 lines of code to customise your game. Remember that if you change t
 
 #Step 3: Adding more resources { .activity}
 
-We only have 4 resources in our game; dirt, grass, water and brick.  Let’s add more!  
+You only have 4 resources in your game; dirt, grass, water and brick. Let’s add more!  
 
 ## Activity Checklist { .check}
 
@@ -113,7 +113,7 @@ We only have 4 resources in our game; dirt, grass, water and brick.  Let’s add
     WOOD  = 4
 ```
 
-+ In the same file, there is also a list of all the resources. We should add wood to that list too:
++ In the same file, there is also a list of all the resources. You should add wood to that list too:
 
 ```{.language-python}
     #a list of all game resources
@@ -122,7 +122,7 @@ We only have 4 resources in our game; dirt, grass, water and brick.  Let’s add
     resources = [DIRT,GRASS,WATER,BRICK,WOOD]
 ```
 
-+ We also need to set the image for the wood resource in the textures dictionary, so that the correct graphics will be shown:
++ You also need to set the image for the wood resource in the textures dictionary, so that the correct graphics will be shown:
 
 ```{.language-python}
     #a dictionary linking resources to textures
@@ -139,7 +139,7 @@ We only have 4 resources in our game; dirt, grass, water and brick.  Let’s add
 
 Notice that you need to add a comma (`,``) after the brick image in the line above.
 
-+ Let’s also add wood to our inventory dictionary. You can choose how many you start with:
++ You can also add wood to your inventory dictionary. You can choose how many you start with:
 
 ```{.language-python}
     #the number of each resource that we have to start with
@@ -154,11 +154,11 @@ Notice that you need to add a comma (`,``) after the brick image in the line abo
                 }
 ```
 
-+ If you now run the game, you’ll see that we now have a wood resource that we can place on the map, but there isn’t any wood on the map to begin with:
++ If you now run the game, you’ll see that we now have a wood resource that you can place on the map, but there isn’t any wood on the map to begin with:
 
 ![screenshot](mine3-6.png)
 
-+ To start the game with some wood resources dotted around, we need to edit the Minecraft2D.py file. Open the file and add the following lines:
++ To start the game with some wood resources dotted around, you need to edit the Minecraft2D.py file. Open the file and add the following lines:
 
 ```{.language-python}      
             #pick a random number between 0 and 9
@@ -187,7 +187,7 @@ Use the instructions above to add your own resources. You can add lava, metal, s
 
 #Step 4: Crafting new resources { .activity}
 
-We can add more resources to our game that we can only get by crafting them. Let’s create a new ‘plank’ resource, so that the player can combine 3 wood resources together to make a nice shiny plank of wood!
+You can add more resources to our game that we can only get by crafting them. Let’s create a new ‘plank’ resource, so that the player can combine 3 wood resources together to make a nice shiny plank of wood!
 
 ## Activity Checklist { .check}
 
@@ -195,7 +195,7 @@ We can add more resources to our game that we can only get by crafting them. Let
 
 ![screenshot](mine4-1.png)
 
-+ To allow the player to craft planks of wood, we need to add a crafting rule to our game. Open the variables.py file and add the following code to the crafting rules dictionary:
++ To allow the player to craft planks of wood, you'll need to add a crafting rule to your game. Open the variables.py file and add the following code to the crafting rules dictionary:
 
 ```{.language-python}
     #rules to make new objects
@@ -207,9 +207,9 @@ We can add more resources to our game that we can only get by crafting them. Let
             }
 ```
 
-This code tells the game that we can create a new plank if we have 3 wood in our inventory. Again, don’t forget the comma after the line above.
+This code tells the game that it can create a new plank if there are 3 wood in the player's inventory. Again, don’t forget the comma after the line above.
 
-+ We need to make sure that the player knows how to craft planks, by adding some more instructions to the list:
++ You need to make sure that the player knows how to craft planks, by adding some more instructions to the list:
 
 ```{.language-python}
     #instructions list
