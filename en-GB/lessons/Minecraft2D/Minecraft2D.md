@@ -137,7 +137,7 @@ You only have 4 resources in your game; dirt, grass, water and brick. Let’s ad
                  }
 ```
 
-Notice that you need to add a comma (`,``) after the brick image in the line above.
+Notice that you need to add a comma (`,`) after the brick image in the line above.
 
 + You can also add wood to your inventory dictionary. You can choose how many you start with:
 
@@ -154,7 +154,7 @@ Notice that you need to add a comma (`,``) after the brick image in the line abo
                 }
 ```
 
-+ If you now run the game, you’ll see that we now have a wood resource that you can place on the map, but there isn’t any wood on the map to begin with:
++ If you now run the game, you’ll see that you now have a wood resource that you can place on the map, but there isn’t any wood on the map to begin with:
 
 ![screenshot](mine3-6.png)
 
