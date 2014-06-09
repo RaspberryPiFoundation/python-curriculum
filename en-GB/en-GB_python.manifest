@@ -50,6 +50,11 @@
 
         {
             "number":   8,
+            "filename": "lessons/RPG/RPG.md",
+            "note":     "lessons/RPG/RPG - notes.md"
+        },
+        {
+            "number":   9,
             "filename": "lessons/Minecraft2D/Minecraft2D.md",
             "note":     "lessons/Minecraft2D/Minecraft2D - notes.md"
         }
