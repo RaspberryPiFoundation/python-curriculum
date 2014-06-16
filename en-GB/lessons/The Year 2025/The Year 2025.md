@@ -49,7 +49,7 @@ This program uses the `input()` function to get the user's input from the keyboa
 
 ![screenshot](2025-var.png)
 
-Notice that the variable (the box) has been named "born", as it helps you remember what you’re storing inside the box! 
+Notice that the variable (the box) has been named "born", as it helps you remember what you’re storing inside it! 
 
 The line...
 
