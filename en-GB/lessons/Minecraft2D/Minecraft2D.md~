@@ -92,7 +92,7 @@ Edit these 2 lines of code to customise your game. Remember that if you change t
 
 #Step 3: Adding more resources { .activity}
 
-You only have 4 resources in your game; dirt, grass, water and brick. Let’s add more!
+You only have 4 resources in your game; dirt, grass, water and brick. Let’s add more!  
 
 ## Activity Checklist { .check}
 
@@ -160,13 +160,13 @@ Notice that you need to add a comma (`,`) after the brick image in the line abov
 
 + To start the game with some wood resources dotted around, you need to edit the Minecraft2D.py file. Open the file and add the following lines:
 
-```{.language-python}
+```{.language-python}      
             #pick a random number between 0 and 9
             randomNumber = random.randint(0,10)
             #WATER if the random number is a 1 or a 2
             if randomNumber in [1,2]:
                 tile = WATER
-            #GRASS if the random number is a 3 or a 4
+            #GRASS if the random number is a 1 or a 2
             elif randomNumber in [3,4]:
                 tile = GRASS
             #ADD THESE 2 LINES - WOOD if the random number is a 5

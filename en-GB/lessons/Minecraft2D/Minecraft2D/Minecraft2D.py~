@@ -41,7 +41,7 @@ for rw in range(MAPHEIGHT):
         #WATER if the random number is a 1 or a 2
         if randomNumber in [1,2]:
             tile = WATER
-        #GRASS if the random number is a 3 or a 4
+        #GRASS if the random number is a 1 or a 2
         elif randomNumber in [3,4]:
             tile = GRASS
         #otherwise it's DIRT
