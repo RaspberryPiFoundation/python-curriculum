@@ -57,7 +57,7 @@ The line...
 print( 2025 - born )
 ```
 
-...takes 2025 away from whatever number has been stored in the `born` variable.
+...takes whatever number has been stored in the `born` variable away from 2025.
 
 Anything that is typed in from the keyboard is always stored as text, so you also have to use the `int()` function to turn the user's input into a whole number (which in programming is called an _integer_).
 
