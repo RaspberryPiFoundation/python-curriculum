@@ -60,10 +60,10 @@ Run this program and you'll see that the output is a little easier to read than 
 
 Oops, you've broken it! Instead of an answer, we get an error message. It looks like that calculation doesn’t make sense in Python!
 
-+ How about addition? What answer do you think `"hello " +  "world!`" would give? Try it out, by running the following program:
++ How about addition? What answer do you think `"hello " +  "world`" would give? Try it out, by running the following program:
 
 ```{.language-python}
-print("hello " + "world!")
+print("hello " + "world")
 ```
 
 ![screenshot](shapes-textadd.png)
