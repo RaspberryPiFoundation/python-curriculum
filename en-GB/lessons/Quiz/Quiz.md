@@ -39,7 +39,7 @@ This program only runs the indented code (the code that prints the smiley face) 
 
 Python uses 2 equals signs `==` to check if 2 things are the same. This is because one equals sign `=` is used to store something in a variable (for example `answer = input()`).
 
-+ The program above prints a smiley face if the player gets the question right, but doesn't print anything to tell them they got the answer wrong. We can use an `else` statement to print a sad face if the user inputs anything other than the correct answer.
++ The program above prints a smiley face if the player gets the question right, but doesn't print anything to tell them they got the answer wrong. You can use an `else` statement to print a sad face if the user inputs anything other than the correct answer.
 
 ```{.language-python}
 print("In Python, what do you call a 'box' used to store data?")
