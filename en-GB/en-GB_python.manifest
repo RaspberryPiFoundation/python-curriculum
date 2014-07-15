@@ -28,8 +28,8 @@
         },
         {
             "number":   5,
-            "filename": "lessons/01 Turtle Power/01 Turtle Power.md",
-            "pdf":      "lessons/01 Turtle Power/01 Turtle Power.pdf"
+            "filename": "lessons/Turtle Power/Turtle Power.md",
+            "note":     "lessons/Turtle Power/Turtle Power - notes.md"
         },
 
         {
