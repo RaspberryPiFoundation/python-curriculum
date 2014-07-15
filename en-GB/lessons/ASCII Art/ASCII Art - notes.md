@@ -10,7 +10,7 @@ This project teaches students how to run a simple Python program, and how to pri
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Students can also make use of the materials which accompany these challenges.Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
 + AboutMe.py
 
