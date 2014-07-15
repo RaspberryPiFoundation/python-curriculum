@@ -10,6 +10,12 @@ This project teaches students how to use selection (`if`, `else` and `elif` stat
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
+Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+
++ Quiz.py
+
+Make sure that each student has read and write access to their own copy of these resources.
+
 #Learning Objectives
 + Selection, using:
 	+ `if`;
