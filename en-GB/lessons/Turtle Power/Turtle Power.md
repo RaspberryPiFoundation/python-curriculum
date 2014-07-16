@@ -148,9 +148,9 @@ for count in range(8):
 done()
 ```
 
-This program works in the same way as the square drawing program, except that it repeats 8 times, and only turns 45 degrees for each corner. This means that the code draws an 8-sided shape (an octagon), as the corners for each of the 8 sides add up to 360 degrees (360 divided by 8 is 45).
-
 ![screenshot](turtle_octagon.png)
+
+This program works in the same way as the square drawing program, except that it repeats 8 times, and only turns 45 degrees for each corner. This means that the code draws an 8-sided shape (an octagon), as the corners for each of the 8 sides add up to 360 degrees (360 divided by 8 is 45).
 
 + Here's another example of what can be created using a `for` loop. What does this program draw?
 
@@ -173,6 +173,7 @@ done()
 + Can you use a `for` loop to draw:
 	+ A pentagon? (five sides)
 	+ A hexagon? (six sides)
+Remember that the angles of all the corners always add up to 360 degrees!
 
 + Can you draw a circle? You can move forward 1 pixel and turn 1 degree each time. How many times would you need to repeat these commands?
 
