@@ -61,7 +61,7 @@ else:
 
 ![screenshot](gameshow.png)
 
-Here's how the program works: first, a random number between 1 and 3 is chosed, which is the door containing the prize. `randint(1,3)` means 'choose a random integer between 1 and 3'. The program then asks the player for their choice of door, and says "Well done!" if the two numbers are the same or "Unlucky!" if they are different.
+Here's how the program works: first, a random number between 1 and 3 is chosen, which is the door containing the prize. `randint(1,3)` means 'choose a random integer between 1 and 3'. The program then asks the player for their choice of door, and says "Well done!" if the two numbers are the same or "Unlucky!" if they are different.
 
 A random number is used so that the winning door is different every time. However, Python can't generate random numbers without importing the code to do this, which is why the `random` library is imported at the top of the program. 
 
