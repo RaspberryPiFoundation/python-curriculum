@@ -22,7 +22,7 @@ Make sure that each student has read and write access to their own copy of these
 
 #Challenges
 + Drawing shapes - use of the turtle commands to draw shapes.
-+ Loopy shapes - using loops to effienently draw geometric shapes.
++ Loopy shapes - using loops to efficiently draw geometric shapes.
 + Drawing patterns - using loops to draw complex patterns.
 + Variables and loops - using calculations and variables in drawing geometric shapes.
 
