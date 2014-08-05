@@ -11,9 +11,27 @@ This project is in Beta. That means we're still testing it, and there's a small 
 
 #Introduction:  { .intro}
 
-Learn how to use variables in your programs, to make them more useful.
+You can use Python to do calculations, and make your programs more useful by using variables to store data.
 
-#Step 1: How old? { .activity}
+#Step 1: How much? { .activity}
+## Activity Checklist { .check}
+
++ It’s not just text that you can print in Python, you can also print numbers to the screen. For example, if 8 of your friends each gave you £2 for a sponsored silence, you can use this program to see how much money you raised:
+
+```{.language-python}
+print(8*2)
+```
+
+The star `*` in the program above is a multiply sign, so the program should print the answer to 8 x 2.
+
++ Run the program above, and you should see the answer:
+
+![screenshot](2025-calc.png)
+
+## Challenge: Pocket money { .challenge}
+Write a Python program to calculate how much money you’d make if you washed 12 cars, and charged £2.50 for each car.
+
+#Step 2: How old? { .activity}
 ## Activity Checklist { .check}
 
 + With everything you've learnt so far, you should be able to write a program to calculate how old you’ll be in the year 2025. The Python program to calculate your age should work like this:
@@ -25,7 +43,7 @@ As you can see, if you were born in 2004, you can calculate your age in the year
 ## Challenge: Changing dates { .challenge}
 Change your program to find out how old someone born in 1998 would be in the year 2025. How old will someone born this year be in the year 2050?
 
-#Step 2: Variables { .activity}
+#Step 3: Variables { .activity}
 
 When completing the challenges above, you had to keep changing the numbers in the program for people of different ages, and for different years in the future. It would be much easier if you could ask someone what year they were born, and use the answer in your calculation. That's what variables are for!
 

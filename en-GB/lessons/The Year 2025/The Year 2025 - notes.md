@@ -11,11 +11,14 @@ This project teaches students how to use variables within a Python program, and 
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
 #Learning Objectives
++ Data types;
++ Numbers and calculations;
 + Variables;
 + Text input using `input()`;
 + Casting (string → integer) using `int()`.
 
 #Challenges
++ Pocket money - expressions using numbers;
 + Changing dates - altering data used in the calculations;
 + The year 3000! - Adding a variable to a program;
 + Your age in dog years - applying the use of variables to a new problem.
