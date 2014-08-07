@@ -16,7 +16,7 @@ In this project, you'll learn how to loop through and access parts of a text str
 
 #Step 1: Encrypting letters { .activity}
 
-A cipher is a type of secret code, where you swap the letters around so no-one can read your message. You'll be using one of the oldest and most famous ciphers, the Caesar cipher, which is named after Julius Caesar (and not the dog food).
+A cipher is a type of secret code, where you swap the letters around so no-one can read your message. You'll be using one of the oldest and most famous ciphers, the Caesar cipher, which is named after some guy called Julius Caesar.
 
 You start by drawing the letters in a circle, like this:
 
