@@ -33,13 +33,13 @@
         },
         {
             "number":   6,
-            "filename": "lessons/02 Teaching Turtles/02 Teaching Turtles.md",
-            "pdf":      "lessons/02 Teaching Turtles/02 Teaching Turtles.pdf"
+            "filename": "lessons/Secret Messages/Secret Messages.md",
+            "note":     "lessons/Secret Messages/Secret Messages - notes.md"
         },
         {
             "number":   7,
-            "filename": "lessons/03 Secret Codes/03 Secret Codes.md",
-            "pdf":      "lessons/03 Secret Codes/03 Secret Codes.pdf"
+            "filename": "lessons/02 Teaching Turtles/02 Teaching Turtles.md",
+            "pdf":      "lessons/02 Teaching Turtles/02 Teaching Turtles.pdf"
         },
         {
             "number":   8,
@@ -57,7 +57,7 @@
             "pdf":      "lessons/06 Noughts and Crosses/06 Noughts and Crosses.pdf"
         },
         {
-            "number":   10,
+            "number":   11,
             "filename": "lessons/07 Playing Against the Computer/07 Playing Against the Computer.md",
             "pdf":      "lessons/07 Playing Against the Computer/07 Playing Against the Computer.pdf"
         },
