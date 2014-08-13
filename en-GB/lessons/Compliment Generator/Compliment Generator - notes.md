@@ -19,7 +19,7 @@ Make sure that each student has read and write access to their own copy of these
 #Learning Objectives
 + Lists;
 + Arrays, and accessing list elements;
-+ List `random.choice()` method
++ Using `random.choice()` method on a list;
 + List `append()` and `remove()` methods.
 
 #Challenges
