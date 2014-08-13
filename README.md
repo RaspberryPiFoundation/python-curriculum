@@ -21,6 +21,7 @@ If you're a club leader trying out these projects, please complete <a href="http
 * Quiz
 * Turtle Power
 * Gameshow
+* Compliment Generator
 * Secret Messages
 * RPG
 * Minecraft 2D

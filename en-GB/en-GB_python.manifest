@@ -33,41 +33,46 @@
         },
         {
             "number":   6,
+            "filename": "lessons/Compliment Generator/Compliment Generator.md",
+            "note":     "lessons/Compliment Generator/Compliment Generator - notes.md"
+        },
+        {
+            "number":   7,
             "filename": "lessons/Secret Messages/Secret Messages.md",
             "note":     "lessons/Secret Messages/Secret Messages - notes.md"
         },
         {
-            "number":   7,
+            "number":   8,
             "filename": "lessons/02 Teaching Turtles/02 Teaching Turtles.md",
             "pdf":      "lessons/02 Teaching Turtles/02 Teaching Turtles.pdf"
         },
         {
-            "number":   8,
+            "number":   9,
             "filename": "lessons/04 Turtles All the Way Down/04 Turtles All the Way Down.md",
             "pdf":      "lessons/04 Turtles All the Way Down/04 Turtles All the Way Down.pdf"
         },
         {
-            "number":   9,
+            "number":   10,
             "filename": "lessons/05 Hangman/05 Hangman.md",
             "pdf":      "lessons/05 Hangman/05 Hangman.pdf"
         },
         {
-            "number":   10,
+            "number":   11,
             "filename": "lessons/06 Noughts and Crosses/06 Noughts and Crosses.md",
             "pdf":      "lessons/06 Noughts and Crosses/06 Noughts and Crosses.pdf"
         },
         {
-            "number":   11,
+            "number":   12,
             "filename": "lessons/07 Playing Against the Computer/07 Playing Against the Computer.md",
             "pdf":      "lessons/07 Playing Against the Computer/07 Playing Against the Computer.pdf"
         },
         {
-            "number":   12,
+            "number":   13,
             "filename": "lessons/RPG/RPG.md",
             "note":     "lessons/RPG/RPG - notes.md"
         },
         {
-            "number":   13,
+            "number":   14,
             "filename": "lessons/Minecraft2D/Minecraft2D.md",
             "note":     "lessons/Minecraft2D/Minecraft2D - notes.md"
         }

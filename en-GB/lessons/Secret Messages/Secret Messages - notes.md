@@ -18,7 +18,6 @@ Make sure that each student has read and write access to their own copy of these
 
 #Learning Objectives
 + Iteration over a string variable;
-+ Arrays;
 + The `find()` method;
 + The modulus operator (`%`).
 
