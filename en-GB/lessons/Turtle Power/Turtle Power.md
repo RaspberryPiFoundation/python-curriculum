@@ -59,14 +59,14 @@ from turtle import *
 shape("turtle")
 speed(8)
 
-color("purple")
+color("Purple")
 pensize(7)
 right(90)
 forward(100)
 left(90)
 forward(50)
 
-color("orange")
+color("Orange")
 pensize(3)
 penup()
 forward(50)
@@ -80,7 +80,7 @@ done()
 
 + The code above contains a couple of new commands:
 
-	+ `color("purple")` turns the turtle and the line purple. Notice the American spelling of the word colour, which doesn't have a 'u' in it. You can also specify colours in *hex*, like you did in CSS. Instead of using `pencolor("red")` you could use `pencolor("#FF0000")`.
+	+ `color("Purple")` turns the turtle and the line purple. Notice the American spelling of the word colour, which doesn't have a 'u' in it. You can also specify colours in *hex*, like you did in CSS. Instead of using `pencolor("Red")` you could use `pencolor("#FF0000")`.
 
 	+ `penup()` lifts the pen from the screen, and `pendown()` lowers it again. This means that you can move the turtle without leaving a trail!
 
@@ -131,7 +131,7 @@ right(90)
 done()
 ```
 
-What happens when you run this program? Did you get a straight line? In this program, Python will repeat `forward(100)` four times, and *then* turn `right(90)`.
+What happens when you run this program? Did you get a straight line? In this program, Python will repeat `forward(100)` four times, and _then_ turn `right(90)`.
 
 + Now that you know how to repeat commands, you can create complicated shapes and patterns really easily. Run this program:
 
@@ -186,7 +186,7 @@ from turtle import *
 speed(11)
 shape("turtle")
 pensize(6)
-color("red")
+color("Red")
 
 for count in range(36):
 	forward(100)
