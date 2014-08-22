@@ -41,10 +41,10 @@ print( bigPlanets[3] )
 
 As you can see, positions start at 0 and not 1, so `bigPlanets[1]` is "saturn" (the second item) and not "jupiter".
 
-+ You can use a list called `compliments` to store all of the possible compliments for your compliment generator program, and then use `random.choice(compliments)` to choose a random compliment for the user:
++ You can use a list called `compliments` to store all of the possible compliments for your compliment generator program, and then use `choice(compliments)` to choose a random compliment for the user:
 
 ```{.language-python}
-import random
+from random import *
 
 print("Compliment Generator")
 print("--------------------")
@@ -55,7 +55,7 @@ compliments = [ "Great job on that thing you did. Really super." ,
               ]
 
 #print a random item in the 'compliments' list
-print(random.choice(compliments))
+print(choice(compliments))
 print("You're welcome!")
 ```
 
@@ -64,7 +64,7 @@ print("You're welcome!")
 + You could make your compliments a little more interesting, by combining random items from 2 different lists:
 
 ```{.language-python}
-import random
+from random import *
 
 print("Compliment Generator")
 print("--------------------")
@@ -76,7 +76,7 @@ name = input("What is your name?: ")
 print( "Here is your compliment" , name , ":" )
 
 #get a random item from both lists, and add them to the compliment
-print( name , "you are" , random.choice(adjectives) , "at" , random.choice(hobbies) )
+print( name , "you are" , choice(adjectives) , "at" , choice(hobbies) )
 print( "You're welcome!" )
 ```
 
@@ -92,7 +92,7 @@ Try to think of some more compliments, and add them to your program! Remember th
 + Using what you know about `while` loops and `if` statements, you could modify your program to keep giving out compliments until the user decides to quit:
 
 ```{.language-python}
-import random
+from random import *
 
 #the program loops as long as this variable is 'True'
 running = True
@@ -113,19 +113,19 @@ Menu
 
 while running == True:
 
-    choice = input("\n>_").lower()
+    menuChoice = input("\n>_").lower()
 
     #'c' for a compliment
-    if choice == 'c':
+    if menuChoice == 'c':
 
         print( "Here is your compliment" , name , ":" )
 
         #get a random item from both lists, and add them to the compliment
-        print( name , "you are" , random.choice(adjectives) , "at" , random.choice(hobbies) )
+        print( name , "you are" , choice(adjectives) , "at" , choice(hobbies) )
         print( "You're welcome!" )
 
     #'q' to quit
-    elif choice == 'q':
+    elif menuChoice == 'q':
 
         running = False
         
@@ -147,7 +147,7 @@ Remember that the the `while` loop continues to run as long as the variable `run
 Let's modify your program, so that the user can choose to add or remove items from the `hobbies` list, to allow them to personalise the compliments they receive:
 
 ```{.language-python}
-import random
+from random import *
 
 running = True
 adjectives = [ "amazing" , "above-average" , "excellent" ]
@@ -169,35 +169,35 @@ Menu
 
 while running == True:
 
-    choice = input("\n>_").lower()
+    menuChoice = input("\n>_").lower()
 
     #'c' for a compliment
-    if choice == 'c':
+    if menuChoice == 'c':
 
         print( "Here is your compliment" , name , ":" )
 
         #get a random item from both lists, and add them to the compliment
-        print( name , "you are" , random.choice(adjectives) , "at" , random.choice(hobbies) )
+        print( name , "you are" , choice(adjectives) , "at" , choice(hobbies) )
         print( "You're welcome!" )
 
     #'a' to add a hobby
-    elif choice == 'a':
+    elif menuChoice == 'a':
 
         itemToAdd = input("Please enter the hobby to add: ")
         hobbies.append(itemToAdd)
 
     #'d' to delete a hobby
-    elif choice == 'd':
+    elif menuChoice == 'd':
 
         itemToDelete = input("Please enter the hobby to remove: ")
         hobbies.remove(itemToDelete)
 
     #'p' to print the hobbies list
-    elif choice == 'p':
+    elif menuChoice == 'p':
         print(hobbies)
 
     #'q' to quit
-    elif choice == 'q':
+    elif menuChoice == 'q':
 
         running = False
         
@@ -216,7 +216,7 @@ You can fix this problem, by first checking that the item to remove exists in th
 
 ```{.language-python}
     #'d' to delete a hobby
-    elif choice == 'd':
+    elif menuChoice == 'd':
 
         itemToDelete = input("Please enter the hobby to remove: ")
         #only remove an item if it's in the list
