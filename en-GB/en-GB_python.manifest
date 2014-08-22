@@ -43,8 +43,8 @@
         },
         {
             "number":   8,
-            "filename": "lessons/02 Teaching Turtles/02 Teaching Turtles.md",
-            "pdf":      "lessons/02 Teaching Turtles/02 Teaching Turtles.pdf"
+            "filename": "lessons/Teaching Turtles/Teaching Turtles.md",
+            "note":     "lessons/Teaching Turtles/Teaching Turtles - notes.md"
         },
         {
             "number":   9,

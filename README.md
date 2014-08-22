@@ -5,8 +5,6 @@ These lessons make up term four of Code Club, and the earliest lessons use Turtl
 
 # Completed Lessons
 
-* Turtles and Functions
-* Ceasar Ciphers and sending secret messages
 * Turtles and Fractals
 * Hangman
 * Noughts and Crosses
@@ -23,6 +21,7 @@ If you're a club leader trying out these projects, please complete <a href="http
 * Gameshow
 * Compliment Generator
 * Secret Messages
+* Teaching Turtles
 * RPG
 * Minecraft 2D
 
