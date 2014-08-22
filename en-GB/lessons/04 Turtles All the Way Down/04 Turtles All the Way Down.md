@@ -1,6 +1,6 @@
 ---
 title: Turtles All The Way Down
-level: Level 2
+level: Additional Projects
 language: en
 stylesheet: python
 ...

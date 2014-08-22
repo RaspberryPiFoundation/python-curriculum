@@ -1,6 +1,6 @@
 ---
 title: Noughts and Crosses
-level: Level 3
+level: Additional Projects
 language: en
 stylesheet: python
 ...

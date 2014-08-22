@@ -1,6 +1,6 @@
 ---
 title: (Beta) Turtle Power
-level: Level 1
+level: Term 1
 language: en
 stylesheet: python
 embeds: "*.png"

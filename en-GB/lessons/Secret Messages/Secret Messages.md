@@ -1,7 +1,7 @@
 
 ---
 title: (Beta) Secret Messages
-level: Level 2
+level: Term 2
 language: en
 stylesheet: python
 embeds: "*.png"
