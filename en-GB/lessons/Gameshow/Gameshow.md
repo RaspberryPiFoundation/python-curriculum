@@ -127,7 +127,7 @@ Create a variable to keep track of how many times the player guesses the correct
 ```{.language-python}
 from random import *
 
-#the user changes this varialbe to end the game
+#the user changes this variable to end the game
 playing = True
 
 score = 0
