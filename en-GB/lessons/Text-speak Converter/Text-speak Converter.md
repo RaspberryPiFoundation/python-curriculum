@@ -117,7 +117,7 @@ You might need to research some text-speak if you don't know any.
 #Step 3: Adding and deleting translations { .activity}
 ## Activity Checklist { .check}
 
-Just like with your 'compliment generator' program, it would be nice to allow the user to add and remove words from the dictionary. You can do this, by creating a menu system:
++ Just like with your 'compliment generator' program, it would be nice to allow the user to add and remove words from the dictionary. You can do this, by creating a menu system:
 
 ```{.language-python}
 def displayMenu():
