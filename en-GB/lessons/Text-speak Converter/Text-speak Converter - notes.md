@@ -1,0 +1,30 @@
+---
+title: (Beta) Text-speak Converter — Notes for Club Leaders
+language: en
+embeds: "*.png"
+...
+
+#Introduction:
+This project teaches students how to use dictionaries as a way of storing data.
+
+#Resources
+For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+
+Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+
++ Text-speak.py
+
+Make sure that each student has read and write access to their own copy of these resources.
+
+#Learning Objectives
++ Using dictionaries to store and retrieve data;
++ Removing dictionary data using the (`del`) method.
+
+#Challenges
++ Adding translations - manipulating and using dictionaries;
++ Testing your program - making the program more robust;
++ Distant planets - applying the use of dictionaries to a new problem;
++ Password protection - combining dictionaries with previously learnt concepts.
+
+#Potential Problems
++ Students may need to be reminded that dictionary keys and associated data are separated by a colon, that dictionary items are separated by a comma, and that there is no comma after the last item in a dictionary.
