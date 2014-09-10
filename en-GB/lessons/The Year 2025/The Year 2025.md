@@ -6,7 +6,7 @@ stylesheet: python
 embeds: "*.png"
 ...
 
-#Head's up! { .beta}
+#Heads up! { .beta}
 This project is in Beta. That means we're still testing it, and there's a small chance there could be some bugs or typos. If you're a club leader trying out this project, please complete <a href="https://docs.google.com/forms/d/1eMCfpYe3v7eYu5M8rSqLKlmq7cczLCLHx66csgyUyVU/viewform?usp=send_form" target="_blank">this short questionnaire</a> (or email projects@codeclub.org.uk) to let us know how it went!
 
 #Introduction:  { .intro}
