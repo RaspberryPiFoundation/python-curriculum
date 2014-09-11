@@ -5,16 +5,16 @@ embeds: "*.png"
 ...
 
 #Introduction:
-This project teaches students how to use selection (`if`, `else` and `elif` statements) in their programs, to alter program flow in response to data. This is achieved through writing and testing a simple quiz program, which includes written text and multiple choice responses.
+This project teaches children how to use selection (`if`, `else` and `elif` statements) in their programs, to alter program flow in response to data. This is achieved through writing and testing a simple quiz program, which includes written text and multiple choice responses.
 
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
 + Quiz.py
 
-Make sure that each student has read and write access to their own copy of these resources.
+Make sure that each child has read and write access to their own copy of these resources.
 
 #Learning Objectives
 + Selection, using:
@@ -63,4 +63,4 @@ if answer == "variable":
  )
 ```
 
-+ Students should remember the difference between `=` (used for variable assignment) and `==` (used for checking equality).
++ Children should remember the difference between `=` (used for variable assignment) and `==` (used for checking equality).

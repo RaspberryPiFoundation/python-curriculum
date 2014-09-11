@@ -5,16 +5,16 @@ embeds: "*.png"
 ...
 
 #Introduction:
-This project teaches students how to use lists, as well as accessing elements of a list, and adding and removing list items. Students learn through making a compliment generator, which gives the user a random compliment from a list.
+This project teaches children how to use lists, as well as accessing elements of a list, and adding and removing list items. Students learn through making a compliment generator, which gives the user a random compliment from a list.
 
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
 + ComplimentGenerator.py
 
-Make sure that each student has read and write access to their own copy of these resources.
+Make sure that each child has read and write access to their own copy of these resources.
 
 #Learning Objectives
 + Lists;
@@ -29,5 +29,5 @@ Make sure that each student has read and write access to their own copy of these
 
 #Potential Problems
 
-+ Students may need to be reminded that list items are separated by a comma, and that there is no comma after the last item in a list.
++ Children may need to be reminded that list items are separated by a comma, and that there is no comma after the last item in a list.
 

@@ -5,12 +5,12 @@ embeds: "*.png"
 ...
 
 #Introduction:
-This project teaches students how to make a graphical user interface (GUI), by making a Pokedex for displaying information on Pokemon. This project accesses the <a href="http://pokeapi.co/">pokeAPI</a>, developed by <a href="http://phalt.co/?ref=pokeapi">Paul Hallett</a>.
+This project teaches children how to make a graphical user interface (GUI), by making a Pokedex for displaying information on Pokemon. This project accesses the <a href="http://pokeapi.co/">pokeAPI</a>, developed by <a href="http://phalt.co/?ref=pokeapi">Paul Hallett</a>.
 
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
 + GUI.py (short example program)
 + pokeapi.py (module used for retrieving data)
@@ -19,7 +19,7 @@ Students can also make use of the materials which accompany these challenges. Fi
 	+ pokedex-finished-with-images.py
 	+ pokeapi.py (module used for retrieving data)
 
-Make sure that each student has read and write access to their own copy of these resources.
+Make sure that each child has read and write access to their own copy of these resources.
 
 #Learning Objectives
 + Graphical User Interface elements (widgets):

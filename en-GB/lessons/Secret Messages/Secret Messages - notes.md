@@ -10,11 +10,11 @@ This project teaches iteration over a text string, and now it can be used to cre
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
 + Encryption.py
 
-Make sure that each student has read and write access to their own copy of these resources.
+Make sure that each child has read and write access to their own copy of these resources.
 
 #Learning Objectives
 + Iteration over a string variable;
@@ -29,7 +29,7 @@ Make sure that each student has read and write access to their own copy of these
 + Love calculator - applying text iteration to a new problem.
 
 #Potential Problems
-+ When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Students should use:
++ When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children should use:
 
 ```{.language-python}
 message = input("Please enter a message to encrypt: ").lower()

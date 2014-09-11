@@ -5,7 +5,7 @@ embeds: "*.png"
 ...
 
 #Introduction:
-This project teaches students how to use variables within a Python program, and how to perform calculations on data stored in variables. This is achieved through writing a program to calculate what a person’s age will be in the year 2025.
+This project teaches children how to use variables within a Python program, and how to perform calculations on data stored in variables. This is achieved through writing a program to calculate what a person’s age will be in the year 2025.
 
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.

@@ -10,11 +10,11 @@ This project teaches functions and parameter passing, by creating and using func
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
 + Sky.py
 
-Make sure that each student has read and write access to their own copy of these resources.
+Make sure that each child has read and write access to their own copy of these resources.
 
 #Learning Objectives
 + Functions and the `def` keyword;

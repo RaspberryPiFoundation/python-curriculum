@@ -10,11 +10,11 @@ This project teaches game design through the development of an RPG maze game. In
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
 + RPG.py
 
-Make sure that each student has read and write access to their own copy of these resources.
+Make sure that each child has read and write access to their own copy of these resources.
 
 #Learning Objectives
 + Game design;
@@ -31,7 +31,7 @@ Make sure that each student has read and write access to their own copy of these
 + Develop your own game.
 
 #Frequently Asked Questions
-+ Students may need reminding that elements of a dictionary/list are separated by a comma. For example, when adding a new room to the 'rooms' dictionary, a comma needs to be added between the new room being added and the previous room.
-+ When adding a new room, students may forget to add a link to an existing room to the newly created room. This will mean that students can leave a room, but not enter it!
++ Children may need reminding that elements of a dictionary/list are separated by a comma. For example, when adding a new room to the 'rooms' dictionary, a comma needs to be added between the new room being added and the previous room.
++ When adding a new room, children may forget to add a link to an existing room to the newly created room. This will mean that children can leave a room, but not enter it!
 + The code for checking whether the player has won or lost the game needs to be indented, to ensure that this check is performed upon entering each new room. If the code isn't indented, then it sits outside of the main game loop and is never run.
 

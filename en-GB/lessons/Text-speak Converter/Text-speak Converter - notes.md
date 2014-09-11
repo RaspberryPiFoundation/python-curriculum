@@ -5,16 +5,16 @@ embeds: "*.png"
 ...
 
 #Introduction:
-This project teaches students how to use dictionaries as a way of storing data.
+This project teaches children how to use dictionaries as a way of storing data.
 
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Students can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
 + Text-speak.py
 
-Make sure that each student has read and write access to their own copy of these resources.
+Make sure that each child has read and write access to their own copy of these resources.
 
 #Learning Objectives
 + Using dictionaries to store and retrieve data;
@@ -27,4 +27,4 @@ Make sure that each student has read and write access to their own copy of these
 + Password protection - combining dictionaries with previously learnt concepts.
 
 #Potential Problems
-+ Students may need to be reminded that dictionary keys and associated data are separated by a colon, that dictionary items are separated by a comma, and that there is no comma after the last item in a dictionary.
++ Children may need to be reminded that dictionary keys and associated data are separated by a colon, that dictionary items are separated by a comma, and that there is no comma after the last item in a dictionary.
