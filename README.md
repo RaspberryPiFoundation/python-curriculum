@@ -5,7 +5,7 @@ These lessons make up term four of Code Club, and the earliest lessons use Turtl
 
 # Completed Lessons
 
-* Turtles and Fractals
+* Turtles All The Way Down
 * Hangman
 * Noughts and Crosses
 * Playing Against the Computer
@@ -22,6 +22,8 @@ If you're a club leader trying out these projects, please complete <a href="http
 * Compliment Generator
 * Secret Messages
 * Teaching Turtles
+* Text-speak Converter
+* Pokedex
 * RPG
 * Minecraft 2D
 
