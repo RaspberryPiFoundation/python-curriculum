@@ -4,7 +4,7 @@ level: Term 1
 language: en
 stylesheet: python
 embeds: "*.png"
-materials: ["Resources/*.*"]
+materials: ["Resources/*.*","Resources/Club Leader Resources/*.*"]
 ...
 
 #Heads up! { .beta}
