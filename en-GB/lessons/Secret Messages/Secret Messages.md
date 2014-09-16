@@ -32,76 +32,76 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 
 + Let's start by writing a Python program to encrypt a single character. Run this program, and enter the letter 'a' to check that it works:
 
-```{.language-python}
-#a list of the letters to encrypt
-alphabet = "abcdefghijklmnopqrstuvwxyz"
+	```{.language-python}
+	#a list of the letters to encrypt
+	alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-#the secret key is 3
-key = 3
+	#the secret key is 3
+	key = 3
 
-character = input("Please enter a character to encrypt: ")
+	character = input("Please enter a character to encrypt: ")
 
-#find the position of the character in the alphabet
-#e.g. 'a' is position 0, 'e' is position 4, etc.
-position = alphabet.find(character)
+	#find the position of the character in the alphabet
+	#e.g. 'a' is position 0, 'e' is position 4, etc.
+	position = alphabet.find(character)
 
-#add the secret key to find the encrypted character position
-# % 26 means 'go back to 0 once you get to 26'
-newPosition = (position + key) % 26
+	#add the secret key to find the encrypted character position
+	# % 26 means 'go back to 0 once you get to 26'
+	newPosition = (position + key) % 26
 
-#the encrypted letter is in the alphabet at newPosition
-encryptedLetter = alphabet[newPosition]
-        
-print("Your encrypted letter is" , encryptedLetter)
-```
+	#the encrypted letter is in the alphabet at newPosition
+	encryptedLetter = alphabet[newPosition]
+	        
+	print("Your encrypted letter is" , encryptedLetter)
+	```
 
-![screenshot](encryption-letter.png)
+	![screenshot](encryption-letter.png)
 
 + In Python, text can be thought of as lots of characters joined together (called an _array_ of characters). The line:
 
-```{.language-python}
-position = alphabet.find(character)
-```
+	```{.language-python}
+	position = alphabet.find(character)
+	```
 
-finds the position of the character in the `alphabet`. In most programming languages, positions always start at 0 and not 1, so in the text "abcdefghijklmnopqrstuvwxyz", 'a' is the character at position 0, 'b' is at position 1, and so on.
+	finds the position of the character in the `alphabet`. In most programming languages, positions always start at 0 and not 1, so in the text "abcdefghijklmnopqrstuvwxyz", 'a' is the character at position 0, 'b' is at position 1, and so on.
 
-![screenshot](encryption-array.png)
+	![screenshot](encryption-array.png)
 
-Next, the secret key is added to the `position`, to get the `newPosition` of the encrypted character. So in the example, 'a' is at position 0, so after adding the key, we get `0 + 3 = 3`.  
+	Next, the secret key is added to the `position`, to get the `newPosition` of the encrypted character. So in the example, 'a' is at position 0, so after adding the key, we get `0 + 3 = 3`.  
 
-The code `% 26` means that when finding the position number of the encrypted character, the number is reset to 0 once it gets to 26. This means that the 'z' in our cipher joins back up to the 'a' again. 
+	The code `% 26` means that when finding the position number of the encrypted character, the number is reset to 0 once it gets to 26. This means that the 'z' in our cipher joins back up to the 'a' again. 
 
-Next, this new position is used to find the encrypted character in the `alphabet`, and add it to the `encryptedMessage`, before finally printing the complete encrypted message. The code:
+	Next, this new position is used to find the encrypted character in the `alphabet`, and add it to the `encryptedMessage`, before finally printing the complete encrypted message. The code:
 
-```{.language-python}
-alphabet[newPosition]
-```
+	```{.language-python}
+	alphabet[newPosition]
+	```
 
-looks up the letter at a certain position. So `alphabet[0]` is 'a', `alphabet[3]` is 'd'.
+	looks up the letter at a certain position. So `alphabet[0]` is 'a', `alphabet[3]` is 'd'.
 
-Also, notice that in this program you have used a short way of getting input from the user. Instead of writing:
+	Also, notice that in this program you have used a short way of getting input from the user. Instead of writing:
 
-```{.language-python}
-print("Please enter a character to encrypt: ")
-character = input()
-```
+	```{.language-python}
+	print("Please enter a character to encrypt: ")
+	character = input()
+	```
 
-You can just use the line:
+	You can just use the line:
 
-```{.language-python}
-character = input("Please enter a character to encrypt: ")
-```
+	```{.language-python}
+	character = input("Please enter a character to encrypt: ")
+	```
 
 + You can use the same program to decrypt a character, by using a key of, say, `-3` instead of `3`. This means that to decrypt a letter, you move backwards through the alphabet and not forwards, going back to 'z' once you get to 'a'.
 
-![screenshot](encryption-decrypt.png)
+	![screenshot](encryption-decrypt.png)
 
-If you'd prefer to have separate encryption and decryption programs, just change this code to go backwards through the alphabet:
+	If you'd prefer to have separate encryption and decryption programs, just change this code to go backwards through the alphabet:
 
-```{.language-python}
-#subtract the key to go backwards
-newPosition = (position - key) % 26
-```
+	```{.language-python}
+	#subtract the key to go backwards
+	newPosition = (position - key) % 26
+	```
 
 ## Challenge: Variable keys { .challenge}
 Modify the encryption program above, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable. Remember to use the `int()` function to convert the input to a whole number.
@@ -123,67 +123,66 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 	+ a set number of times;
 	+ until something happens in your program.
 
-There is a third way to use loops, which is to repeat code for each item in some data. For example, if you wanted to loop through and print each character in someone's name, you could use this program:
+	There is a third way to use loops, which is to repeat code for each item in some data. For example, if you wanted to loop through and print each character in someone's name, you could use this program:
 
-```{.language-python}
-name = input("What is your name? ")
+	```{.language-python}
+	name = input("What is your name? ")
 
-#print out each character of their name
-for char in name:
-	print(char)
-```
+	#print out each character of their name
+	for char in name:
+		print(char)
+	```
 
-![screenshot](encryption-loop.png)
+	![screenshot](encryption-loop.png)
 
-In the program above, each letter of the name is stored in the variable `char` in turn, and then printed. `char` is just a variable name, and so you could change the name of the variable if you want to. Run this program to try it out.
+	In the program above, each letter of the name is stored in the variable `char` in turn, and then printed. `char` is just a variable name, and so you could change the name of the variable if you want to. Run this program to try it out.
 
 + You can use this type of loop to go through an entire message, and encrypt it one character at a time:
 
-```{.language-python}
-#a list of the letters to encrypt
-alphabet = "abcdefghijklmnopqrstuvwxyz"
+	```{.language-python}
+	#a list of the letters to encrypt
+	alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-#get the message from the user
-message = input("Please enter a message to encrypt: ").lower()
+	#get the message from the user
+	message = input("Please enter a message to encrypt: ").lower()
 
-#this variable will store the encrypted message
-encryptedMessage = ""
+	#this variable will store the encrypted message
+	encryptedMessage = ""
 
-#get the secret key
-key = input("Please enter the key: ")
+	#get the secret key
+	key = input("Please enter the key: ")
 
-#loop through each character in the message
-for char in message:
+	#loop through each character in the message
+	for char in message:
 
-    if char in alphabet:
-        
-		#find the position of the character in the alphabet
-		#e.g. 'a' is position 0, 'e' is position 4, etc.
-        position = alphabet.find(char)
-        
-		#add the secret key to find the encrypted character position
-        # % 26 means 'go back to 0 once you get to 26'
-        newPosition = (position + key) % 26
-        
-        #add the encrypted letter to the message
-        #the encrypted letter is in the alphabet at newPosition
-        encryptedMessage = encryptedMessage + alphabet[newPosition]
-        
-    else:
-        
-        #some characters (e.g. '£', '?') aren't in the alphabet, 
-        # so just add the unencrypted letter to the message
-        encryptedMessage = encryptedMessage + char
+	    if char in alphabet:
+	        
+			#find the position of the character in the alphabet
+			#e.g. 'a' is position 0, 'e' is position 4, etc.
+	        position = alphabet.find(char)
+	        
+			#add the secret key to find the encrypted character position
+	        # % 26 means 'go back to 0 once you get to 26'
+	        newPosition = (position + key) % 26
+	        
+	        #add the encrypted letter to the message
+	        #the encrypted letter is in the alphabet at newPosition
+	        encryptedMessage = encryptedMessage + alphabet[newPosition]
+	        
+	    else:
+	        
+	        #some characters (e.g. '£', '?') aren't in the alphabet, 
+	        # so just add the unencrypted letter to the message
+	        encryptedMessage = encryptedMessage + char
 
-print("Your encrypted message is:" , encryptedMessage)
-```
+	print("Your encrypted message is:" , encryptedMessage)
+	```
 
-![screenshot](encryption-message.png)
+	![screenshot](encryption-message.png)
 
-In this program, each character of the message is encrypted and added to the `encryptedMessage` variable in turn. At the end of the program, the entire message is printed.
+	In this program, each character of the message is encrypted and added to the `encryptedMessage` variable in turn. At the end of the program, the entire message is printed.
 
-There are some characters that the user might enter, that aren't in the `alphabet`. For example, spaces, commas and question marks. The statement `if char in alphabet:
-` means that only characters that appear in the alphabet are encrypted. Any other character is just added to the encrypted message without encrypting it first.
+	There are some characters that the user might enter, that aren't in the `alphabet`. For example, spaces, commas and question marks. The statement `if char in alphabet:` means that only characters that appear in the alphabet are encrypted. Any other character is just added to the encrypted message without encrypting it first.
 
 ## Challenge: Encrypting and decrypting messages { .challenge}
 Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!

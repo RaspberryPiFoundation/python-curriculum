@@ -18,15 +18,15 @@ You can use Python to do calculations, and make your programs more useful by usi
 
 + It’s not just text that you can print in Python, you can also print numbers to the screen. For example, if 8 of your friends each gave you £2 for a sponsored silence, you can use this program to see how much money you raised:
 
-```{.language-python}
-print(8*2)
-```
+	```{.language-python}
+	print(8*2)
+	```
 
-The star `*` in the program above is a multiply sign, so the program should print the answer to 8 x 2.
+	The star `*` in the program above is a multiply sign, so the program should print the answer to 8 x 2.
 
 + Run the program above, and you should see the answer:
 
-![screenshot](2025-calc.png)
+	![screenshot](2025-calc.png)
 
 ## Challenge: Pocket money { .challenge}
 Write a Python program to calculate how much money you’d make if you washed 12 cars, and charged £2.50 for each car.
@@ -36,9 +36,9 @@ Write a Python program to calculate how much money you’d make if you washed 12
 
 + With everything you've learnt so far, you should be able to write a program to calculate how old you’ll be in the year 2025. The Python program to calculate your age should work like this:
 
-![screenshot](2025-age.png)
+	![screenshot](2025-age.png)
 
-As you can see, if you were born in 2004, you can calculate your age in the year 2025 by the calculation `2025 - 2004`. So someone born in 2004 will be 21 years old in the year 2025! If you weren’t born in 2004 you can change the number in the program.
+	As you can see, if you were born in 2004, you can calculate your age in the year 2025 by the calculation `2025 - 2004`. So someone born in 2004 will be 21 years old in the year 2025! If you weren’t born in 2004 you can change the number in the program.
 
 ## Challenge: Changing dates { .challenge}
 Change your program to find out how old someone born in 1998 would be in the year 2025. How old will someone born this year be in the year 2050?
@@ -51,46 +51,46 @@ When completing the challenges above, you had to keep changing the numbers in th
 
 + Run this Python program:
 
-```{.language-python}
-print("What year were you born?")
-born = input()
-born = int(born)
-print( 2025 - born )
-```
+	```{.language-python}
+	print("What year were you born?")
+	born = input()
+	born = int(born)
+	print( 2025 - born )
+	```
 
-This program waits for you to type in the year you were born, and press enter. You should then see how old you'll be in the year 2025:
+	This program waits for you to type in the year you were born, and press enter. You should then see how old you'll be in the year 2025:
 
-![screenshot](2025-varProg.png)
+	![screenshot](2025-varProg.png)
 
-This program uses the `input()` function to get the user's input from the keyboard, and store it in a variable called 'born', so that it can be used later. You can think of a variable as a box, which can be used to store important data.
+	This program uses the `input()` function to get the user's input from the keyboard, and store it in a variable called 'born', so that it can be used later. You can think of a variable as a box, which can be used to store important data.
 
-![screenshot](2025-var.png)
+	![screenshot](2025-var.png)
 
-Notice that the variable (the box) has been named "born", as it helps you remember what you’re storing inside it! 
+	Notice that the variable (the box) has been named "born", as it helps you remember what you’re storing inside it! 
 
-The line...
+	The line...
 
-```{.language-python}
-print( 2025 - born )
-```
+	```{.language-python}
+	print( 2025 - born )
+	```
 
-...takes whatever number has been stored in the `born` variable away from 2025.
+	...takes whatever number has been stored in the `born` variable away from 2025.
 
-Anything that is typed in from the keyboard is always stored as text, so you also have to use the `int()` function to turn the user's input into a whole number (which in programming is called an _integer_).
+	Anything that is typed in from the keyboard is always stored as text, so you also have to use the `int()` function to turn the user's input into a whole number (which in programming is called an _integer_).
 
 + You can make your program much easier to understand, by adding a helpful message for the user, so they know what you're showing them. Change the last line of your program to:
 
-```{.language-python}
-print( "In 2025 you will be" , 2025 - born , "years old!" )
-```
+	```{.language-python}
+	print( "In 2025 you will be" , 2025 - born , "years old!" )
+	```
 
 + Try running your program again, to see how this change looks.
 
-![screenshot](2025-print.png)
+	![screenshot](2025-print.png)
 
 + But why stop there? You could also use another variable to store the answer before printing it for the user. Try this program out:
 
-![screenshot](2025-2vars.png)
+	![screenshot](2025-2vars.png)
 
 ## Challenge: The year 3000! { .challenge}
 Your program only tells people what their age will be in the year 2025. What if someone wants to know their age in the year 2050? Or the year 3000? Add another variable to your program, so that the user can find out how old they'll be in any year they choose. 

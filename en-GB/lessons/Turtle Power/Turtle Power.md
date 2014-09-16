@@ -21,19 +21,19 @@ We're going to have some fun programming turtles. A turtle is a tiny robot that 
 
 + Let's make a turtle move around the screen, by running this short Python program:
 
-```{.language-python}
-from turtle import *
-shape("turtle")
-speed(5)
+	```{.language-python}
+	from turtle import *
+	shape("turtle")
+	speed(5)
 
-forward(100)
-right(90)
-forward(100)
+	forward(100)
+	right(90)
+	forward(100)
 
-done()
-```
+	done()
+	```
 
-![screenshot](turtle.png)
+	![screenshot](turtle.png)
 
 + The turtle has a pen attached, and draws a line as it moves around the screen. Here's what the program does:
 
@@ -47,36 +47,36 @@ done()
 
 	+ `left(45)` and `right(90)` turn the turtle left or right by a number of degrees. Here are some examples:
 
-	![screenshot](turtle_degrees.png)
+		![screenshot](turtle_degrees.png)
 
 	+ `done()` tells Python that we've finished programming the turtle.
 
 
 + What's your favourite colour? To make your drawings more interesting, you can also change the colour and the size of the pen drawing the line. Here's a simple example to try:
 
-```{.language-python}
-from turtle import *
-shape("turtle")
-speed(8)
+	```{.language-python}
+	from turtle import *
+	shape("turtle")
+	speed(8)
 
-color("Purple")
-pensize(7)
-right(90)
-forward(100)
-left(90)
-forward(50)
+	color("Purple")
+	pensize(7)
+	right(90)
+	forward(100)
+	left(90)
+	forward(50)
 
-color("Orange")
-pensize(3)
-penup()
-forward(50)
-pendown()
-forward(50)
+	color("Orange")
+	pensize(3)
+	penup()
+	forward(50)
+	pendown()
+	forward(50)
 
-done()
-```
+	done()
+	```
 
-![screenshot](turtle_colour.png)
+	![screenshot](turtle_colour.png)
 
 + The code above contains a couple of new commands:
 
@@ -99,75 +99,75 @@ When drawing a square and a triangle, your program repeated the same commands ov
 
 + Open up a new file, and run the following program:
 
-```{.language-python}
-from turtle import *
+	```{.language-python}
+	from turtle import *
 
-speed(11)
-shape("turtle")
+	speed(11)
+	shape("turtle")
 
-for count in range(4):
-	forward(100)
-	right(90)
+	for count in range(4):
+		forward(100)
+		right(90)
 
-done()
-```
+	done()
+	```
 
-This program uses a `for` loop. You can use a `for` loop in Python whenever you want to repeat some code a set number of times.
+	This program uses a `for` loop. You can use a `for` loop in Python whenever you want to repeat some code a set number of times.
 
-In the program above, the commands `forward(100)` and `right(90)` are repeated 4 times, drawing a square. Turning 90 degrees for each corner means we turn 360 degrees in total.
+	In the program above, the commands `forward(100)` and `right(90)` are repeated 4 times, drawing a square. Turning 90 degrees for each corner means we turn 360 degrees in total.
 
 + Just like with an `if` statement, you should use the Tab key to indent the code that you want to repeat. Try changing the code, so that the line `forward(100)` is indented but the line `right(50)` isn't, like this:
 
-```{.language-python}
-from turtle import *
+	```{.language-python}
+	from turtle import *
 
-speed(11)
-shape("turtle")
+	speed(11)
+	shape("turtle")
 
-for count in range(4):
-	forward(100)
-right(90)
+	for count in range(4):
+		forward(100)
+	right(90)
 
-done()
-```
+	done()
+	```
 
-What happens when you run this program? Did you get a straight line? In this program, Python will repeat `forward(100)` four times, and _then_ turn `right(90)`.
+	What happens when you run this program? Did you get a straight line? In this program, Python will repeat `forward(100)` four times, and _then_ turn `right(90)`.
 
 + Now that you know how to repeat commands, you can create complicated shapes and patterns really easily. Run this program:
 
-```{.language-python}
-from turtle import *
+	```{.language-python}
+	from turtle import *
 
-speed(11)
-shape("turtle")
+	speed(11)
+	shape("turtle")
 
-for count in range(8):
-	forward(100)
-	right(45)
+	for count in range(8):
+		forward(100)
+		right(45)
 
-done()
-```
+	done()
+	```
 
-![screenshot](turtle_octagon.png)
+	![screenshot](turtle_octagon.png)
 
-This program works in the same way as the square drawing program, except that it repeats 8 times, and only turns 45 degrees for each corner. This means that the code draws an 8-sided shape (an octagon), as the corners for each of the 8 sides add up to 360 degrees (360 divided by 8 is 45).
+	This program works in the same way as the square drawing program, except that it repeats 8 times, and only turns 45 degrees for each corner. This means that the code draws an 8-sided shape (an octagon), as the corners for each of the 8 sides add up to 360 degrees (360 divided by 8 is 45).
 
 + Here's another example of what can be created using a `for` loop. What does this program draw?
 
-```{.language-python}
-from turtle import *
+	```{.language-python}
+	from turtle import *
 
-speed(11)
-shape("turtle")
+	speed(11)
+	shape("turtle")
 
-for count in range(30):
-	forward(5)
-	penup()
-	forward(5)
-	pendown()
+	for count in range(30):
+		forward(5)
+		penup()
+		forward(5)
+		pendown()
 
-done()
-```
+	done()
+	```
 
 ## Challenge: Loopy shapes { .challenge}
 + Can you use a `for` loop to draw:
