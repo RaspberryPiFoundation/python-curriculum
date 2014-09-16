@@ -26,19 +26,19 @@ Make sure that each child has read and write access to their own copy of these r
 Pygame should also be installed. Make sure that you have installed Pygame for Python 3.2, which can be downloaded <a href="http://www.pygame.org/download.shtml">from the Pygame website</a>. You can check whether Pygame has installed successfully by typing `import pygame` into the Python shell. If you don't receive an error message then it means everything is working!
 
 #Learning Objectives
-+ Creating and editing graphics;
-+ Game AI design;
-+ Editing: 
-	+ Variables; 
-	+ Lists; 
++ Creating and editing graphics;
++ Game AI design;
++ Editing:
+	+ Variables;
+	+ Lists;
 	+ Dictionaries.
 
 #Challenges
-+ Build your world;
-+ Improving the graphics; 
-+ Customising your game; 
-+ Adding resources; 
-+ Develop your own game.
++ Build your world;
++ Improving the graphics;
++ Customising your game;
++ Adding resources;
++ Develop your own game.
 
 
 #Frequently Asked Questions
