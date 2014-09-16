@@ -404,11 +404,10 @@ You can write functions that make use of other functions, to make writing large 
 ## Challenge: Functions everywhere! { .challenge}
 Program the turtle to draw your own picture. Try to use functions wherever possible, to draw any shapes that you'll use a lot.
 
-You could even pass data to your functions, to allow you to draw shapes in different sizes and colours!
-
 For example, you could draw a house, using `drawSquare()` and `drawTriangle()` functions.
 
-Here are some more examples:
+You could even pass data to your functions, to allow you to draw shapes in different sizes and colours! Here are some examples:
+
 ![screenshot](sky-flowers.png)
 ![screenshot](sky-birds.png)
 
