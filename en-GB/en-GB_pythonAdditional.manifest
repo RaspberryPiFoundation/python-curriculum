@@ -1,0 +1,38 @@
+{
+    "description": "The Python curriculum is currently being updated. If you can't find a project, it may have been moved to another section.",
+    "id": "python",
+    "language": "en-GB",
+    "number": 7,
+    "title": "Additional Python Projects",
+
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/04 Turtles All the Way Down/04 Turtles All the Way Down.md",
+            "pdf":      "lessons/04 Turtles All the Way Down/04 Turtles All the Way Down.pdf"
+        },
+        {
+            "number":   2,
+            "filename": "lessons/05 Hangman/05 Hangman.md",
+            "pdf":      "lessons/05 Hangman/05 Hangman.pdf"
+        },
+        {
+            "number":   3,
+            "filename": "lessons/06 Noughts and Crosses/06 Noughts and Crosses.md",
+            "pdf":      "lessons/06 Noughts and Crosses/06 Noughts and Crosses.pdf"
+        },
+        {
+            "number":   4,
+            "filename": "lessons/07 Playing Against the Computer/07 Playing Against the Computer.md",
+            "pdf":      "lessons/07 Playing Against the Computer/07 Playing Against the Computer.pdf"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Volunteer Notes",
+            "note": "volunteer resources/*.md"
+        }
+    ]
+}
+

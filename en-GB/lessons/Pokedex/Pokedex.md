@@ -1,6 +1,6 @@
 ---
 title: (Beta) Pokedex
-level: Term 1
+level: Term 2
 language: en
 stylesheet: python
 embeds: "*.png"

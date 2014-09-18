@@ -1,0 +1,48 @@
+{
+    "description": "The Python curriculum is currently being updated. If you can't find a project, it may have been moved to another section.",
+    "id": "python",
+    "language": "en-GB",
+    "number": 4,
+    "title": "Python Term 1",
+
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/ASCII Art/ASCII Art.md",
+            "note":     "lessons/ASCII Art/ASCII Art - notes.md"
+        },
+        {
+            "number":   2,
+            "filename": "lessons/The Year 2025/The Year 2025.md",
+            "note":     "lessons/The Year 2025/The Year 2025 - notes.md"
+        },
+        {
+            "number":   3,
+            "filename": "lessons/Quiz/Quiz.md",
+            "note":     "lessons/Quiz/Quiz - notes.md"
+        },
+        {
+            "number":   4,
+            "filename": "lessons/Turtle Power/Turtle Power.md",
+            "note":     "lessons/Turtle Power/Turtle Power - notes.md"
+        },
+        {
+            "number":   5,
+            "filename": "lessons/Gameshow/Gameshow.md",
+            "note":     "lessons/Gameshow/Gameshow - notes.md"
+        },
+        {
+            "number":   6,
+            "filename": "lessons/Compliment Generator/Compliment Generator.md",
+            "note":     "lessons/Compliment Generator/Compliment Generator - notes.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Volunteer Notes",
+            "note": "volunteer resources/*.md"
+        }
+    ]
+}
+

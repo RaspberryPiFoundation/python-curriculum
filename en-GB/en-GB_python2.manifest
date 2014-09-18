@@ -1,0 +1,48 @@
+{
+    "description": "The Python curriculum is currently being updated. If you can't find a project, it may have been moved to another section.",
+    "id": "python",
+    "language": "en-GB",
+    "number": 5,
+    "title": "Python Term 2",
+
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/Secret Messages/Secret Messages.md",
+            "note":     "lessons/Secret Messages/Secret Messages - notes.md"
+        },
+        {
+            "number":   2,
+            "filename": "lessons/Teaching Turtles/Teaching Turtles.md",
+            "note":     "lessons/Teaching Turtles/Teaching Turtles - notes.md"
+        },
+        {
+            "number":   3,
+            "filename": "lessons/Text-speak Converter/Text-speak Converter.md",
+            "note":     "lessons/Text-speak Converter/Text-speak Converter - notes.md"
+        },
+        {
+            "number":   4,
+            "filename": "lessons/Pokedex/Pokedex.md",
+            "note":     "lessons/Pokedex/Pokedex - notes.md"
+        },
+        {
+            "number":   5,
+            "filename": "lessons/RPG/RPG.md",
+            "note":     "lessons/RPG/RPG - notes.md"
+        },
+        {
+            "number":   6,
+            "filename": "lessons/Minecraft2D/Minecraft2D.md",
+            "note":     "lessons/Minecraft2D/Minecraft2D - notes.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Volunteer Notes",
+            "note": "volunteer resources/*.md"
+        }
+    ]
+}
+
