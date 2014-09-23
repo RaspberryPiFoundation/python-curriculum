@@ -51,7 +51,7 @@ Change the program above to print something more interesting to the screen!
 
 ![screenshot](ascii-mind.png)
 
-#Step 2: About yourself { .activity}
+#Step 2: About yourself { .activity .new-page}
 ## Activity Checklist { .check}
 
 + Let’s print something much more fun than text… ASCII art! ASCII art is creating pictures out of text. Here’s an example - it’s meant to be a dog!

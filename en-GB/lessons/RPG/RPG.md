@@ -85,7 +85,7 @@ If you can’t move in and out of the dining room, just check that you added all
 ## Challenge: Add new rooms { .challenge}
 Add more rooms to your game. For example, you could create a living room to the south of the dining room. Remember to add a door to/from one of the other rooms! 
 
-#Step 2: Adding items to collect { .activity}
+#Step 2: Adding items to collect { .activity .new-page}
 
 Now that you have lots of rooms, let’s leave items in the rooms for the player to collect as they move through the maze.
 
@@ -123,7 +123,7 @@ Remember to put a comma after the line above the new item, or your program won�
 ## Challenge: Add new items { .challenge}
 Add an item to some of the rooms in your game. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
 
-#Step 3: Adding enemies { .activity}
+#Step 3: Adding enemies { .activity .new-page}
 
 This game is too easy! Let’s add enemies to some rooms that the player must avoid. 
 
@@ -173,7 +173,7 @@ This code checks whether there is an item in the room, and if so, whether that i
 ## Challenge: Adding more monsters { .challenge}
 Add more monsters to your game, to make it harder to escape the house!
 
-#Step 4: Winning the game { .activity}
+#Step 4: Winning the game { .activity .new-page}
 
 Let’s give your player a mission, which needs to completed to win the game.
 

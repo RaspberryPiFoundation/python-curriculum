@@ -130,7 +130,7 @@ You might need to research some text-speak if you don't know any.
         print("  d = delete a word")
         print("  q = quit")
 
-    #-----------------------------------------------------------
+    #-------------------------------------------------------
 
     def convertSentence():
         sentence = input("Enter a sentence to translate: ").lower()
@@ -154,7 +154,7 @@ You might need to research some text-speak if you don't know any.
         print("==>")
         print(translatedSentence)  
 
-    #-----------------------------------------------------------
+    #-------------------------------------------------------
 
     def addDictionaryItem():
         txtToAdd = input("Enter the text-speak to add to the dictionary: ")
@@ -162,16 +162,16 @@ You might need to research some text-speak if you don't know any.
         #add the new translation to the dictionary
         textSpeakDictionary[txtToAdd] = meaning
 
-    #-----------------------------------------------------------
+    #-------------------------------------------------------
 
     def deleteDictionaryItem():
         txtToDelete = input("Enter the text-speak to delete from the dictionary: ")
         #delete the translation from the dictionary
         del textSpeakDictionary[txtToDelete]
 
-    #-----------------------------------------------------------
+    #-------------------------------------------------------
     # main program starts here!
-    #-----------------------------------------------------------
+    #-------------------------------------------------------
 
     textSpeakDictionary = {
         "lol"  : "laugh out loud" ,

@@ -174,7 +174,7 @@ Can you add fonts and colour to improve the look of your Pokedex GUI. Here's an 
 
 Your Pokedex can look different to this. You can use different fonts, for example `Times`, `Courier`, or any other font you have installed on your computer. You can also choose your own <a href="https://www.tcl.tk/man/tcl8.6/TkCmd/colors.htm">colours</a> (including <a href="http://www.colorpicker.com/">hex colours</a>).
 
-#Step 3: Adding commands { .activity}
+#Step 3: Adding commands { .activity .new-page}
 
 Now that you have a great looking GUI, let's make the button actually display Pokemon data!
 
@@ -238,7 +238,7 @@ Now that you have a great looking GUI, let's make the button actually display Po
 
 ![screenshot](gui-pokedex-finished.png)
 
-#Step 4: (Optional) Adding an image { .activity}
+#Step 4: (Optional) Adding an image { .activity .new-page}
 
 It's also possible to display the picture of a chosen Pokemon in your Pokedex!
 
