@@ -26,5 +26,5 @@ Make sure that each child has read and write access to their own copy of these r
 + Distant planets - applying the use of dictionaries to a new problem;
 + Password protection - combining dictionaries with previously learnt concepts.
 
-#Potential Problems
+#Frequently Asked Questions
 + Children may need to be reminded that dictionary keys and associated data are separated by a colon, that dictionary items are separated by a comma, and that there is no comma after the last item in a dictionary.

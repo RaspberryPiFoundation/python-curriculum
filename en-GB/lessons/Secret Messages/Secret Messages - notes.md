@@ -28,7 +28,7 @@ Make sure that each child has read and write access to their own copy of these r
 + Improving your cipher - modifying the program to make cracking the cipher more difficult;
 + Love calculator - applying text iteration to a new problem.
 
-#Potential Problems
+#Frequently Asked Questions
 + When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children should use:
 
 ```{.language-python}

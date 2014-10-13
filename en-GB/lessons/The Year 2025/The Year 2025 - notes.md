@@ -23,7 +23,7 @@ For this project, Python will need to be installed. It is recommended that versi
 + The year 3000! - Adding a variable to a program;
 + Your age in dog years - applying the use of variables to a new problem.
 
-#Potential Problems
+#Frequently Asked Questions
 There are 2 different ways of printing numbers:
 
 + By passing numbers as separate parameters to the `print()` function, for example:

@@ -30,7 +30,7 @@ Make sure that each child has read and write access to their own copy of these r
 + Keeping score - addition of a `score` variable to track progress;
 + How did I do? - further use of `if` and `else` statements to provide an end of quiz message, based on their score.
 
-#Potential Problems
+#Frequently Asked Questions
 + As the player's input is stored as text, any questions with a numerical answer should also be represented as text. For example:
 
 ```{.language-python}
@@ -52,6 +52,8 @@ answer = int(answer)
 if answer == 4:
 	...
 ```
+
++ Each `if`/`else`/`elif` statement should end with a colon.
 
 + The body of each `if`/`else`/`elif` statement should be uniformly indented. It is recommended that the Tab key is used for this, as it makes indentation mistakes easier to spot. For example, the following program will not run:
 

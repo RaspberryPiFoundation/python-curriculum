@@ -26,7 +26,7 @@ Make sure that each child has read and write access to their own copy of these r
 + Drawing patterns - using loops to draw complex patterns.
 + Variables and loops - using calculations and variables in drawing geometric shapes.
 
-#Potential Problems
+#Frequently Asked Questions
 + Depending on where the file is saved, naming a program 'turtle.py' can cause problems, as it clashes with the turtle module, which is also called 'turtle.py'.
 + There can sometimes be problems when trying to close the turtle drawing canvas. The line `done()` at the end of each program should help, but if the window freezes you can close the shell window, which should terminate the program.
 

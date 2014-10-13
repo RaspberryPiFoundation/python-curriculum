@@ -34,7 +34,7 @@ Make sure that each child has read and write access to their own copy of these r
 + Making widgets look nice - changing widget look and feel, using the `.config()` method;
 + Finishing your Pokedex - dynamically changing label values within the program.
 
-#Potential Problems
+#Frequently Asked Questions
 + Make sure that children have a copy of the `pokeapi.py` file, and that it's saved in the same place as the program they are writing!
 + When the GUI program is run, the GUI window may be hidden behind the Python shell window. Minimising the shell should reveal the window!
 + Only .gif images can be displayed in a GUI window. For the optional 'Adding an image' section of the Pokedex, the <a href="https://pypi.python.org/pypi/Pillow/2.2.1#downloads">'pillow' module</a> will need to be installed. You can test whether you have pillow installed, by simply running `from PIL import Image`. If no errors are returned, then it should work!

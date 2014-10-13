@@ -27,7 +27,6 @@ Make sure that each child has read and write access to their own copy of these r
 + Duplicate hobbies - testing and fixing a problem;
 + Pet naming service - applying the use of lists to a new problem.
 
-#Potential Problems
-
+#Frequently Asked Questions
 + Children may need to be reminded that list items are separated by a comma, and that there is no comma after the last item in a list.
 
