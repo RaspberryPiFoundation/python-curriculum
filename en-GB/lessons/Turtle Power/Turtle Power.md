@@ -91,7 +91,7 @@ We're going to have some fun programming turtles. A turtle is a tiny robot that 
 
 + Can you draw a house? What else can you draw?
 
-# Step 2: Repeating yourself { .activity .new-page}
+# Step 2: Repeating yourself { .activity }
 
 When drawing a square and a triangle, your program repeated the same commands over and over again. Let's get Python to repeat them for us!
 

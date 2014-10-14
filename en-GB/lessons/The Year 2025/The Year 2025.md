@@ -43,7 +43,7 @@ Write a Python program to calculate how much money you’d make if you washed 12
 ## Challenge: Changing dates { .challenge}
 Change your program to find out how old someone born in 1998 would be in the year 2025. How old will someone born this year be in the year 2050?
 
-#Step 3: Variables { .activity .new-page}
+#Step 3: Variables { .activity }
 
 When completing the challenges above, you had to keep changing the numbers in the program for people of different ages, and for different years in the future. It would be much easier if you could ask someone what year they were born, and use the answer in your calculation. That's what variables are for!
 

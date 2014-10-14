@@ -8,23 +8,23 @@
     "projects": [
         {
             "number":   1,
-            "filename": "lessons/04 Turtles All the Way Down/04 Turtles All the Way Down.md",
-            "pdf":      "lessons/04 Turtles All the Way Down/04 Turtles All the Way Down.pdf"
+            "filename": "lessons/Turtles All the Way Down/Turtles All the Way Down.md",
+            "pdf":      "lessons/Turtles All the Way Down/Turtles All the Way Down.pdf"
         },
         {
             "number":   2,
-            "filename": "lessons/05 Hangman/05 Hangman.md",
-            "pdf":      "lessons/05 Hangman/05 Hangman.pdf"
+            "filename": "lessons/Hangman/Hangman.md",
+            "pdf":      "lessons/Hangman/Hangman.pdf"
         },
         {
             "number":   3,
-            "filename": "lessons/06 Noughts and Crosses/06 Noughts and Crosses.md",
-            "pdf":      "lessons/06 Noughts and Crosses/06 Noughts and Crosses.pdf"
+            "filename": "lessons/Noughts and Crosses/Noughts and Crosses.md",
+            "pdf":      "lessons/Noughts and Crosses/Noughts and Crosses.pdf"
         },
         {
             "number":   4,
-            "filename": "lessons/07 Playing Against the Computer/07 Playing Against the Computer.md",
-            "pdf":      "lessons/07 Playing Against the Computer/07 Playing Against the Computer.pdf"
+            "filename": "lessons/Playing Against the Computer/Playing Against the Computer.md",
+            "pdf":      "lessons/Playing Against the Computer/Playing Against the Computer.pdf"
         }
     ],
 
