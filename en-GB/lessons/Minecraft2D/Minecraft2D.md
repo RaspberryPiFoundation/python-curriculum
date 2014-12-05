@@ -1,6 +1,6 @@
 ---
 title: (Beta) Minecraft 2D
-level: Term 2
+level: Python 2
 language: en
 stylesheet: python
 embeds: "*.png"

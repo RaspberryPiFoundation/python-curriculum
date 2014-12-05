@@ -1,7 +1,7 @@
 
 ---
 title: (Beta) Teaching Turtles
-level: Term 2
+level: Python 2
 language: en
 stylesheet: python
 embeds: "*.png"

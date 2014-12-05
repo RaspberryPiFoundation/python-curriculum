@@ -1,6 +1,6 @@
 ---
 title: Hangman
-level: Additional Projects
+level: Python +
 language: en
 stylesheet: python
 ...

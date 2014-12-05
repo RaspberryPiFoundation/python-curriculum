@@ -1,6 +1,6 @@
 ---
 title: (Beta) The Year 2025
-level: Term 1
+level: Python 1
 language: en
 stylesheet: python
 embeds: "*.png"

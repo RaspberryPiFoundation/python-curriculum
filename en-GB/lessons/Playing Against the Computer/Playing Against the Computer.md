@@ -1,6 +1,6 @@
 ---
 title: Playing against the Computer
-level: Additional Projects
+level: Python +
 language: en
 stylesheet: python
 ...
