@@ -1,5 +1,5 @@
 ---
-title: (Beta) Gameshow — Notes for Club Leaders
+title: Gameshow — Notes for Club Leaders
 language: en
 embeds: "*.png"
 ...

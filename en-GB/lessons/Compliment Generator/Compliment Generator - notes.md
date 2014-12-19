@@ -1,5 +1,5 @@
 ---
-title: (Beta) Compliment Generator — Notes for Club Leaders
+title: Compliment Generator — Notes for Club Leaders
 language: en
 embeds: "*.png"
 ...

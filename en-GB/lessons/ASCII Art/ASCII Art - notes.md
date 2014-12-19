@@ -1,5 +1,5 @@
 ---
-title: (Beta) ASCII Art — Notes for Club Leaders
+title: ASCII Art — Notes for Club Leaders
 language: en
 embeds: "*.png"
 ...

@@ -1,5 +1,5 @@
 ---
-title: (Beta) RPG — Notes for Club Leaders
+title: RPG — Notes for Club Leaders
 language: en
 embeds: "*.png"
 ...

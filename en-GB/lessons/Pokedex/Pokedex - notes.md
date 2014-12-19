@@ -1,5 +1,5 @@
 ---
-title: (Beta) Pokedex — Notes for Club Leaders
+title: Pokedex — Notes for Club Leaders
 language: en
 embeds: "*.png"
 ...

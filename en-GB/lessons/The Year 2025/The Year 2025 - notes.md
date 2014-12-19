@@ -1,5 +1,5 @@
 ---
-title: (Beta) The Year 2025 — Notes for Club Leaders
+title: The Year 2025 — Notes for Club Leaders
 language: en
 embeds: "*.png"
 ...

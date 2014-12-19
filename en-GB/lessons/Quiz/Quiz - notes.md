@@ -1,5 +1,5 @@
 ---
-title: (Beta) Quiz — Notes for Club Leaders
+title: Quiz — Notes for Club Leaders
 language: en
 embeds: "*.png"
 ...
