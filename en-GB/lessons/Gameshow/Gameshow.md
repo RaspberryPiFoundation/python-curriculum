@@ -5,7 +5,6 @@ language: en
 stylesheet: python
 embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
-beta: true
 ...
 
 #Introduction:  { .intro}

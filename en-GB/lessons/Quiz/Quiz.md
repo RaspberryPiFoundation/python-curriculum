@@ -6,7 +6,6 @@ language: en
 stylesheet: python
 embeds: "*.png"
 materials: ["Project Resources/Quiz.py"]
-beta: true
 ...
 
 #Introduction:  { .intro}
