@@ -4,7 +4,7 @@ level: Python 1
 language: en
 stylesheet: python
 embeds: "*.png"
-materials: ["AboutMe.py","Scarf.py"]
+materials: ["Project Resources/*.*"]
 beta: true
 ...
 

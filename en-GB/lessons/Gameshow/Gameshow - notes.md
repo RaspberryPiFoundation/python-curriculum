@@ -16,6 +16,11 @@ Children can also make use of the materials which accompany these challenges. Fi
 
 Make sure that each child has read and write access to their own copy of these resources.
 
+You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+
++ KeepingScore.py
++ TwentyOne.py
+
 #Learning Objectives
 + Using `while` loops in a program;
 + Use of the `random` module;

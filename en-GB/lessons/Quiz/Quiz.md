@@ -5,7 +5,7 @@ level: Python 1
 language: en
 stylesheet: python
 embeds: "*.png"
-materials: ["Quiz.py"]
+materials: ["Project Resources/Quiz.py"]
 beta: true
 ...
 

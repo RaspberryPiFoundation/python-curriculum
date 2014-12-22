@@ -10,6 +10,11 @@ This project teaches children how to use variables within a Python program, and 
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
+You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+
++ TheYear3000.py
++ AgeInDogYears.py
+
 #Learning Objectives
 + Data types;
 + Numbers and calculations;

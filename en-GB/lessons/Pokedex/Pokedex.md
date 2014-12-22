@@ -4,7 +4,7 @@ level: Python 2
 language: en
 stylesheet: python
 embeds: "*.png"
-materials: ["Resources/*.*","Resources/Club Leader Resources/*.*"]
+materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 beta: true
 ...
 
