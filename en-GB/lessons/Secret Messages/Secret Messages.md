@@ -5,7 +5,7 @@ level: Python 2
 language: en
 stylesheet: python
 embeds: "*.png"
-materials: ["Encryption.py"]
+materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 beta: true
 ...
 

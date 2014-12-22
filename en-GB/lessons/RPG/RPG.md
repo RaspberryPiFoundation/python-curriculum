@@ -4,7 +4,7 @@ level: Python 2
 language: en
 stylesheet: python
 embeds: "*.png"
-materials: ["RPG.py"]
+materials: ["Project Resources/*.*"]
 beta: true
 ...
 

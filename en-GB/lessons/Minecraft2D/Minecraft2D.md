@@ -4,7 +4,7 @@ level: Python 2
 language: en
 stylesheet: python
 embeds: "*.png"
-materials: ["Minecraft2D/*.*"]
+materials: ["Project Resources/*.*"]
 beta: true
 ...
 

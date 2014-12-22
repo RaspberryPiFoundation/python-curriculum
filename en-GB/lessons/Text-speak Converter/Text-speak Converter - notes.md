@@ -12,9 +12,15 @@ For this project, Python will need to be installed. It is recommended that versi
 
 Children can also make use of the materials which accompany these challenges. Files included in this project's Resources folder (found under the 'Download Project Materials' link):
 
-+ Text-speak.py
++ TextSpeak.py
 
 Make sure that each child has read and write access to their own copy of these resources.
+
+You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+
++ TextSpeakFinished.py
++ DistantPlanets.py
++ PasswordProtection.py
 
 #Learning Objectives
 + Using dictionaries to store and retrieve data;

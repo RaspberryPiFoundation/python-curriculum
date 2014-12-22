@@ -4,7 +4,7 @@ level: Python 2
 language: en
 stylesheet: python
 embeds: "*.png"
-materials: ["Text-speak.py"]
+materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 beta: true
 ...
 
@@ -285,7 +285,7 @@ if itemToDelete not in textSpeakDictionary:
 + After adding in this code to take out the punctuation, try translating `"hello, lol!"` again, to check whether you've solved the problem.
 
 ## Challenge: Distant planets { .challenge}
-Make a program to give the user information about any topic you like. For example planets, and their distances from the earth. You can store this data in a dictionary that links planets and distances. 
+Make a program to give the user information about any topic you like. For example planets, and their distances from the Earth. You can store this data in a dictionary that links planets and distances. 
 
 ![screenshot](textspeak-planets.png)
 
