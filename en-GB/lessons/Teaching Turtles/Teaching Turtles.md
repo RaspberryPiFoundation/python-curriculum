@@ -1,6 +1,6 @@
 
 ---
-title: (Beta) Teaching Turtles
+title: Teaching Turtles
 level: Python 2
 language: en
 stylesheet: python
