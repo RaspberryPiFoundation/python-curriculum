@@ -21,7 +21,6 @@ Make sure that each child has read and write access to their own copy of these r
 + Editing:
 	+ Lists;
 	+ Dictionaries.
-+ ‘if’ statements;
 + Boolean expressions.
 
 #Challenges
