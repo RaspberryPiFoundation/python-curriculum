@@ -44,6 +44,8 @@ In this project, you’ll design and code improvements to a 2D version of Minecr
 
 Change this number and then double-click the Minecraft.py file to store more of each resource.
 
+## Save Your Project {.save}
+
 ## Challenge: Build your world { .challenge}
 
 Play around with the game and see what you can build. Can you build a house, with a garden and a lake? A swimming pool? What else can you create?
@@ -51,6 +53,8 @@ Play around with the game and see what you can build. Can you build a house, wit
 Here’s a simple example:
 
 ![screenshot](mineBuildYourWorld.png)
+
+## Save Your Project {.save}
 
 #Step 2: Making things look nice { .activity}
 
@@ -68,9 +72,13 @@ Here are some improved graphics for the grass. I’ve added different shades of 
 
 ![screenshot](mine2-2.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Improving the graphics { .challenge}
 
 Open the images for dirt, water and brick, and see if you can improve the graphics for these resources.
+
+## Save Your Project {.save}
 
 ## Challenge: Customising the game { .challenge}
 
@@ -85,6 +93,8 @@ Open the variables.py file and you’ll find some code for setting the image and
 ```
 
 Edit these 2 lines of code to customise your game. Remember that if you change the icon to a new file then you’ll have to create it!
+
+## Save Your Project {.save}
 
 #Step 3: Adding more resources { .activity}
 
@@ -177,9 +187,13 @@ Do you know what this code does? For each space on the map, the program chooses 
 
 ![screenshot](mine3-7.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Adding resources { .challenge}
 
 Use the instructions above to add your own resources. You can add lava, metal, sand or anything else you can think of!
+
+## Save Your Project {.save}
 
 #Step 4: Crafting new resources { .activity}
 
@@ -229,6 +243,10 @@ This code tells the game that it can create a new plank if there are 3 wood in t
 
 ![screenshot](mine4-4.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Develop your own game { .challenge}
 
 Use what you’ve learnt to create your own resources and crafting rules. For example, you could code crafting rules for making glass (from sand) diamond (from glass) or trees (from wood, water and dirt).
+
+## Save Your Project {.save}

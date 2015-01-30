@@ -79,8 +79,12 @@ To add this room to the game, notice that you need to add the new room (room num
 
 If you can’t move in and out of the dining room, just check that you added all of the code above (including the extra commas to the lines above).
 
+## Save Your Project {.save}
+
 ## Challenge: Add new rooms { .challenge}
 Add more rooms to your game. For example, you could create a living room to the south of the dining room. Remember to add a door to/from one of the other rooms! 
+
+## Save Your Project {.save}
 
 #Step 2: Adding items to collect { .activity }
 
@@ -117,8 +121,12 @@ Remember to put a comma after the line above the new item, or your program won�
 
 ![screenshot](rpg-key.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Add new items { .challenge}
 Add an item to some of the rooms in your game. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
+
+## Save Your Project {.save}
 
 #Step 3: Adding enemies { .activity }
 
@@ -167,8 +175,12 @@ This code checks whether there is an item in the room, and if so, whether that i
 
 ![screenshot](rpg-monster.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Adding more monsters { .challenge}
 Add more monsters to your game, to make it harder to escape the house!
+
+## Save Your Project {.save}
 
 #Step 4: Winning the game { .activity }
 
@@ -225,5 +237,9 @@ You will need to add instructions to tell the user what items they need to colle
 
 ![screenshot](rpg-instructions.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Develop your own game { .challenge}
 Use what you’ve learnt to create your own game. Add lots of rooms, monsters ot avoid and items to collect. Remember to modify the code so that the player wins when they get to a certain room with some of the objects in their inventory. It may help you to sketch a map before you start coding! You could even add stairs to your map and have more than one level of rooms, by typing `go up` and `go down`.
+
+## Save Your Project {.save}

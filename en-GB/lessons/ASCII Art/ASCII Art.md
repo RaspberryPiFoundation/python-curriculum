@@ -43,10 +43,14 @@ Python allows you to turn a series of instructions into useful programs and fun 
 
 + Congratulations, you are now officially a Python programmer! Give yourself a pat on the back (or if you're feeling lazy, get someone else to do it for you).
 
+## Save Your Project {.save}
+
 ## Challenge: What’s on your mind? { .challenge}
 Change the program above to print something more interesting to the screen!
 
 ![screenshot](ascii-mind.png)
+
+## Save Your Project {.save}
 
 #Step 2: About yourself { .activity .new-page}
 ## Activity Checklist { .check}
@@ -75,10 +79,14 @@ Change the program above to print something more interesting to the screen!
 
     If you run this program, you’ll see it prints the same dog as before.
 
+## Save Your Project {.save}
+
 ## Challenge: About yourself { .challenge}
 Write a Python program to tell others about yourself, by using text and ASCII art. You can create images of your hobbies, friends, family… anything you want! Here’s an example:
 
 ![screenshot](ascii-aboutMe.png)
+
+## Save Your Project {.save}
 
 #Step 3: Calculating text { .activity}
 ## Activity Checklist { .check}
@@ -117,6 +125,8 @@ Write a Python program to tell others about yourself, by using text and ASCII ar
 
     Does it give you the answer you expected?
 
+## Save Your Project {.save}
+
 ## Challenge: Words and numbers { .challenge}
 What does the following program print to the screen? See if you can guess correctly before running the program.
 
@@ -127,6 +137,8 @@ print("He" + "l"*2 + "o" + "!"*10)
 ```
 
 Can you make up any words of your own?
+
+## Save Your Project {.save}
 
 #Step 4: ASCII patterns { .activity}
 ## Activity Checklist { .check}
@@ -160,9 +172,13 @@ Can you make up any words of your own?
 
     ![screenshot](ascii-wave.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Code a scarf { .challenge}
 Your best friend is having an 11th birthday party, and as a gift you've decided to code them a scarf! Use calculations wherever possible to make your own scarf pattern.
 
 If you're feeling generous, you could even code them a cake (including 11 candles) to go with it!
 
 ![screenshot](ascii-birthday.png)
+
+## Save Your Project {.save}

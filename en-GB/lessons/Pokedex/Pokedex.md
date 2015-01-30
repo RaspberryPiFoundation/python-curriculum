@@ -90,6 +90,8 @@ The Pokemon data used in this project is accessed through the <a href="http://po
 
     Notice that lots of useful comments have been added, to remind you of what each label is used for. Variable names of the widgets have also been changed, to make the program easier to understand.
 
+## Save Your Project {.save}
+
 ## Challenge: More widgets { .challenge}
 Can you finish creating the GUI for displaying details of Pokemon, so that it looks like this:
 
@@ -106,6 +108,8 @@ Your GUI will need:
     + Speed.
 
 Remember that adding comments, and using sensible variable names will really help you later!
+
+## Save Your Project {.save}
 
 #Step 2: Customising your widgets { .activity}
 
@@ -164,12 +168,16 @@ Now that you have lots of different widgets in your GUI window, you can change h
 
     ![screenshot](gui-font.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Making widgets look nice { .challenge}
 Can you add fonts and colour to improve the look of your Pokedex GUI. Here's an example of how it could look:
 
 ![screenshot](gui-pokedex-style.png)
 
 Your Pokedex can look different to this. You can use different fonts, for example `Times`, `Courier`, or any other font you have installed on your computer. You can also choose your own <a href="https://www.tcl.tk/man/tcl8.6/TkCmd/colors.htm">colours</a> (including <a href="http://www.colorpicker.com/">hex colours</a>).
+
+## Save Your Project {.save}
 
 #Step 3: Adding commands { .activity }
 
@@ -225,6 +233,8 @@ Now that you have a great looking GUI, let's make the button actually display Po
 
     Remember to import the `random` module at the top of your program (`from random import *`). You can then score points against a friend, by seeing who has the highest number for a particular skill.
 
+## Save Your Project {.save}
+
 ## Challenge: Finishing your Pokedex { .challenge}
 + Add code to your `showPokemonData()` function to display the attack, defence and speed of a Pokemon. You'll need to know that the dictionary keys are:
 	+ Attack - `pokemonDictionary["attack"])`
@@ -234,6 +244,8 @@ Now that you have a great looking GUI, let's make the button actually display Po
 + If you prefer, you can even change (or add to) the data that's displayed for each Pokemon. You can also display `"happiness"`, `"height"`, `"weight"` and lots of other stuff. You can use <a href="http://pokeapi.co/">this website</a> to see all the Pokemon data.
 
 ![screenshot](gui-pokedex-finished.png)
+
+## Save Your Project {.save}
 
 #Step 4: (Optional) Adding an image { .activity }
 
@@ -282,3 +294,5 @@ You can only complete this step if you have the 'pillow' module installed on you
 + When you run your program and click "Get Pokemon!" you should also see an image!
 
     ![screenshot](gui-pokedex-image.png)
+
+## Save Your Project {.save}

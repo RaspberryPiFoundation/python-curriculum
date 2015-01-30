@@ -79,8 +79,12 @@ In this project, you'll make a program to give the user a randomly generated com
 
     ![screenshot](compliment-2lists.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Adding more compliments { .challenge}
 Try to think of some more compliments, and add them to your program! Remember that you need to add a comma (`,`) between the items in your lists.
+
+## Save Your Project {.save}
 
 #Step 2: Endless compliments { .activity}
 
@@ -134,6 +138,8 @@ Try to think of some more compliments, and add them to your program! Remember th
     ![screenshot](compliment-loop.png)
 
     Remember that the the `while` loop continues to run as long as the variable `running` is set to `True`. If the user inputs `q` to quit, `running` is set to `False`.
+
+## Save Your Project {.save}
 
 #Step 3: Personalising compliments { .activity}
 
@@ -227,6 +233,8 @@ Try to think of some more compliments, and add them to your program! Remember th
 
     ![screenshot](compliment-errorfix.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Duplicate hobbies { .challenge}
 Another problem with the program is that it is possible to add the same hobby more than once:
 
@@ -239,6 +247,8 @@ if itemToAdd not in hobbies:
 	#add code here...
 ```
 
+## Save Your Project {.save}
+
 ## Challenge: Pet naming service { .challenge}
 Write a program to help a new pet owner to name their pet:
 
@@ -248,3 +258,5 @@ Your program could:
 + allow the user to add and remove names from the list;
 + give different names for male and female pets, or different types of animal;
 + ask the user how many names they need, in case they have more than 1 pet to name.
+
+## Save Your Project {.save}

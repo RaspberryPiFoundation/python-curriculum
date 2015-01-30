@@ -51,6 +51,8 @@ Let's make a program to convert text-speak to English.
 
     This program prints 3 things: the entire dictionary, the dictionary entry for "lol" and finally the dictionary entry for whatever the user inputs.
 
+## Save Your Project {.save}
+
 #Step 2: Translating sentences { .activity}
 
 Let's amend your program, so that you can translate whole sentences instead of just single words.
@@ -231,6 +233,8 @@ You might need to research some text-speak if you don't know any.
 
     The code for each of the menu options is also in it's own function, to make the code much easier to read.
 
+## Save Your Project {.save}
+
 ## Challenge: Testing your program { .challenge}
 Run your program, and try to add a word that already exists in the dictionary. What happens? What happens when you try and remove something that isn't in the dictionary? Can you improve your program so that:
 
@@ -247,6 +251,8 @@ if itemToAdd not in textSpeakDictionary:
 if itemToDelete not in textSpeakDictionary:
 	#Add your code here!
 ```
+
+## Save Your Project {.save}
 
 #Step 4: Fixing your program { .activity}
 ## Activity Checklist { .check}
@@ -288,6 +294,8 @@ Make a program to give the user information about any topic you like. For exampl
 
 ![screenshot](textspeak-planets.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Password protection { .challenge}
 Create a password-protection program, that asks the user for their name and password, and checks a dictionary to see if they've entered the correct details. 
 
@@ -316,3 +324,5 @@ while loginAttempts < 3:
 ```
 
 + You could even use what you've learnt about dictionaries to create a program for storing your friend's email addresses, or translating text from one language to another. You could even password-protect this program to make it secure!
+
+## Save Your Project {.save}

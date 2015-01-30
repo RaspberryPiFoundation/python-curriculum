@@ -83,8 +83,12 @@ In this project, you'll learn how _functions_ can make writing your programs eas
 
 	Your new `drawStar()` function works in the same way. Now that you have a function for drawing a star, you don't have to worry about exactly how to draw a star every time, you can just call the function which does all the hard work for you!
 
+## Save Your Project {.save}
+
 ## Challenge: More functions { .challenge}
 Define and use a function for drawing another shape, like a square or a triangle, or anything else you want to draw!
+
+## Save Your Project {.save}
 
 #Step 2: Passing data to functions { .activity}
 
@@ -176,8 +180,12 @@ print("Hello")
 
 	Calling the function `drawStar(50, "red")` works in the same way as before, except now the first piece of data (`50`) becomes the value of `starSize`, and the second piece of data (`"Red"`) becomes the value of `starColour`.
 
+## Save Your Project {.save}
+
 ## Challenge: Drawing planets { .challenge}
 Create a function for drawing a planet called `drawPlanet()`. Pass data to the function, so that you can specify the size and colour of the planet you want to draw.
+
+## Save Your Project {.save}
 
 #Step 3: Random stars { .activity}
 
@@ -258,6 +266,8 @@ Let's use the `drawStar()` function to draw different sized stars randomly aroun
 	![screenshot](sky-random.png)
 
 	As you can see, this program draws 30 stars, each time moving to a random location and then drawing a star with a random size between 5 and 25 pixels. Remember that the code `randint(5,25)` chooses a random number between 5 and 25.
+
+## Save Your Project {.save}
 
 #Step 4: Functions within functions { .activity}
 
@@ -398,6 +408,8 @@ You can write functions that make use of other functions, to make writing large 
 
 	![screenshot](sky-constellations.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Functions everywhere! { .challenge}
 Program the turtle to draw your own picture. Try to use functions wherever possible, to draw any shapes that you'll use a lot.
 
@@ -408,3 +420,4 @@ You could even pass data to your functions, to allow you to draw shapes in diffe
 ![screenshot](sky-flowers.png)
 ![screenshot](sky-birds.png)
 
+## Save Your Project {.save}

@@ -113,8 +113,12 @@ As well as using `for` loops to repeat commands a set number of times, a `while`
 
     Also, `\n` in the line `print("\nChoose a door (1, 2 or 3):")` prints a new blank line to the screen. This is done to split up the printed text, to make it easier to read.
 
+## Save Your Project {.save}
+
 ## Challenge: Keeping score { .challenge}
 Create a variable to keep track of how many times the player guesses the correct door. If you need help, remember that this will work in a similar way to the `score` variable in your quiz program! Remember to show the player their final score, at the end of the program (outside of the loop).
+
+## Save Your Project {.save}
 
 #Step 2: `while` loops { .activity}
 ## Activity Checklist { .check}
@@ -253,6 +257,8 @@ Can you modify your game, so that the player's score is set to 0 whenever they c
 
     The `while` loop in this program continues to run as long as the score is less than 3 (`while score < 3:`). Once the score gets to 3, the program ends, and the number of attempts is printed.
 
+## Save Your Project {.save}
+
 ## Challenge: Twenty-one { .challenge}
 Can you create a game where the aim is to score exactly 21 points? The program should pick a random number between 1 and 10, which is added to the player's score. The player can then choose to stick with the score they have, or choose to add another random number to their score. The player wins the game if they manage to get to exactly 21 points. Remember to add comments to your program!
 
@@ -281,3 +287,5 @@ if answer == 'n':
 if score == 21:
     print("Well done!")
 ```
+
+## Save Your Project {.save}

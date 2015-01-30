@@ -100,8 +100,12 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 	newPosition = (position - key) % 26
 	```
 
+## Save Your Project {.save}
+
 ## Challenge: Variable keys { .challenge}
 Modify the encryption program above, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable. Remember to use the `int()` function to convert the input to a whole number.
+
+## Save Your Project {.save}
 
 ## Challenge: Encrypting and decrypting characters { .challenge}
 + Use your program to encrypt:
@@ -109,6 +113,8 @@ Modify the encryption program above, so that the user can enter their own key to
 	+ The letter 'x', using the secret key 4;
 + Can you use your program to decrypt this message:
 	+ omqemd (the secret key is 12)
+
+## Save Your Project {.save}
 
 #Step 2: Encrypting messages { .activity}
 
@@ -181,8 +187,12 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 
 	There are some characters that the user might enter, that aren't in the `alphabet`. For example, spaces, commas and question marks. The statement `if char in alphabet:` means that only characters that appear in the alphabet are encrypted. Any other character is just added to the encrypted message without encrypting it first.
 
+## Save Your Project {.save}
+
 ## Challenge: Encrypting and decrypting messages { .challenge}
 Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+
+## Save Your Project {.save}
 
 ## Challenge: Improving your cipher { .challenge}
 Can anyone decrypt your messages without the key? Can you change your program, to make it harder for people to crack your messages? Here are some ideas:
@@ -190,6 +200,8 @@ Can anyone decrypt your messages without the key? Can you change your program, t
 + Jumble up the letters in the `alphabet` variable;
 + Add 1 to the key each time a letter is encrypted;
 + Remove any spaces and other characters from the encrypted message.
+
+## Save Your Project {.save}
 
 ## Challenge: Love calculator { .challenge}
 Write a program to show how compatible 2 people are, by calculating a compatibility score.
@@ -213,5 +225,6 @@ if score < 10:
 	print("Forget it!")
 ```
 
+## Save Your Project {.save}
 
 

@@ -81,12 +81,16 @@ We're going to have some fun programming turtles. A turtle is a tiny robot that 
 
 	+ `penup()` lifts the pen from the screen, and `pendown()` lowers it again. This means that you can move the turtle without leaving a trail!
 
+## Save Your Project {.save}
+
 ## Challenge: Drawing shapes { .challenge}
 + Can you use the turtle instructions above to draw:
 	+ A square?
 	+ A triangle?
 
 + Can you draw a house? What else can you draw?
+
+## Save Your Project {.save}
 
 # Step 2: Repeating yourself { .activity }
 
@@ -166,6 +170,8 @@ When drawing a square and a triangle, your program repeated the same commands ov
 	done()
 	```
 
+## Save Your Project {.save}
+
 ## Challenge: Loopy shapes { .challenge}
 + Can you use a `for` loop to draw:
 	+ A pentagon? (five sides)
@@ -173,6 +179,8 @@ When drawing a square and a triangle, your program repeated the same commands ov
 Remember that the angles of all the corners always add up to 360 degrees!
 
 + Can you draw a circle? You can move forward 1 pixel and turn 1 degree each time. How many times would you need to repeat these commands?
+
+## Save Your Project {.save}
 
 ## Challenge: Drawing patterns { .challenge}
 Can you use what you've learnt to draw awesome patterns? Here's an example:
@@ -194,6 +202,8 @@ done()
 
 ![screenshot](turtle_loopy.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Variables and loops { .challenge}
 When drawing different shapes, you had to calculate how many degrees to turn for each corner yourself.
 
@@ -212,4 +222,4 @@ left(angle)
 
 You can then change the number stored in the `sides` variable and test that it works for any shape!
 
-
+## Save Your Project {.save}

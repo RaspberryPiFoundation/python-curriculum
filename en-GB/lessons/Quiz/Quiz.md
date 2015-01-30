@@ -54,8 +54,12 @@ In this project, you'll learn how to use the data in your programs to make *deci
 
 	![screenshot](quiz-if-else.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Question time { .challenge}
 Use what you've learnt so far to create your own quiz. You can choose any topic you like, and your quiz should use `if` and `else` statements to let the player know how they're doing.
+
+## Save Your Project {.save}
 
 #Step 2: Testing { .activity}
 
@@ -81,8 +85,12 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 	![screenshot](quiz-test-lower.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Fixing your quiz { .challenge}
 Make sure that your quiz always prints the right message, even if the player inputs capital letters.
+
+## Save Your Project {.save}
 
 #Step 3: Multiple choice { .activity}
 
@@ -117,8 +125,12 @@ Make sure that your quiz always prints the right message, even if the player inp
 
 	![screenshot](quiz-elif.png)
 
+## Save Your Project {.save}
+
 ## Challenge: Multiple choice quiz  { .challenge}
 Add a few multiple choice questions to your quiz program. Once you have finished making your quiz, get someone else to play it! How did they do? Did they enjoy it? Was it too easy or too hard?
+
+## Save Your Project {.save}
 
 ## Challenge: Keeping score  { .challenge}
 Can you use a `score` variable in your quiz program, to keep track of the player's score? This is how the variable could be used:
@@ -126,8 +138,12 @@ Can you use a `score` variable in your quiz program, to keep track of the player
 + Whenever a question is answered correctly, add 1 to their score. (`score = score + 1`)
 + Print the player's score at the end of the quiz.
 
+## Save Your Project {.save}
+
 ## Challenge: How did I do?  { .challenge}
 Can you print a personalised message to the player at the end of the game?
 + Say "well done" `if` they got all of the questions right.
 + `else` say "try again" if they got any wrong.
 (You'll need to use your `score` variable to decide which message to print!)
+
+## Save Your Project {.save}
