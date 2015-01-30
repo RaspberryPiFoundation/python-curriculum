@@ -9,37 +9,31 @@
         {
             "number":   1,
             "filename": "lessons/ASCII Art/ASCII Art.md",
-            "beta":     true,
             "note":     "lessons/ASCII Art/ASCII Art - notes.md"
         },
         {
             "number":   2,
             "filename": "lessons/The Year 2025/The Year 2025.md",
-            "beta":     true,
             "note":     "lessons/The Year 2025/The Year 2025 - notes.md"
         },
         {
             "number":   3,
             "filename": "lessons/Quiz/Quiz.md",
-            "beta":     true,
             "note":     "lessons/Quiz/Quiz - notes.md"
         },
         {
             "number":   4,
             "filename": "lessons/Turtle Power/Turtle Power.md",
-            "beta":     true,
             "note":     "lessons/Turtle Power/Turtle Power - notes.md"
         },
         {
             "number":   5,
             "filename": "lessons/Gameshow/Gameshow.md",
-            "beta":     true,
             "note":     "lessons/Gameshow/Gameshow - notes.md"
         },
         {
             "number":   6,
             "filename": "lessons/Compliment Generator/Compliment Generator.md",
-            "beta":     true,
             "note":     "lessons/Compliment Generator/Compliment Generator - notes.md"
         }
     ],
