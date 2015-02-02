@@ -154,6 +154,8 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 
 	#get the secret key
 	key = input("Please enter the key: ")
+	#This action is needed as if not the program wont take key as a number
+	key = int (key)
 
 	#loop through each character in the message
 	for char in message:
