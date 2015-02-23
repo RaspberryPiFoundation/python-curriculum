@@ -8,7 +8,7 @@ embeds: "*.png"
 This project teaches children how to run a simple Python program, and how to print text to the screen. Children will write programs to print ASCII art to the screen.
 
 #Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed. Note that on newer versions of Python the `File → New Window` menu option has been replaced by `File → New File`.
 
 Children can also make use of the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Download Project Materials' link):
 
