@@ -31,6 +31,7 @@ Make sure that each child has read and write access to their own copy of these r
 + Code a scarf - expressions using numbers and text strings.
 
 #Frequently Asked Questions
++ In versions of Python newer than 3.2 the `File → New Window` menu option has been replaced by `File → New File`.
 + Children should make sure they type `.py` at the end of their filename when saving. This allows IDLE to use syntax highlighting, which improves code readability.
 + Children will not yet have learnt about the backslash escape character `\`. This means that they will get an error message if they try and use a backslash immediately before the end speechmark in their `print()` statement. This problem can be solved by putting a space between a backslash and any speech marks.
 + Children should not use the speech mark character `"` anywhere within a print statement, as the editor will incorrectly assume that this marks the end of the printed text.
