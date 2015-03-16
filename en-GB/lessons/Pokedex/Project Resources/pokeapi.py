@@ -1,19 +1,18 @@
 import io
 import urllib.request
 from urllib.request import urlopen
-import ast
 from PIL import Image, ImageTk
 
 #function to get the data for a pokemon
 def getPokemonData(num):
     data = urllib.request.urlopen("http://pokeapi.co/api/v1/pokemon/"+str(num)).read()
-    pokemonDict = ast.literal_eval(data.decode(encoding='UTF-8'))
+    pokemonDict = eval(data)
     return pokemonDict
 
 #function to get the image for a pokemon
 def getPokemonImage(num):
     data = urllib.request.urlopen("http://pokeapi.co/api/v1/sprite/"+str(num)).read()
-    spriteDict = ast.literal_eval(data.decode(encoding='UTF-8'))
+    spriteDict = eval(data)
     imgURL = "http://pokeapi.co" + spriteDict["image"]
     image_bytes = urlopen(imgURL).read()
     data_stream = io.BytesIO(image_bytes)
