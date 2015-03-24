@@ -1,6 +1,7 @@
 {
     "description": "Additional Python projects.",
     "id": "python",
+    "category" : "cat-additional",
     "language": "en-GB",
     "number": 8,
     "title": "Additional Python Projects",
