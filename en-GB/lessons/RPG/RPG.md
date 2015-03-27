@@ -28,20 +28,20 @@ You can type `go south` to move from the hall to the kitchen, and then `go north
 
 + If you edit the RPG.py file, you can see that the map is coded as a dictionary of rooms:
 
-```{.language-python}
-    #a dictionary linking a room to other room positions
-    rooms = {
+  ```{.language-python}
+  #a dictionary linking a room to other room positions
+  rooms = {
 
-                1 : {  "name"  : "Hall" ,
-                       "south" : 2
-                    } ,        
+              1 : {  "name"  : "Hall" ,
+                     "south" : 2
+                  } ,        
 
-                2 : {  "name"  : "Kitchen" ,
-                       "north" : 1
-                    }
+              2 : {  "name"  : "Kitchen" ,
+                     "north" : 1
+                  }
 
-             }
-```
+           }
+  ```
 
 Actually, this is a dictionary that links a room number to another dictionary, containing all of the information about the room. For example, room 1 in the code above is the hall. The hall is linked to room 2 (the kitchen) to the south. Room 2 (the kitchen) also links to room 1 (the hall) to the north.
 
@@ -51,25 +51,25 @@ Actually, this is a dictionary that links a room number to another dictionary, c
 
 This new dining room is linked to the hall (to the west). Let’s add this new room into the code:
 
-```{.language-python}
-#a dictionary linking a room to other room positions
-rooms = {
+  ```{.language-python}
+  #a dictionary linking a room to other room positions
+  rooms = {
 
-            1 : {  "name"  : "Hall" ,
-                   "south" : 2 ,
-                   "east"  : 3
-                } ,        
+              1 : {  "name"  : "Hall" ,
+                     "south" : 2 ,
+                     "east"  : 3
+                  } ,        
 
-            2 : {  "name"  : "Kitchen" ,
-                   "north" : 1
-                } ,
+              2 : {  "name"  : "Kitchen" ,
+                     "north" : 1
+                  } ,
 
-            3 : {  "name"  : "Dining Room",
-                   "west"  : 1
-                }
+              3 : {  "name"  : "Dining Room",
+                     "west"  : 1
+                  }
 
-         }
-```
+           }
+  ```
 
 To add this room to the game, notice that you need to add the new room (room number 3), and give it a name. You also need to link to room 1 (the hall) to the west of the new room. You need to add information to the dictionary for the hall, to allow you to enter the dining room to the east. Remember to add a comma after the second room in the dictionary, or your code won't run!
 
@@ -94,26 +94,26 @@ Now that you have lots of rooms, let’s leave items in the rooms for the player
 
 + Adding an item into a room is easy. You can just add it to the dictionary of a room. For example, let’s put a key in the hall.
 
-```{.language-python}
-#a dictionary linking a room to other room positions
-rooms = {
+  ```{.language-python}
+  #a dictionary linking a room to other room positions
+  rooms = {
 
-            1 : {  "name"  : "Hall" ,
-                   "south" : 2 ,
-                   "east"  : 3 ,
-                   "item"  : "key"
-                } ,        
+              1 : {  "name"  : "Hall" ,
+                     "south" : 2 ,
+                     "east"  : 3 ,
+                     "item"  : "key"
+                  } ,        
 
-            2 : {  "name"  : "Kitchen" ,
-                   "north" : 1
-                } ,
+              2 : {  "name"  : "Kitchen" ,
+                     "north" : 1
+                  } ,
 
-            3 : {  "name"  : "Dining Room",
-                   "west"  : 1
-                }
+              3 : {  "name"  : "Dining Room",
+                     "west"  : 1
+                  }
 
-         }
-```
+           }
+  ```
 
 Remember to put a comma after the line above the new item, or your program won’t run!
 
@@ -136,38 +136,38 @@ This game is too easy! Let’s add enemies to some rooms that the player must av
 
 + Adding an enemy to a room is as easy as adding any other item. Let’s add a hungry monster to the kitchen:
 
-```{.language-python}
-#a dictionary linking a room to other room positions
-rooms = {
+  ```{.language-python}
+  #a dictionary linking a room to other room positions
+  rooms = {
 
-            1 : {  "name"  : "Hall" ,
-                   "south" : 2 ,
-                   "east"  : 3 ,
-                   "item"  : "key"
-                } ,        
+              1 : {  "name"  : "Hall" ,
+                     "south" : 2 ,
+                     "east"  : 3 ,
+                     "item"  : "key"
+                  } ,        
 
-            2 : {  "name"  : "Kitchen" ,
-                   "north" : 1 ,
-                   "item"  : "monster"
-                } ,
+              2 : {  "name"  : "Kitchen" ,
+                     "north" : 1 ,
+                     "item"  : "monster"
+                  } ,
 
-            3 : {  "name"  : "Dining Room",
-                   "west"  : 1
-                }
+              3 : {  "name"  : "Dining Room",
+                     "west"  : 1
+                  }
 
-         }
-```
+           }
+  ```
 
 + You also want to make sure that the game ends if the player enters a room with a monster in. You can do this with the following code, which you should add to the end of the game.
 
-```{.language-python}
-    #player loses if they enter a room with a monster
-    if "item" in rooms[currentRoom] and "monster" in rooms[currentRoom]["item"]:
-        print("A monster has got you... GAME OVER!")
-        print("Press any key to quit")
-        input()
-        break
-```
+  ```{.language-python}
+      #player loses if they enter a room with a monster
+      if "item" in rooms[currentRoom] and "monster" in rooms[currentRoom]["item"]:
+          print("A monster has got you... GAME OVER!")
+          print("Press any key to quit")
+          input()
+          break
+  ```
 
 This code checks whether there is an item in the room, and if so, whether that item is a monster. Notice that this code is indented, putting it in line with the code above it. This means that the game will check for a monster every time the player moves into a new room.
 
@@ -200,14 +200,14 @@ Notice that there’s another fourth room (the garden) that links to the dining 
 
 + To allow the player to win the game when they get to the garden with the key and the potion, add this code to the end of your game:
 
-```{.language-python}
-    #player wins if they get to the garden with a key and a shield
-    if currentRoom == 4 and 'key' in inventory and 'potion' in inventory:
-        print("You escaped the house... YOU WIN!")
-        print("Press any key to quit")
-        input()
-        break
-```
+  ```{.language-python}
+      #player wins if they get to the garden with a key and a shield
+      if currentRoom == 4 and 'key' in inventory and 'potion' in inventory:
+          print("You escaped the house... YOU WIN!")
+          print("Press any key to quit")
+          input()
+          break
+  ```
 
 Again, make sure this code is indented, and in line with the code above it. This code means that the message `...YOU WIN!` is displayed if the player is in room 4 (the garden) and if the key and the potion are in the inventory. If you have more than 4 rooms, you may have to use a different room number for your garden in the code above.
 
@@ -217,21 +217,21 @@ Again, make sure this code is indented, and in line with the code above it. This
 
 + Finally, let’s add some instructions to your game, so that the player knows what they have to do. Edit the `showInstructions()` function to include more information.
 
-```{.language-python}
-def showInstructions():
-    #print a main menu, the commands and instructions
-    print('''
-RPG Game
-========
-Instructions:
-  Get to the garden
-  ...
-========
-Commands:
-  go [direction]
-  get [item]
-''')
-```
+  ```{.language-python}
+  def showInstructions():
+      #print a main menu, the commands and instructions
+      print('''
+  RPG Game
+  ========
+  Instructions:
+    Get to the garden
+    ...
+  ========
+  Commands:
+    go [direction]
+    get [item]
+  ''')
+  ```
 
 You will need to add instructions to tell the user what items they need to collect, and what they need to avoid!
 

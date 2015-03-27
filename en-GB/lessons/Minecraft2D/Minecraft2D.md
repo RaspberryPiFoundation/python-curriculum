@@ -35,12 +35,12 @@ In this project, you’ll design and code improvements to a 2D version of Minecr
 
 + As you play, you’ll notice that you can only hold a maximum of 20 of each resource in your inventory. If you want to increase this, you can change the variable called `MAXTILES` in the variables.py file. 
 
-```{.language-python}
+    ```{.language-python}
 	#the maximum number of each resource that can be held
 	#----------------------------------------------------
 
 	MAXTILES  = 20
-```
+    ```
 
 Change this number and then double-click the Minecraft.py file to store more of each resource.
 
@@ -84,13 +84,13 @@ Open the images for dirt, water and brick, and see if you can improve the graphi
 
 Open the variables.py file and you’ll find some code for setting the image and caption for the game window:
 
-```{.language-python}
+    ```{.language-python}
     #the title bar text/image
     #------------------------
 
     pygame.display.set_caption('pygame window')
     pygame.display.set_icon(pygame.image.load('player.png'))
-```
+    ```
 
 Edit these 2 lines of code to customise your game. Remember that if you change the icon to a new file then you’ll have to create it!
 
@@ -108,7 +108,7 @@ You only have 4 resources in your game; dirt, grass, water and brick. Let’s ad
 
 + Once you have your image for wood, you can then add the resource to your game. Open the variables.py file and add wood as a resource:
 
-```{.language-python}
+    ```{.language-python}
     #variables representing the different resources
     #----------------------------------------------
 
@@ -117,20 +117,21 @@ You only have 4 resources in your game; dirt, grass, water and brick. Let’s ad
     WATER = 2
     BRICK = 3
     WOOD  = 4
-```
+    
+    ```
 
 + In the same file, there is also a list of all the resources. You should add wood to that list too:
 
-```{.language-python}
+    ```{.language-python}
     #a list of all game resources
     #----------------------------
 
     resources = [DIRT,GRASS,WATER,BRICK,WOOD]
-```
+    ```
 
 + You also need to set the image for the wood resource in the textures dictionary, so that the correct graphics will be shown:
 
-```{.language-python}
+    ```{.language-python}
     #a dictionary linking resources to textures
     #------------------------------------------
 
@@ -141,13 +142,13 @@ You only have 4 resources in your game; dirt, grass, water and brick. Let’s ad
                     BRICK   : pygame.image.load('brick.png'),
                     WOOD    : pygame.image.load('wood.png')
                  }
-```
+    ```
 
 Notice that you need to add a comma (`,`) after the brick image in the line above.
 
 + You can also add wood to your inventory dictionary. You can choose how many you start with:
 
-```{.language-python}
+    ```{.language-python}
     #the number of each resource that we have to start with
     #------------------------------------------------------
 
@@ -158,7 +159,7 @@ Notice that you need to add a comma (`,`) after the brick image in the line abov
                     BRICK   : 0,
                     WOOD    : 5
                 }
-```
+    ```
 
 + If you now run the game, you’ll see that you now have a wood resource that you can place on the map, but there isn’t any wood on the map to begin with:
 
@@ -166,7 +167,7 @@ Notice that you need to add a comma (`,`) after the brick image in the line abov
 
 + To start the game with some wood resources dotted around, you need to edit the Minecraft2D.py file. Open the file and add the following lines:
 
-```{.language-python}
+    ```{.language-python}
             #pick a random number between 0 and 9
             randomNumber = random.randint(0,10)
             #WATER if the random number is a 1 or a 2
@@ -181,7 +182,7 @@ Notice that you need to add a comma (`,`) after the brick image in the line abov
             #otherwise it's DIRT
             else:
                 tile = DIRT
-```
+    ```
 
 Do you know what this code does? For each space on the map, the program chooses a random number between 0 and 9. Whenever the random number is a 5, wood is placed on the map. After you add this code, you should see some wood in your game:
 
@@ -207,7 +208,7 @@ You can add more resources to your game that the player can only get by crafting
 
 + To allow the player to craft planks of wood, you'll need to add a crafting rule to your game. Open the variables.py file and add the following code to the crafting rules dictionary:
 
-```{.language-python}
+    ```{.language-python}
     #rules to make new objects
     #-------------------------
 
@@ -215,13 +216,13 @@ You can add more resources to your game that the player can only get by crafting
                 BRICK    : { WATER : 1, DIRT : 2 },
                 PLANK    : { WOOD : 3 }
             }
-```
+    ```
 
 This code tells the game that it can create a new plank if there are 3 wood in the player's inventory. Again, don’t forget the comma after the line above.
 
 + You need to make sure that the player knows how to craft planks, by adding some more instructions to the list:
 
-```{.language-python}
+    ```{.language-python}
     #instructions list
     #-----------------
 
@@ -237,7 +238,7 @@ This code tells the game that it can create a new plank if there are 3 wood in t
                         "   BRICK = 2xDIRT + 1xWATER",
                         "   PLANK = 3xWOOD"     
                     ]
-```
+    ```
 
 + If you collect 3 wood and hold down shift and press 6, you should see a new plank in your inventory. You can then add planks of wood to your map!
 
