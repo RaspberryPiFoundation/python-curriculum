@@ -89,12 +89,6 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 ## Save Your Project {.save}
 
-## Challenge: Fixing your quiz { .challenge}
-
-Make sure that your quiz always prints the right message, even if the player inputs capital letters.
-
-## Save Your Project {.save}
-
 # Step 3: Multiple choice { .activity}
 
 ## Activity Checklist { .check}
