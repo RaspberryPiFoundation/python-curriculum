@@ -22,7 +22,7 @@ In this project, you'll make a quiz game to challenge your friends.
 	answer = input()
 
 	if answer == "variable":
-		print(" :) ")
+		print(" :) " * 100)
 
 	print("Thank you for playing!")
 	```
@@ -37,16 +37,16 @@ In this project, you'll make a quiz game to challenge your friends.
 
 	Python uses 2 equals signs `==` to check if 2 things are the same. This is because one equals sign `=` is used to store something in a variable (for example `answer = input()`).
 
-+ The program above prints a smiley face if the player gets the question right, but doesn't print anything to tell them they got the answer wrong. You can use an `else` statement to print a sad face if the user inputs anything other than the correct answer.
++ The program above prints smiley faces if the player gets the question right, but doesn't print anything to tell them they got the answer wrong. You can use an `else` statement to print sad faces if the user inputs anything other than the correct answer.
 
 	```{.language-python}
 	print("In Python, what do you call a 'box' used to store data?")
 	answer = input()
 
 	if answer == "variable":
-		print(" :) ")
+		print(" :) " * 100)
 	else:
-		print(" :( ")
+		print(" :( " * 100)
 
 	print("Thank you for playing!")
 	```
@@ -69,7 +69,7 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 ## Activity Checklist { .check}
 
-+ If you've tested your quiz, you may have you noticed that it's possible to get a sad face even when you input a correct answer! Like in this example, where the player has accidently presSED CAPS LOCK!
++ If you've tested your quiz, you may have noticed it's possible to get sad faces even when you input a correct answer! Like in this example, where the player has accidently presSED CAPS LOCK!
 
 	![screenshot](quiz-test.png)
 
