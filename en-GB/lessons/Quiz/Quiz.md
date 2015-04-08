@@ -9,7 +9,7 @@ materials: ["Project Resources/Quiz.py"]
 
 # Introduction:  { .intro}
 
-In this project, you'll learn how to use the data in your programs to make *decisions* about what to do.
+In this project, you'll make a quiz game to challenge your friends.
 
 # Step 1: Asking a question { .activity}
 
