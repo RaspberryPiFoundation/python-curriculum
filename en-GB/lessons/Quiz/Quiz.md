@@ -15,7 +15,7 @@ In this project, you'll make a quiz game to challenge your friends.
 
 ## Activity Checklist { .check}
 
-+ Let's start by writing a very simple quiz program, which asks the player a question, and shows them a smiley face if they input the correct answer.
++ Let's start by writing a very simple quiz program that asks the player a question, then shows them smiley faces if they input the correct answer.
 
 	```{.language-python}
 	print("In Python, what do you call a 'box' used to store data?")
@@ -27,7 +27,7 @@ In this project, you'll make a quiz game to challenge your friends.
 	print("Thank you for playing!")
 	```
 
-	When writing this program, you'll need to add a colon (`:`) to the end of the line `if answer == "variable":`, and indent the line below it (move it to the right), by pressing the Tab key (to the left of the 'Q' key on the keyboard).
+	Take care to add the colon (`:`) to the end of the line `if answer == "variable":`, and indent the line below it (move it to the right) with spaces.
 
 + Once you've written the program above, try it out! What happens when you get the answer right? What happens when you get it wrong?
 
@@ -35,7 +35,7 @@ In this project, you'll make a quiz game to challenge your friends.
 
 	The indented code (that prints the smiley faces) only runs *if* the answer is correct. But "Thank you for playing!" always appears, whether your answer is right or wrong. Why is that?
 
-	Python uses 2 equals signs `==` to check if 2 things are the same. This is because one equals sign `=` is used to store something in a variable (for example `answer = input()`).
+	Python uses two equals signs `==` to check if two things are the same. This is because one equals sign `=` is used to store something in a variable (for example `answer = input()`).
 
 + The program above prints smiley faces if the player gets the question right, but doesn't print anything to tell them they got the answer wrong. You can use an `else` statement to print sad faces if the user inputs anything other than the correct answer.
 
@@ -73,7 +73,7 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 	![screenshot](quiz-test.png)
 
-	This happens because Python is very strict when it compares the player's answer to the correct answer. To Python, "V" isn't the same as "v", and so if your player uses any capital letters in your answer, Python thinks the answer's wrong!
+	This happens because Python is very strict when it compares the player's answer to the correct answer. To Python, "V" isn't the same as "v", and so if the player uses any capital letters in their answer, Python thinks the answer's wrong!
 
 	Test this out in your game, to see if the same thing happens.
 
@@ -84,7 +84,7 @@ It's always a good idea to test your programs, to make sure that they work prope
 	print(answer)
 	```
 
-+ Now test your quiz again. Have you fixed the problem?
++ Now test your quiz again. Have you fixed the problem? Try testing these examples:
 
 	![screenshot](quiz-test-lower.png)
 
@@ -136,7 +136,7 @@ Add a few multiple choice questions to your quiz program. Once you have finished
 Can you use a `score` variable in your quiz program, to keep track of the player's score? This is how the variable could be used:
 
 + At the start of the program, set the score to 0.
-+ Whenever a question is answered correctly, add 1 to their score. (`score = score + 1`)
++ Whenever a question is answered correctly, add 1 to the player's score. (`score = score + 1`)
 + Print the player's score at the end of the quiz.
 
 ## Save Your Project {.save}
