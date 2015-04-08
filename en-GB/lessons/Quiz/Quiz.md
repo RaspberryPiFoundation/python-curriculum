@@ -77,10 +77,11 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 	Test this out in your game, to see if the same thing happens.
 
-+ To fix this problem, all you need to do is convert whatever the player inputs into lower case, so that there are no capital letters in the player's answer. Make this change to the line where the player inputs their answer:
++ To fix the problem, you need to convert the player's input to lower case, so there are no capital letters in their answer. We can make sure this works by printing the modified answer. Make this change where the player inputs their answer:
 
 	```{.language-python}
 	answer = input().lower()
+	print(answer)
 	```
 
 + Now test your quiz again. Have you fixed the problem?
