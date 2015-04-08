@@ -9,7 +9,7 @@ materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 ...
 
 #Introduction:  { .intro}
-In this project, you'll learn how to loop through and access parts of a text string.
+In this project, you'll learn how to make your own encryption program, to send and receive secret messages to a friend.
 
 #Step 1: Encrypting letters { .activity}
 

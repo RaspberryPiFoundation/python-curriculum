@@ -8,7 +8,7 @@ materials: ["Club Leader Resources/*.*"]
 ...
 
 #Introduction:  { .intro}
-In this project, you'll learn to use *loops* to easily repeat parts of your programs.
+In this project, you'll learn how to use a 'turtle' to draw awesome shapes and patterns.
 
 #Step 1: Hello, turtle! { .activity}
 

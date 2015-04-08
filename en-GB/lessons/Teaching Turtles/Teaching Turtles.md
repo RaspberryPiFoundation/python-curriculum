@@ -9,7 +9,7 @@ materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 ...
 
 #Introduction: { .intro}
-In this project, you'll learn how _functions_ can make writing your programs easier .
+In this project, you'll learn more about drawing with the turtle, and how _functions_ can make writing your programs easier.
 
 #Step 1: Drawing stars { .activity}
 

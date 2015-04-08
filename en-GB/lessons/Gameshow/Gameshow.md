@@ -9,7 +9,7 @@ materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 
 #Introduction:  { .intro}
 
-As well as using `for` loops to repeat commands a set number of times, a `while` loop can also be used to repeat commands _until something happens in your program_.
+In this project you'll learn how to make a guessing game, in which you have to guess which door will reveal a prize.
 
 #Step 1: What's behind the door? { .activity}
 ## Activity Checklist { .check}

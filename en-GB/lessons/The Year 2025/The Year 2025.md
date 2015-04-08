@@ -9,7 +9,7 @@ materials: ["Club Leader Resources/*.*"]
 
 #Introduction:  { .intro}
 
-You can use Python to do calculations, and make your programs more useful by using variables to store data.
+In this project you'll write a program to tell you how old you'll be in the year 2025!
 
 #Step 1: How much? { .activity}
 ## Activity Checklist { .check}

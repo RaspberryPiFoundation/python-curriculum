@@ -9,7 +9,7 @@ materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 
 #Introduction:  { .intro}
 
-In this project you'll learn how to use _dictionaries_ to link data together.
+In this project you'll learn how to make a program for translating text-speak into sentences.
 
 #Step 1: Translating words { .activity}
 
