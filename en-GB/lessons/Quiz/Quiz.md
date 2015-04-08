@@ -29,11 +29,11 @@ In this project, you'll make a quiz game to challenge your friends.
 
 	When writing this program, you'll need to add a colon (`:`) to the end of the line `if answer == "variable":`, and indent the line below it (move it to the right), by pressing the Tab key (to the left of the 'Q' key on the keyboard).
 
-+ Once you've written the program above, try it out twice - once getting the question right, and once getting it wrong. Notice that you don't see a smiley face unless you get the answer right.
++ Once you've written the program above, try it out! What happens when you get the answer right? What happens when you get it wrong?
 
 	![screenshot](quiz-if.png)
 
-	This program only runs the indented code (the code that prints the smiley face) *if* the answer is correct. Notice that the text "Thank you for playing!" isn't indented, and so is printed every time, whether the answer is right or wrong.
+	The indented code (that prints the smiley faces) only runs *if* the answer is correct. But "Thank you for playing!" always appears, whether your answer is right or wrong. Why is that?
 
 	Python uses 2 equals signs `==` to check if 2 things are the same. This is because one equals sign `=` is used to store something in a variable (for example `answer = input()`).
 
@@ -51,7 +51,7 @@ In this project, you'll make a quiz game to challenge your friends.
 	print("Thank you for playing!")
 	```
 
-	Try out this new program, and you can see that unless you enter the correct answer, a sad face is printed.
+	Try out this new program. What happens when you enter the right answer? What happens when you enter anything else?
 
 	![screenshot](quiz-if-else.png)
 
