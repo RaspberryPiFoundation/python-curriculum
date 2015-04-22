@@ -16,7 +16,7 @@ In this project you'll write a program to tell you how old you'll be in the year
 
 + It’s not just text that you can print in Python, you can also print numbers to the screen. For example, if 8 of your friends each gave you £2 for a sponsored silence, you can use this program to see how much money you raised:
 
-	```{.language-python}
+	```python
 	print(8*2)
 	```
 
@@ -57,7 +57,7 @@ When completing the challenges above, you had to keep changing the numbers in th
 
 + Run this Python program:
 
-	```{.language-python}
+	```python
 	print("What year were you born?")
 	born = input()
 	born = int(born)
@@ -76,7 +76,7 @@ When completing the challenges above, you had to keep changing the numbers in th
 
 	The line...
 
-	```{.language-python}
+	```python
 	print( 2025 - born )
 	```
 
@@ -86,7 +86,7 @@ When completing the challenges above, you had to keep changing the numbers in th
 
 + You can make your program much easier to understand, by adding a helpful message for the user, so they know what you're showing them. Change the last line of your program to:
 
-	```{.language-python}
+	```python
 	print( "In 2025 you will be" , 2025 - born , "years old!" )
 	```
 

@@ -17,7 +17,7 @@ In this project, you'll learn more about drawing with the turtle, and how _funct
 
 + Let's start by using what you already know about turtles to draw a star. Run this program, but make sure *not* to name the program `turtle.py` - any other name is fine! 
 
-	```{.language-python}
+	```python
 	from turtle import *
 
 	#this will draw a light grey star on a dark blue background
@@ -47,7 +47,7 @@ In this project, you'll learn more about drawing with the turtle, and how _funct
 
 + If you wanted to draw 3 stars at different positions around the screen, then you can define your own new function called `drawStar()`, and then just call this new function 3 times:
 
-	```{.language-python}
+	```python
 	from turtle import *
 
 	#a function for drawing a star
@@ -96,12 +96,12 @@ You now have a function for drawing stars, but what if you wanted to draw lots o
 
 A better way is to _pass data_ to your `drawStar()` function, to tell it what size star you want! You've already used lots of functions that receive data before, such as:
 
-```{.language-python}
+```python
 forward(100)
 ```
 ...which tells the `forward` function to move 100 pixels, and: 
 
-```{.language-python}
+```python
 print("Hello")
 ```
 ...which tells the `print` function to print "Hello" to the screen.
@@ -110,7 +110,7 @@ print("Hello")
 
 + Here's a program with a `drawStar()` function that can draw stars of different sizes, using whatever number is passed to it.
 
-	```{.language-python}
+	```python
 	from turtle import *
 
 	#a function for drawing a star of a particular size
@@ -147,7 +147,7 @@ print("Hello")
 
 + You can pass as much data to your `drawStar()` function as you want. For example, you could also pass the colour of the star you want to draw:
 
-	```{.language-python}
+	```python
 	from turtle import *
 
 	#a function for drawing a star of a particular size
@@ -195,7 +195,7 @@ Let's use the `drawStar()` function to draw different sized stars randomly aroun
 
 + Run this program, which moves the turtle to a new position, and then draws a white star:
 
-	```{.language-python}
+	```python
 	from turtle import *
 
 	#a function for drawing a star of a particular size
@@ -230,7 +230,7 @@ Let's use the `drawStar()` function to draw different sized stars randomly aroun
 
 + You'll be using code to move to a random location a lot, so let's define another function called `moveToRandomLocation()`, which, well, moves the turtle to a random location (obviously)!
 
-	```{.language-python}
+	```python
 	from turtle import *
 	from random import *
 
@@ -277,7 +277,7 @@ You can write functions that make use of other functions, to make writing large 
 
 + It would be great if we could add a galaxy of small multi-coloured stars to our drawing. As we already have a function to draw stars, we can create another function called `drawGalaxy()` that makes use of the `drawStar()` function that we already have:
 
-	```{.language-python}
+	```python
 	from turtle import *
 	from random import *
 
@@ -337,7 +337,7 @@ You can write functions that make use of other functions, to make writing large 
 
 + You can also draw constellations made up of stars, joined together with white lines. Again, this is really easy to do, because you already have the function to draw stars!
 
-	```{.language-python}
+	```python
 	from turtle import *
 	from random import *
 

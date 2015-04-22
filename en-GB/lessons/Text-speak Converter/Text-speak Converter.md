@@ -19,7 +19,7 @@ Let's make a program to convert text-speak to English.
 
 + As you probably already know, a dictionary allows you to look up a word, and see it's meaning. In Python, a dictionary is even more flexible that that - it allows you to map anything (called a _key_) to anything else! Here's a dictionary that links text-speak words to their meaning:
 
-    ```{.language-python}
+    ```python
     textSpeakDictionary = {
         "lol"   : "laugh out loud" ,
         "idk"   : "I don't know"
@@ -30,7 +30,7 @@ Let's make a program to convert text-speak to English.
 
 + Getting information out of the dictionary is easy; you just need to add the key after the dictionary variable name, in square brackets. Here's a short program that shows how this works:
 
-    ```{.language-python}
+    ```python
     textSpeakDictionary = {
         "lol"   : "laugh out loud" ,
         "idk"   : "I don't know"
@@ -61,7 +61,7 @@ Let's amend your program, so that you can translate whole sentences instead of j
 
 + Run this program, which splits up a sentence into individual words, and then translates each word (if it exists in the dictionary):
 
-    ```{.language-python}
+    ```python
     textSpeakDictionary = {
         "lol"   : "laugh out loud" ,
         "idk"   : "I don't know"
@@ -118,7 +118,7 @@ You might need to research some text-speak if you don't know any.
 
 + Just like with your 'compliment generator' program, it would be nice to allow the user to add and remove words from the dictionary. You can do this, by creating a menu system:
 
-    ```{.language-python}
+    ```python
     def displayMenu():
         print("txt spk cnvtr")
         print("=" * 13)
@@ -216,7 +216,7 @@ You might need to research some text-speak if you don't know any.
 
     Although this is a loooong program, you've seen most of this code before in other programs. The new bits are just the code to add an item to the dictionary:
 
-    ```{.language-python}
+    ```python
     txtToAdd = input("Enter the text-speak to add to the dictionary: ")
     meaning = input("What does this mean?: ")
     #add the new translation to the dictionary
@@ -225,7 +225,7 @@ You might need to research some text-speak if you don't know any.
 
     ...and the code to remove an item:
 
-    ```{.language-python}
+    ```python
     txtToDelete = input("Enter the text-speak to delete from the dictionary: ")
     #delete the translation from the dictionary
     del textSpeakDictionary[txtToDelete]
@@ -240,14 +240,14 @@ Run your program, and try to add a word that already exists in the dictionary. W
 
 + you can only add dictionary keys that don't already exist?
 
-```{.language-python}
+```python
 if itemToAdd not in textSpeakDictionary:
 	#Add your code here!
 ```
 
 + you can only delete keys if they already exist in the dictionary?
 
-```{.language-python}
+```python
 if itemToDelete not in textSpeakDictionary:
 	#Add your code here!
 ```
@@ -265,13 +265,13 @@ if itemToDelete not in textSpeakDictionary:
 
 + Why doesn't your program convert the 'lol' in this sentence? It's because your program splits up the sentence into words, like this:
 
-    ```{.language-python}
+    ```python
     words = [ "hello" , "lol!" ]
     ```
 
     It then looks up the key `"lol!"` in your dictionary (with the exclaimation mark), and can't find a translation for it, because `"lol!"` doesn't exist! One simple way to avoid this problem is to remove some punctuation from the sentence before it is translated. Add this code to your `convertSentence()` function:
 
-    ```{.language-python}
+    ```python
     def convertSentence():
         sentence = input("Enter a sentence to translate: ").lower()
         translatedSentence = ""
@@ -303,7 +303,7 @@ Create a password-protection program, that asks the user for their name and pass
 
 Your program will need to check that the user's name exists in the dictionary, _and_ that the correct password for that user has been entered. You can use this code to help you:
 
-```{.language-python}
+```python
 #check that the name exists, and that the password is correct
 if name in passwordDictionary and password == passwordDictionary[name]:
 	#add code here!
@@ -317,7 +317,7 @@ If you feel like it, you could also:
 
 + only allow the user 3 attempts to login..., adding 1 to `loginAttempts` whenever access is denied.
 
-```{.language-python}
+```python
 loginAttempts = 0
 while loginAttempts < 3:
     #login code goes here!

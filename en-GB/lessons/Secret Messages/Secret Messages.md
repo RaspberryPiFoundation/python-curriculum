@@ -29,7 +29,7 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 
 + Let's start by writing a Python program to encrypt a single character. Run this program, and enter the letter 'a' to check that it works:
 
-	```{.language-python}
+	```python
 	#a list of the letters to encrypt
 	alphabet = "abcdefghijklmnopqrstuvwxyz"
 
@@ -56,7 +56,7 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 
 + In Python, text can be thought of as lots of characters joined together (called an _array_ of characters). The line:
 
-	```{.language-python}
+	```python
 	position = alphabet.find(character)
 	```
 
@@ -70,7 +70,7 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 
 	Next, this new position is used to find the encrypted character in the `alphabet`, and add it to the `encryptedMessage`, before finally printing the complete encrypted message. The code:
 
-	```{.language-python}
+	```python
 	alphabet[newPosition]
 	```
 
@@ -78,14 +78,14 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 
 	Also, notice that in this program you have used a short way of getting input from the user. Instead of writing:
 
-	```{.language-python}
+	```python
 	print("Please enter a character to encrypt: ")
 	character = input()
 	```
 
 	You can just use the line:
 
-	```{.language-python}
+	```python
 	character = input("Please enter a character to encrypt: ")
 	```
 
@@ -95,7 +95,7 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 
 	If you'd prefer to have separate encryption and decryption programs, just change this code to go backwards through the alphabet:
 
-	```{.language-python}
+	```python
 	#subtract the key to go backwards
 	newPosition = (position - key) % 26
 	```
@@ -128,7 +128,7 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 
 	There is a third way to use loops, which is to repeat code for each item in some data. For example, if you wanted to loop through and print each character in someone's name, you could use this program:
 
-	```{.language-python}
+	```python
 	name = input("What is your name? ")
 
 	#print out each character of their name
@@ -142,7 +142,7 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 
 + You can use this type of loop to go through an entire message, and encrypt it one character at a time:
 
-	```{.language-python}
+	```python
 	#a list of the letters to encrypt
 	alphabet = "abcdefghijklmnopqrstuvwxyz"
 
@@ -212,7 +212,7 @@ Write a program to show how compatible 2 people are, by calculating a compatibil
 
 The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found. You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "loves":
 
-```{.language-python}
+```python
 if char in "aeiou":
 	score = score + 5
 
@@ -222,7 +222,7 @@ if char in "loves":
 
 You could also give the user a personalised message, based on their compatibility score:
 
-```{.language-python}
+```python
 if score < 10:
 	print("Forget it!")
 ```

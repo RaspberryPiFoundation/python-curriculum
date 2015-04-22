@@ -23,7 +23,7 @@ The Pokemon data used in this project is accessed through the <a href="http://po
 
 + Graphical user interfaces (GUIs) can be easily created by using the 'tkinter' module. A GUI contains lots of different "things", called _widgets_. Here's an example:
 
-    ```{.language-python}
+    ```python
     from tkinter import *
 
     #create a new GUI window
@@ -51,14 +51,14 @@ The Pokemon data used in this project is accessed through the <a href="http://po
 
     Each widget is created and stored in a variable, and then packed into the main window. Notice that when creating a widget, you have to say which window it should appear in, and can also say what text is displayed, like this:
 
-    ```{.language-python}
+    ```python
     #a label
     lbl = Label(window,text="A Label")
     ```
 
 + You can now add some more widgets for your Pokedex:
 
-    ```{.language-python}
+    ```python
     from tkinter import *
 
     #create a new GUI window
@@ -119,7 +119,7 @@ Now that you have lots of different widgets in your GUI window, you can change h
 
 + First, let's change some of the colours, to make your widgets look a bit more interesting. Change the code for displaying the main window to:
 
-    ```{.language-python}
+    ```python
     #create a new GUI window
     window = Tk()
     window.config(bg="#e0e0ff")
@@ -130,7 +130,7 @@ Now that you have lots of different widgets in your GUI window, you can change h
 
     Using `.config()` allows you to _configure_ the way things look. As you may have guessed, `bg` means "background", and `"#e0e0ff"` is the hex code for light purple. You can also configure the way that widgets look, for example the labels for displaying the Pokemon's name:
 
-    ```{.language-python}
+    ```python
     #labels for the pokemon name
     lblNameText = Label(window,text="Name:")
     lblNameText.config(bg="#e0e0ff", fg="#111111")
@@ -146,7 +146,7 @@ Now that you have lots of different widgets in your GUI window, you can change h
 
 + Next, you can change the font of each of the widgets. You can do this by first creating variables to store information for different fonts. Add this code to your program, after the line to import the `tkinter` module:
 
-    ```{.language-python}
+    ```python
     smallFont = ["Helvetica" , 14]
     mediumFont = ["Helvetica" , 18]
     bigFont = ["Helvetica" , 30]
@@ -154,7 +154,7 @@ Now that you have lots of different widgets in your GUI window, you can change h
 
     You can now choose the font of each widget, like this:
 
-    ```{.language-python}
+    ```python
     #labels for the pokemon name
     lblNameText = Label(window,text="Name:")
     lblNameText.config(bg="#e0e0ff", fg="#111111", font=mediumFont)
@@ -187,13 +187,13 @@ Now that you have a great looking GUI, let's make the button actually display Po
 
 + First, make sure that you have a file called `pokeapi.py` saved in the same place as your Pokedex GUI program. Ask your club leader if you can't find the file. This file contains a function called `getPokemonData()`, that gets all data for a particular Pokemon. To use this function, you just have to import it from the `pokeapi.py` file, by adding this code to the top of your program:
 
-    ```{.language-python}
+    ```python
     from pokeapi import *
     ```
 
 + Let's create a new function called `showPokemonData()`, that will use the `getPokemonData()` function you've just imported. This function will get data for a chosen Pokemon number, and put the data into the GUI labels. Put this code near the top of your program:
 
-    ```{.language-python}
+    ```python
     #function to display data for a pokemon number
     def showPokemonData():
     	#get the number typed into the entry box
@@ -211,7 +211,7 @@ Now that you have a great looking GUI, let's make the button actually display Po
 
 + Now that you have the functions you need, you can add the command to the button:
 
-    ```{.language-python}
+    ```python
     #a button that will get the info for a pokemon
     btnGetInfo = Button(window,text="Get Data!", command=showPokemonData)
     ```
@@ -222,7 +222,7 @@ Now that you have a great looking GUI, let's make the button actually display Po
 
 + You could even make a Pokemon Top Trumps game, by removing the text entry widget, and instead getting a random Pokemon to show each time. Just change the `showPokemonData()` function to:
 
-    ```{.language-python}
+    ```python
     #function to display data for a pokemon number
     def showPokemonData():
     	#get a random pokemon number
@@ -260,7 +260,7 @@ You can only complete this step if you have the 'pillow' module installed on you
 
 + It's quite hard to display a Pokemon image in your Pokedex, but don't worry - there's a `getPokemonImage()` function in the `pokeapi.py` file to do the hard work for you! This function gets the Pokemon image, which can be displayed in a label. First, let's create a label to display the image in. Add this code somewhere in your main program, with the other labels:
 
-    ```{.language-python}
+    ```python
     #label for the pokemon image
     lblImage = tkinter.Label(window)
     lblImage.config(bg="#e0e0ff", fg="#111111")
@@ -269,7 +269,7 @@ You can only complete this step if you have the 'pillow' module installed on you
 
 + You can now modify the `showPokemonData()` function to also show the image:
 
-    ```{.language-python}
+    ```python
     #function to display data for a pokemon number
     def showPokemonData():
         #get the number typed into the entry box

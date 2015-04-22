@@ -16,7 +16,7 @@ In Lesson 6, we wrote a two player noughts and crosses game, using the "Tk Canva
 ## Activity Checklist { .check}
 
 + Open IDLE, and either open your file from last week and save it as a new file, or if you can't find it, copy the following in:
-```{.language-python}
+```python
 from tkinter import *
 
     main = Tk()
@@ -105,7 +105,7 @@ Remember that we use the variable `grid` to store how the board looks. It's a li
 ## Activity Checklist {.check}
 
 + At the top of the file, we will have to import the `random` library, so we can pick a move
-```{.language-python}
+```python
 from tkinter import *
     import random
 ```
@@ -113,7 +113,7 @@ from tkinter import *
 You hopefully remember using `random.choice` from the earlier lessons.
 
 + In the same file we will introduce a new function, `free_squares`: Add this code below the function `winner`, and above the line `c.bind(...)`:
-```{.language-python}
+```python
 def free_squares():
     output = []
 
@@ -129,7 +129,7 @@ This function creates an empty list, and then for each square in the grid, check
 We use a function `enumerate` to tell us the positions of each item in the list. `enumerate` turns a list of ['A','B','C'] into pairs of (0, 'A'), (1,'B') and so on, so we don't have to count them
 
 + Next we write a function `play_move()` which finds an empty square to play in. Add this function after `free_squares` and before the line `c.bind(...)`
-```{.language-python}
+```python
 def play_move()
     moves  = free_squares()
     move   = random.choice(moves)
@@ -158,7 +158,7 @@ The 5 square is 1 down, and 2 across. If we divide 5 by 3, we get 1 with remaind
 `5 % 3` is 2, `6 % 3` is + The `%` operator gives us the remainder, which is how far along we must go.
 
 + Now we will edit the click() function to use `play_move`, so after you click, the computer makes a move.
-```{.language-python}
+```python
 def click(event):
     global shape, grid
 
@@ -193,7 +193,7 @@ The computer can play noughts and crosses, but badly. Let's help it a little. In
 ## Activity Checklist { .check}
 
 + Edit the `winner` function to take an argument `grid`:
-```{.language-python}
+```python
 def winner(grid):
     for across in range(3):
         row  = across * 3
@@ -222,7 +222,7 @@ def winner(grid):
 You should only have to change the first line of the function. This means `winner` will use a grid passed to it, instead of the grid of the current game
 
 + Now we change `click` to pass in this grid.
-```{.language-python}
+```python
 def click(event):
     global shape, grid
     across = int(c.canvasx(event.x)/200)
@@ -252,7 +252,7 @@ Every time you see `winner()`, you replace it with `winner(grid)`.
 
 + Run your code, it should work like before. It is important to make sure we haven't made any mistakes.
 + Let's change play_move to find a winning move!
-```{.language-python}
+```python
 def play_move():
     move = -1
     moves = free_squares()
@@ -302,7 +302,7 @@ The other strategy we will use, is to look for a winning move for the player, an
 ## Activity Checklist { .check}
 
 + Edit `play_move` to find the players winning move, and block it!
-```{.language-python}
+```python
 def play_move():
     move = -1
     moves = free_squares()
@@ -352,7 +352,7 @@ def play_move():
 
 Your final program should look something like this!
 
-```{.language-python}
+```python
 from tkinter import *
     import random
 
