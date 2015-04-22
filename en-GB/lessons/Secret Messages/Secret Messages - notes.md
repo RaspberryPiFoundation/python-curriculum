@@ -35,7 +35,7 @@ You can find a completed version of this project's challenges by clicking the 'D
 #Frequently Asked Questions
 + When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children should use:
 
-```{.language-python}
+```python
 message = input("Please enter a message to encrypt: ").lower()
 ```
 

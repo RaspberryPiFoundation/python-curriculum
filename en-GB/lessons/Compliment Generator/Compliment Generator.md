@@ -19,13 +19,13 @@ In this project, you'll make a program to give the user a randomly generated com
 
 + In your projects so far, you've used a variable to store a single piece of data, such as a name or a score. But what if you want to store lots of data? In Python, you can use a _list_ to store lots of data in 1 variable:
 
-    ```{.language-python}
+    ```python
     bigPlanets = [ "jupiter" , "saturn" , "uranus" , "neptune"]
     ```
 
     This list of text is also known as an _array_ of text. To access items in the list, you just need to know the position of the item. Run this program to give yourself a better idea of how lists work:
 
-    ```{.language-python}
+    ```python
     bigPlanets = [ "jupiter" , "saturn" , "uranus" , "neptune"]
     print( bigPlanets )
     print( bigPlanets[0] )
@@ -40,7 +40,7 @@ In this project, you'll make a program to give the user a randomly generated com
 
 + You can use a list called `compliments` to store all of the possible compliments for your compliment generator program, and then use `choice(compliments)` to choose a random compliment for the user:
 
-    ```{.language-python}
+    ```python
     from random import *
 
     print("Compliment Generator")
@@ -60,7 +60,7 @@ In this project, you'll make a program to give the user a randomly generated com
 
 + You could make your compliments a little more interesting, by combining random items from 2 different lists:
 
-    ```{.language-python}
+    ```python
     from random import *
 
     print("Compliment Generator")
@@ -92,7 +92,7 @@ Try to think of some more compliments, and add them to your program! Remember th
 
 + Using what you know about `while` loops and `if` statements, you could modify your program to keep giving out compliments until the user decides to quit:
 
-    ```{.language-python}
+    ```python
     from random import *
 
     #the program loops as long as this variable is 'True'
@@ -149,7 +149,7 @@ Try to think of some more compliments, and add them to your program! Remember th
 
     Let's modify your program, so that the user can choose to add or remove items from the `hobbies` list, to allow them to personalise the compliments they receive:
 
-    ```{.language-python}
+    ```python
     from random import *
 
     running = True
@@ -217,7 +217,7 @@ Try to think of some more compliments, and add them to your program! Remember th
 
     You can fix this problem, by first checking that the item to remove exists in the list. Replace your code to remove a hobby with this code:
 
-    ```{.language-python}
+    ```python
         #'d' to delete a hobby
         elif menuChoice == 'd':
 
@@ -242,7 +242,7 @@ Another problem with the program is that it is possible to add the same hobby mo
 
 Can you fix this problem, so that a hobby can only be added if it isn't already in the list:
 
-```{.language-python}
+```python
 if itemToAdd not in hobbies:
 	#add code here...
 ```

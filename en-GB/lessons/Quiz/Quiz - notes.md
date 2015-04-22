@@ -33,21 +33,21 @@ Make sure that each child has read and write access to their own copy of these r
 #Frequently Asked Questions
 + As the player's input is stored as text, any questions with a numerical answer should also be represented as text. For example:
 
-```{.language-python}
+```python
 if answer == "4":
 	...
 ```
 
 and *not*:
 
-```{.language-python}
+```python
 if answer == 4:
 	...
 ```
 
 As an alternative, it is also possible to cast the player's answer to a number, and then compare the two numbers:
 
-```{.language-python}
+```python
 answer = int(answer)
 if answer == 4:
 	...
@@ -57,7 +57,7 @@ if answer == 4:
 
 + The body of each `if`/`else`/`elif` statement should be uniformly indented. It is recommended that the Tab key is used for this, as it makes indentation mistakes easier to spot. For example, the following program will not run:
 
-```{.language-python}
+```python
 if answer == "variable":
    print("Well done")
   print("---------")

@@ -27,7 +27,7 @@ We could use the turtle commands to draw it, but today we're going to learn abou
 
 Write the following code:
 
-```{.language-python}
+```python
 
 from tkinter import *
 
@@ -105,7 +105,7 @@ Each of the commands `c.create_line(across1,down1,across2,down2)` draws a line a
 
 We want to draw lines from A to C, B to D, M to O, and N to P.
 
-```{.language-python}
+```python
 c.create_line(200, 0, 200, 600) # A to C
 c.create_line(400, 0, 400, 600) # B to D
 
@@ -122,7 +122,7 @@ In code, across is often called `x`, and down is often called `y`. This grid sys
 
 + In the same file, let's add a new function to draw when you click the mouse!
 
-```{.language-python}
+```python
 
 from tkinter import *
 
@@ -149,7 +149,7 @@ mainloop()
 + Run your code, and click on the grid, what happens? You should see a circle in the centre of the grid.
 + Let's edit the code, so it will draw where you click. For this we'll need to take the mouse position, and work out which grid square it is in, and change the `click` function
 
-```{.language-python}
+```python
 
 from tkinter import *
 
@@ -189,7 +189,7 @@ mainloop()
 
 + In the same file, let's add some code to draw an X, then an O, then an X, ...
 
-```{.language-python}
+```python
 
 from tkinter import *
 
@@ -245,7 +245,7 @@ To stop players playing the same move twice, we'll have to keep track of the mov
 
 + In the same file,
 
-```{.language-python}
+```python
 
 from tkinter import *
 
@@ -311,7 +311,7 @@ Now we have got the game working, we need to find a winner!
 
 + In the same file, we're going to introduce a new function `winner`, and call it to check if the game has been won The completed code looks like this!
 
-```{.language-python}
+```python
 
 from tkinter import *
 

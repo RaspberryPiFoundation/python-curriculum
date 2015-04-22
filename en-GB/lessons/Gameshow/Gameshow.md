@@ -18,7 +18,7 @@ In this project you'll learn how to make a guessing game, in which you have to g
 
     You can play this game by running the following program:
 
-    ```{.language-python}
+    ```python
     from random import *
 
     #print the 3 doors and the game instructions
@@ -66,7 +66,7 @@ In this project you'll learn how to make a guessing game, in which you have to g
 
 + Using what you already know about loops, you could easily improve this game to allow the player to have 3 guesses, instead of just 1. Run the following program:
 
-    ```{.language-python}
+    ```python
     from random import *
 
     #print the 3 doors and the game instructions
@@ -125,7 +125,7 @@ Create a variable to keep track of how many times the player guesses the correct
 
 + Instead of making your program loop a set number of times, it might be more interesting to let the player choose how long they want to play for. To do this, you'll need to use a different loop, called a `while` loop. Try out this program:
 
-    ```{.language-python}
+    ```python
     from random import *
 
     #the user changes this variable to end the game
@@ -202,7 +202,7 @@ Can you modify your game, so that the player's score is set to 0 whenever they c
 
 + Instead of looping the game until the player decides to quit, you could instead loop the game until the player scores 3 points. The aim of the game could then be to score 3 points in as few attempts as possible:
 
-    ```{.language-python}
+    ```python
     from random import *
 
     #this variable stores the number of times the game is played
@@ -270,20 +270,20 @@ You can use (or change) parts of your gameshow program to make this new game. He
 
 + You can use a `while` loop to run the game as long as the player wants to keep playing:
 
-```{.language-python}
+```python
 while playing == True:
 ```
 
 + If the user enters `n` because they wish to stick with the score they have, you can set the `playing` variable to `False`:
 
-```{.language-python}
+```python
 if answer == 'n':
     playing = False
 ```
 
 + At the end of the program (outside of the `while` loop), you can say "Well done!" to the player if their score is exactly 21:
 
-```{.language-python}
+```python
 if score == 21:
     print("Well done!")
 ```

@@ -28,7 +28,7 @@ ____/\___/      \___/\___
 
 + Drawing The first is easy. Like we always do, the first line of the file is always `from turtle import *` so Python knows we want to draw. Copy the program into a new file.
 
-```{.language-python}
+```python
 from turtle import *
 
     def first():
@@ -41,7 +41,7 @@ We're going to put all the shapes in functions. The second one looks easy too, l
 
 + Edit your code so it looks like the following:
 
-```{.language-python}
+```python
 from turtle import *
 
     def first():
@@ -146,7 +146,7 @@ We can see that we've used code very similar to `first`, `second` and `third`. W
 ## Activity Checklist { .check}
 
 + Let's just add one last thing to the mountain file, change it to look like the following, adding a new function `snowflake`:
-```{.language-python}
+```python
 
     from turtle import *
 
@@ -211,7 +211,7 @@ Like before with the mountain, we have a simple case: a straight line, and a spe
 ## Activity Checklist { .check}
 
 + Let's open a new file and try to draw the second picture, which is what we'll be repeating:
-```{.language-python}
+```python
 from turtle import *
 
     forward(30)
@@ -242,7 +242,7 @@ We have the simple case `forward(100)`, and we know how to draw the bumpy line, 
 ## Activity Checklist { .check}
 
 + Open up a new file in IDLE and copy the following code into it:
-```{.language-python}
+```python
 from turtle import *
 
     def box(depth, length):
@@ -308,7 +308,7 @@ Let's draw one last fractal, and like before we have a simple case and a special
 ## Activity Checklist { .check}
 
 + Let's open a new file and try it out.
-```{.language-python}
+```python
 from turtle import *
 
     def triforce(depth, length):
@@ -359,7 +359,7 @@ Try changing the values passed into `triforce()`, change the last line in the fi
 ## Activity Checklist { .check}
 
 + If you like, instead of triangles we can draw it with circles! Open up a new file and try the following code:
-```{.language-python}
+```python
 from turtle import *
 
     def bubble(depth, length):

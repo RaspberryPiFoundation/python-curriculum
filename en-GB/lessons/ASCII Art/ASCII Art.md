@@ -21,7 +21,7 @@ Python allows you to turn a series of instructions into useful programs and fun 
 
 + Click `File → New Window`, and type the following into the window that appears:
 
-    ```{.language-python}
+    ```python
     print("Hello, how are you?")
     ```
 
@@ -61,7 +61,7 @@ Change the program above to print something more interesting to the screen!
 
     To make this masterpiece, you can type the following into the IDLE editor and run the program:
 
-    ```{.language-python}
+    ```python
     print("A picture of a dog...")
     print(" 0____  ")
     print("  ||||  ")
@@ -69,7 +69,7 @@ Change the program above to print something more interesting to the screen!
 
 + If you prefer, you can use 3 single quotes (`'''`) instead of speech marks, which allows you to print multiple lines of text with 1 print statement. Like this:
 
-    ```{.language-python}
+    ```python
     print('''
     A picture of a dog...
      0____
@@ -93,7 +93,7 @@ Write a Python program to tell others about yourself, by using text and ASCII ar
 
 + Python can also do calculations using text! What do you get if you multiply `"hello"` by 5? Let’s ask Python, by running this program:
 
-    ```{.language-python}
+    ```python
     print("hello" * 5)
     ```
 
@@ -103,7 +103,7 @@ Write a Python program to tell others about yourself, by using text and ASCII ar
 
 + You can make the printed text above easier to read, by putting a space after the word `"hello"` in your program:
 
-    ```{.language-python}
+    ```python
     print("hello " * 5)
     ```
 
@@ -117,7 +117,7 @@ Write a Python program to tell others about yourself, by using text and ASCII ar
 
 + How about addition? What answer do you think `"hello " +  "world`" would give? Try it out, by running the following program:
 
-    ```{.language-python}
+    ```python
     print("hello " + "world")
     ```
 
@@ -130,7 +130,7 @@ Write a Python program to tell others about yourself, by using text and ASCII ar
 ## Challenge: Words and numbers { .challenge}
 What does the following program print to the screen? See if you can guess correctly before running the program.
 
-```{.language-python}
+```python
 print("ha "*4)
 print("ba" + "na"*2)
 print("He" + "l"*2 + "o" + "!"*10)
@@ -145,7 +145,7 @@ Can you make up any words of your own?
 
 + Now that you know how to do calculations on text, now what? Why is it useful? Well, let’s say you wanted to draw an ASCII art rectangle that is 30 characters long and 3 characters high. You could either draw it the hard way, like this:
 
-    ```{.language-python}
+    ```python
     print("##############################")
     print("##############################")
     print("##############################")
@@ -153,7 +153,7 @@ Can you make up any words of your own?
 
     Or you could save time and draw it the easy way, like this:
 
-    ```{.language-python}
+    ```python
     print("#" * 30)
     print("#" * 30)
     print("#" * 30)
@@ -165,7 +165,7 @@ Can you make up any words of your own?
 
 + You could even use calculations to make interesting patterns, like this wave:
 
-    ```{.language-python}
+    ```python
     print("/\  "*10)
     print("  \/"*10)
     ```

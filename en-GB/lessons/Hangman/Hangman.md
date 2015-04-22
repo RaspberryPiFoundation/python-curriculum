@@ -17,7 +17,7 @@ We start by picking a random word, so let's begin
 
 + Open IDLE, and open a new window.
 + Write in the following code:
-    ```{.language-python}
+    ```python
     from random import choice
 
     word = choice(["code", "club"])
@@ -36,7 +36,7 @@ Now we've picked a word, let's find out how to guess a letter.
 ## Activity Checklist { .check}
 
 + With the same file, edit the code so it looks like this
-    ```{.language-python}
+    ```python
     from random import choice
 
     word = choice(["code", "club"])
@@ -51,7 +51,7 @@ Now we've picked a word, let's find out how to guess a letter.
 + Save and run the program.
 + You should see "Guess a letter in the word: ____", in the output window (the other window, not the one you've written your program in.) We use a for loop to build up some text with an underscore `_` for each letter in the word. The word "code" put in, will write out `____` to the screen.
 + Let's guess a letter! Change the code to look like this:
-    ```{.language-python}
+    ```python
     from random import choice
 
     word = choice(["code", "club"])
@@ -82,7 +82,7 @@ Now we're going to use two features of python, lists and the `while` loop.
 ## Activity Checklist { .check}
 
 + In the same file, edit the code to look like this:
-    ```{.language-python}
+    ```python
     from random import choice
 
     word = choice(["code", "club"])
@@ -125,7 +125,7 @@ Hangman should only give you a few chances to guess, rather than trying every le
 ## Activity Checklist { .check}
 
 + Edit the existing file, and change it to look like the following:
-    ```{.language-python}
+    ```python
     from random import choice
 
     word = choice(["code", "club"])
@@ -172,7 +172,7 @@ Only one last thing before the game is complete, which is to only have a few cha
 ## Activity Checklist { .check}
 
 + Edit the file, to introduce a new variable, `tries`:
-    ```{.language-python}
+    ```python
     from random import choice
 
     word = choice(["code", "club"])
@@ -223,11 +223,11 @@ Only one last thing before the game is complete, which is to only have a few cha
 ## Activity Checklist { .check}
 
 + Find the line in the source code:
-    ```{.language-python}
+    ```python
     word = choice(["code", "club"])
     ```
 + Edit it to add more words, why not try
-    ```{.language-python}
+    ```python
     word = choice(["code", "club", "robot", "party"])
     ```
 

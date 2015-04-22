@@ -17,7 +17,7 @@ In this project, you'll make a quiz game to challenge your friends.
 
 + Let's start by writing a very simple quiz program that asks the player a question, then shows them smiley faces if they input the correct answer.
 
-	```{.language-python}
+	```python
 	print("In Python, what do you call a 'box' used to store data?")
 	answer = input()
 
@@ -39,7 +39,7 @@ In this project, you'll make a quiz game to challenge your friends.
 
 + The program above prints smiley faces if the player gets the question right, but doesn't print anything to tell them they got the answer wrong. You can use an `else` statement to print sad faces if the user inputs anything other than the correct answer.
 
-	```{.language-python}
+	```python
 	print("In Python, what do you call a 'box' used to store data?")
 	answer = input()
 
@@ -79,7 +79,7 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 + To fix the problem, you need to convert the player's input to lower case, so there are no capital letters in their answer. We can make sure this works by printing the modified answer. Make this change where the player inputs their answer:
 
-	```{.language-python}
+	```python
 	answer = input().lower()
 	print(answer)
 	```
@@ -96,7 +96,7 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 + So far you've used `if` and `else` to let the player know if they got the answer right or wrong. But what if you wanted a multiple choice question, where the user could see one of 4 messages? You can use an `elif` statement to do this.
 
-	```{.language-python}
+	```python
 	print('''
 	Q1 - In Python, what do you call a 'box' used to store data?
 	a - text

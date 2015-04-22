@@ -28,7 +28,7 @@ You can type `go south` to move from the hall to the kitchen, and then `go north
 
 + If you edit the RPG.py file, you can see that the map is coded as a dictionary of rooms:
 
-  ```{.language-python}
+  ```python
   #a dictionary linking a room to other room positions
   rooms = {
 
@@ -51,7 +51,7 @@ Actually, this is a dictionary that links a room number to another dictionary, c
 
 This new dining room is linked to the hall (to the west). Let’s add this new room into the code:
 
-  ```{.language-python}
+  ```python
   #a dictionary linking a room to other room positions
   rooms = {
 
@@ -94,7 +94,7 @@ Now that you have lots of rooms, let’s leave items in the rooms for the player
 
 + Adding an item into a room is easy. You can just add it to the dictionary of a room. For example, let’s put a key in the hall.
 
-  ```{.language-python}
+  ```python
   #a dictionary linking a room to other room positions
   rooms = {
 
@@ -136,7 +136,7 @@ This game is too easy! Let’s add enemies to some rooms that the player must av
 
 + Adding an enemy to a room is as easy as adding any other item. Let’s add a hungry monster to the kitchen:
 
-  ```{.language-python}
+  ```python
   #a dictionary linking a room to other room positions
   rooms = {
 
@@ -160,7 +160,7 @@ This game is too easy! Let’s add enemies to some rooms that the player must av
 
 + You also want to make sure that the game ends if the player enters a room with a monster in. You can do this with the following code, which you should add to the end of the game.
 
-  ```{.language-python}
+  ```python
       #player loses if they enter a room with a monster
       if "item" in rooms[currentRoom] and "monster" in rooms[currentRoom]["item"]:
           print("A monster has got you... GAME OVER!")
@@ -200,7 +200,7 @@ Notice that there’s another fourth room (the garden) that links to the dining 
 
 + To allow the player to win the game when they get to the garden with the key and the potion, add this code to the end of your game:
 
-  ```{.language-python}
+  ```python
       #player wins if they get to the garden with a key and a shield
       if currentRoom == 4 and 'key' in inventory and 'potion' in inventory:
           print("You escaped the house... YOU WIN!")
@@ -217,7 +217,7 @@ Again, make sure this code is indented, and in line with the code above it. This
 
 + Finally, let’s add some instructions to your game, so that the player knows what they have to do. Edit the `showInstructions()` function to include more information.
 
-  ```{.language-python}
+  ```python
   def showInstructions():
       #print a main menu, the commands and instructions
       print('''
