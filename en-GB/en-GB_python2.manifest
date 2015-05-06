@@ -2,9 +2,9 @@
     "description": "Python 2",
     "id": "python",
     "language": "en-GB",
-    "number": 6,
+    "number": 10,
     "title": "Python 2",
-    "category": "cat-official",
+    "category": "cat-python",
     "projects": [
         {
             "number":   1,
