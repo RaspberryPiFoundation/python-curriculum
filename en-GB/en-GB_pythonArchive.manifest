@@ -1,0 +1,35 @@
+{
+    "description": false,
+    "id": "python_archive",
+    "category" : "cat-archive",
+    "language": "en-GB",
+    "number": 15,
+    "title": "Archived Python Projects",
+
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/Hangman/Hangman.md"
+        },
+        {
+            "number":   2,
+            "filename": "lessons/Noughts and Crosses/Noughts and Crosses.md"
+        },
+        {
+            "number":   3,
+            "filename": "lessons/Playing Against the Computer/Playing Against the Computer.md"
+        },
+        {
+            "number":   4,
+            "filename": "lessons/Turtles All the Way Down/Turtles All the Way Down.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Volunteer Notes",
+            "note": "volunteer resources/*.md"
+        }
+    ]
+}
+
