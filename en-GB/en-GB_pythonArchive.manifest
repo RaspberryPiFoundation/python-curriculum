@@ -1,5 +1,5 @@
 {
-    "description": false,
+    "description": "These archived projects were previously part of our Python curriculum. Although these projects are still available, they are not supported, and it is recommended that you use the projects in the 'Python' section instead.",
     "id": "python_archive",
     "category" : "cat-archive",
     "language": "en-GB",
