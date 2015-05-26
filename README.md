@@ -30,7 +30,7 @@ Instructions on how to contribute to our curriculum can be found [here](https://
 * RPG
 * Minecraft 2D
 
-##Additional Projects
+##Archived Projects
 * Turtles All The Way Down
 * Hangman
 * Noughts and Crosses
