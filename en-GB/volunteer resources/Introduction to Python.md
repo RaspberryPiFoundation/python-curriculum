@@ -1,7 +1,7 @@
 ---
 title: Introduction to Python
 language: en
-...
+---
 
 Python is a widely used, general purpose, text-based programming language. We recommend <a href="https://www.python.org/download/releases/3.2/#download">downloading</a> and using version 3.2 of Python.
 

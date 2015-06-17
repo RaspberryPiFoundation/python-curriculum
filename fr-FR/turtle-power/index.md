@@ -3,7 +3,7 @@ title: Turtle Power
 level: 01
 language: fr
 stylesheet: python
-...
+---
 
 #Introduction :  { .intro}
 Ce trimestre nous allons apprendre un langage de programmation appelé Python. La personne qui a créé Python lui a donné le nom de son émission de télévision préférée : le Monty Python’s Flying Circus. Python est utilisé par beaucoup de programmeurs pour beaucoup de projets différents.  Python est un langage puissant et intelligent, utilisé par YouTube, la NASA, le CERN et bien d’autres. Si ton club a un Raspberry Pi, tu peux utiliser Python pour le programmer. Beaucoup de personnes aiment utiliser Python parce que c’est un langage qui est facile à lire (comparé à d’autres langages de programmation). Savoir lire du code est très important, aussi important que de savoir en écrire.

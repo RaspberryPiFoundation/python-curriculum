@@ -2,7 +2,7 @@
 title: Text-speak Converter — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches children how to use dictionaries as a way of storing data.

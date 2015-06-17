@@ -2,7 +2,7 @@
 title: Turtle Power — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches Python `for` loops, through the use of the Python turtle module. Shapes are drawn using the turtle, and then loops are demonstrated as a way of drawing shapes more efficiently.

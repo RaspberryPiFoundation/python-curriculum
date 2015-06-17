@@ -3,7 +3,7 @@ title: Skilpadder hele veien ned
 level: Level 1
 language: nb-NO
 stylesheet: python
-...
+---
 
 ## Steg 1: Tegn et fjell {.activity}
 

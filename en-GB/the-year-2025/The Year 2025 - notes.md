@@ -2,7 +2,7 @@
 title: The Year 2025 — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches children how to use variables within a Python program, and how to perform calculations on data stored in variables. This is achieved through writing a program to calculate what a person’s age will be in the year 2025.

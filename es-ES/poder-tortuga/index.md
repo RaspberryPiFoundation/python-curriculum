@@ -1,6 +1,6 @@
 ---
 title: Poder Tortuga
-...
+---
 
 #01—Poder Tortuga
 

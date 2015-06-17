@@ -2,7 +2,7 @@
 title: RPG — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches game design through the development of an RPG maze game. In this game, the player has to pick up objects within a house and get to a specific room, while avoiding monsters lurking in some of the rooms. This game will be achieved by manipulating dictionaries and lists.

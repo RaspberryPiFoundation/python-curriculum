@@ -3,7 +3,7 @@ title: Apprendre aux tortues
 level: 02
 language: en
 stylesheet: python
-...
+---
 
 # Étape 1 : Retour à la case départ { .activity}
 

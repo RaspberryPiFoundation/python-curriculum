@@ -3,7 +3,7 @@ title: Hangman
 level: Python +
 language: en
 stylesheet: python
-...
+---
 
 # Introduction { .intro}
 

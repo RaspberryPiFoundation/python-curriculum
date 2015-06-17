@@ -3,7 +3,7 @@ title: Turtles All The Way Down
 level: Python +
 language: en
 stylesheet: python
-...
+---
 
 # Step 1: Drawing a Mountain { .activity}
 

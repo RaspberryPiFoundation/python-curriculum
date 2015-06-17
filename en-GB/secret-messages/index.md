@@ -5,7 +5,7 @@ language: en
 stylesheet: python
 embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
-...
+---
 
 #Introduction:  { .intro}
 In this project, you'll learn how to make your own encryption program, to send and receive secret messages to a friend.

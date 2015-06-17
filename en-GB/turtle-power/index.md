@@ -5,7 +5,7 @@ language: en
 stylesheet: python
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*"]
-...
+---
 
 #Introduction:  { .intro}
 In this project, you'll learn how to use a 'turtle' to draw awesome shapes and patterns.

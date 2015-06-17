@@ -2,7 +2,7 @@
 title: Minecraft2D — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 In this project, children will learn aspects of graphics and AI design by making improvements to a very basic 2D Minecraft clone. Children will add new resources, and crafting rules for combining resources to make new ones. This will be achieved by understanding and manipulating variables, lists and dictionaries.

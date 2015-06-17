@@ -2,7 +2,7 @@
 title: Secret Messages — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches iteration over a text string, and now it can be used to create a Caesar cipher.

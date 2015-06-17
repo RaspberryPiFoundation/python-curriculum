@@ -2,7 +2,7 @@
 title: Compliment Generator — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches children how to use lists, as well as accessing elements of a list, and adding and removing list items. Students learn through making a compliment generator, which gives the user a random compliment from a list.

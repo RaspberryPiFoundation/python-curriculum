@@ -2,7 +2,7 @@
 title: Pokedex — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches children how to make a graphical user interface (GUI), by making a Pokedex for displaying information on Pokemon. This project accesses the <a href="http://pokeapi.co/">pokeAPI</a>, developed by <a href="http://phalt.co/?ref=pokeapi">Paul Hallett</a>.

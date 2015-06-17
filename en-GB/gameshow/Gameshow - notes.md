@@ -2,7 +2,7 @@
 title: Gameshow — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches children how to use `while` loops and random numbers to create various versions of a number guessing game.

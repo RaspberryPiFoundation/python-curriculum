@@ -2,7 +2,7 @@
 title: ASCII Art — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches children how to run a simple Python program, and how to print text to the screen. Children will write programs to print ASCII art to the screen.

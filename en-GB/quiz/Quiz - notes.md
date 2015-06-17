@@ -2,7 +2,7 @@
 title: Quiz — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches children how to use selection (`if`, `else` and `elif` statements) in their programs, to alter program flow in response to data. This is achieved through writing and testing a simple quiz program, which includes written text and multiple choice responses.

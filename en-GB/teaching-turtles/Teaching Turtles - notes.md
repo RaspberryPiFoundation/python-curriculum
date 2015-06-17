@@ -2,7 +2,7 @@
 title: Teaching Turtles — Notes for Club Leaders
 language: en
 embeds: "*.png"
-...
+---
 
 #Introduction:
 This project teaches functions and parameter passing, by creating and using functions to draw customisable shapes and patterns.

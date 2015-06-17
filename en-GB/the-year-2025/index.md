@@ -5,7 +5,7 @@ language: en
 stylesheet: python
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*"]
-...
+---
 
 #Introduction:  { .intro}
 
