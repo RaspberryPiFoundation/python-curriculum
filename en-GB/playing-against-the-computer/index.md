@@ -1,8 +1,6 @@
 ---
 title: Playing against the Computer
 level: Python +
-language: en
-stylesheet: python
 ---
 
 # Introduction {.intro}

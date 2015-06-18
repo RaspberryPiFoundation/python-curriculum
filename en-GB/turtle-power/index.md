@@ -1,10 +1,8 @@
 ---
 title: Turtle Power
 level: Python 1
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Club Leader Resources/*.*"]
+notes: "Turtle Power - notes.md"
 ---
 
 #Introduction:  { .intro}

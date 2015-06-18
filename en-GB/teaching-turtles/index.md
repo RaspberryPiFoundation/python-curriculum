@@ -1,10 +1,8 @@
 ---
 title: Teaching Turtles
 level: Python 2
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+notes: "Teaching Turtles - notes.md"
 ---
 
 #Introduction: { .intro}

@@ -1,7 +1,5 @@
 ---
 title: Secret Messages — Notes for Club Leaders
-language: en
-embeds: "*.png"
 ---
 
 #Introduction:

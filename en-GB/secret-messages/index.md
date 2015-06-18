@@ -1,10 +1,8 @@
 ---
 title: Secret Messages
 level: Python 2
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+notes: "Secret Messages - notes.md"
 ---
 
 #Introduction:  { .intro}

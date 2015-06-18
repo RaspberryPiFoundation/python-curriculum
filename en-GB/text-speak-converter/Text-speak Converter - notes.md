@@ -1,7 +1,5 @@
 ---
 title: Text-speak Converter — Notes for Club Leaders
-language: en
-embeds: "*.png"
 ---
 
 #Introduction:

@@ -1,10 +1,8 @@
 ---
 title: Gameshow
 level: Python 1
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+notes: "Gameshow - notes.md"
 ---
 
 #Introduction:  { .intro}

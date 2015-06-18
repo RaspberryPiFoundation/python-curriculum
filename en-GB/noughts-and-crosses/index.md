@@ -1,8 +1,6 @@
 ---
 title: Noughts and Crosses
 level: Python +
-language: en
-stylesheet: python
 ---
 
 # Introduction { .intro}

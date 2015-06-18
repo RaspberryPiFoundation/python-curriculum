@@ -1,7 +1,5 @@
 ---
 title: Minecraft2D — Notes for Club Leaders
-language: en
-embeds: "*.png"
 ---
 
 #Introduction:

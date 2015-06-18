@@ -1,9 +1,6 @@
 ---
 title: Project Template
 level: Python +
-language: en-GB
-stylesheet: python
-embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 ---
 

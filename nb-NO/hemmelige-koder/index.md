@@ -1,8 +1,6 @@
 ---
 title: Hemmelige koder
 level: Level 1
-language: nb-NO
-stylesheet: python
 ---
 
 Legg bort skilpaddene dine, i dag skal vi lære hvordan vi kan sende hemmelige beskjeder!

@@ -1,7 +1,5 @@
 ---
 title: Compliment Generator — Notes for Club Leaders
-language: en
-embeds: "*.png"
 ---
 
 #Introduction:

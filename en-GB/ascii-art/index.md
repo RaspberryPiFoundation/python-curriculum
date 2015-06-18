@@ -1,10 +1,8 @@
 ---
 title: ASCII Art
 level: Python 1
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Project Resources/*.*"]
+notes: "ASCII Art - notes.md"
 ---
 
 #Introduction:  { .intro}

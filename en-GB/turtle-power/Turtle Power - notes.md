@@ -1,7 +1,5 @@
 ---
 title: Turtle Power — Notes for Club Leaders
-language: en
-embeds: "*.png"
 ---
 
 #Introduction:

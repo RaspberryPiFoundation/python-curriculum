@@ -1,10 +1,8 @@
 ---
 title: Minecraft 2D
 level: Python 2
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Project Resources/*.*"]
+notes: "Minecraft2D - notes.md"
 ---
 
 # Introduction { .intro}

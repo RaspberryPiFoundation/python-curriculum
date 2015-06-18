@@ -1,8 +1,6 @@
 ---
 title: Tre på rad
 level: Level 2
-language: nb-NO
-stylesheet: python
 ---
 
 ## Introduksjon {.intro}

@@ -1,8 +1,6 @@
 ---
 title: Turtle Power
 level: 01
-language: fr
-stylesheet: python
 ---
 
 #Introduction :  { .intro}

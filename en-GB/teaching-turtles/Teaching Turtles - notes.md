@@ -1,7 +1,5 @@
 ---
 title: Teaching Turtles — Notes for Club Leaders
-language: en
-embeds: "*.png"
 ---
 
 #Introduction:

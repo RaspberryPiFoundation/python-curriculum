@@ -1,10 +1,8 @@
 ---
 title: The Year 2025
 level: Python 1
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Club Leader Resources/*.*"]
+notes: "The Year 2025 - notes.md"
 ---
 
 #Introduction:  { .intro}

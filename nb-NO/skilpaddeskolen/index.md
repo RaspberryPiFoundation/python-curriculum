@@ -1,8 +1,6 @@
 ---
 title: Skilpaddeskolen
 level: Level 1
-language: nb-NO
-stylesheet: python
 ---
 
 ## Steg 1: Flere firkanter {.activity}

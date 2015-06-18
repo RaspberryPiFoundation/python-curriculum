@@ -1,10 +1,8 @@
 ---
 title: RPG
 level: Python 2
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Project Resources/*.*"]
+notes: "RPG - notes.md"
 ---
 
 # Introduction:  { .intro}

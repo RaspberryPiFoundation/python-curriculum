@@ -1,10 +1,8 @@
 ---
 title: Compliment Generator
 level: Python 1
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+notes: "Compliment Generator - notes.md"
 ---
 
 #Introduction:  { .intro}

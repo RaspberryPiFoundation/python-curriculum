@@ -1,10 +1,8 @@
 ---
 title: Pokedex
 level: Python 2
-language: en
-stylesheet: python
-embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+notes: "Pokedex - notes.md"
 ---
 
 #Introduction:  { .intro}
