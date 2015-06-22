@@ -1,6 +1,5 @@
 ---
 title: Apprendre aux tortues
-level: 02
 layout: project
 ---
 

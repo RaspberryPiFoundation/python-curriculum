@@ -1,6 +1,5 @@
 ---
 title: Teaching Turtles
-level: Python 2
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 notes: "Teaching Turtles - notes.md"
 layout: project

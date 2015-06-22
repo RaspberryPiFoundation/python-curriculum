@@ -1,6 +1,5 @@
 ---
 title: RPG
-level: Python 2
 materials: ["Project Resources/*.*"]
 notes: "RPG - notes.md"
 layout: project

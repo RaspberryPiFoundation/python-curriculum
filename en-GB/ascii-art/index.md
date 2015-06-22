@@ -1,6 +1,5 @@
 ---
 title: ASCII Art
-level: Python 1
 materials: ["Project Resources/*.*"]
 notes: "ASCII Art - notes.md"
 layout: project

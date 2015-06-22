@@ -1,6 +1,5 @@
 ---
 title: Tre på rad
-level: Level 2
 layout: project
 ---
 

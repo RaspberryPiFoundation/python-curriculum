@@ -1,6 +1,5 @@
 ---
 title: Skilpaddeskolen
-level: Level 1
 layout: project
 ---
 

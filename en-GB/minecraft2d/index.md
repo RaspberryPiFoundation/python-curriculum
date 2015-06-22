@@ -1,6 +1,5 @@
 ---
 title: Minecraft 2D
-level: Python 2
 materials: ["Project Resources/*.*"]
 notes: "Minecraft2D - notes.md"
 layout: project

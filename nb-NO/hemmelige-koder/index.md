@@ -1,6 +1,5 @@
 ---
 title: Hemmelige koder
-level: Level 1
 layout: project
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Hangman
-level: Python +
 layout: project
 ---
 

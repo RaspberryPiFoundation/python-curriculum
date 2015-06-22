@@ -1,6 +1,5 @@
 ---
 title: Skilpadder hele veien ned
-level: Level 1
 layout: project
 ---
 

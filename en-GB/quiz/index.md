@@ -1,6 +1,5 @@
 ---
 title: Quiz
-level: Python 1
 materials: ["Project Resources/Quiz.py"]
 notes: "Quiz - notes.md"
 layout: project

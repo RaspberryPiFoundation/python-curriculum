@@ -1,6 +1,5 @@
 ---
 title: Turtles All The Way Down
-level: Python +
 layout: project
 ---
 

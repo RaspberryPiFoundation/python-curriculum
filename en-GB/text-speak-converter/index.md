@@ -1,6 +1,5 @@
 ---
 title: Text-speak Converter
-level: Python 2
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 notes: "Text-speak Converter - notes.md"
 layout: project

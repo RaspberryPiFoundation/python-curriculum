@@ -1,6 +1,5 @@
 ---
 title: Gameshow
-level: Python 1
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 notes: "Gameshow - notes.md"
 layout: project

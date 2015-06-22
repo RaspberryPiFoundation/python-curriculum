@@ -1,6 +1,5 @@
 ---
 title: Project Template
-level: Python +
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 layout: project
 ---

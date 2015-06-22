@@ -1,6 +1,5 @@
 ---
 title: Skilpadder
-level: Level 1
 layout: project
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Turtle Power
-level: 01
 layout: project
 ---
 
