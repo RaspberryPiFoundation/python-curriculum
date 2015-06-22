@@ -1,6 +1,7 @@
 ---
 title: Playing against the Computer
 level: Python +
+layout: project
 ---
 
 # Introduction {.intro}

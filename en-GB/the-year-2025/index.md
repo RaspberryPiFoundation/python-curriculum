@@ -3,6 +3,7 @@ title: The Year 2025
 level: Python 1
 materials: ["Club Leader Resources/*.*"]
 notes: "The Year 2025 - notes.md"
+layout: project
 ---
 
 #Introduction:  { .intro}

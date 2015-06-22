@@ -3,6 +3,7 @@ title: Pokedex
 level: Python 2
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 notes: "Pokedex - notes.md"
+layout: project
 ---
 
 #Introduction:  { .intro}

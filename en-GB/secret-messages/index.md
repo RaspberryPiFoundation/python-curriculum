@@ -3,6 +3,7 @@ title: Secret Messages
 level: Python 2
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 notes: "Secret Messages - notes.md"
+layout: project
 ---
 
 #Introduction:  { .intro}

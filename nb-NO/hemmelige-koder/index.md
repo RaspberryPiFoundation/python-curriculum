@@ -1,6 +1,7 @@
 ---
 title: Hemmelige koder
 level: Level 1
+layout: project
 ---
 
 Legg bort skilpaddene dine, i dag skal vi lære hvordan vi kan sende hemmelige beskjeder!

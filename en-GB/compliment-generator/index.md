@@ -3,6 +3,7 @@ title: Compliment Generator
 level: Python 1
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 notes: "Compliment Generator - notes.md"
+layout: project
 ---
 
 #Introduction:  { .intro}

@@ -1,6 +1,7 @@
 ---
 title: Hangman
 level: Python +
+layout: project
 ---
 
 # Introduction { .intro}

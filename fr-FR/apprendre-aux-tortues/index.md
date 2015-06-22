@@ -1,6 +1,7 @@
 ---
 title: Apprendre aux tortues
 level: 02
+layout: project
 ---
 
 # Étape 1 : Retour à la case départ { .activity}

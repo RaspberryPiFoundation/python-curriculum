@@ -1,6 +1,7 @@
 ---
 title: Skilpadder hele veien ned
 level: Level 1
+layout: project
 ---
 
 ## Steg 1: Tegn et fjell {.activity}

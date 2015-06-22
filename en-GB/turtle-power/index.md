@@ -3,6 +3,7 @@ title: Turtle Power
 level: Python 1
 materials: ["Club Leader Resources/*.*"]
 notes: "Turtle Power - notes.md"
+layout: project
 ---
 
 #Introduction:  { .intro}

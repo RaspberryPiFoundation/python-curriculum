@@ -1,6 +1,7 @@
 ---
 title: Noughts and Crosses
 level: Python +
+layout: project
 ---
 
 # Introduction { .intro}
