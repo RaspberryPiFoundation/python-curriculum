@@ -40,7 +40,7 @@
 
     "extras": [
         {
-            "name": "Writing Python programs",
+            "name": "Introduction to Python",
             "note": "volunteer resources/*.md"
         }
     ]
