@@ -36,13 +36,6 @@
             "filename": "lessons/Minecraft2D/Minecraft2D.md",
             "note":     "lessons/Minecraft2D/Minecraft2D - notes.md"
         }
-    ],
-
-    "extras": [
-        {
-            "name": "Introduction to Python",
-            "note": "volunteer resources/*.md"
-        }
     ]
 }
 
