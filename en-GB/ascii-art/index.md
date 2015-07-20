@@ -3,6 +3,7 @@ title: ASCII Art
 materials: ["Project Resources/*.*"]
 notes: "ASCII Art - notes.md"
 layout: project
+project-type: sample
 ---
 
 #Introduction:  { .intro}

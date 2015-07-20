@@ -3,6 +3,7 @@ title: The Year 2025
 materials: ["Club Leader Resources/*.*"]
 notes: "The Year 2025 - notes.md"
 layout: project
+project-type: sample
 ---
 
 #Introduction:  { .intro}
