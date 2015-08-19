@@ -1,6 +1,7 @@
 ---
-title: Project Template
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+title: ProjectName
+description: Add description here.
+notes: "ProjectName - notes.md"
 layout: project
 ---
 
@@ -20,7 +21,7 @@ Briefly explain the outcome of this step.
 
 + To aid clarity, you can also include images, like this:
 
-	![screenshot](image.png)
+	![screenshot](images/image.png)
 
 + You should also regularly remind children to save their project:
 

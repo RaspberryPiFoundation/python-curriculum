@@ -1,6 +1,6 @@
 ---
 title: Turtle Power
-materials: ["Club Leader Resources/*.*"]
+description: Learn how to use a 'turtle' to draw awesome shapes and patterns.
 notes: "Turtle Power - notes.md"
 layout: project
 ---
@@ -28,7 +28,7 @@ We're going to have some fun programming turtles. A turtle is a tiny robot that 
 	done()
 	```
 
-	![screenshot](turtle.png)
+	![screenshot](images/turtle.png)
 
 + The turtle has a pen attached, and draws a line as it moves around the screen. Here's what the program does:
 
@@ -42,7 +42,7 @@ We're going to have some fun programming turtles. A turtle is a tiny robot that 
 
 	+ `left(45)` and `right(90)` turn the turtle left or right by a number of degrees. Here are some examples:
 
-		![screenshot](turtle_degrees.png)
+		![screenshot](images/turtle_degrees.png)
 
 	+ `done()` tells Python that we've finished programming the turtle.
 
@@ -71,7 +71,7 @@ We're going to have some fun programming turtles. A turtle is a tiny robot that 
 	done()
 	```
 
-	![screenshot](turtle_colour.png)
+	![screenshot](images/turtle_colour.png)
 
 + The code above contains a couple of new commands:
 
@@ -147,7 +147,7 @@ When drawing a square and a triangle, your program repeated the same commands ov
 	done()
 	```
 
-	![screenshot](turtle_octagon.png)
+	![screenshot](images/turtle_octagon.png)
 
 	This program works in the same way as the square drawing program, except that it repeats 8 times, and only turns 45 degrees for each corner. This means that the code draws an 8-sided shape (an octagon), as the corners for each of the 8 sides add up to 360 degrees (360 divided by 8 is 45).
 
@@ -198,7 +198,7 @@ for count in range(36):
 done()
 ```
 
-![screenshot](turtle_loopy.png)
+![screenshot](images/turtle_loopy.png)
 
 ## Save Your Project {.save}
 

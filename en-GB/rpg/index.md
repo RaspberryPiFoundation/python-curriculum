@@ -1,6 +1,6 @@
 ---
 title: RPG
-materials: ["Project Resources/*.*"]
+description: Design and code your own RPG maze game.
 notes: "RPG - notes.md"
 layout: project
 ---
@@ -14,15 +14,15 @@ In this challenge, you’ll design and code your own RPG maze game. The aim of t
 
   + If you run the RPG.py file, you’ll be able to play a very basic RPG game that only has 2 rooms. Here’s a map of the game:
 
-    ![screenshot](rpg-map1.png)
+    ![screenshot](images/rpg-map1.png)
 
     You can type `go south` to move from the hall to the kitchen, and then `go north` to go back to the hall again!
 
-    ![screenshot](rpg-controls.png)
+    ![screenshot](images/rpg-controls.png)
 
   + You can also see what happens when you type in a direction that you cannot go. For example, there is no room to the west of the hall, so if you type `go west`, you’ll get a friendly error message.
 
-    ![screenshot](rpg-error.png)
+    ![screenshot](images/rpg-error.png)
 
   + If you edit the RPG.py file, you can see that the map is coded as a dictionary of rooms:
 
@@ -45,7 +45,7 @@ In this challenge, you’ll design and code your own RPG maze game. The aim of t
 
   + Let’s add another room to your map (a dining room), to make it a bit more interesting!
 
-    ![screenshot](rpg-dining.png)
+    ![screenshot](images/rpg-dining.png)
 
     This new dining room is linked to the hall (to the west). Let’s add this new room into the code:
 
@@ -73,7 +73,7 @@ In this challenge, you’ll design and code your own RPG maze game. The aim of t
 
   + Try out the game with the new dining room:
 
-    ![screenshot](rpg-new-room.png)
+    ![screenshot](images/rpg-new-room.png)
 
     If you can’t move in and out of the dining room, just check that you added all of the code above (including the extra commas to the lines above).
 
@@ -118,7 +118,7 @@ Now that you have lots of rooms, let’s leave items in the rooms for the player
 
   + If you run your game after adding the code above, you can now see a key in the hall, and you can even pick it up (by typing `get key`) and add it to your inventory!
 
-    ![screenshot](rpg-key.png)
+    ![screenshot](images/rpg-key.png)
 
 ## Save Your Project {.save}
 
@@ -173,7 +173,7 @@ This game is too easy! Let’s add enemies to some rooms that the player must av
 
   + Test out your code by going into the kitchen, which now contains a monster.
 
-    ![screenshot](rpg-monster.png)
+    ![screenshot](images/rpg-monster.png)
 
 ## Save Your Project {.save}
 
@@ -191,7 +191,7 @@ Let’s give your player a mission, which needs to completed to win the game.
 
   + In this game, the player wins by getting to the garden and escaping the house. They also need to have the key with them, and the magic potion. Here’s a map of the game.
 
-    ![screenshot](rpg-final-map.png)
+    ![screenshot](images/rpg-final-map.png)
 
     Notice that there’s another fourth room (the garden) that links to the dining room (to the north).
 
@@ -214,7 +214,7 @@ Let’s give your player a mission, which needs to completed to win the game.
 
   + Test your game to make sure the player can win!
 
-    ![screenshot](rpg-win.png)
+    ![screenshot](images/rpg-win.png)
 
   + Finally, let’s add some instructions to your game, so that the player knows what they have to do. Edit the `showInstructions()` function to include more information.
 
@@ -236,7 +236,7 @@ Let’s give your player a mission, which needs to completed to win the game.
 
     You will need to add instructions to tell the user what items they need to collect, and what they need to avoid!
 
-    ![screenshot](rpg-instructions.png)
+    ![screenshot](images/rpg-instructions.png)
 
 ## Save Your Project {.save}
 

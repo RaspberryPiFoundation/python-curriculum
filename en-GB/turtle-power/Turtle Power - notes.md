@@ -8,7 +8,7 @@ This project teaches Python `for` loops, through the use of the Python turtle mo
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project's challenges by clicking the 'Project Materials' link for this project, which contains:
 
 + DrawingShapes-square.py
 + DrawingShapes-triangle.py

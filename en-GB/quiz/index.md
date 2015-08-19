@@ -1,6 +1,6 @@
 ---
 title: Quiz
-materials: ["Project Resources/Quiz.py"]
+description: make a quiz game to challenge your friends.
 notes: "Quiz - notes.md"
 layout: project
 ---
@@ -29,7 +29,7 @@ In this project, you'll make a quiz game to challenge your friends.
 
 + Once you've written the program above, try it out! What happens when you get the answer right? What happens when you get it wrong?
 
-	![screenshot](quiz-if.png)
+	![screenshot](images/quiz-if.png)
 
 	The indented code (that prints the smiley faces) only runs *if* the answer is correct. But "Thank you for playing!" always appears, whether your answer is right or wrong. Why is that?
 
@@ -51,7 +51,7 @@ In this project, you'll make a quiz game to challenge your friends.
 
 	Try out this new program. What happens when you enter the right answer? What happens when you enter anything else?
 
-	![screenshot](quiz-if-else.png)
+	![screenshot](images/quiz-if-else.png)
 
 ## Save Your Project {.save}
 
@@ -69,7 +69,7 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 + If you've tested your quiz, you may have noticed it's possible to get sad faces even when you input a correct answer! Like in this example, where the player has accidently presSED CAPS LOCK!
 
-	![screenshot](quiz-test.png)
+	![screenshot](images/quiz-test.png)
 
 	This happens because Python is very strict when it compares the player's answer to the correct answer. To Python, "V" isn't the same as "v", and so if the player uses any capital letters in their answer, Python thinks the answer's wrong!
 
@@ -84,7 +84,7 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 + Now test your quiz again. Have you fixed the problem? Try testing these examples:
 
-	![screenshot](quiz-test-lower.png)
+	![screenshot](images/quiz-test-lower.png)
 
 ## Save Your Project {.save}
 
@@ -119,7 +119,7 @@ It's always a good idea to test your programs, to make sure that they work prope
 
 + Test this new question 4 times, so that you see each of the 4 messages.
 
-	![screenshot](quiz-elif.png)
+	![screenshot](images/quiz-elif.png)
 
 ## Save Your Project {.save}
 

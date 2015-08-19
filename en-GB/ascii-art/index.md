@@ -1,6 +1,6 @@
 ---
 title: ASCII Art
-materials: ["Project Resources/*.*"]
+description: Learn how to make your own images out of text.
 notes: "ASCII Art - notes.md"
 layout: project
 project-type: sample
@@ -26,19 +26,19 @@ Python allows you to turn a series of instructions into useful programs and fun 
 
     This program will print some text to the screen. Notice that the text you want to print is surrounded by speech marks (`"`). Here's an image showing what you need to do:
 
-    ![screenshot](ascii-hello.png)
+    ![screenshot](images/ascii-hello.png)
 
 + Save the file, by clicking `File → Save`, and name the file `hello.py` or something similar. Don’t forget to type the `.py` bit at the end, which tells the computer that it’s a Python file. Without it, your program won't be colour coded, which can be really helpful.
 
-    ![screenshot](ascii-save.png)
+    ![screenshot](images/ascii-save.png)
 
 + Run the file by clicking `Run → Run Module`. You should see another window appear, which is the Python shell. This is the place that your program will run. If everything has worked properly, you should see your text printed to the screen.
 
-    ![screenshot](ascii-run.png)
+    ![screenshot](images/ascii-run.png)
 
 + If you’ve made a mistake, for example missing out a speech mark (`"`), then you’ll get an error message instead, telling you what went wrong! Try it!
 
-    ![screenshot](ascii-error.png)
+    ![screenshot](images/ascii-error.png)
 
 + Congratulations, you are now officially a Python programmer! Give yourself a pat on the back (or if you're feeling lazy, get someone else to do it for you).
 
@@ -47,7 +47,7 @@ Python allows you to turn a series of instructions into useful programs and fun 
 ## Challenge: What’s on your mind? { .challenge}
 Change the program above to print something more interesting to the screen!
 
-![screenshot](ascii-mind.png)
+![screenshot](images/ascii-mind.png)
 
 ## Save Your Project {.save}
 
@@ -56,7 +56,7 @@ Change the program above to print something more interesting to the screen!
 
 + Let’s print something much more fun than text… ASCII art! ASCII art is creating pictures out of text. Here’s an example - it’s meant to be a dog!
 
-    ![screenshot](ascii-dog.png)
+    ![screenshot](images/ascii-dog.png)
 
     To make this masterpiece, you can type the following into the IDLE editor and run the program:
 
@@ -83,7 +83,7 @@ Change the program above to print something more interesting to the screen!
 ## Challenge: About yourself { .challenge}
 Write a Python program to tell others about yourself, by using text and ASCII art. You can create images of your hobbies, friends, family… anything you want! Here’s an example:
 
-![screenshot](ascii-aboutMe.png)
+![screenshot](images/ascii-aboutMe.png)
 
 ## Save Your Project {.save}
 
@@ -98,7 +98,7 @@ Write a Python program to tell others about yourself, by using text and ASCII ar
 
     The star `*` in the program above is a multiply sign. Run the program above, and you should see the answer:
 
-    ![screenshot](ascii-textcalc.png)
+    ![screenshot](images/ascii-textcalc.png)
 
 + You can make the printed text above easier to read, by putting a space after the word `"hello"` in your program:
 
@@ -110,7 +110,7 @@ Write a Python program to tell others about yourself, by using text and ASCII ar
 
 + If `"hello "` multiplied by 5 is `"hello hello hello hello hello "`, then what is `"hello" - 7`? Does this calculation even make sense?
 
-    ![screenshot](ascii-minus.png)
+    ![screenshot](images/ascii-minus.png)
 
     Oops, you've broken it! Instead of an answer, we get an error message. It looks like that calculation doesn’t make sense in Python!
 
@@ -120,7 +120,7 @@ Write a Python program to tell others about yourself, by using text and ASCII ar
     print("hello " + "world")
     ```
 
-    ![screenshot](ascii-textadd.png)
+    ![screenshot](images/ascii-textadd.png)
 
     Does it give you the answer you expected?
 
@@ -160,7 +160,7 @@ Can you make up any words of your own?
 
     Both give you exactly the same rectangle printed to the screen:
 
-    ![screenshot](ascii-rect.png)
+    ![screenshot](images/ascii-rect.png)
 
 + You could even use calculations to make interesting patterns, like this wave:
 
@@ -169,7 +169,7 @@ Can you make up any words of your own?
     print("  \/"*10)
     ```
 
-    ![screenshot](ascii-wave.png)
+    ![screenshot](images/ascii-wave.png)
 
 ## Save Your Project {.save}
 
@@ -178,6 +178,6 @@ Your best friend is having an 11th birthday party, and as a gift you've decided 
 
 If you're feeling generous, you could even code them a cake (including 11 candles) to go with it!
 
-![screenshot](ascii-birthday.png)
+![screenshot](images/ascii-birthday.png)
 
 ## Save Your Project {.save}

@@ -1,6 +1,6 @@
 ---
 title: Gameshow
-materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+description: Make a guessing game, in which you have to guess which door will reveal a prize.
 notes: "Gameshow - notes.md"
 layout: project
 ---
@@ -54,7 +54,7 @@ In this project you'll learn how to make a guessing game, in which you have to g
 
     ```
 
-    ![screenshot](gameshow.png)
+    ![screenshot](images/gameshow.png)
 
     Here's how the program works: first, a random number between 1 and 3 is chosen, which is the door containing the prize. `randint(1,3)` means 'choose a random integer between 1 and 3'. The program then asks the player for their choice of door, and says "Well done!" if the two numbers are the same or "Unlucky!" if they are different.
 
@@ -105,7 +105,7 @@ In this project you'll learn how to make a guessing game, in which you have to g
 
     ```
 
-    ![screenshot](gameshow-loop3.png)
+    ![screenshot](images/gameshow-loop3.png)
 
     In this program, notice that the code for printing the 3 doors is _outside_ of the loop, as they only need to be printed once. The code for generating random numbers and asking the player to pick a door is _inside_ the loop, as these will each need to be done 3 times. If the code for choosing a random winning door was outside of the loop, then the winning door would be the same door for each of the 3 guesses.
 
@@ -181,7 +181,7 @@ Create a variable to keep track of how many times the player guesses the correct
     print("Your final score is", score)
     ```
 
-    ![screenshot](gameshow-while.png)
+    ![screenshot](images/gameshow-while.png)
 
     A `while` loop allows your program to repeat _until_ something happens to stop it. In this program, you want to keep playing the game as long as the variable `playing` is set to `True`. If the player decides that they don't want to play again and inputs `n`, the variable `playing` is set to `False`, and the loop stops running. The name for data that is either `True` or `False` is _Boolean_ data.
 
@@ -262,7 +262,7 @@ Can you create a game where the aim is to score exactly 21 points? The program s
 
 Here is an example of the game:
 
-![screenshot](gameshow-21.png)
+![screenshot](images/gameshow-21.png)
 
 You can use (or change) parts of your gameshow program to make this new game. Here are some hints that you can use to help you:
 

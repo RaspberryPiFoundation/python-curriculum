@@ -1,6 +1,6 @@
 ---
 title: The Year 2025
-materials: ["Club Leader Resources/*.*"]
+description: write a program to tell you how old you'll be in the year 2025!
 notes: "The Year 2025 - notes.md"
 layout: project
 project-type: sample
@@ -23,7 +23,7 @@ In this project you'll write a program to tell you how old you'll be in the year
 
 + Run the program above, and you should see the answer:
 
-	![screenshot](2025-calc.png)
+	![screenshot](images/2025-calc.png)
 
 ## Save Your Project {.save}
 
@@ -37,7 +37,7 @@ Write a Python program to calculate how much money you’d make if you washed 12
 
 + With everything you've learnt so far, you should be able to write a program to calculate how old you’ll be in the year 2025. The Python program to calculate your age should work like this:
 
-	![screenshot](2025-age.png)
+	![screenshot](images/2025-age.png)
 
 	As you can see, if you were born in 2004, you can calculate your age in the year 2025 by the calculation `2025 - 2004`. So someone born in 2004 will be 21 years old in the year 2025! If you weren’t born in 2004 you can change the number in the program.
 
@@ -65,11 +65,11 @@ When completing the challenges above, you had to keep changing the numbers in th
 
 	This program waits for you to type in the year you were born, and press enter. You should then see how old you'll be in the year 2025:
 
-	![screenshot](2025-varProg.png)
+	![screenshot](images/2025-varProg.png)
 
 	This program uses the `input()` function to get the user's input from the keyboard, and store it in a variable called 'born', so that it can be used later. You can think of a variable as a box, which can be used to store important data.
 
-	![screenshot](2025-var.png)
+	![screenshot](images/2025-var.png)
 
 	Notice that the variable (the box) has been named "born", as it helps you remember what you’re storing inside it! 
 
@@ -91,22 +91,22 @@ When completing the challenges above, you had to keep changing the numbers in th
 
 + Try running your program again, to see how this change looks.
 
-	![screenshot](2025-print.png)
+	![screenshot](images/2025-print.png)
 
 + But why stop there? You could also use another variable to store the answer before printing it for the user. Try this program out:
 
-	![screenshot](2025-2vars.png)
+	![screenshot](images/2025-2vars.png)
 
 ## Save Your Project {.save}
 
 ## Challenge: The year 3000! { .challenge}
 Your program only tells people what their age will be in the year 2025. What if someone wants to know their age in the year 2050? Or the year 3000? Add another variable to your program, so that the user can find out how old they'll be in any year they choose. 
 
-![screenshot](2025-3000.png)
+![screenshot](images/2025-3000.png)
 
 ## Save Your Project {.save}
 
 ## Challenge: Your age in dog years { .challenge}
 Write a program to ask the user their age, and then tell them their age in dog years! You can calculate a person’s age in dog years by multiplying their age by 7.
 
-![screenshot](2025-dogYears.png)
+![screenshot](images/2025-dogYears.png)

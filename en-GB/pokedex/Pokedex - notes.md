@@ -8,14 +8,14 @@ This project teaches children how to make a graphical user interface (GUI), by m
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Children will need to use of the materials which accompany this project. Files included in the 'Project Resources' folder (found under the 'Download Project Materials' link):
+Children will need to use of the materials which accompany this project. Files included in the 'Project Resources' folder (found under the 'Project Materials' link):
 
 + GUI.py (short example program)
 + pokeapi.py (module used for retrieving data)
 
 Make sure that each child has read and write access to their own copy of these resources.
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project's challenges by clicking the 'Project Materials' link for this project, which contains:
 
 + pokedex-finished.py
 + pokedex-finished-with-images.py

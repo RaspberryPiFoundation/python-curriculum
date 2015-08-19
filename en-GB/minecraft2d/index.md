@@ -1,6 +1,6 @@
 ---
 title: Minecraft 2D
-materials: ["Project Resources/*.*"]
+description: Design and code improvements to a 2D version of Minecraft.
 notes: "Minecraft2D - notes.md"
 layout: project
 ---
@@ -15,21 +15,21 @@ In this project, you’ll design and code improvements to a 2D version of Minecr
 
   + Run the Minecraft2D.py file and you should see a screen that looks like this:
 
-    ![screenshot](mine1-1.png)
+    ![screenshot](images/mine1-1.png)
 
   + Your character is the yellow circle in the top-left of the game screen! Use the arrow keys to move around the world, which as you can see is full of different resources; dirt (the brown squares), grass (the green ones) and water (the blue ones).
 
   + You can press the spacebar to collect resources. For example, move onto some water and press spacebar, you’ll see that you now have one more water in your inventory. Pick up a few of each type of resource.
 
-    ![screenshot](mine1-3.png)
+    ![screenshot](images/mine1-3.png)
 
   + Press the number keys (1 to 4) to place a resource on the map. For example, press 3 to place some water on the map. This will only work if you have some spare water in your inventory.
 
-    ![screenshot](mine1-4.png)
+    ![screenshot](images/mine1-4.png)
 
   + You can craft an item by holding down the shift key and pressing a number. Crafting means combining items you already have in your inventory to create new ones. Try holding shift and pressing 4 to craft a new brick (as long as you have 2 dirt and 1 water in your inventory).
 
-    ![screenshot](mine1-5.png)
+    ![screenshot](images/mine1-5.png)
 
   + As you play, you’ll notice that you can only hold a maximum of 20 of each resource in your inventory. If you want to increase this, you can change the variable called `MAXTILES` in the variables.py file.
 
@@ -50,7 +50,7 @@ Play around with the game and see what you can build. Can you build a house, wit
 
 Here’s a simple example:
 
-![screenshot](mineBuildYourWorld.png)
+![screenshot](images/mineBuildYourWorld.png)
 
 ## Save Your Project {.save}
 
@@ -64,11 +64,11 @@ Just having blocks of colour for each resource isn’t very interesting, so let�
 
     Here are some improved graphics for the grass. I’ve added different shades of grass and even a few flowers:
 
-    ![screenshot](mine2-1.png)
+    ![screenshot](images/mine2-1.png)
 
   + Save the image and then reload the game and you’ll see the new graphics:
 
-    ![screenshot](mine2-2.png)
+    ![screenshot](images/mine2-2.png)
 
 ## Save Your Project {.save}
 
@@ -102,7 +102,7 @@ You only have 4 resources in your game; dirt, grass, water and brick. Let’s ad
 
   + Let’s firstly create the graphics for a new resource called ‘wood’. You can make a copy of an existing image and rename it. You can then edit the image to look like wood:
 
-    ![screenshot](mine3-1.png)
+    ![screenshot](images/mine3-1.png)
 
   + Once you have your image for wood, you can then add the resource to your game. Open the variables.py file and add wood as a resource:
 
@@ -161,7 +161,7 @@ You only have 4 resources in your game; dirt, grass, water and brick. Let’s ad
 
   + If you now run the game, you’ll see that you now have a wood resource that you can place on the map, but there isn’t any wood on the map to begin with:
 
-    ![screenshot](mine3-6.png)
+    ![screenshot](images/mine3-6.png)
 
   + To start the game with some wood resources dotted around, you need to edit the Minecraft2D.py file. Open the file and add the following lines:
 
@@ -184,7 +184,7 @@ You only have 4 resources in your game; dirt, grass, water and brick. Let’s ad
 
     Do you know what this code does? For each space on the map, the program chooses a random number between 0 and 9. Whenever the random number is a 5, wood is placed on the map. After you add this code, you should see some wood in your game:
 
-    ![screenshot](mine3-7.png)
+    ![screenshot](images/mine3-7.png)
 
 ## Save Your Project {.save}
 
@@ -202,7 +202,7 @@ You can add more resources to your game that the player can only get by crafting
 
   + Follow the instructions in step 3 above to make a new ‘plank’ resource. However, make sure that there are 0 planks in the player’s inventory, and that there aren’t any planks on the map to begin with.
 
-    ![screenshot](mine4-1.png)
+    ![screenshot](images/mine4-1.png)
 
   + To allow the player to craft planks of wood, you'll need to add a crafting rule to your game. Open the variables.py file and add the following code to the crafting rules dictionary:
 
@@ -240,7 +240,7 @@ You can add more resources to your game that the player can only get by crafting
 
   + If you collect 3 wood and hold down shift and press 6, you should see a new plank in your inventory. You can then add planks of wood to your map!
 
-    ![screenshot](mine4-4.png)
+    ![screenshot](images/mine4-4.png)
 
 ## Save Your Project {.save}
 

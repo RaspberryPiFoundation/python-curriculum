@@ -1,12 +1,12 @@
 ---
 title: Secret Messages
-materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+description: Make your own encryption program, to send and receive secret messages.
 notes: "Secret Messages - notes.md"
 layout: project
 ---
 
 #Introduction:  { .intro}
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages to a friend.
+In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend.
 
 #Step 1: Encrypting letters { .activity}
 
@@ -14,11 +14,11 @@ A cipher is a type of secret code, where you swap the letters around so no-one c
 
 You start by drawing the letters in a circle, like this:
 
-![screenshot](encryption-wheel.png)
+![screenshot](images/encryption-wheel.png)
 
 To make a secret encrypted letter from a normal one, you need to have a secret key. For our example, let's use the number 3. To encrypt the letter 'a', you just move 3 letters clockwise, which gives us 'd':
 
-![screenshot](encryption-eg.png)
+![screenshot](images/encryption-eg.png)
 
 To decrypt the message, you just move 3 letters anti-clockwise.
 
@@ -49,7 +49,7 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 	print("Your encrypted letter is" , encryptedLetter)
 	```
 
-	![screenshot](encryption-letter.png)
+	![screenshot](images/encryption-letter.png)
 
 + In Python, text can be thought of as lots of characters joined together (called an _array_ of characters). The line:
 
@@ -59,7 +59,7 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 
 	finds the position of the character in the `alphabet`. In most programming languages, positions always start at 0 and not 1, so in the text "abcdefghijklmnopqrstuvwxyz", 'a' is the character at position 0, 'b' is at position 1, and so on.
 
-	![screenshot](encryption-array.png)
+	![screenshot](images/encryption-array.png)
 
 	Next, the secret key is added to the `position`, to get the `newPosition` of the encrypted character. So in the example, 'a' is at position 0, so after adding the key, we get `0 + 3 = 3`.
 
@@ -88,7 +88,7 @@ To decrypt the message, you just move 3 letters anti-clockwise.
 
 + You can use the same program to decrypt a character, by using a key of, say, `-3` instead of `3`. This means that to decrypt a letter, you move backwards through the alphabet and not forwards, going back to 'z' once you get to 'a'.
 
-	![screenshot](encryption-decrypt.png)
+	![screenshot](images/encryption-decrypt.png)
 
 	If you'd prefer to have separate encryption and decryption programs, just change this code to go backwards through the alphabet:
 
@@ -133,7 +133,7 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 		print(char)
 	```
 
-	![screenshot](encryption-loop.png)
+	![screenshot](images/encryption-loop.png)
 
 	In the program above, each letter of the name is stored in the variable `char` in turn, and then printed. `char` is just a variable name, and so you could change the name of the variable if you want to. Run this program to try it out.
 
@@ -180,7 +180,7 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 	print("Your encrypted message is:" , encryptedMessage)
 	```
 
-	![screenshot](encryption-message.png)
+	![screenshot](images/encryption-message.png)
 
 	In this program, each character of the message is encrypted and added to the `encryptedMessage` variable in turn. At the end of the program, the entire message is printed.
 
@@ -205,7 +205,7 @@ Can anyone decrypt your messages without the key? Can you change your program, t
 ## Challenge: Love calculator { .challenge}
 Write a program to show how compatible 2 people are, by calculating a compatibility score.
 
-![screenshot](encryption-love.png)
+![screenshot](images/encryption-love.png)
 
 The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found. You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "loves":
 

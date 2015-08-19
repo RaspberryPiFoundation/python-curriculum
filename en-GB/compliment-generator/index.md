@@ -1,8 +1,9 @@
 ---
 title: Compliment Generator
-materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+description: Make a program to give the user a randomly generated compliment!
 notes: "Compliment Generator - notes.md"
 layout: project
+project-type: sample
 ---
 
 #Introduction:  { .intro}
@@ -32,7 +33,7 @@ In this project, you'll make a program to give the user a randomly generated com
     print( bigPlanets[3] )
     ```
 
-    ![screenshot](compliment-planets.png)
+    ![screenshot](images/compliment-planets.png)
 
     As you can see, positions start at 0 and not 1, so `bigPlanets[1]` is "saturn" (the second item) and not "jupiter".
 
@@ -54,7 +55,7 @@ In this project, you'll make a program to give the user a randomly generated com
     print("You're welcome!")
     ```
 
-    ![screenshot](compliment-list.png)
+    ![screenshot](images/compliment-list.png)
 
 + You could make your compliments a little more interesting, by combining random items from 2 different lists:
 
@@ -75,7 +76,7 @@ In this project, you'll make a program to give the user a randomly generated com
     print( "You're welcome!" )
     ```
 
-    ![screenshot](compliment-2lists.png)
+    ![screenshot](images/compliment-2lists.png)
 
 ## Save Your Project {.save}
 
@@ -133,7 +134,7 @@ Try to think of some more compliments, and add them to your program! Remember th
             print("Please choose a valid option!")
     ```
 
-    ![screenshot](compliment-loop.png)
+    ![screenshot](images/compliment-loop.png)
 
     Remember that the the `while` loop continues to run as long as the variable `running` is set to `True`. If the user inputs `q` to quit, `running` is set to `False`.
 
@@ -211,7 +212,7 @@ Try to think of some more compliments, and add them to your program! Remember th
 
 + When testing the program above, did you run into any problems? At the moment, your compliment generator crashes if you try and remove a compliment that isn't in the list:
 
-    ![screenshot](compliment-error.png)
+    ![screenshot](images/compliment-error.png)
 
     You can fix this problem, by first checking that the item to remove exists in the list. Replace your code to remove a hobby with this code:
 
@@ -229,14 +230,14 @@ Try to think of some more compliments, and add them to your program! Remember th
 
     Now run the program and try to delete a hobby that isn't in the list:
 
-    ![screenshot](compliment-errorfix.png)
+    ![screenshot](images/compliment-errorfix.png)
 
 ## Save Your Project {.save}
 
 ## Challenge: Duplicate hobbies { .challenge}
 Another problem with the program is that it is possible to add the same hobby more than once:
 
-![screenshot](compliment-hobbiesx2.png)
+![screenshot](images/compliment-hobbiesx2.png)
 
 Can you fix this problem, so that a hobby can only be added if it isn't already in the list:
 
@@ -250,7 +251,7 @@ if itemToAdd not in hobbies:
 ## Challenge: Pet naming service { .challenge}
 Write a program to help a new pet owner to name their pet:
 
-![screenshot](compliment-pet.png)
+![screenshot](images/compliment-pet.png)
 
 Your program could:
 + allow the user to add and remove names from the list;

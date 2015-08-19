@@ -1,12 +1,12 @@
 ---
 title: Teaching Turtles
-materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+description: learn more about drawing with the turtle.
 notes: "Teaching Turtles - notes.md"
 layout: project
 ---
 
 #Introduction: { .intro}
-In this project, you'll learn more about drawing with the turtle, and how _functions_ can make writing your programs easier.
+In this project, you'll learn more about drawing with the turtle, and how functions can make writing your programs easier.
 
 #Step 1: Drawing stars { .activity}
 
@@ -36,7 +36,7 @@ In this project, you'll learn more about drawing with the turtle, and how _funct
 	done()
 	```
 
-	![screenshot](sky-star.png)
+	![screenshot](images/sky-star.png)
 
 	The only new commands here are `begin_fill()` and `end_fill()`. These commands are used to colour in a shape. Also notice that there is no pen line between the star and the turtle in the image above, as you have used the `penup()` function to stop the turtle drawing.
 
@@ -74,7 +74,7 @@ In this project, you'll learn more about drawing with the turtle, and how _funct
 	done()
 	```
 
-	![screenshot](sky-function.png)
+	![screenshot](images/sky-function.png)
 
 	You've seen and used functions before. For example, `penup()` and `pendown()` are functions. When using these functions, you didn't need to know exactly how they worked, you could just use them whenever you needed them.
 
@@ -136,11 +136,11 @@ print("Hello")
 	done()
 	```
 
-	![screenshot](sky-parameters.png)
+	![screenshot](images/sky-parameters.png)
 
 	When your program runs the line `drawStar(50)`, the number `50` is passed to the `drawStar()` function, and so the value of `starSize` is set to `50`. This means that the line `forward(starSize)` draws a line 50 pixels long.
 
-	![screenshot](sky-parameter-passing.png)
+	![screenshot](images/sky-parameter-passing.png)
 
 + You can pass as much data to your `drawStar()` function as you want. For example, you could also pass the colour of the star you want to draw:
 
@@ -173,7 +173,7 @@ print("Hello")
 	done()
 	```
 
-	![screenshot](sky-colours.png)
+	![screenshot](images/sky-colours.png)
 
 	Calling the function `drawStar(50, "red")` works in the same way as before, except now the first piece of data (`50`) becomes the value of `starSize`, and the second piece of data (`"Red"`) becomes the value of `starColour`.
 
@@ -223,7 +223,7 @@ Let's use the `drawStar()` function to draw different sized stars randomly aroun
 
 	The `setpos()` function moves the turtle to whatever x and y coordinates are passed to it. In the program above, the code `setpos(200 , 200)` moves the turtle to the point x=200, y=200 on the screen. What would happen if you changed the numbers passed to the `setpos()` function?
 
-	![screenshot](sky-xy.png)
+	![screenshot](images/sky-xy.png)
 
 + You'll be using code to move to a random location a lot, so let's define another function called `moveToRandomLocation()`, which, well, moves the turtle to a random location (obviously)!
 
@@ -260,7 +260,7 @@ Let's use the `drawStar()` function to draw different sized stars randomly aroun
 	done()
 	```
 
-	![screenshot](sky-random.png)
+	![screenshot](images/sky-random.png)
 
 	As you can see, this program draws 30 stars, each time moving to a random location and then drawing a star with a random size between 5 and 25 pixels. Remember that the code `randint(5,25)` chooses a random number between 5 and 25.
 
@@ -326,7 +326,7 @@ You can write functions that make use of other functions, to make writing large 
 	done()
 	```
 
-	![screenshot](sky-galaxies.png)
+	![screenshot](images/sky-galaxies.png)
 
 	Calling `drawGalaxy(40)` 3 times means that 3 new galaxies are drawn, each containing 40 stars. For each galaxy, the `drawStar()` function is run 40 times, each time moving a small random amount before drawing a really small random colour star.
 
@@ -403,7 +403,7 @@ You can write functions that make use of other functions, to make writing large 
 	done()
 	```
 
-	![screenshot](sky-constellations.png)
+	![screenshot](images/sky-constellations.png)
 
 ## Save Your Project {.save}
 
@@ -414,7 +414,7 @@ For example, you could draw a house, using `drawSquare()` and `drawTriangle()` f
 
 You could even pass data to your functions, to allow you to draw shapes in different sizes and colours! Here are some examples:
 
-![screenshot](sky-flowers.png)
-![screenshot](sky-birds.png)
+![screenshot](images/sky-flowers.png)
+![screenshot](images/sky-birds.png)
 
 ## Save Your Project {.save}

@@ -1,6 +1,6 @@
 ---
 title: Text-speak Converter
-materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+description: Learn how to make a program for translating text-speak into sentences.
 notes: "Text-speak Converter - notes.md"
 layout: project
 ---
@@ -45,7 +45,7 @@ Let's make a program to convert text-speak to English.
     print( key , "=" , textSpeakDictionary[key] )
     ```
 
-    ![screenshot](textspeak-dictionary.png)
+    ![screenshot](images/textspeak-dictionary.png)
 
     This program prints 3 things: the entire dictionary, the dictionary entry for "lol" and finally the dictionary entry for whatever the user inputs.
 
@@ -91,7 +91,7 @@ Let's amend your program, so that you can translate whole sentences instead of j
     print(translatedSentence)
     ```
 
-    ![screenshot](textspeak-sentence.png)
+    ![screenshot](images/textspeak-sentence.png)
 
     Each word is taken in turn, and the program checks whether the word to translate is in the dictionary. If it is, then the translated text added to the `translatedSentence` variable, which is printed at the end of the program. If the word isn't in the dictionary, then just the original word is added to the `translatedSentence` variable.
 
@@ -107,7 +107,7 @@ You might need to research some text-speak if you don't know any.
 
 + Try out the program above, with a number of different sentences, to test that your program works.
 
-![screenshot](textspeak-test.png)
+![screenshot](images/textspeak-test.png)
 
 + Did you (or your friends) do anything to break your program? If so, can you fix any problems?
 
@@ -210,7 +210,7 @@ You might need to research some text-speak if you don't know any.
             print("Invalid menu choice!")
     ```
 
-    ![screenshot](textspeak-menu.png)
+    ![screenshot](images/textspeak-menu.png)
 
     Although this is a loooong program, you've seen most of this code before in other programs. The new bits are just the code to add an item to the dictionary:
 
@@ -257,7 +257,7 @@ if itemToDelete not in textSpeakDictionary:
 
 + You've already done lots of testing to improve your program, but there's one more thing that you can fix, to make your program even better. Look what happens when you test your program with the following sentence:
 
-    ![screenshot](textspeak-punctuation.png)
+    ![screenshot](images/textspeak-punctuation.png)
 
     It doesn't get translated properly. Try it out for yourself.
 
@@ -290,14 +290,14 @@ if itemToDelete not in textSpeakDictionary:
 ## Challenge: Distant planets { .challenge}
 Make a program to give the user information about any topic you like. For example planets, and their distances from the Earth. You can store this data in a dictionary that links planets and distances. 
 
-![screenshot](textspeak-planets.png)
+![screenshot](images/textspeak-planets.png)
 
 ## Save Your Project {.save}
 
 ## Challenge: Password protection { .challenge}
 Create a password-protection program, that asks the user for their name and password, and checks a dictionary to see if they've entered the correct details. 
 
-![screenshot](textspeak-password.png)
+![screenshot](images/textspeak-password.png)
 
 Your program will need to check that the user's name exists in the dictionary, _and_ that the correct password for that user has been entered. You can use this code to help you:
 

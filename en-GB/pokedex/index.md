@@ -1,6 +1,6 @@
 ---
 title: Pokedex
-materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
+description: Make a program for looking up information on Pokemon.
 notes: "Pokedex - notes.md"
 layout: project
 ---
@@ -11,7 +11,7 @@ In this project you'll learn how to create a graphical user interface (GUI), by 
 
 This is what your Pokedex GUI will look like:
 
-![screenshot](gui-command.png)
+![screenshot](images/gui-command.png)
 
 ## Pokemon data { .challenge }
 The Pokemon data used in this project is accessed through the <a href="http://pokeapi.co/">pokeAPI</a>, created by Paul Hallett.
@@ -45,7 +45,7 @@ The Pokemon data used in this project is accessed through the <a href="http://po
 
     If you run this program, you can see a main window, which has a text label, a text entry box and a button inside.
 
-    ![screenshot](gui-widgets.png)
+    ![screenshot](images/gui-widgets.png)
 
     Each widget is created and stored in a variable, and then packed into the main window. Notice that when creating a widget, you have to say which window it should appear in, and can also say what text is displayed, like this:
 
@@ -84,7 +84,7 @@ The Pokemon data used in this project is accessed through the <a href="http://po
     window.mainloop()
     ```
 
-    ![screenshot](gui-more-widgets.png)
+    ![screenshot](images/gui-more-widgets.png)
 
     Notice that lots of useful comments have been added, to remind you of what each label is used for. Variable names of the widgets have also been changed, to make the program easier to understand.
 
@@ -93,7 +93,7 @@ The Pokemon data used in this project is accessed through the <a href="http://po
 ## Challenge: More widgets { .challenge}
 Can you finish creating the GUI for displaying details of Pokemon, so that it looks like this:
 
-![screenshot](gui-pokedex-widgets.png)
+![screenshot](images/gui-pokedex-widgets.png)
 
 Your GUI will need:
 + A text entry box for typing in which Pokemon you want to see;
@@ -124,7 +124,7 @@ Now that you have lots of different widgets in your GUI window, you can change h
     window.title("Pokedex")
     ```
 
-    ![screenshot](gui-window-bg.png)
+    ![screenshot](images/gui-window-bg.png)
 
     Using `.config()` allows you to _configure_ the way things look. As you may have guessed, `bg` means "background", and `"#e0e0ff"` is the hex code for light purple. You can also configure the way that widgets look, for example the labels for displaying the Pokemon's name:
 
@@ -138,7 +138,7 @@ Now that you have lots of different widgets in your GUI window, you can change h
     lblNameValue.pack()
     ```
 
-    ![screenshot](gui-colour.png)
+    ![screenshot](images/gui-colour.png)
 
     `fg` means foreground, and sets the label's text colour.
 
@@ -164,14 +164,14 @@ Now that you have lots of different widgets in your GUI window, you can change h
 
     All that's been added to the `.config()` is the `font=mediumFont` and `font=bigFont` bits.
 
-    ![screenshot](gui-font.png)
+    ![screenshot](images/gui-font.png)
 
 ## Save Your Project {.save}
 
 ## Challenge: Making widgets look nice { .challenge}
 Can you add fonts and colour to improve the look of your Pokedex GUI. Here's an example of how it could look:
 
-![screenshot](gui-pokedex-style.png)
+![screenshot](images/gui-pokedex-style.png)
 
 Your Pokedex can look different to this. You can use different fonts, for example `Times`, `Courier`, or any other font you have installed on your computer. You can also choose your own <a href="https://www.tcl.tk/man/tcl8.6/TkCmd/colors.htm">colours</a> (including <a href="http://www.colorpicker.com/">hex colours</a>).
 
@@ -216,7 +216,7 @@ Now that you have a great looking GUI, let's make the button actually display Po
 
     Now try typing a number into the text entry box and see what happens:
 
-    ![screenshot](gui-command.png)
+    ![screenshot](images/gui-command.png)
 
 + You could even make a Pokemon Top Trumps game, by removing the text entry widget, and instead getting a random Pokemon to show each time. Just change the `showPokemonData()` function to:
 
@@ -241,7 +241,7 @@ Now that you have a great looking GUI, let's make the button actually display Po
 
 + If you prefer, you can even change (or add to) the data that's displayed for each Pokemon. You can also display `"happiness"`, `"height"`, `"weight"` and lots of other stuff. You can use <a href="http://pokeapi.co/">this website</a> to see all the Pokemon data.
 
-![screenshot](gui-pokedex-finished.png)
+![screenshot](images/gui-pokedex-finished.png)
 
 ## Save Your Project {.save}
 
@@ -249,7 +249,7 @@ Now that you have a great looking GUI, let's make the button actually display Po
 
 It's also possible to display the picture of a chosen Pokemon in your Pokedex!
 
-![screenshot](67.png)
+![screenshot](images/67.png)
 
 ## Note { .challenge }
 You can only complete this step if you have the 'pillow' module installed on your computer. If you're not sure, ask your club leader.
@@ -291,6 +291,6 @@ You can only complete this step if you have the 'pillow' module installed on you
 
 + When you run your program and click "Get Pokemon!" you should also see an image!
 
-    ![screenshot](gui-pokedex-image.png)
+    ![screenshot](images/gui-pokedex-image.png)
 
 ## Save Your Project {.save}

@@ -8,13 +8,13 @@ This project teaches children how to use dictionaries as a way of storing data.
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Children can also make use of the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Download Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Project Materials' link):
 
 + TextSpeak.py
 
 Make sure that each child has read and write access to their own copy of these resources.
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project's challenges by clicking the 'Project Materials' link for this project, which contains:
 
 + TextSpeakFinished.py
 + DistantPlanets.py
