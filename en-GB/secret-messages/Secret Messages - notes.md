@@ -1,5 +1,5 @@
 ---
-title: Secret Messages — Notes for Club Leaders
+title: Secret Messages — Volunteer Notes
 ---
 
 #Introduction:

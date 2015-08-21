@@ -1,5 +1,5 @@
 ---
-title: Text-speak Converter — Notes for Club Leaders
+title: Text-speak Converter — Volunteer Notes
 ---
 
 #Introduction:

@@ -1,5 +1,5 @@
 ---
-title: Pokedex — Notes for Club Leaders
+title: Pokedex — Volunteer Notes
 ---
 
 #Introduction:

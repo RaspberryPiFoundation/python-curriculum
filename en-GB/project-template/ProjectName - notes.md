@@ -1,5 +1,5 @@
 ---
-title: Project Template — Notes for Club Leaders
+title: Project Template — Volunteer Notes
 ---
 
 #Introduction:

@@ -1,5 +1,5 @@
 ---
-title: The Year 2025 — Notes for Club Leaders
+title: The Year 2025 — Volunteer Notes
 ---
 
 #Introduction:

@@ -1,5 +1,5 @@
 ---
-title: Compliment Generator — Notes for Club Leaders
+title: Compliment Generator — Volunteer Notes
 ---
 
 #Introduction:

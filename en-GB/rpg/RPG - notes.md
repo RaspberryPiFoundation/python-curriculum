@@ -1,5 +1,5 @@
 ---
-title: RPG — Notes for Club Leaders
+title: RPG — Volunteer Notes
 ---
 
 #Introduction:

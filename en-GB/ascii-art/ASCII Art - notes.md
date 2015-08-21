@@ -1,5 +1,5 @@
 ---
-title: ASCII Art — Notes for Club Leaders
+title: ASCII Art — Volunteer Notes
 ---
 
 #Introduction:

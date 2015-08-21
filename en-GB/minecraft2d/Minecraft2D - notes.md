@@ -1,5 +1,5 @@
 ---
-title: Minecraft2D — Notes for Club Leaders
+title: Minecraft2D — Volunteer Notes
 ---
 
 #Introduction:
