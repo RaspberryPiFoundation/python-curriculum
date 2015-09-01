@@ -1,6 +1,6 @@
 ---
 title: The Year 2025
-description: write a program to tell you how old you'll be in the year 2025!
+description: Write a program to tell you how old you'll be in the year 2025!
 notes: "The Year 2025 - notes.md"
 layout: project
 project-type: sample

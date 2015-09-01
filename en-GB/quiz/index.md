@@ -1,6 +1,6 @@
 ---
 title: Quiz
-description: make a quiz game to challenge your friends.
+description: Make a quiz game to challenge your friends.
 notes: "Quiz - notes.md"
 layout: project
 ---
