@@ -8,7 +8,7 @@ In this project, children will learn aspects of graphics and AI design by making
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Children will need to use the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Project Materials' link):
+Children will need to use the materials which accompany these challenges. Files included in the 'Project Materials' section:
 
 + Minecraft2D.py
 + variables.py
@@ -20,6 +20,8 @@ Children will need to use the materials which accompany these challenges. Files 
 + brick.png
 
 Make sure that each child has read and write access to their own copy of these resources.
+
+(There is also a .zip file available for download, containing all of the resources above.)
 
 Pygame should also be installed. Make sure that you have installed Pygame for Python 3.2, which can be downloaded <a href="http://www.pygame.org/download.shtml">from the Pygame website</a>. You can check whether Pygame has installed successfully by typing `import pygame` into the Python shell. If you don't receive an error message then it means everything is working!
 
