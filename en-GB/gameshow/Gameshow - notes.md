@@ -8,7 +8,7 @@ This project teaches children how to use `while` loops and random numbers to cre
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Children can also make use of the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in the 'Project Materials link:
 
 + Gameshow.py
 

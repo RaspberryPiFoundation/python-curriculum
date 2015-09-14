@@ -8,7 +8,7 @@ This project teaches children how to make a graphical user interface (GUI), by m
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Children will need to use of the materials which accompany this project. Files included in the 'Project Resources' folder (found under the 'Project Materials' link):
+Children will need to use of the materials which accompany this project. Files included in the 'Project Materials link:
 
 + GUI.py (short example program)
 + pokeapi.py (module used for retrieving data)

@@ -8,7 +8,7 @@ Explain the project, focusing on what children will learn. Remember that these n
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Children can also make use of the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Project Materials' link):
+Children can also make use of the materials which accompany these challenges. Files included in the 'Project Materials link:
 
 + List the project's resources here.
 

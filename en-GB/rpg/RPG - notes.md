@@ -8,7 +8,7 @@ This project teaches game design through the development of an RPG maze game. In
 #Resources
 For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Children will also need to make use of the materials which accompany this project. Files included in the 'Project Resources' folder (found under the 'Project Materials' link):
+Children will also need to make use of the materials which accompany this project. Files included in the 'Project Materials link:
 
 + RPG.py
 
