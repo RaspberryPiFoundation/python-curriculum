@@ -3,7 +3,6 @@ title: Compliment Generator
 description: Make a program to give the user a randomly generated compliment!
 notes: "Compliment Generator - notes.md"
 layout: project
-project-type: sample
 ---
 
 #Introduction:  { .intro}
