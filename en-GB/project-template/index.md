@@ -1,8 +1,10 @@
 ---
 title: ProjectName
 description: Add description here.
-notes: "ProjectName - notes.md"
+notes: "notes.md"
 layout: project
+new: true
+project-type: community
 ---
 
 # Introduction { .intro }
