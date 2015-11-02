@@ -1,6 +1,10 @@
 ---
 title: The Year 2025 - Materials
-layout: materials
-volunteer-resources: AgeInDogYears.py TheYear3000.py
-project-resources: 
+layout: project-materials
+project-resources:
+volunteer-resources: 
+  - url: AgeInDogYears.py
+    type: file
+  - url: TheYear3000.py
+    type: file
 ---

@@ -1,6 +1,8 @@
 ---
 title: Quiz - Materials
-layout: materials
+layout: project-materials
+project-resources:
+  - url: Quiz.py
+    type: file
 volunteer-resources: 
-project-resources: Quiz.py
 ---

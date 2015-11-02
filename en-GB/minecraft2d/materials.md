@@ -1,6 +1,25 @@
 ---
 title: Minecraft2D - Materials
-layout: materials
+layout: project-materials
+project-resources:     
+  - url: minecraft2d-project-resources.zip
+    type: file
+    description: .zip file containing all project resources
+  - url: Minecraft2D.py
+    type: file
+  - url: variables.py
+    type: file
+  - url: FreeSansBold.ttf
+    type: file
+  - url: brick.png
+    type: image
+  - url: dirt.png
+    type: image
+  - url: grass.png
+    type: image
+  - url: player.png
+    type: image
+  - url: water.png
+    type: image
 volunteer-resources: 
-project-resources: minecraft2d-project-resources.zip Minecraft2D.py variables.py FreeSansBold.ttf brick.png dirt.png grass.png player.png water.png
 ---

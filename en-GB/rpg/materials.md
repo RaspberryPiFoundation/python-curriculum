@@ -1,6 +1,8 @@
 ---
 title: RPG - Materials
-layout: materials
+layout: project-materials
+project-resources:
+  - url: RPG.py
+    type: file
 volunteer-resources: 
-project-resources: RPG.py
 ---

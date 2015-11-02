@@ -1,6 +1,12 @@
 ---
 title: Gameshow - Materials
-layout: materials
-volunteer-resources: KeepingScore.py TwentyOne.py
-project-resources: Gameshow.py
+layout: project-materials
+project-resources:
+  - url: Gameshow.py
+    type: file
+volunteer-resources:
+  - url: KeepingScore.py
+    type: file
+  - url: TwentyOne.py
+    type: file
 ---

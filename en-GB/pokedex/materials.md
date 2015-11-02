@@ -1,6 +1,16 @@
 ---
 title: Pokedex - Materials
-layout: materials
-volunteer-resources: pokeapi.py pokedex-finished.py pokedex-finished-with-images.py
-project-resources: GUI.py pokeapi.py
+layout: project-materials
+project-resources:
+  - url: GUI.py
+    type: file
+  - url: pokeapi.py
+    type: file
+volunteer-resources:
+  - url: pokeapi.py
+    type: file
+  - url: pokedex-finished.py
+    type: file
+  - url: pokedex-finished-with-images.py
+    type: file
 ---

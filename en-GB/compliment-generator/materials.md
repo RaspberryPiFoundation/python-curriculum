@@ -1,6 +1,10 @@
 ---
 title: Compliment Generator - Materials
-layout: materials
-volunteer-resources: PetNamingService.py
-project-resources: ComplimentGenerator.py
+layout: project-materials
+project-resources:
+  - url: ComplimentGenerator.py
+    type: file
+volunteer-resources:
+  - url: PetNamingService.py
+    type: file
 ---

@@ -1,6 +1,6 @@
 ---
 title: ProjectName - Materials
-layout: materials
+layout: project-materials
+project-resources:
 volunteer-resources: 
-project-resources: 
 ---

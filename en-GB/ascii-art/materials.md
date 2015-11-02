@@ -1,6 +1,11 @@
 ---
 title: ASCII Art - Materials
-layout: materials
+layout: project-materials
+project-resources:
+  - url: AboutMe.py
+    type: file
+  - url: Scarf.py
+    type: file
 volunteer-resources: 
-project-resources: AboutMe.py Scarf.py
+
 ---

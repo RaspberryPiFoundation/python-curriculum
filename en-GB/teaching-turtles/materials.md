@@ -1,6 +1,12 @@
 ---
 title: Teaching Turtles - Materials
-layout: materials
-volunteer-resources: Clouds.py ConstellationFinished.py
-project-resources: Sky.py
+layout: project-materials
+project-resources: 
+  - url: Sky.py
+    type: file
+volunteer-resources:
+  - url: Clouds.py
+    type: file
+  - url: ConstellationFinished.py
+    type: file
 ---
