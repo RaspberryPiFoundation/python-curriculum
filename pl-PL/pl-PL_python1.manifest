@@ -1,0 +1,18 @@
+{
+    "description": "Python 1",
+    "id": "python",
+    "language": "pl-PL",
+    "number": 9,
+    "title": "Python 1",
+    "category": "cat-python",
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/ASCII Art/ASCII Art.md",
+            "note":     "lessons/ASCII Art/ASCII Art - notes.md"
+        }
+    ],
+
+    "extras": [
+    ]
+}
