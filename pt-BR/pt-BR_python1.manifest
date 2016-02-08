@@ -15,6 +15,11 @@
             "filename": "lessons/The Year 2025/The Year 2025.md",
             "note":     "lessons/The Year 2025/The Year 2025 - notes.md"
         }
+        {
+            "number":   3,
+            "filename": "lessons/Turtle Power/Turtle Power.md",
+            "note":     "lessons/Turtle Power/Turtle Power - notes.md"
+        }
     ]
 }
 
