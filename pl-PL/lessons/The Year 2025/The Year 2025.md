@@ -1,113 +1,119 @@
 ---
-title: The Year 2025
+title: Rok 2025
 level: Python 1
-language: en
+language: pl
 stylesheet: python
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*"]
 ...
 
-#Introduction:  { .intro}
+# Wstęp  {.intro}
 
-In this project you'll write a program to tell you how old you'll be in the year 2025!
+Wykonując ten projekt nauczysz się, jak napisać program, który powie ci ile będziesz mieć lat w 2025 roku!
 
-#Step 1: How much? { .activity}
-## Activity Checklist { .check}
+# Krok 1: Ile? {.activity}
 
-+ It’s not just text that you can print in Python, you can also print numbers to the screen. For example, if 8 of your friends each gave you £2 for a sponsored silence, you can use this program to see how much money you raised:
+## Lista zadań {.check}
+
++ W języku Python możesz na ekranie wyświetlać nie tylko tekst, ale także liczby. Na przykład jeśli razem z kolegami i koleżankami w ósemkę będziecie składać się na prezent dla kogoś i każdy da po 2 złote, możesz użyć tego programu, aby sprawdzić ile uda wam się zebrać razem:
 
 	```python
 	print(8*2)
 	```
 
-	The star `*` in the program above is a multiply sign, so the program should print the answer to 8 x 2.
+	Gwiazdka `*` w tym programie to znak mnożenia, więc program powinien wyświetlić wynik działania 8 x 2.
 
-+ Run the program above, and you should see the answer:
++ Otwórz edytor trinket.io i uruchom powyższy program, a zobaczysz wynik:
 
 	![screenshot](2025-calc.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-## Challenge: Pocket money { .challenge}
-Write a Python program to calculate how much money you’d make if you washed 12 cars, and charged £2.50 for each car.
+## Wyzwanie: Kieszonkowe {.challenge}
+Napisz w Pythonie program, który policzy, ile zarobisz pieniędzy, jeśli umyjesz 12 samochodów, a za każdy będziesz brał 2,50zł.
 
-## Save Your Project {.save}
+Uwaga! W języku Python pisząc liczbę z przecinkiem (np. `2,50`) zamiast przecinka stosuje się kropkę - `2.50`. 
 
-#Step 2: How old? { .activity}
-## Activity Checklist { .check}
+## Zapisz swój projekt {.save}
 
-+ With everything you've learnt so far, you should be able to write a program to calculate how old you’ll be in the year 2025. The Python program to calculate your age should work like this:
+# Krok 2: Ile będziesz mieć lat? {.activity}
+
+## Lista zadań {.check}
+
++ Korzystając z tego, czego nauczyłeś/aś się do tej pory, jesteś zapewne w stanie napisać program, który obliczy ile będziesz mieć lat w 2025 roku. W Pythonie program do obliczania wieku może wyglądać na przykład tak:
 
 	![screenshot](2025-age.png)
 
-	As you can see, if you were born in 2004, you can calculate your age in the year 2025 by the calculation `2025 - 2004`. So someone born in 2004 will be 21 years old in the year 2025! If you weren’t born in 2004 you can change the number in the program.
+	Jak widzisz, jeśli urodziłeś/aś się w 2004 roku, możesz policzyć ile będziesz mieć lat w 2025 roku wykonując działanie `2025- 2004`. W takim razie ktoś urodzony w 2004 roku będzie miał 21 lat w 2025 roku! Jeśli nie urodziłeś/aś się w 2004 roku możesz zmienić tę liczbę w programie.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-## Challenge: Changing dates { .challenge}
-Change your program to find out how old someone born in 1998 would be in the year 2025. How old will someone born this year be in the year 2050?
+## Wyzwanie: Pozmieniaj daty {.challenge}
+Zmień program tak, aby dowiedzieć się ile lat w 2025 roku będzie miał ktoś, kto urodził się w 1998 roku. Ile lat będzie miał ten ktoś w 2050 roku?
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-#Step 3: Variables { .activity }
+#Step 3: Zmienne {.activity}
 
-When completing the challenges above, you had to keep changing the numbers in the program for people of different ages, and for different years in the future. It would be much easier if you could ask someone what year they were born, and use the answer in your calculation. That's what variables are for!
+Wykonując poprzednie wyzwania trzeba było ciągle zmieniać liczby w programie, aby dostosować go do osób urodzonych w różnych latach albo aby obliczyć ich wiek w przyszłości. Byłoby dużo łatwiej, jeśli moglibyśmy zapytać kogoś o rok udodzenia i użyć jego odpowiedzi w swoich obliczeniach. Do tego właśnie służą zmienne!
 
-## Activity Checklist { .check}
+## Lista zadań {.check}
 
-+ Run this Python program:
++ Uruchom ten program:
 
 	```python
-	print("What year were you born?")
-	born = input()
-	born = int(born)
-	print( 2025 - born )
+	print("W którym roku się urodziłeś/aś?")
+	rokUrodzin = input()
+	rokUrodzin = int(rokUrodzin)
+	print( 2025 - rokUrodzin )
 	```
 
-	This program waits for you to type in the year you were born, and press enter. You should then see how old you'll be in the year 2025:
+	Ten program czeka, aż wpiszesz swój rok urodzenia i naciśniesz enter. Zobaczysz wtedy, ile będziesz mieć lat w 2025 roku:
 
 	![screenshot](2025-varProg.png)
 
-	This program uses the `input()` function to get the user's input from the keyboard, and store it in a variable called 'born', so that it can be used later. You can think of a variable as a box, which can be used to store important data.
+	Ten program używa funkcji `input()`, aby otrzymać od użytkownika informacje wpisane na klawiaturze. Te informacje przechowuje w zmiennej o nazwie "rokUrodzin", aby wykorzystać je później. Zmienną możesz wyobrazić sobie jako pudełko, którego można używać do przechowywania ważnych informacji.
 
 	![screenshot](2025-var.png)
 
-	Notice that the variable (the box) has been named "born", as it helps you remember what you’re storing inside it! 
+	Zauważ, że zmienna (pudełko) jest podpisana "rokUrodzin", dzięki czemu łatwiej zapamiętać, co w niej przechowujemy!
 
-	The line...
-
-	```python
-	print( 2025 - born )
-	```
-
-	...takes whatever number has been stored in the `born` variable away from 2025.
-
-	Anything that is typed in from the keyboard is always stored as text, so you also have to use the `int()` function to turn the user's input into a whole number (which in programming is called an _integer_).
-
-+ You can make your program much easier to understand, by adding a helpful message for the user, so they know what you're showing them. Change the last line of your program to:
+	W linii...
 
 	```python
-	print( "In 2025 you will be" , 2025 - born , "years old!" )
+	print( 2025 - rokUrodzin )
 	```
 
-+ Try running your program again, to see how this change looks.
+	...odejmujemy liczbę, którą przechowujemy w zmiennej `rokUrodzin` od liczby 2025.
+
+	Wszystko, co wpisujemy na klawiaturze zawsze jest przechowywane jako tekst. Musimy więc użyć funkcji `int()`, aby zmienić to, co użytkownik wpisał na liczbę całkowitą (w programowaniu taka liczba nazywa się _integer_).
+
++ Możesz zmienić program, aby był bardziej zrozumiały - dodaj komunikaty, które pomogą użytkownikowi zrozumieć, co znaczą liczby, które mu wyświetlasz. Zmień ostatnią linię programu:
+
+	```python
+	print "W 2025 będziesz mieć" , 2025 - rokUrodzin , "lat!"
+	```
+	
+	Zauważ, że tym razem w poleceniu `print` nie używamy nawiasów!
+
++ Spróbuj uruchomić program jeszcze raz, aby zobaczyć jak działa po tych zmianach.
 
 	![screenshot](2025-print.png)
 
-+ But why stop there? You could also use another variable to store the answer before printing it for the user. Try this program out:
++ Ale czemu na tym poprzestać? Możesz przecież użyć kolejnej zmiennej, aby przechować w niej wynik zanim wyświetlisz go użytkownikowi. Spróbuj zmienić program w ten sposób:
 
 	![screenshot](2025-2vars.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-## Challenge: The year 3000! { .challenge}
-Your program only tells people what their age will be in the year 2025. What if someone wants to know their age in the year 2050? Or the year 3000? Add another variable to your program, so that the user can find out how old they'll be in any year they choose. 
+## Wyzwanie: Rok 3000! {.challenge}
+Twój program potrafi powiedzieć każdemu ile będzie miał lat w 2025 roku. A co jeśli ktoś będzie chciał poznać swój wiek w 2050 roku? Albo w 3000? Dodaj kolejną zmienną do programu, aby użytkownik mógł za jego pomocą policzyć ile będzie miał lat w wybranym przez siebie roku.
 
 ![screenshot](2025-3000.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-## Challenge: Your age in dog years { .challenge}
-Write a program to ask the user their age, and then tell them their age in dog years! You can calculate a person’s age in dog years by multiplying their age by 7.
+## Wyzwanie: Twój wiek w psich latach {.challenge}
+Napisz program, który zapyta użytkownika o wiek a następnie powie mu ile ma lat w psich latach! Możesz przeliczyć lata ludzi na lata psie mnożąc wiek użytkownika przez 7.
 
 ![screenshot](2025-dogYears.png)
