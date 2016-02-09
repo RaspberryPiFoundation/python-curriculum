@@ -10,6 +10,11 @@
             "number":   1,
             "filename": "lessons/ASCII Art/ASCII Art.md",
             "note":     "lessons/ASCII Art/ASCII Art - notes.md"
+        },
+        {
+            "number":   2,
+            "filename": "lessons/The Year 2025/The Year 2025.md",
+            "note":     "lessons/The Year 2025/The Year 2025 - notes.md"
         }
     ],
 

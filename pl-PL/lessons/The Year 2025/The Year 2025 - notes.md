@@ -1,49 +1,54 @@
 ---
-title: The Year 2025 — Notes for Club Leaders
-language: en
+title: Rok 2025 — Informacje dla prowadzącego
+language: pl
 embeds: "*.png"
 ...
 
-#Introduction:
-This project teaches children how to use variables within a Python program, and how to perform calculations on data stored in variables. This is achieved through writing a program to calculate what a person’s age will be in the year 2025.
+# Wstęp
+Wykonując ten projekt dzieci uczą się jak używać zmiennych w języku Python, a także jak dokonywać obliczeń na danych przechowywanych z zmiennych. Te elementy programowania poznają pisząc program, który oblicza wiek danej osoby w 2025 roku.
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+# Źródła online
+Do pisania kodu w języku Python online rekomendujemy używanie edytora (https://trinket.io/).  
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+W tym projekcie dzieci mogą skorzystać z pustego edytora ([https://trinket.io/python/7c0a7396c0](https://trinket.io/python/7c0a7396c0)), by pisać własny kod.
+
+# Źródła offline
+Aby wykonać ten projekt w trybie offline (bez korzystania z platformy trinket.io) konieczne jest, aby na komputerze zainstalowamy był Python (najlepiej w wersji 3.2).
+
+Przykładowe rozwiązania wyzwań dołączone zostały w katalogu "Project Resources" (do pobrania po kliknięciu w link "Pobierz materiały"):
 
 + TheYear3000.py
 + AgeInDogYears.py
 
-#Learning Objectives
-+ Data types;
-+ Numbers and calculations;
-+ Variables;
-+ Text input using `input()`;
-+ Casting (string → integer) using `int()`.
+# Cele dydaktyczne
++ typy danych,
++ liczby i obliczenia,
++ zmienne,
++ wejście tekstowe przy użyciu `input()`,
++ rzutowanie (string → integer) przy użyciu `int()`.
 
-#Challenges
-+ Pocket money - expressions using numbers;
-+ Changing dates - altering data used in the calculations;
-+ The year 3000! - Adding a variable to a program;
-+ Your age in dog years - applying the use of variables to a new problem.
+# Wyzwania
++ Kieszonkowe - wyrażenia przy użyciu liczb;
++ Pozmieniaj daty - modyfikowanie danych użytych przy dokonywaniu obliczeń;
++ Rok 3000! - dodawanie zmiennej do programu;
++ Twój wiek w psich latach - zastosowanie zmiennych do nowego problemu.
 
-#Frequently Asked Questions
-There are 2 different ways of printing numbers:
+# Najczęstsze problemy
+Liczby można wyświetlać w dwojaki sposób:
 
-+ By passing numbers as separate parameters to the `print()` function, for example:
-
-```python
-print("I am", 11, "years old")
-```
-
-In this case, a space is added between each parameter.
-
-+ By casting the number to text with the `str()` function and then adding it to another text string, for example:
++ Poprzez przekazanie jako osobny parametr funkcji `print`, na przykład:
 
 ```python
-print("I am " + str(11) + " years old")
+print "Mam", 11, "lat"
 ```
 
-In this case, spaces neeed to be added.
+Ważne, aby wywołać funckję `print` bez nawiasów. W takim wypadku poszczególne parametry dodatkowo oddzielone zostaną spacją (wyświetli się: "Mam 11 lat").
+
++ Poprzez rzutowanie liczby na tekst za pomocą funkcji `str()`, a następnie dodanie go do innego tekstu, na przykład:
+
+```python
+print("Mam " + str(11) + " lat")
+```
+
+W tym wypadku należy dodać spacje.
 
