@@ -15,6 +15,11 @@
             "number":   2,
             "filename": "lessons/The Year 2025/The Year 2025.md",
             "note":     "lessons/The Year 2025/The Year 2025 - notes.md"
+        },
+        {
+            "number":   3,
+            "filename": "lessons/Quiz/Quiz.md",
+            "note":     "lessons/Quiz/Quiz - notes.md"
         }
     ],
 
