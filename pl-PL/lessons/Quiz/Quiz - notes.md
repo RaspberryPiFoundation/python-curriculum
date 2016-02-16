@@ -1,11 +1,11 @@
 ---
-title: Quiz — Informacje dla prowadzącego 
+title: Quiz — Informacje dla prowadzącego
 language: pl
 embeds: "*.png"
 ...
 
 #Wprowadzenie:
-Ten projekt uczy dzieci jak używać warunków (komend `if`, `else` i `elif`) w ich programach tak, żeby zmienić przebieg programu w zależności od danych wejściowych. Osiągamy to przez napisanie i przetestowanie prostego programu quizu, składającego się z tekstu i pytań wielokrotnego wyboru.
+Ten projekt uczy dzieci jak używać warunków (komend `if`, `else` i `elif`) w ich programach tak, żeby zmienić przebieg programu w zależności od danych wejściowych. Osiągamy to przez napisanie i przetestowanie prostego programu quizu składającego się z tekstu i pytań wielokrotnego wyboru.
 
 # Źródła online
 Do pisania kodu w języku Python online rekomendujemy używanie edytora (https://trinket.io/).  
@@ -19,7 +19,7 @@ Dzieci mogą też korzystać z materiałów dołączonych do tego projektu. Plik
 
 + Quiz.py
 
-Upewnij się, że każde z dzieci ma dostęp do odczytu i zapisu ich kopii materiałów.
+Upewnij się, że każde dziecko ma dostęp do odczytu i zapisu ich kopii materiałów.
 
 #Cele dydaktyczne
 + Komendy warunkowe, czyli:
@@ -29,9 +29,9 @@ Upewnij się, że każde z dzieci ma dostęp do odczytu i zapisu ich kopii mater
 + Testowanie programu i rozwiązywanie problemów.
 
 #Wyzwania
-+ Czas na pytania - wykorzystać `if` i `else` do wskazania prawidłowej lub błędnej odpowiedzi;
-+ Naprawienie swojego quizu - korzystając z motedy `.lower()` zmniejszyć ilość błędów w ocenie odpowiedzi;
-+ Pytania wielokrotnego wyboru - korzystając z `elif` dodać pytania z wieloma odpowiedziami;
++ Czas na pytania - wykorzystanie `if` i `else` do wskazania prawidłowej lub błędnej odpowiedzi;
++ Naprawienie swojego quizu - zmniejszenie liczby błędów w ocenie odpowiedzi poprzez wykorzystanie metody `.lower()` ;
++ Pytania wielokrotnego wyboru - dodanie pytań wielokrotnego wyboru poprzez wykorzystanie `elif`;
 + Liczenie punktów - dodanie zmiennej `punkty` do śledzenia wyniku;
 + Jak mi poszło? - dalsze wykorzystanie `if` i `else` do wyświetlenia wiadomości na koncu quizu, opartej na ilości punktów.
 
@@ -70,4 +70,4 @@ if odpowiedz == "zmienna":
  )
 ```
 
-+ Dzieci powinny zapamiętać różnicę między `=` (wykorzystywane go przypisania zmiennych) i `==` (używanego do sprawdzania równości).
++ Dzieci powinny zapamiętać różnicę między `=` (wykorzystywane go przypisania wartości do zmiennych) i `==` (używanego do sprawdzania równości).

@@ -1,7 +1,7 @@
 ---
 title: Quiz
 level: Python 1
-language: pl 
+language: pl
 stylesheet: python
 embeds: "*.png"
 materials: ["Project Resources/Quiz.py"]
@@ -9,16 +9,16 @@ materials: ["Project Resources/Quiz.py"]
 
 # Wstęp:  { .intro}
 
-W tym projekcie, stworzysz quiz którym możesz rzucić wyzwanie swoim przyjaciołom.
+W tym projekcie stworzysz quiz, którym możesz rzucić wyzwanie swoim przyjaciołom.
 
 # Krok 1: Zadawanie pytania { .activity}
 
 ## Lista zadań { .check}
 
-+ Zacznijmy od napisania prostego quizu który zadaje graczowi pytanie, a potem wyświetla uśmiechnięte buźki jeśli wprowadzi prawidłową odpowiedź. 
++ Zacznijmy od napisania prostego quizu, który zadaje graczowi pytanie, a potem wyświetla uśmiechnięte buźki jeśli wprowadzi on prawidłową odpowiedź.
 
 	```python
-	print("W Pythonie, jak nazywa się 'pudełko' w którym trzymamy dane?")
+	print("Jak w Pythonie nazywa się 'pudełko', w którym trzymamy dane?")
 	odpowiedz = input()	# input po Polsku znaczy dane wejściowe
 
 	if odpowiedz == "zmienna":
@@ -29,18 +29,18 @@ W tym projekcie, stworzysz quiz którym możesz rzucić wyzwanie swoim przyjacio
 
 	Pamiętaj o dodaniu dwukropka (`:`) na końcu linii `if odpowiedz == "zmienna":` i wcięciu linii poniżej (przesunięciu w prawo) spacjami.
 
-+ Po napisaniu powyższego programu, wypróbuj go! Co się stanie jeśli odpowiesz prawidłowo? Co się stanie jeśli odpowiedź będzie błędna? 
++ Po napisaniu powyższego programu wypróbuj go! Co się stanie jeśli odpowiesz prawidłowo? Co się stanie jeśli odpowiedź będzie błędna?
 
 	![screenshot](quiz-if.png)
 
-	Kod po wcięciu (który wyświetla usmiechnięte buźki) wykonuje się tylko jeśli *if* odpowiedź jest poprawna. Z kolei "Dzięki za grę!" pojawia się zawsze, bez względu na to czy odpowiedź jest poprawna czy błędna. Czy potrafisz opowiedzieć dlaczego?
+	Kod po wcięciu (który wyświetla usmiechnięte buźki) wykonuje się tylko jeśli (`if`) odpowiedź jest poprawna. Z kolei "Dzięki za grę!" pojawia się zawsze, bez względu na to, czy odpowiedź jest poprawna czy błędna. Czy potrafisz opowiedzieć dlaczego?
 
 	Python używa podwójnego znaku równa się	`==` do sprawdzenia, czy dwie rzeczy są takie same. Musi używać podwójnego znaku, ponieważ pojedynczy `=` jest używany do zapisania czegoś w zmiennej (na przykład `odpowiedz = input()`).
 
-+ Program powyżej wyświetla usmiechnięte buźki jeśli gracz odpowie prawidłowo, ale nie wyświetla nic żeby dać mu znać że odpowiedzieli źle. Aby to poprawić możesz użyć komendy `else` (`inaczej` po polsku) żeby wyświetlić smutne buźki jeśli urzytkownik wprowadzi cokolwiek co jest inne od prawidłowej odpowiedzi. 
++ Program powyżej wyświetla usmiechnięte buźki jeśli gracz odpowie prawidłowo, ale nie wyświetla nic kiedy odpowiedział źle. Aby to poprawić możesz użyć komendy `else` (po polsku: `w przeciwnym wypadku`) żeby wyświetlić smutne buźki jeśli użytkownik wprowadzi cokolwiek co jest inne od prawidłowej odpowiedzi.
 
 	```python
-	print("W pythonie, jak nazywa się 'pudełko' w którym trzymamy dane?")
+	print("Jak w pythonie nazywa się 'pudełko', w którym trzymamy dane?")
 	odpowiedz = input()
 
 	if odpowiedz == "zmienna":
@@ -51,7 +51,7 @@ W tym projekcie, stworzysz quiz którym możesz rzucić wyzwanie swoim przyjacio
 	print("Dzięki za grę!")
 	```
 
-	Wypróbuj nowy program. Co się stanie jeśli wprowadzisz poprawną odpowiedź? Co się stanie jeśli wprowadziś odpowiedź błędną?
+	Wypróbuj nowy program. Co się stanie jeśli wprowadzisz poprawną odpowiedź? Co się stanie jeśli wprowadzisz odpowiedź błędną?
 
 	![screenshot](quiz-if-else.png)
 
@@ -59,25 +59,25 @@ W tym projekcie, stworzysz quiz którym możesz rzucić wyzwanie swoim przyjacio
 
 ## Wyzwanie: Czas na pytania { .challenge}
 
-Korzystając z tego czego już się nauczyłaś/nauczyłeś stwórz swój quiz. Możesz wybrać jakikolwiek temat, a twój quiz powinien zawierać używać komend `if` i `else` tak, żeby informować gracza o tym jak mu idzie. 
+Korzystając z tego, czego już się nauczyłeś stwórz swój quiz. Możesz wybrać jakikolwiek temat, a twój quiz powinien używać komend `if` i `else` tak, żeby informować gracza o tym jak mu idzie.
 
 ## Zapisz Swój Projekt {.save}
 
 # Krok 2: Testowanie { .activity}
 
-Zawsze dobrze jest sprawdzić swoje programy, aby upewnić się że działają jak należy.
+Zawsze dobrze jest sprawdzić swoje programy, aby upewnić się, że działają jak należy.
 
 ## Lista Zadań { .check}
 
-+ Jeśli sprawdzałeś swój program, napewno zauważyłaś/zauważyłeś że możliwe jest otrzymanie smutnych buziek nawet jeśli została wprowadzona prawidłowa odpowiedź! Tak jak w tym przykładzie, w którym gracz przypadkowo wcisNĄŁ CAPS LOCK!
++ Jeśli sprawdzałeś swój program, napewno zauważyłeś, że możliwe jest otrzymanie smutnych buziek nawet jeśli została wprowadzona prawidłowa odpowiedź! Tak jak w tym przykładzie, w którym gracz przypadkowo wcisNĄŁ CAPS LOCK!
 
 	![screenshot](quiz-test.png)
 
-	Dzieje się tak dlatego, że Python jest bardzo dokładny kiedy porównuje odpowiedź gracza z odpowiedzią prawidłową. Dla Pythona "Z" to nie to samo co "z", więc jeśli gracz użył drukowanych przy wpisywaniu odpowiedzi, Python myśli, że odpowiedź jest błędna!
+	Dzieje się tak dlatego, że Python jest bardzo dokładny kiedy porównuje odpowiedź gracza z odpowiedzią prawidłową. Dla Pythona "Z" to nie to samo co "z", więc jeśli gracz użył wielkich liter przy wpisywaniu odpowiedzi, Python myśli, że odpowiedź jest błędna!
 
-	Sprawdź w swojej grze, czy dzieje sie to samo. 
+	Sprawdź w swojej grze, czy dzieje się to samo.
 
-+ Żeby rozwiązać problem, musisz zmienić znaki wpisywane przez gracza na małe litery, żeby nie było w jego odpowiedzi żadnych liter drukowanych. Możemy się upewnić że to działa przez wyświetlenie zmodyfikowanej odpowiedzi. Zmień swój program tam gdzie gracz wpisuje swoją odpowiedź:
++ Żeby rozwiązać problem, musisz zmienić znaki wpisywane przez gracza na małe litery, żeby nie było w jego odpowiedzi żadnych wielkich liter. Możemy się upewnić, że to działa przez wyświetlenie zmodyfikowanej odpowiedzi. Zmień swój program tam, gdzie gracz wpisuje swoją odpowiedź:
 
 	```python
 	odpowiedz = input().lower()
@@ -94,11 +94,11 @@ Zawsze dobrze jest sprawdzić swoje programy, aby upewnić się że działają j
 
 ## Lista Zadań { .check}
 
-+ Do tej pory używaliśmy `if` i `else` żeby dać graczowi znać czy jego odpowiedź była prawidłowa czy nie. Co jeśli chcielibyśmy zadać pytanie z wieloma odpowiedziami, w którym gracz mógłby uzyskać jedną z 4 odpowiedzi? Służy do tego komenda `elif`.
++ Do tej pory używaliśmy `if` i `else` żeby dać graczowi znać, czy jego odpowiedź była prawidłowa czy nie. Co jeśli chcielibyśmy zadać pytanie z wieloma odpowiedziami, w którym gracz mógłby wybrać jedną z 4 odpowiedzi? Służy do tego komenda `elif`.
 
 	```python
 	print('''
-	P1 - "W Pythonie, jak nazywa się 'pudełko' w którym trzymamy dane?
+	P1 - "Jak w Pythonie nazywa się 'pudełko', w którym trzymamy dane?
 	a - tekst
 	b - zmienna
 	c - pudełko na buty
@@ -112,14 +112,14 @@ Zawsze dobrze jest sprawdzić swoje programy, aby upewnić się że działają j
 	elif odpowiedz == "c":
 		print(" Chyba się wygłupiasz... :( ")
 	else:
-		print(" Nie wybrałaś/wybrałeś a, b or c :( ")
+		print(" Nie wybrałeś ani a, ani b, ani c :( ")
 	```
 
-	`elif` to skrót od angielskiego "else if" które po polsku oznacza "inaczej to". Dlatego w programie powyżej gracz zobaczy jedną z 4 wiadomości, w zależności od tego jaką dał odpowiedź. 
+	`elif` to skrót od angielskiego "else if", które po polsku oznacza "w przeciwnym wypadku jeżeli". Dlatego w programie powyżej gracz zobaczy jedną z 4 wiadomości w zależności od tego jaką dał odpowiedź.
 
-+ Dodaj powyższy kod do swojego quizu, tak aby zawierał pytanie wielokrotnego wyboru. 
++ Dodaj powyższy kod do swojego quizu tak, aby zawierał pytanie wielokrotnego wyboru.
 
-+ Sprawdź to nowe pytanie na 4 sposoby, tak żebyś otrzymał każdą z 4 odpowiedzi.
++ Sprawdź to nowe pytanie na 4 sposoby tak, żebyś otrzymał każdą z 4 odpowiedzi.
 
 	![screenshot](quiz-elif.png)
 
@@ -127,7 +127,7 @@ Zawsze dobrze jest sprawdzić swoje programy, aby upewnić się że działają j
 
 ## Wyzwanie: Quiz z pytaniami wielokrotnego wyboru  { .challenge}
 
-Dodaj kilka pytań wielokrotnego wyboru do swojego programu. Kiedy skończysz, poproś kogoś o udział w grze! Jak im poszło? Czy dobrze sie bawili? Czy Twoj quiz był zbyt łatwy albo zbyt trudny?
+Dodaj kilka pytań wielokrotnego wyboru do swojego programu. Kiedy skończysz, poproś kogoś o udział w grze! Jak im poszło? Czy dobrze się bawili? Czy Twój quiz był za łatwy albo za trudny?
 
 ## Zapisz Swój Projekt {.save}
 
@@ -136,8 +136,8 @@ Dodaj kilka pytań wielokrotnego wyboru do swojego programu. Kiedy skończysz, p
 Czy potrafisz wykorzystać zmienną `punkty` w swoim programie do liczenia punktów gracza? Oto jak taka zmienna może być użyta:
 
 + Na początku programu, ustaw wartość zmiennej na 0.
-+ Za każdym razem kiedy zostaje udzielona prawidłowa odpowiedź, dodaj 1 do puntów gracza (`punkty = punkty + 1`)
-+ Na końcu programu wyświetl ilość punktów gracza.
++ Za każdym razem kiedy zostaje udzielona prawidłowa odpowiedź dodaj 1 do puntów gracza (`punkty = punkty + 1`)
++ Na końcu programu wyświetl liczbę punktów gracza.
 
 ## Zapisz Swój Projekt {.save}
 
@@ -146,8 +146,8 @@ Czy potrafisz wykorzystać zmienną `punkty` w swoim programie do liczenia punkt
 Czy potrafisz wyświetlić osobistą wiadomość dla gracza na końcu każdej gry?
 
 + Powiedz "bardzo dobrze" jeśli (`if`) gracz odpowiedział prawidłowo na wszystkie pytania.
-+ inaczej (`else`) powiedz "jeszcze raz" jeśli którakolwiek odpowiedź była błędna. 
++ W przeciwnym wypadku (`else`) powiedz "jeszcze raz" jeśli którakolwiek odpowiedź była błędna.
 
-(Bedziesz potrzebowal zmiennej `punkty` żeby zdecydować którą wiadomość wyświetlić!)
+(Bedziesz potrzebował zmiennej `punkty`, żeby zdecydować, którą wiadomość wyświetlić!)
 
 ## Zapisz Swój Projekt {.save}
