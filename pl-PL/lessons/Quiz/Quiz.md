@@ -112,7 +112,7 @@ Zawsze dobrze jest sprawdzić swoje programy, aby upewnić się, że działają 
 	elif odpowiedz == "c":
 		print(" Chyba się wygłupiasz... :( ")
 	else:
-		print(" Nie wybrałeś ani a, ani b, ani c :( ")
+		print(" Nie wybrałeś/-aś ani a, ani b, ani c :( ")
 	```
 
 	`elif` to skrót od angielskiego "else if", które po polsku oznacza "w przeciwnym wypadku jeżeli". Dlatego w programie powyżej gracz zobaczy jedną z 4 wiadomości w zależności od tego jaką dał odpowiedź.
