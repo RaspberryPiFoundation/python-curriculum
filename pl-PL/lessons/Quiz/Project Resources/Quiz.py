@@ -1,27 +1,17 @@
-print("In Python, what do you call a 'box' used to store data?")
-answer = input()
-
-if answer == "variable":
-	print(" :) ")
-else:
-	print(" :( ")
-
-print("Thank you for playing!")
-
-
 print('''
-Q1 - In Python, what do you call a 'box' used to store data?
-a - text
-b - variable
-c - a shoe box
+P1 - "W Pythonie, jak nazywa siê 'pude³ko' w którym trzymamy dane?
+a - tekst
+b - zmienna
+c - pude³ko na buty
 ''')
-answer = input().lower()
+odpowiedz = input().lower()
 
-if answer == "a":
-	print(" Nope - text is a type of data :( ")
-elif answer == "b":
-	print(" Correct!! :) ")
-elif answer == "c":
-	print(" Don't be silly! :( ")
+if odpowiedz == "a":
+    print(" Niestety - tekst to typ danych :( ")
+elif odpowiedz == "b":
+    print(" Zgadza sie!! :) ")
+elif odpowiedz == "c":
+    print(" Chyba siê wyg³upiasz... :( ")
 else:
-	print(" You didn't choose a, b or c :( ")
+    print(" Nie wybra³aœ/wybra³eœ a, b or c :( ")
+

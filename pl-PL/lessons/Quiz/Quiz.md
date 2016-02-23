@@ -1,153 +1,153 @@
 ---
 title: Quiz
 level: Python 1
-language: en
+language: pl
 stylesheet: python
 embeds: "*.png"
 materials: ["Project Resources/Quiz.py"]
 ...
 
-# Introduction:  { .intro}
+# Wstęp:  { .intro}
 
-In this project, you'll make a quiz game to challenge your friends.
+W tym projekcie stworzysz quiz, którym możesz rzucić wyzwanie swoim przyjaciołom.
 
-# Step 1: Asking a question { .activity}
+# Krok 1: Zadawanie pytania { .activity}
 
-## Activity Checklist { .check}
+## Lista zadań { .check}
 
-+ Let's start by writing a very simple quiz program that asks the player a question, then shows them smiley faces if they input the correct answer.
++ Zacznijmy od napisania prostego quizu, który zadaje graczowi pytanie, a potem wyświetla uśmiechnięte buźki jeśli wprowadzi on prawidłową odpowiedź.
 
 	```python
-	print("In Python, what do you call a 'box' used to store data?")
-	answer = input()
+	print("Jak w Pythonie nazywa się 'pudełko', w którym trzymamy dane?")
+	odpowiedz = input()	# input po Polsku znaczy dane wejściowe
 
-	if answer == "variable":
+	if odpowiedz == "zmienna":
 		print(" :) " * 100)
 
-	print("Thank you for playing!")
+	print("Dzięki za grę!")
 	```
 
-	Take care to add the colon (`:`) to the end of the line `if answer == "variable":`, and indent the line below it (move it to the right) with spaces.
+	Pamiętaj o dodaniu dwukropka (`:`) na końcu linii `if odpowiedz == "zmienna":` i wcięciu linii poniżej (przesunięciu w prawo) spacjami.
 
-+ Once you've written the program above, try it out! What happens when you get the answer right? What happens when you get it wrong?
++ Po napisaniu powyższego programu wypróbuj go! Co się stanie jeśli odpowiesz prawidłowo? Co się stanie jeśli odpowiedź będzie błędna?
 
 	![screenshot](quiz-if.png)
 
-	The indented code (that prints the smiley faces) only runs *if* the answer is correct. But "Thank you for playing!" always appears, whether your answer is right or wrong. Why is that?
+	Kod po wcięciu (który wyświetla usmiechnięte buźki) wykonuje się tylko jeśli (`if`) odpowiedź jest poprawna. Z kolei "Dzięki za grę!" pojawia się zawsze, bez względu na to, czy odpowiedź jest poprawna czy błędna. Czy potrafisz opowiedzieć dlaczego?
 
-	Python uses two equals signs `==` to check if two things are the same. This is because one equals sign `=` is used to store something in a variable (for example `answer = input()`).
+	Python używa podwójnego znaku równa się	`==` do sprawdzenia, czy dwie rzeczy są takie same. Musi używać podwójnego znaku, ponieważ pojedynczy `=` jest używany do zapisania czegoś w zmiennej (na przykład `odpowiedz = input()`).
 
-+ The program above prints smiley faces if the player gets the question right, but doesn't print anything to tell them they got the answer wrong. You can use an `else` statement to print sad faces if the user inputs anything other than the correct answer.
++ Program powyżej wyświetla usmiechnięte buźki jeśli gracz odpowie prawidłowo, ale nie wyświetla nic kiedy odpowiedział źle. Aby to poprawić możesz użyć komendy `else` (po polsku: `w przeciwnym wypadku`) żeby wyświetlić smutne buźki jeśli użytkownik wprowadzi cokolwiek co jest inne od prawidłowej odpowiedzi.
 
 	```python
-	print("In Python, what do you call a 'box' used to store data?")
-	answer = input()
+	print("Jak w pythonie nazywa się 'pudełko', w którym trzymamy dane?")
+	odpowiedz = input()
 
-	if answer == "variable":
+	if odpowiedz == "zmienna":
 		print(" :) " * 100)
 	else:
 		print(" :( " * 100)
 
-	print("Thank you for playing!")
+	print("Dzięki za grę!")
 	```
 
-	Try out this new program. What happens when you enter the right answer? What happens when you enter anything else?
+	Wypróbuj nowy program. Co się stanie jeśli wprowadzisz poprawną odpowiedź? Co się stanie jeśli wprowadzisz odpowiedź błędną?
 
 	![screenshot](quiz-if-else.png)
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Question time { .challenge}
+## Wyzwanie: Czas na pytania { .challenge}
 
-Use what you've learnt so far to create your own quiz. You can choose any topic you like, and your quiz should use `if` and `else` statements to let the player know how they're doing.
+Korzystając z tego, czego już się nauczyłeś stwórz swój quiz. Możesz wybrać jakikolwiek temat, a twój quiz powinien używać komend `if` i `else` tak, żeby informować gracza o tym jak mu idzie.
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-# Step 2: Testing { .activity}
+# Krok 2: Testowanie { .activity}
 
-It's always a good idea to test your programs, to make sure that they work properly.
+Zawsze dobrze jest sprawdzić swoje programy, aby upewnić się, że działają jak należy.
 
-## Activity Checklist { .check}
+## Lista Zadań { .check}
 
-+ If you've tested your quiz, you may have noticed it's possible to get sad faces even when you input a correct answer! Like in this example, where the player has accidently presSED CAPS LOCK!
++ Jeśli sprawdzałeś swój program, napewno zauważyłeś, że możliwe jest otrzymanie smutnych buziek nawet jeśli została wprowadzona prawidłowa odpowiedź! Tak jak w tym przykładzie, w którym gracz przypadkowo wcisNĄŁ CAPS LOCK!
 
 	![screenshot](quiz-test.png)
 
-	This happens because Python is very strict when it compares the player's answer to the correct answer. To Python, "V" isn't the same as "v", and so if the player uses any capital letters in their answer, Python thinks the answer's wrong!
+	Dzieje się tak dlatego, że Python jest bardzo dokładny kiedy porównuje odpowiedź gracza z odpowiedzią prawidłową. Dla Pythona "Z" to nie to samo co "z", więc jeśli gracz użył wielkich liter przy wpisywaniu odpowiedzi, Python myśli, że odpowiedź jest błędna!
 
-	Test this out in your game, to see if the same thing happens.
+	Sprawdź w swojej grze, czy dzieje się to samo.
 
-+ To fix the problem, you need to convert the player's input to lower case, so there are no capital letters in their answer. We can make sure this works by printing the modified answer. Make this change where the player inputs their answer:
++ Żeby rozwiązać problem, musisz zmienić znaki wpisywane przez gracza na małe litery, żeby nie było w jego odpowiedzi żadnych wielkich liter. Możemy się upewnić, że to działa przez wyświetlenie zmodyfikowanej odpowiedzi. Zmień swój program tam, gdzie gracz wpisuje swoją odpowiedź:
 
 	```python
-	answer = input().lower()
-	print(answer)
+	odpowiedz = input().lower()
+	print(odpowiedz)
 	```
 
-+ Now test your quiz again. Have you fixed the problem? Try testing these examples:
++ Teraz sprawdź swój quiz. Czy udało się naprawić problem? Spróbuj wprowadzić poniższe przykłady:  
 
 	![screenshot](quiz-test-lower.png)
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-# Step 3: Multiple choice { .activity}
+# Krok 3: Wielokrotny wybów { .activity}
 
-## Activity Checklist { .check}
+## Lista Zadań { .check}
 
-+ So far you've used `if` and `else` to let the player know if they got the answer right or wrong. But what if you wanted a multiple choice question, where the user could see one of 4 messages? You can use an `elif` statement to do this.
++ Do tej pory używaliśmy `if` i `else` żeby dać graczowi znać, czy jego odpowiedź była prawidłowa czy nie. Co jeśli chcielibyśmy zadać pytanie z wieloma odpowiedziami, w którym gracz mógłby wybrać jedną z 4 odpowiedzi? Służy do tego komenda `elif`.
 
 	```python
 	print('''
-	Q1 - In Python, what do you call a 'box' used to store data?
-	a - text
-	b - variable
-	c - a shoe box
+	P1 - "Jak w Pythonie nazywa się 'pudełko', w którym trzymamy dane?
+	a - tekst
+	b - zmienna
+	c - pudełko na buty
 	''')
-	answer = input().lower()
+	odpowiedz = input().lower()
 
-	if answer == "a":
-		print(" Nope - text is a type of data :( ")
-	elif answer == "b":
-		print(" Correct!! :) ")
-	elif answer == "c":
-		print(" Don't be silly! :( ")
+	if odpowiedz == "a":
+		print(" Niestety - tekst to typ danych :( ")
+	elif odpowiedz == "b":
+		print(" Zgadza sie!! :) ")
+	elif odpowiedz == "c":
+		print(" Chyba się wygłupiasz... :( ")
 	else:
-		print(" You didn't choose a, b or c :( ")
+		print(" Nie wybrałeś/-aś ani a, ani b, ani c :( ")
 	```
 
-	`elif` is short for "else if". So in the program above, the player sees one of 4 messages, depending on what they entered for their answer.
+	`elif` to skrót od angielskiego "else if", które po polsku oznacza "w przeciwnym wypadku jeżeli". Dlatego w programie powyżej gracz zobaczy jedną z 4 wiadomości w zależności od tego jaką dał odpowiedź.
 
-+ Add the code above to your quiz, so that you have a multiple choice question.
++ Dodaj powyższy kod do swojego quizu tak, aby zawierał pytanie wielokrotnego wyboru.
 
-+ Test this new question 4 times, so that you see each of the 4 messages.
++ Sprawdź to nowe pytanie na 4 sposoby tak, żebyś otrzymał każdą z 4 odpowiedzi.
 
 	![screenshot](quiz-elif.png)
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Multiple choice quiz  { .challenge}
+## Wyzwanie: Quiz z pytaniami wielokrotnego wyboru  { .challenge}
 
-Add a few multiple choice questions to your quiz program. Once you have finished making your quiz, get someone else to play it! How did they do? Did they enjoy it? Was it too easy or too hard?
+Dodaj kilka pytań wielokrotnego wyboru do swojego programu. Kiedy skończysz, poproś kogoś o udział w grze! Jak im poszło? Czy dobrze się bawili? Czy Twój quiz był za łatwy albo za trudny?
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Keeping score  { .challenge}
+## Wyzwanie: Liczenie punktów  { .challenge}
 
-Can you use a `score` variable in your quiz program, to keep track of the player's score? This is how the variable could be used:
+Czy potrafisz wykorzystać zmienną `punkty` w swoim programie do liczenia punktów gracza? Oto jak taka zmienna może być użyta:
 
-+ At the start of the program, set the score to 0.
-+ Whenever a question is answered correctly, add 1 to the player's score. (`score = score + 1`)
-+ Print the player's score at the end of the quiz.
++ Na początku programu, ustaw wartość zmiennej na 0.
++ Za każdym razem kiedy zostaje udzielona prawidłowa odpowiedź dodaj 1 do puntów gracza (`punkty = punkty + 1`)
++ Na końcu programu wyświetl liczbę punktów gracza.
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: How did I do?  { .challenge}
+## Wyzwanie: Jak mi poszło?  { .challenge}
 
-Can you print a personalised message to the player at the end of the game?
+Czy potrafisz wyświetlić osobistą wiadomość dla gracza na końcu każdej gry?
 
-+ Say "well done" `if` they got all of the questions right.
-+ `else` say "try again" if they got any wrong.
++ Powiedz "bardzo dobrze" jeśli (`if`) gracz odpowiedział prawidłowo na wszystkie pytania.
++ W przeciwnym wypadku (`else`) powiedz "jeszcze raz" jeśli którakolwiek odpowiedź była błędna.
 
-(You'll need to use your `score` variable to decide which message to print!)
+(Bedziesz potrzebował zmiennej `punkty`, żeby zdecydować, którą wiadomość wyświetlić!)
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}

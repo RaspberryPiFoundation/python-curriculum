@@ -1,68 +1,73 @@
 ---
-title: Quiz — Notes for Club Leaders
-language: en
+title: Quiz — Informacje dla prowadzącego
+language: pl
 embeds: "*.png"
 ...
 
-#Introduction:
-This project teaches children how to use selection (`if`, `else` and `elif` statements) in their programs, to alter program flow in response to data. This is achieved through writing and testing a simple quiz program, which includes written text and multiple choice responses.
+#Wprowadzenie:
+Ten projekt uczy dzieci jak używać warunków (komend `if`, `else` i `elif`) w ich programach tak, żeby zmienić przebieg programu w zależności od danych wejściowych. Osiągamy to przez napisanie i przetestowanie prostego programu quizu składającego się z tekstu i pytań wielokrotnego wyboru.
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+# Źródła online
+Do pisania kodu w języku Python online rekomendujemy używanie edytora (https://trinket.io/).  
 
-Children can also make use of the materials which accompany this project. Files included in the 'Project Resources' folder (found under the 'Download Project Materials' link):
+W tym projekcie dzieci mogą skorzystać z pustego edytora ([https://trinket.io/python/7c0a7396c0](https://trinket.io/python/7c0a7396c0)), by pisać własny kod.
+
+# Źródła offline
+Aby wykonać ten projekt w trybie offline (bez korzystania z platformy trinket.io) konieczne jest, aby na komputerze zainstalowamy był Python (najlepiej w wersji 3.2).
+
+Dzieci mogą też korzystać z materiałów dołączonych do tego projektu. Pliki załączone w katalogu "Project Resources" (do pobrania po kliknięciu w link "Pobierz materiały")
 
 + Quiz.py
 
-Make sure that each child has read and write access to their own copy of these resources.
+Upewnij się, że każde dziecko ma dostęp do odczytu i zapisu ich kopii materiałów.
 
-#Learning Objectives
-+ Selection, using:
+#Cele dydaktyczne
++ Komendy warunkowe, czyli:
 	+ `if`;
 	+ `else`;
 	+ `elif`.
-+ Program testing and problem solving.
++ Testowanie programu i rozwiązywanie problemów.
 
-#Challenges
-+ Question time - using `if` and `else` to give quiz answer feedback;
-+ Fixing your quiz - use of the `.lower()` method to reduce errors in answer feedback;
-+ Multiple choice quiz - using `elif` to add multiple choice quiz questions;
-+ Keeping score - addition of a `score` variable to track progress;
-+ How did I do? - further use of `if` and `else` statements to provide an end of quiz message, based on their score.
+#Wyzwania
++ Czas na pytania - wykorzystanie `if` i `else` do wskazania prawidłowej lub błędnej odpowiedzi;
++ Naprawienie swojego quizu - zmniejszenie liczby błędów w ocenie odpowiedzi poprzez wykorzystanie metody `.lower()` ;
++ Pytania wielokrotnego wyboru - dodanie pytań wielokrotnego wyboru poprzez wykorzystanie `elif`;
++ Liczenie punktów - dodanie zmiennej `punkty` do śledzenia wyniku;
++ Jak mi poszło? - dalsze wykorzystanie `if` i `else` do wyświetlenia wiadomości na koncu quizu, opartej na ilości punktów.
 
-#Frequently Asked Questions
-+ As the player's input is stored as text, any questions with a numerical answer should also be represented as text. For example:
+#Często zadawane pytania
++ Ponieważ odpowiedzi gracza są wczytywane jako text, każde z pytań z odpowiedzią numeryczną powinno być również reprezentowane jako text. Na przykład:
 
 ```python
-if answer == "4":
+if odpowiedz == "4":
 	...
 ```
 
-and *not*:
+a *nie*:
 
 ```python
-if answer == 4:
+if odpowiedz == 4:
 	...
 ```
 
-As an alternative, it is also possible to cast the player's answer to a number, and then compare the two numbers:
+Alternatywą może być konwersja odpowiedzi gracza na liczbę, a potem porównanie arytmetyczne wartości:
 
 ```python
-answer = int(answer)
-if answer == 4:
+odpowiedz = int(answer)
+if odpowiedz == 4:
 	...
 ```
 
-+ Each `if`/`else`/`elif` statement should end with a colon.
++ Każde `if`/`else`/`elif` powinno być zakończone dwukropkiem (:).
 
-+ The body of each `if`/`else`/`elif` statement should be uniformly indented. It is recommended that the Tab key is used for this, as it makes indentation mistakes easier to spot. For example, the following program will not run:
++ Ciało każdego z wyrażeń `if`/`else`/`elif` powinno być równo wcięte. Zaleca się wykorzystanie klawisza Tab do tworzenia wcięć, ponieważ ułatwia to zauważenie błędów w indentacji. Na przykład, poniższy program nie będzie działać:
 
 ```python
-if answer == "variable":
-   print("Well done")
+if odpowiedz == "zmienna":
+   print("Dobra robota")
   print("---------")
     print(" :) ")
  )
 ```
 
-+ Children should remember the difference between `=` (used for variable assignment) and `==` (used for checking equality).
++ Dzieci powinny zapamiętać różnicę między `=` (wykorzystywane go przypisania wartości do zmiennych) i `==` (używanego do sprawdzania równości).
