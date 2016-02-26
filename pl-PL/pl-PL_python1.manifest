@@ -1,0 +1,28 @@
+{
+    "description": "Python 1",
+    "id": "python",
+    "language": "pl-PL",
+    "number": 9,
+    "title": "Python 1",
+    "category": "cat-python",
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/ASCII Art/ASCII Art.md",
+            "note":     "lessons/ASCII Art/ASCII Art - notes.md"
+        },
+        {
+            "number":   2,
+            "filename": "lessons/The Year 2025/The Year 2025.md",
+            "note":     "lessons/The Year 2025/The Year 2025 - notes.md"
+        },
+        {
+            "number":   3,
+            "filename": "lessons/Quiz/Quiz.md",
+            "note":     "lessons/Quiz/Quiz - notes.md"
+        }
+    ],
+
+    "extras": [
+    ]
+}
