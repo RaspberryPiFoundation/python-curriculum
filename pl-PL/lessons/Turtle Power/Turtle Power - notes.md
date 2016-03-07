@@ -5,7 +5,7 @@ embeds: "*.png"
 ...
 
 #Wprowadzenie:
-Ten projekt uczy pętli `for` w Pythonie przez wykorzystanie modułu turtle. Kształty są rysowane żółwiem, a następnie wprowadzone są pętle pozwalajáce na bardziej efektywne tworzenie figur.
+Ten projekt uczy pętli `for` w Pythonie przez wykorzystanie modułu turtle. Kształty są rysowane żółwiem, a następnie wprowadzone są pętle pozwalające na bardziej efektywne tworzenie figur.
 
 #Źródła online
 Do pisania kodu w języku Python online rekomendujemy używanie edytora (https://trinket.io/).
@@ -31,4 +31,3 @@ Upewnij się, że każde dziecko ma dostęp do odczytu i zapisu ich kopii materi
 + Pętlowe kształty - wykorzystanie pętli do efektywnego rysowania kształtów geometrycznych.
 + Rysowanie wzorów - wykorzystanie pętli do rysowania skomplikowanych kształtów.
 + Zmienne i pętle - wykorzystanie obliczeń i zmiennych do rysowania kształtów geometrycznych.
-

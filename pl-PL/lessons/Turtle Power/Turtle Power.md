@@ -16,7 +16,7 @@ Dziś zabawimy się w programowanie żółwi. Żółw to mały robot, który rys
 
 ## Lista zadań { .check}
 
-+ Uruchamiając ten krótki program, sprawimy, że żółw będzie poruszał się po ekranie:
++ Uruchamiając ten krótki program sprawimy, że żółw będzie poruszał się po ekranie:
 
 	```python
 	from turtle import *
@@ -34,22 +34,22 @@ Dziś zabawimy się w programowanie żółwi. Żółw to mały robot, który rys
 
 + Żółw ma przyczepiony długopis i rysuje linię poruszając się. Oto, co dokładnie robi ten program:
 
-	+ `from turtle import *` mówi Pythonowi, że chcesz wykorzystać bibliotekę z żółwiem (po angielsku 'turtle' to żółw), która jest kolekcją kodu który pozwala na rysowanie po ekranie. Symbol `*` oznacza 'zaimportuj wszystko'.
+	+ `from turtle import *` mówi Pythonowi, że chcesz wykorzystać bibliotekę z żółwiem (ang. 'turtle'), to znaczy kawałek kodu, który pozwala na rysowanie po ekranie. Symbol `*` oznacza 'zaimportuj wszystko'.
 
-	+ `shape("turtle")` sprawia, że rysujący robot ma kształt żółwia (po angielsku 'shape' oznacza kształt). Zamiast żółwia możesz wybrać "strzałkę" ("arrow"), koło ("circle"), "kwadrat" ("square"), "trójkąt" ("triangle") lub "wygląd klasyczny" ("classic").
+	+ `shape("turtle")` sprawia, że rysujący robot ma kształt żółwia (po angielsku 'shape' oznacza kształt). Zamiast żółwia możesz wybrać strzałkę ("arrow"), koło ("circle"), kwadrat ("square"), trójkąt ("triangle") lub wygląd klasyczny ("classic").
 
 	+ `speed(5)` mówi żółwiowi jak szybko ma rysować. Możesz wybrać liczby od 1 do 11. 11 to najszybciej, 1 to najwolniej.
 
-	+ `forward(100)` i `backward(100)` mówi żółwiowi, żeby przesunął się w przód (forward oznacza "do przodu") lub w tył ("backwards" to po angielsku "do tyłu") o 100 pikseli. 
+	+ `forward(100)` i `backward(100)` mówi żółwiowi, żeby przesunął się w przód ("forward") lub w tył ("backward") o 100 pikseli.
 
-	+ `left(45)` and `right(90)` skręca żółwiem w lewo lub w prawo o zadaną ilość stopni. Oto kilka przykładów:
+	+ `left(45)` i `right(90)` skręca żółwiem w lewo lub w prawo o podaną liczbę stopni. Oto kilka przykładów:
 
 		![screenshot](turtle_degrees.png)
 
 	+ `done()` (z angielskiego - "skończone") mówi Pythonowi, że zakończyliśmy programowanie żółwia.
 
 
-+ Jaki jest twój ulubiony kolor? Aby urozmaicić twoje rysunki możesz również zmienić kolor i rozmiar długopisu którym rysowana jest linia. Oto prosty przykład do wypróbowania:
++ Jaki jest twój ulubiony kolor? Aby urozmaicić swoje rysunki możesz również zmienić kolor i rozmiar długopisu, którym rysowana jest linia. Oto prosty przykład do wypróbowania:
 
 	```python
 	from turtle import *
@@ -115,9 +115,9 @@ Kiedy rysowałeś kwadrat lub trójkąt, twój program powtarzał te same komend
 
 	Ten program korzysta z pętli `for`. Możesz używać pętli `for` w Pythonie kiedy chcesz, żeby ten sam kod powtórzył się określoną ilość razy.
 
-	W programie powyżej, komendy `forward(100)` i `right(90)` są powtórzone 4 razy podczas rysowania kwadratu. Obrót o 90 stopni w każdym rogu oznacza, że w sumie żółw obróci się o 360 stopni.
+	W programie powyżej komendy `forward(100)` i `right(90)` są powtórzone 4 razy podczas rysowania kwadratu. Obrót o 90 stopni w każdym rogu oznacza, że w sumie żółw obróci się o 360 stopni.
 
-+ Tak samo jak z wyrażeniem `if` (`jeżeli`), trzeba skorzystać z klawisza Tab do wcięcia kodu, który ma zostać powtórzony. Spróbuj zmienić kod tak, aby linia `forward(100)` była wcięta, ale linia `right(50)` już nie, o tak:
++ Tak samo jak z wyrażeniem `if` (`jeżeli`), trzeba skorzystać z klawisza Tab do wcięcia kodu, który ma zostać powtórzony. Spróbuj zmienić kod tak, aby linia `forward(100)` była wcięta, ale linia `right(90)` już nie, o tak:
 
 	```python
 	from turtle import *
@@ -132,7 +132,7 @@ Kiedy rysowałeś kwadrat lub trójkąt, twój program powtarzał te same komend
 	done()
 	```
 
-	Co się stanie kiedy uruchomisz ten program? Czy narysowana linia jest prosta? W tym programie, Python powtórzy `forward(100)` cztery razy, a dopiero _potem_ wykona obrót `right(90)`.
+	Co się stanie kiedy uruchomisz ten program? Czy narysowana linia jest prosta? W tym programie Python powtórzy `forward(100)` cztery razy, a dopiero _potem_ wykona obrót `right(90)`.
 
 + Teraz, kiedy już wiesz jak powtarzać komendy, możesz w prosty sposób zacząć tworzyć skomplikowane kształty. Uruchom ten program:
 
@@ -151,7 +151,7 @@ Kiedy rysowałeś kwadrat lub trójkąt, twój program powtarzał te same komend
 
 	![screenshot](turtle_octagon.png)
 
-	Ten program działa tak samo, jak program rysujący kwadraty, z wyjątkiem tego że powtarza 8 razy i obraca się o 45 stopni w każdym rogu. To oznacza, że rysuje on figurę 8-boczną (ośmiobok), ponieważ kąty pomiędzy ośmiu ścianami sumują się do 360 stopni (360 podzielone na 8 to 45).
+	Ten program działa tak samo, jak program rysujący kwadraty, z wyjątkiem tego, że powtarza 8 razy i obraca się o 45 stopni w każdym rogu. To oznacza, że rysuje on figurę 8-boczną (ośmiobok), ponieważ kąty pomiędzy ośmioma ścianami sumują się do 360 stopni (360 podzielone na 8 to 45).
 
 + Oto kolejny przykład tego, co można stworzyć z pomocą pętli `for`. Co rysuje następny program?
 
@@ -207,11 +207,11 @@ done()
 ## Wyzwanie: Zmienne i pętle { .challenge}
 Kiedy rysujesz różne kształty, trzeba obliczyć o ile stopni skręcić.
 
-Czy umiesz wykorzystać obliczenia tak, żeby komputer pracował dla ciebie? Żeby obliczyć o ile stopni zakręcić, możesz podzielić 360 przez ilość ścian w figurze:
+Czy umiesz wykorzystać obliczenia tak, żeby komputer pracował dla ciebie? Żeby obliczyć o ile stopni zakręcić, możesz podzielić 360 przez liczbe ścian w figurze:
 
 ```python
-ilosc_scian = 4
-kat = 360 / ilosc_scian
+liczba_scian = 4
+kat = 360 / liczba_scian
 ```
 
 `/` to symbol dzielenia w Pythonie. Zauważ, że odpowiedź jest zapisywana do zmiennej `kat` (kąt), która może być potem użyta do narysowania twojego kształtu:
@@ -220,6 +220,6 @@ kat = 360 / ilosc_scian
 left(kat)
 ```
 
-Możesz teraz zmienić wartość zapisaną w zmiennej `ilosc_scian` i przekonać się, czy działa dla każdego kształtu!
+Możesz teraz zmienić wartość zapisaną w zmiennej `liczba_scian` i przekonać się, czy działa dla każdego kształtu!
 
 ## Zapisz Swój Projekt {.save}
