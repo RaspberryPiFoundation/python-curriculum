@@ -1,16 +1,18 @@
 ---
-title: Turtle Power — Notes for Club Leaders
-language: en
+title: Żółwiowa Moc — Informacje dla prowadzącego
+language: pl
 embeds: "*.png"
 ...
 
-#Introduction:
-This project teaches Python `for` loops, through the use of the Python turtle module. Shapes are drawn using the turtle, and then loops are demonstrated as a way of drawing shapes more efficiently.
+#Wprowadzenie:
+Ten projekt uczy pętli `for` w Pythonie przez wykorzystanie modułu turtle. Kształty są rysowane żółwiem, a następnie wprowadzone są pętle pozwalajáce na bardziej efektywne tworzenie figur.
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+#Źródła online
+Do pisania kodu w języku Python online rekomendujemy używanie edytora (https://trinket.io/).
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+W tym projekcie dzieci mogą skorzystać z pustego edytora ([https://trinket.io/python/7c0a7396c0](https://trinket.io/python/7c0a7396c0)), by pisać własny kod.
+
+Rozwiązane wyzwania dla tego projektu można pobrać klikając link 'Download Project Materials` dla tego projektu, które zawiera:
 
 + DrawingShapes-square.py
 + DrawingShapes-triangle.py
@@ -18,19 +20,15 @@ You can find a completed version of this project's challenges by clicking the 'D
 + DrawingPatterns.py
 + VariablesAndShapes.py
 
-Make sure that each child has read and write access to their own copy of these resources.
+Upewnij się, że każde dziecko ma dostęp do odczytu i zapisu ich kopii materiałów.
 
-#Learning Objectives
-+ Python 'turtle' module
-+ `for` loops
+#Cele Dydaktyczne
++ Moduł 'turtle' Pythona
++ pętle `for`
 
-#Challenges
-+ Drawing shapes - use of the turtle commands to draw shapes.
-+ Loopy shapes - using loops to efficiently draw geometric shapes.
-+ Drawing patterns - using loops to draw complex patterns.
-+ Variables and loops - using calculations and variables in drawing geometric shapes.
-
-#Frequently Asked Questions
-+ Depending on where the file is saved, naming a program 'turtle.py' can cause problems, as it clashes with the turtle module, which is also called 'turtle.py'.
-+ There can sometimes be problems when trying to close the turtle drawing canvas. The line `done()` at the end of each program should help, but if the window freezes you can close the shell window, which should terminate the program.
+#Wyzwania
++ Rysowanie kształtów - użycie komend żółwia ('turtle') do rysowania kształtów.
++ Pętlowe kształty - wykorzystanie pętli do efektywnego rysowania kształtów geometrycznych.
++ Rysowanie wzorów - wykorzystanie pętli do rysowania skomplikowanych kształtów.
++ Zmienne i pętle - wykorzystanie obliczeń i zmiennych do rysowania kształtów geometrycznych.
 

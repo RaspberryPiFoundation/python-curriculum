@@ -20,6 +20,11 @@
             "number":   3,
             "filename": "lessons/Quiz/Quiz.md",
             "note":     "lessons/Quiz/Quiz - notes.md"
+        },
+        {
+            "number":   4,
+            "filename": "lessons/Turtle Power/Turtle Power.md",
+            "note":     "lessons/Turtle Power/Turtle Power - notes.md"
         }
     ],
 

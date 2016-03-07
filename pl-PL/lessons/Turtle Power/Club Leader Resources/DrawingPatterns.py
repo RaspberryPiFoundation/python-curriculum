@@ -5,7 +5,7 @@ shape("turtle")
 pensize(6)
 color("Red")
 
-for count in range(36):
+for licznik in range(36):
     forward(100)
     right(100)
 

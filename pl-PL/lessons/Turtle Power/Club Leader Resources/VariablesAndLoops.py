@@ -3,9 +3,9 @@ from turtle import *
 speed(11)
 shape("turtle")
 
-sides = 12
-angle = 360 / sides
+ilosc_scian = 12
+kat = 360 / ilosc_scian 
 
-for count in range(sides):
+for licznik in range(ilosc_scian):
     forward(100)
-    left(angle)
+    left(kat)

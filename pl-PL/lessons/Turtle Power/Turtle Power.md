@@ -1,22 +1,22 @@
 ---
-title: Turtle Power
+title: Żółwiowa Moc
 level: Python 1
-language: en
+language: pl
 stylesheet: python
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*"]
 ...
 
-#Introduction:  { .intro}
-In this project, you'll learn how to use a 'turtle' to draw awesome shapes and patterns.
+#Wprowadzenie:  { .intro}
+W tym projekcie nauczysz się jak rysować fantastyczne wzory i kształty za pomocą 'żółwia' (z angielskiego 'turtle').
 
-#Step 1: Hello, turtle! { .activity}
+#Krok 1: Cześć, żółwiu! { .activity}
 
-We're going to have some fun programming turtles. A turtle is a tiny robot that draws on your screen, and can be controlled using Python commands.
+Dziś zabawimy się w programowanie żółwi. Żółw to mały robot, który rysuje na ekranie i może być kontrolowany za pomocą komend w Pythonie.
 
-## Activity Checklist { .check}
+## Lista zadań { .check}
 
-+ Let's make a turtle move around the screen, by running this short Python program:
++ Uruchamiając ten krótki program, sprawimy, że żółw będzie poruszał się po ekranie:
 
 	```python
 	from turtle import *
@@ -32,24 +32,24 @@ We're going to have some fun programming turtles. A turtle is a tiny robot that 
 
 	![screenshot](turtle.png)
 
-+ The turtle has a pen attached, and draws a line as it moves around the screen. Here's what the program does:
++ Żółw ma przyczepiony długopis i rysuje linię poruszając się. Oto, co dokładnie robi ten program:
 
-	+ `from turtle import *` tells Python that you want to use the turtle library, a collection of code you can use to draw on the screen. The `*` means 'import everything'.
+	+ `from turtle import *` mówi Pythonowi, że chcesz wykorzystać bibliotekę z żółwiem (po angielsku 'turtle' to żółw), która jest kolekcją kodu który pozwala na rysowanie po ekranie. Symbol `*` oznacza 'zaimportuj wszystko'.
 
-	+ `shape("turtle")` makes the drawing robot look like a turtle. As well as turtle, you can also use "arrow", "circle", "square", "triangle" or "classic".
+	+ `shape("turtle")` sprawia, że rysujący robot ma kształt żółwia (po angielsku 'shape' oznacza kształt). Zamiast żółwia możesz wybrać "strzałkę" ("arrow"), koło ("circle"), "kwadrat" ("square"), "trójkąt" ("triangle") lub "wygląd klasyczny" ("classic").
 
-	+ `speed(5)` tells the turtle how fast to draw. You can use a number between 1 and 11. 11 is the fastest, 1 is the slowest.
+	+ `speed(5)` mówi żółwiowi jak szybko ma rysować. Możesz wybrać liczby od 1 do 11. 11 to najszybciej, 1 to najwolniej.
 
-	+ `forward(100)` and `backward(100)` tells the turtle to move forward or backward 100 pixels.
+	+ `forward(100)` i `backward(100)` mówi żółwiowi, żeby przesunął się w przód (forward oznacza "do przodu") lub w tył ("backwards" to po angielsku "do tyłu") o 100 pikseli. 
 
-	+ `left(45)` and `right(90)` turn the turtle left or right by a number of degrees. Here are some examples:
+	+ `left(45)` and `right(90)` skręca żółwiem w lewo lub w prawo o zadaną ilość stopni. Oto kilka przykładów:
 
 		![screenshot](turtle_degrees.png)
 
-	+ `done()` tells Python that we've finished programming the turtle.
+	+ `done()` (z angielskiego - "skończone") mówi Pythonowi, że zakończyliśmy programowanie żółwia.
 
 
-+ What's your favourite colour? To make your drawings more interesting, you can also change the colour and the size of the pen drawing the line. Here's a simple example to try:
++ Jaki jest twój ulubiony kolor? Aby urozmaicić twoje rysunki możesz również zmienić kolor i rozmiar długopisu którym rysowana jest linia. Oto prosty przykład do wypróbowania:
 
 	```python
 	from turtle import *
@@ -75,30 +75,30 @@ We're going to have some fun programming turtles. A turtle is a tiny robot that 
 
 	![screenshot](turtle_colour.png)
 
-+ The code above contains a couple of new commands:
++ Kod powyżej ma kilka nowych komend:
 
-	+ `color("Purple")` turns the turtle and the line purple. Notice the American spelling of the word colour, which doesn't have a 'u' in it. You can also specify colours in *hex*, like you did in CSS. Instead of using `pencolor("Red")` you could use `pencolor("#FF0000")`.
+	+ `color("Purple")` zmienia kolor żółwia i linii na purpurowy. Poza angielskimi nazwami kolorów możesz również użyć kodów kolorów w stylu szesnastkowym ("hex") tak jak podczas zajęć z CSS-a. Zamiast ustawiać kolor przez `pencolor("Red")` ustawiasz go komendą `pencolor("#FF0000")`.
 
-	+ `penup()` lifts the pen from the screen, and `pendown()` lowers it again. This means that you can move the turtle without leaving a trail!
+	+ `penup()` podnosi długopis z ekranu, a `pendown()` ponownie go opuszcza. Pozwala to na przemieszcznie żółwia bez pozostawiania śladu!
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Drawing shapes { .challenge}
-+ Can you use the turtle instructions above to draw:
-	+ A square?
-	+ A triangle?
+## Wyzwanie: Rysowanie kształtów { .challenge}
++ Czy umiesz, korzystając z poprzednich instrukcji dla żółwia, narysować:
+	+ Kwadrat?
+	+ Trójkąt?
 
-+ Can you draw a house? What else can you draw?
++ Czy umiesz narysować dom? Co jeszcze umiesz narysować?
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-# Step 2: Repeating yourself { .activity }
+# Krok 2: Powtarzanie { .activity }
 
-When drawing a square and a triangle, your program repeated the same commands over and over again. Let's get Python to repeat them for us!
+Kiedy rysowałeś kwadrat lub trójkąt, twój program powtarzał te same komendy w kółko. Spróbujmy ustawić Pythona tak, żeby powtarzał komendy za nas!
 
-## Activity Checklist { .check}
+## Lista zadań { .check}
 
-+ Open up a new file, and run the following program:
++ Stwórz nowy plik i uruchom program:
 
 	```python
 	from turtle import *
@@ -106,18 +106,18 @@ When drawing a square and a triangle, your program repeated the same commands ov
 	speed(11)
 	shape("turtle")
 
-	for count in range(4):
+	for licznik in range(4):
 		forward(100)
 		right(90)
 
 	done()
 	```
 
-	This program uses a `for` loop. You can use a `for` loop in Python whenever you want to repeat some code a set number of times.
+	Ten program korzysta z pętli `for`. Możesz używać pętli `for` w Pythonie kiedy chcesz, żeby ten sam kod powtórzył się określoną ilość razy.
 
-	In the program above, the commands `forward(100)` and `right(90)` are repeated 4 times, drawing a square. Turning 90 degrees for each corner means we turn 360 degrees in total.
+	W programie powyżej, komendy `forward(100)` i `right(90)` są powtórzone 4 razy podczas rysowania kwadratu. Obrót o 90 stopni w każdym rogu oznacza, że w sumie żółw obróci się o 360 stopni.
 
-+ Just like with an `if` statement, you should use the Tab key to indent the code that you want to repeat. Try changing the code, so that the line `forward(100)` is indented but the line `right(50)` isn't, like this:
++ Tak samo jak z wyrażeniem `if` (`jeżeli`), trzeba skorzystać z klawisza Tab do wcięcia kodu, który ma zostać powtórzony. Spróbuj zmienić kod tak, aby linia `forward(100)` była wcięta, ale linia `right(50)` już nie, o tak:
 
 	```python
 	from turtle import *
@@ -125,16 +125,16 @@ When drawing a square and a triangle, your program repeated the same commands ov
 	speed(11)
 	shape("turtle")
 
-	for count in range(4):
+	for licznik in range(4):
 		forward(100)
 	right(90)
 
 	done()
 	```
 
-	What happens when you run this program? Did you get a straight line? In this program, Python will repeat `forward(100)` four times, and _then_ turn `right(90)`.
+	Co się stanie kiedy uruchomisz ten program? Czy narysowana linia jest prosta? W tym programie, Python powtórzy `forward(100)` cztery razy, a dopiero _potem_ wykona obrót `right(90)`.
 
-+ Now that you know how to repeat commands, you can create complicated shapes and patterns really easily. Run this program:
++ Teraz, kiedy już wiesz jak powtarzać komendy, możesz w prosty sposób zacząć tworzyć skomplikowane kształty. Uruchom ten program:
 
 	```python
 	from turtle import *
@@ -142,7 +142,7 @@ When drawing a square and a triangle, your program repeated the same commands ov
 	speed(11)
 	shape("turtle")
 
-	for count in range(8):
+	for licznik in range(8):
 		forward(100)
 		right(45)
 
@@ -151,9 +151,9 @@ When drawing a square and a triangle, your program repeated the same commands ov
 
 	![screenshot](turtle_octagon.png)
 
-	This program works in the same way as the square drawing program, except that it repeats 8 times, and only turns 45 degrees for each corner. This means that the code draws an 8-sided shape (an octagon), as the corners for each of the 8 sides add up to 360 degrees (360 divided by 8 is 45).
+	Ten program działa tak samo, jak program rysujący kwadraty, z wyjątkiem tego że powtarza 8 razy i obraca się o 45 stopni w każdym rogu. To oznacza, że rysuje on figurę 8-boczną (ośmiobok), ponieważ kąty pomiędzy ośmiu ścianami sumują się do 360 stopni (360 podzielone na 8 to 45).
 
-+ Here's another example of what can be created using a `for` loop. What does this program draw?
++ Oto kolejny przykład tego, co można stworzyć z pomocą pętli `for`. Co rysuje następny program?
 
 	```python
 	from turtle import *
@@ -161,7 +161,7 @@ When drawing a square and a triangle, your program repeated the same commands ov
 	speed(11)
 	shape("turtle")
 
-	for count in range(30):
+	for licznik in range(30):
 		forward(5)
 		penup()
 		forward(5)
@@ -170,20 +170,20 @@ When drawing a square and a triangle, your program repeated the same commands ov
 	done()
 	```
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Loopy shapes { .challenge}
-+ Can you use a `for` loop to draw:
-	+ A pentagon? (five sides)
-	+ A hexagon? (six sides)
-Remember that the angles of all the corners always add up to 360 degrees!
+## Wyzwanie: Pętlowe kształty { .challenge}
++ Czy umiesz użyć pętli `for` do narysowania:
+	+ Pięcioboku? (pięć ścian)
+	+ Sześcioboku? (sześć ścian)
+Pamiętaj, że kąty obrotów w każdym z rogów zawsze sumują się do 360 stopni!.
 
-+ Can you draw a circle? You can move forward 1 pixel and turn 1 degree each time. How many times would you need to repeat these commands?
++ Czy umiesz narysować koło? Możesz poruszać się w przód o 1 piksel i skręcać o 1 stopień za każdym razem. Ile razy musiałbyś powtórzyć te komendy?
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Drawing patterns { .challenge}
-Can you use what you've learnt to draw awesome patterns? Here's an example:
+## Wyzwanie: Rysowanie wzorów { .challenge}
+Czy korzystając z tego, czego nauczyliśmy się do tej pory możemy narysować fantastyczne kształty? Oto przykład:
 
 ```python
 from turtle import *
@@ -193,7 +193,7 @@ shape("turtle")
 pensize(6)
 color("Red")
 
-for count in range(36):
+for licznik in range(36):
 	forward(100)
 	right(100)
 
@@ -202,24 +202,24 @@ done()
 
 ![screenshot](turtle_loopy.png)
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Variables and loops { .challenge}
-When drawing different shapes, you had to calculate how many degrees to turn for each corner yourself.
+## Wyzwanie: Zmienne i pętle { .challenge}
+Kiedy rysujesz różne kształty, trzeba obliczyć o ile stopni skręcić.
 
-Can you use a calculation, so that the computer works this out for you? To work out the number of degrees to turn, you can divide 360 by the number of sides in the shape:
-
-```python
-sides = 4
-angle = 360 / sides
-```
-
-`/` is the Python symbol for divide. Notice that the answer is stored in a variable called `angle`, which you can then use to draw your shape:
+Czy umiesz wykorzystać obliczenia tak, żeby komputer pracował dla ciebie? Żeby obliczyć o ile stopni zakręcić, możesz podzielić 360 przez ilość ścian w figurze:
 
 ```python
-left(angle)
+ilosc_scian = 4
+kat = 360 / ilosc_scian
 ```
 
-You can then change the number stored in the `sides` variable and test that it works for any shape!
+`/` to symbol dzielenia w Pythonie. Zauważ, że odpowiedź jest zapisywana do zmiennej `kat` (kąt), która może być potem użyta do narysowania twojego kształtu:
 
-## Save Your Project {.save}
+```python
+left(kat)
+```
+
+Możesz teraz zmienić wartość zapisaną w zmiennej `ilosc_scian` i przekonać się, czy działa dla każdego kształtu!
+
+## Zapisz Swój Projekt {.save}
