@@ -90,7 +90,7 @@ Zawsze dobrze jest sprawdzić swoje programy, aby upewnić się, że działają 
 
 ## Zapisz Swój Projekt {.save}
 
-# Krok 3: Wielokrotny wybów { .activity}
+# Krok 3: Wielokrotny wybór { .activity}
 
 ## Lista Zadań { .check}
 
