@@ -25,6 +25,11 @@
             "number":   4,
             "filename": "lessons/Turtle Power/Turtle Power.md",
             "note":     "lessons/Turtle Power/Turtle Power - notes.md"
+        },
+        {
+            "number":   5,
+            "filename": "lessons/Gameshow/Gameshow.md",
+            "note":     "lessons/Gameshow/Gameshow - notes.md"
         }
     ],
 

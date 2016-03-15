@@ -1,36 +1,41 @@
 ---
-title: Gameshow — Notes for Club Leaders
-language: en
+title: Teleturniej — Informacje dla prowadzącego
+language: pl
 embeds: "*.png"
 ...
 
-#Introduction:
-This project teaches children how to use `while` loops and random numbers to create various versions of a number guessing game.
+#Wprowadzenie:
+Ten projekt uczy dzieci jak korzystać z pętli `while` i liczb losowych do stworzenia różnych wersji gry w zgadywanie liczb.
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+#Źródła online
+Do pisania kodu w języku Python online rekomendujemy używanie edytora (https://trinket.io/).  
 
-Children can also make use of the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Download Project Materials' link):
+W tym projekcie dzieci mogą skorzystać z pustego edytora ([https://trinket.io/python/7c0a7396c0](https://trinket.io/python/7c0a7396c0)), by pisać własny kod.
+
+#Źródła offline
+Aby wykonać ten projekt w trybie offline (bez korzystania z platformy trinket.io) konieczne jest, aby na komputerze zainstalowamy był Python (najlepiej w wersji 3.2).
+
+Dzieci mogą też korzystać z materiałów dołączonych do tego projektu. Pliki załączone w katalogu "Project Resources" (do pobrania po kliknięciu w link "Pobierz materiały"):
 
 + Gameshow.py
 
-Make sure that each child has read and write access to their own copy of these resources.
+Upewnij się, że każde dziecko ma dostęp do odczytu i zapisu ich kopii materiałów.
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+Rozwiązania wyzwań z projektu można pobrać pod linkiem "Pobierz materiały" dla tego projektu, który zawiera:
 
 + KeepingScore.py
 + TwentyOne.py
 
-#Learning Objectives
-+ Using `while` loops in a program;
-+ Use of the `random` module;
-+ Adding comments to a program;
-+ Boolean data type.
+#Cele dydaktyczne
++ Użycie pętli `while` w programie;
++ Użycie modułu `random` (liczby losowe);
++ Dodawanie komentarzy do programu;
++ Zmienne logiczne.
 
-#Challenges
-+ Keeping score - using a variable to keep track of the player's score;
-+ Fixing the input - allowing more robust user input;
-+ Losing the game - changing the game logic;
-+ Twenty-one - using `while` loops and random numbers to create a blackjack-style game.
+#Wyzwania
++ Liczenie punków - wykorzystanie zmiennej do liczenia punktów gracza;
++ Naprawienie odpowiedzi gracza - poprawienie odporności programu na wpisywane dane;
++ Przegrana - zmiana logiki gry;
++ Dwadzieścia jeden - wykorzystanie pętli `while` i liczb losowych do stworzenia odmiany gry typu blackjack.
 
 
