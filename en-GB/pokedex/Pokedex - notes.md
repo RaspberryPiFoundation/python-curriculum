@@ -37,4 +37,5 @@ You can find a completed version of this project's challenges by clicking the 'P
 #Frequently Asked Questions
 + Make sure that children have a copy of the `pokeapi.py` file, and that it's saved in the same place as the program they are writing!
 + When the GUI program is run, the GUI window may be hidden behind the Python shell window. Minimising the shell should reveal the window!
++ If you're having trouble installing the Python Image Library (PIL) module, the rest of the project can still be completed, but you'll have to remove the parts of the `pokeapi.py` file that reference the PIL. The parts of the code to remove are marked in the file.
 + Only .gif images can be displayed in a GUI window. For the optional 'Adding an image' section of the Pokedex, the <a href="https://pypi.python.org/pypi/Pillow/2.2.1#downloads">'pillow' module</a> will need to be installed. You can test whether you have pillow installed, by simply running `from PIL import Image`. If no errors are returned, then it should work!
