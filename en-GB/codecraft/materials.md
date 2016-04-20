@@ -31,7 +31,6 @@ project-resources:
     type: image
   - url: wood.png
     type: image
-  - url: sand.png
 volunteer-resources:
   - url: codecraft-volunteer-resources.zip
     type: file
@@ -62,5 +61,4 @@ volunteer-resources:
     type: image
   - url: wood.png
     type: image
-  - url: sand.png
 ---
