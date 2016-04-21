@@ -9,7 +9,7 @@ project-resources:
     type: link
     text: jumpto.cc/codecraft-resources
     description: Online Trinket containing all 'CodeCraft' project resources
-  - url: main.py
+  - url: codecraft.py
     type: file
   - url: variables.py
     type: file
@@ -39,7 +39,7 @@ volunteer-resources:
     type: link
     text: trinket.io/python/9ac3995d69
     description: Online completed Trinket project
-  - url: main.py
+  - url: codecraft.py
     type: file
   - url: variables.py
     type: file
