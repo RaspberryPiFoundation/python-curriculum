@@ -18,7 +18,7 @@ There is also a trinket containing a sample solution to the challenges:
 #Offline Resources
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-+ codecraft/main.py
++ codecraft/codecraft.py
 + codecraft/variables.py
 + codecraft/player.png
 + codecraft/dirt.png
@@ -28,7 +28,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
-+ codecraft-finished/main.py
++ codecraft-finished/codecraft.py
 + codecraft-finished/variables.py
 + codecraft-finished/player.png
 + codecraft-finished/dirt.png
@@ -42,7 +42,7 @@ You can also find a completed version of this project's challenges in the 'Volun
 
 #Learning Objectives
 + Creating and editing graphics;
-+ Game AI design;
++ Game design;
 + Editing:
 	+ Variables;
 	+ Lists;
