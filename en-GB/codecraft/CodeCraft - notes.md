@@ -7,7 +7,7 @@ In this project, children will learn aspects of graphics and game design by maki
 
 #Online Resources
 
-This project uses Python 2. We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following trinket:
+This project uses Python 2. We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 + ['CodeCraft' starting point -- jumpto.cc/codecraft-resources](http://jumpto.cc/codecraft-resources)
 
