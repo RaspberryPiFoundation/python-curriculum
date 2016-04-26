@@ -1,36 +1,41 @@
 ---
-title: Compliment Generator — Notes for Club Leaders
-language: en
+title: Generator Komplementów — Informacje dla prowadzącego
+language: pl
 embeds: "*.png"
 ...
 
-#Introduction:
-This project teaches children how to use lists, as well as accessing elements of a list, and adding and removing list items. Students learn through making a compliment generator, which gives the user a random compliment from a list.
+#Wprowadzenie:
+Ten projekt uczy jak korzystać z list, 
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+# Źródła online
+Do pisania kodu w języku Python online rekomendujemy używanie edytora (https://trinket.io/).  
 
-Children can also make use of the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Download Project Materials' link):
+W tym projekcie dzieci mogą skorzystać z pustego edytora ([https://trinket.io/python/7c0a7396c0](https://trinket.io/python/7c0a7396c0)), by pisać własny kod.
+
+# Źródła offline
+Aby wykonać ten projekt w trybie offline (bez korzystania z platformy trinket.io) konieczne jest, aby na komputerze zainstalowamy był Python (najlepiej w wersji 3.2).
+
+Dzieci mogą też korzystać z materiałów dołączonych do tego projektu. Pliki załączone w katalogu "Project Resources" (do pobrania po kliknięciu w link "Pobierz materiały")
 
 + ComplimentGenerator.py
 
-Make sure that each child has read and write access to their own copy of these resources.
+Upewnij się, że każde dziecko ma dostęp do odczytu i zapisu ich kopii materiałów.
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+Rozwiązane wyzwania dla tego projektu można pobrać klikając link 'Download Project Materials` dla tego projektu, które zawiera:
 
 + PetNamingService.py
 
 #Learning Objectives
-+ Lists;
-+ Arrays, and accessing list elements;
-+ Using `random.choice()` method on a list;
-+ List `append()` and `remove()` methods.
++ Listy;
++ Tablice i dostęp do elementów;
++ Wykorzystanie metody `random.choice()` na liście;
++ Metody `append()` i `remove()` list.
 
-#Challenges
-+ Adding more compliments - adding items to a list;
-+ Duplicate hobbies - testing and fixing a problem;
-+ Pet naming service - applying the use of lists to a new problem.
+#Wyzwanie
++ Dodawanie komplementów - dodawanie elementów do listy;
++ Zduplikowane zainteresowania - testowanie i naprawienie błędu;
++ Usługa nazywania zwierzaków - zastosowanie list do rozwiązania nowego problemu.
 
-#Frequently Asked Questions
-+ Children may need to be reminded that list items are separated by a comma, and that there is no comma after the last item in a list.
+#Często zadawane pytania
++ Dzieci mogą potrzebować przypomnienia, że elementy listy powinny być oddzielone przecinkiem i że nie ma przecinka po ostatnim elemencie listy.
 
