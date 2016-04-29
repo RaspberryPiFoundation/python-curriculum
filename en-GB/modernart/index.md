@@ -3,7 +3,6 @@ title: Modern Art
 description: Use functions to create computer generated modern art. 
 notes: "Modern Art - notes.md"
 layout: project
-project-type: sample
 ---
 
 # Introduction { .intro}
@@ -106,6 +105,8 @@ Hints:
 ## Save Your Project {.save}
 
 # Step 3: Create rectangle modern art { .activity}
+
+## Activity Checklist { .check}
 
 Now let’s create some modern art by drawing lots of rectangles of different sizes and colours. 
 
