@@ -58,7 +58,7 @@ Ao completar o desafio acima, você teve de modificar os números no programa pa
 + Execute este programa em Python:
 
 	```python
-	print("Em que ano voce nasceu?")
+	print("Em que ano você nasceu?")
 	nascimento = input()
 	nascimento = int(nascimento)
 	print( 2025 - nascimento )
@@ -87,7 +87,7 @@ Ao completar o desafio acima, você teve de modificar os números no programa pa
 + Você pode tornar seu programa mais fácil de entender ao adicionar uma mensagem ao usuário, para que ele saiba o que seu programa está mostrando. Modifique a última linha do seu programa para:
 
 	```python
-	print( "Em 2025 voce tera " , 2025 - born , " anos!" )
+	print( "Em 2025 você terá", 2025 - nascimento, "anos!")
 	```
 
 + Execute seu programa novamente para ver como essa modificação vai aparecer. 	
