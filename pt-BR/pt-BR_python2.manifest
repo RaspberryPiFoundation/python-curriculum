@@ -1,8 +1,8 @@
 {
-    "description": "Python 1",
+    "description": "Python 2",
     "id": "python",
     "language": "pt-BR",
-    "number": 5,
+    "number": 10,
     "title": "Python 2",
     "category": "cat-python",
     "projects": [
