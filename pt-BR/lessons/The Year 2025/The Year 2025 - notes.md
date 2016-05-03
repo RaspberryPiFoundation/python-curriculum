@@ -1,49 +1,48 @@
 ---
-title: The Year 2025 — Notes for Club Leaders
-language: en
+title: O ano 2025 — Notas para líderes de clube
+language: pt-br
 embeds: "*.png"
 ...
 
-#Introduction:
-This project teaches children how to use variables within a Python program, and how to perform calculations on data stored in variables. This is achieved through writing a program to calculate what a person’s age will be in the year 2025.
+#Introdução:
+Esse projeto ensina as crianças como usar variáveis dentro de programas em Python e como realizar cálculos com essas variáveis. Isso é feito através de um programa que calcula a idade que uma pessoa terá no ano 2025.
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+#Recursos
+Para este projeto, o Python deverá estar instalado. É recomendado que a versão 3.2 do Python esteja instalada.
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+Você pode achar os arquivos já feitos dos Desafios clicando no link "Download Project Materials" deste projeto, que contém:
 
-+ TheYear3000.py
-+ AgeInDogYears.py
++ OAno3000.py
++ IdadeEmAnosDeCachorro.py
 
-#Learning Objectives
-+ Data types;
-+ Numbers and calculations;
-+ Variables;
-+ Text input using `input()`;
-+ Casting (string → integer) using `int()`.
+#Objetivos de Aprendizado
++ Tipos de dados;
++ Números e cálculos;
++ Variáveis;
++ Entrada de texto utilizando `input()`;
++ "Casting" (transformar string de texto em um número inteiro: string → integer) utilizando `int()`.
 
-#Challenges
-+ Pocket money - expressions using numbers;
-+ Changing dates - altering data used in the calculations;
-+ The year 3000! - Adding a variable to a program;
-+ Your age in dog years - applying the use of variables to a new problem.
+#Desafios
++ Dinheiro no bolso - expressões usando números;
++ Mudando datas - alterando as datas usadas nos cálculos;
++ O Ano 3000! - adicionando uma variável ao programa;
++ Sua idade em anos de cachorro - aplicando o uso de variáveis a um novo problema.
 
-#Frequently Asked Questions
-There are 2 different ways of printing numbers:
+#Perguntas Frequentes
+Existem 2 jeitos diferentes de imprimir números:
 
-+ By passing numbers as separate parameters to the `print()` function, for example:
-
-```python
-print("I am", 11, "years old")
-```
-
-In this case, a space is added between each parameter.
-
-+ By casting the number to text with the `str()` function and then adding it to another text string, for example:
++ Passando o número como um parâmetro separado para a função `print()`, por exemplo:
 
 ```python
-print("I am " + str(11) + " years old")
+print("Eu tenho", 11, "anos.")
 ```
 
-In this case, spaces neeed to be added.
+Nesse caso, um espaço é adicionado entre cada parâmetro.
 
++ Transformando o número em texto (o chamado "casting") através da função `str()` e depois juntando-o (concatenando-o) com outras strings de texto, por exemplo:
+
+```python
+print("Eu tenho " + str(11) + " anos.")
+```
+
+Nesse caso, os espaços precisam ser adicionados.

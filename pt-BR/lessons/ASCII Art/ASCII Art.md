@@ -28,9 +28,9 @@ Python permite que você transforme uma série de instruções em programas e jo
     print("Oi, tudo bem?")
     ```
 
-Esse programa vai imprimir (mostrar) um texto na sua tela. Veja que o texto que você quer imprimir está entre áspas ( `"` ). Olhe uma imagem mostrando o que você precisa fazer:
+Esse programa vai imprimir (mostrar) um texto na sua tela. Veja que o texto que você quer imprimir está entre áspas ( `"` ). A imagem abaixo mostra o que você precisa fazer:
 
-    ![screenshot](ascii-hello.png)
+![screenshot](ascii-hello.png)
 
 + Salve o arquivo clicando em `File → Save` e dê o nome de `oi.py` ou algo parecido. Não se esqueça de digitar o `.py` no fim, ele fala para o computador que esse é um arquivo em Python. Sem o `.py`, o texto não vai seguir o código de cores, que deixa as coisas mais fáceis de entender.  	
 
@@ -102,7 +102,7 @@ Escreva um programa que diga aos outros sobre você, usando texto e arte em ASCI
 
 A estrela (asterisco) `"*"` no programa acima é um símbolo de multiplicação. Execute o programa acima e você verá a seguinte resposta:
 
-    ![screenshot](ascii-textcalc.png)
+![screenshot](ascii-textcalc.png)
 
 + Você pode tornar o texto impresso acima mais fácil de ler, é só adicionar um espaço no fim da palavra `"ola"` no seu programa:
 
