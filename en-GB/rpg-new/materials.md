@@ -1,5 +1,5 @@
 ---
-title: RP - Materials
+title: RPG - Materials
 layout: project-materials
 project-resources:     
   - url: rpg-project-resources.zip
