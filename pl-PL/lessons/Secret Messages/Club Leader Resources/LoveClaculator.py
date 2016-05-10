@@ -1,21 +1,21 @@
-print(" Love Calculator ")
-print("<3 <3 <3 <3 <3 <3")
+print(" Kalkulator Milosci ")
+print("<3 <3 <3 <3 <3 <3 <3")
 
-names = input("\nEnter the names of 2 people: ")
-score = 0
+imiona = input("\nWprowadz imiona dwojga ludzi: ")
+punkty = 0
 
-for char in names:
+for litera in imiona:
 
-    if char in "loves":
-        score += 10
+    if litera in "kocha":
+        punkty += 10
 
-    if char in "fhvwy":
-        score += 5
+    if litera in "fhvwy":
+        punkty += 5
 
-    if char in "aeiou":
-        score += 3
+    if litera in "aeiou":
+        punkty += 3
         
-    if char in "z":
-        score += 10    
+    if litera in "z":
+        punkty += 10    
 
-print("Your compatibility score is" , score)
+print("Wasze punkty zgodnosci wynosza " , punkty)
