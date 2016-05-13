@@ -3,6 +3,7 @@ title: Colourful Creations
 description: Create a dictionary of custom colours and use your colour palette to create a colourful poster. 
 notes: "Colourful Creations - notes.md"
 layout: project
+new: true
 ---
 
 # Introduction { .intro}
@@ -21,10 +22,10 @@ In this project you will create a dictionary of colours which maps hard to remem
 
 Python turtle has predefined colours such as 'red' and 'white' but you can also use hex colour codes (you may have seen these in the HTML course.) 
 
-+ Open this trinket: <a href="http://jumpto.cc/colourful-resources" target="_blank">jumpto.cc/colourful-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Create a new Python trinket <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/colourful-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
-<iframe src="https://trinket.io/embed/python/649a766f84?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 + Add the following set up code for using the turtle:
@@ -35,10 +36,7 @@ Python turtle has predefined colours such as 'red' and 'white' but you can also 
     
 + Turtle has a list of colour names that you can use, but sometimes you want to choose your own colours. Turtle also allows you to use hex colour codes. 
 
-  Open jumpto.cc/colour-picker and choose colour you like. Find it's hex code beginning with a '#', such as '#A7E30E'. 
-  
-  [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool]
-
+  Open <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and choose colour you like. Find it's hex code beginning with a '#', such as '#A7E30E'. 
   
 + Copy the hex code, including the hash, by highlighting it and then right-clicking and choosing Copy, or using Ctrl-C. 
   
