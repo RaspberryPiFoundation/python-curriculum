@@ -3,6 +3,7 @@ title: Modern Art
 description: Use functions to create computer generated modern art. 
 notes: "Modern Art - notes.md"
 layout: project
+new: true
 ---
 
 # Introduction { .intro}

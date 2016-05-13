@@ -3,6 +3,7 @@ title: Robotrumps
 description: Read data from files to create a database of robots and play Robotrumps with a friend. 
 notes: "Robotrumps - notes.md"
 layout: project
+new: true
 ---
 
 # Introduction { .intro}
