@@ -33,10 +33,10 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
   
   ![screenshot](images/pets-favourite.png)
 
-+ Open this trinket: <a href="http://jumpto.cc/pets-resources" target="_blank">jumpto.cc/pets-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Create a new Python trinket <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
-<iframe src="https://trinket.io/embed/python/e32251230a?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 + Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.

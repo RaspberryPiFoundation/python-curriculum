@@ -22,7 +22,7 @@ You're going to create a game with racing turtles. First they'll need a race tra
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/iss-resources" target="_blank">jumpto.cc/colourful-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/turtle-race-resources" target="_blank">jumpto.cc/turtle-race-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/1a21d94352?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
