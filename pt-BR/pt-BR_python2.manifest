@@ -4,7 +4,6 @@
     "language": "pt-BR",
     "number": 10,
     "title": "Python 2",
-    "category": "cat-python",
     "projects": [
         {
             "number":   1,
