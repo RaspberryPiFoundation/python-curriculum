@@ -21,7 +21,7 @@ volunteer-resources:
     description: Online completed Trinket project
   - url: messages.py
     type: file
-  - url: https://trinket.io/python/402256078c
+  - url: https://trinket.io/python/2e852cd687
     type: link
     text: trinket.io/python/2e852cd687
     description: Online completed 'Friendship calculator' challenge
@@ -29,5 +29,3 @@ volunteer-resources:
     type: file
     description: offline complete 'Friendship calculator' challenge
 ---
-
-https://trinket.io/library/trinkets/2e852cd687
