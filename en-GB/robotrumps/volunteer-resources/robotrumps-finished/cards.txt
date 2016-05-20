@@ -1,0 +1,12 @@
+rainbow, 10, 34, 8, 9, rainbow.png, orange
+space, 13, 28, 11, 12, space.png, grey
+bird, 6, 4, 5, 20, bird.png, blue
+jet, 2, 5, 3, 25, jet.png, coral
+twoheads, 4, 64, 18, 6, twoheads.png, green
+dog, 10, 12, 20, 9, dog.png, turquoise
+round, 12, 33, 29, 7, round.png, blue
+brains, 9, 88, 15, 7, brains.png, brown
+tv, 18, 6, 5, 16, tv.png, black
+hair, 8, 88, 18, 9, hair.png, teal
+shades, 22, 43, 18, 10, shades.png, coral
+yellow, 2, 3, 9, 5, yellow.png, gold
