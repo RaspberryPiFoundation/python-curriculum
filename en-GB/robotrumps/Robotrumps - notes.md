@@ -10,7 +10,7 @@ This project introduces for loops through a fun turtle race game. Loops are used
 
 This project uses Python 2. We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-+ ['Robotrumps' starting point -- jumpto.cc/robotrumps-resources](http://jumpto.cc/robotrumps-resources)
++ ['Robotrumps' starting point -- jumpto.cc/robotrumps-go](http://jumpto.cc/robotrumps-go)
 
 There is also a trinket containing a sample solution to the challenges:
 

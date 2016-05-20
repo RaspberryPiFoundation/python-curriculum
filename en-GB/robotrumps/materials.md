@@ -2,6 +2,10 @@
 title: Robotrumps - Materials
 layout: project-materials
 project-resources:     
+  - url: http://jumpto.cc/robotrumps-go
+    type: link
+    text: jumpto.cc/robotrumps-go
+    description: Online Trinket containing 'Robotrumps' starter resources
   - url: robotrumps-project-resources.zip
     type: file
     description: .zip file containing all project resources

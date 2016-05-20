@@ -5,9 +5,9 @@ project-resources:
   - url: rpg-project-resources.zip
     type: file
     description: .zip file containing all project resources
-  - url: http://jumpto.cc/rpg-resources
+  - url: http://jumpto.cc/rpg-go
     type: link
-    text: jumpto.cc/rpg-resources
+    text: jumpto.cc/rpg-go
     description: Online Trinket containing all 'RPG' project resources
   - url: rpg.py
     type: file

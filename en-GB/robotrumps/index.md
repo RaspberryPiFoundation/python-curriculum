@@ -23,7 +23,7 @@ It's often useful to be able to read information from a file. You can then chang
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/robotrumps-resources" target="_blank">jumpto.cc/robotrumps-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/robotrumps-go" target="_blank">jumpto.cc/robotrumps-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/e32251230a?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

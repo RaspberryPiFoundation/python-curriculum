@@ -52,7 +52,7 @@ The data is live so you may see a different result. The format is called JSON.
 
 + Let’s call the web service from Python so we can use the results.
 
-Open this trinket: <a href="http://jumpto.cc/iss-resources" target="_blank">jumpto.cc/iss-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
+Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/iss-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/649a766f84?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

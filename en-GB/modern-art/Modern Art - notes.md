@@ -10,7 +10,7 @@ This project introduces functions through a colourful modern art generator. Func
 
 This project uses Python 2. We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-+ ['Turtle Race' starting point -- jumpto.cc/modern-resources](http://jumpto.cc/modern-resources)
++ ['Turtle Race' starting point -- jumpto.cc/modern-go](http://jumpto.cc/modern-go)
 
 There is also a trinket containing a sample solution to the challenges:
 

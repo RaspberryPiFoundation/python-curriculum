@@ -9,6 +9,10 @@ project-resources:
     type: file
   - url: modern-art/snippets.py
     type: file
+- url: http://jumpto.cc/modern-go
+    type: link
+    text: jumpto.cc/modern-go
+    description: Online Trinket containing 'Modern Art' starter resources
 volunteer-resources:
   - url: modern-art-volunteer-resources.zip
     type: file

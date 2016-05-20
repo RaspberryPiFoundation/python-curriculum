@@ -5,10 +5,6 @@ project-resources:
   - url: messages-project-resources.zip
     type: file
     description: .zip file containing all project resources
-  - url: http://jumpto.cc/messages-resources
-    type: link
-    text: jumpto.cc/messages-resources
-    description: Online Trinket containing all 'Secret Messages' project resources
   - url: messages.py
     type: file
 volunteer-resources:

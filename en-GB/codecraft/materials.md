@@ -5,9 +5,9 @@ project-resources:
   - url: codecraft-project-resources.zip
     type: file
     description: .zip file containing all project resources
-  - url: http://jumpto.cc/codecraft-resources
+  - url: http://jumpto.cc/codecraft-go
     type: link
-    text: jumpto.cc/codecraft-resources
+    text: jumpto.cc/codecraft-go
     description: Online Trinket containing all 'CodeCraft' project resources
   - url: codecraft.py
     type: file

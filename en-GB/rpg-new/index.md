@@ -19,7 +19,7 @@ In this project, you’ll design and code your own RPG maze game. The aim of the
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/rpg-resources" target="_blank">jumpto.cc/rpg-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/rpg-go" target="_blank">jumpto.cc/rpg-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/09fa4faae7?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
