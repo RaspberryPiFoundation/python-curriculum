@@ -60,7 +60,7 @@ In this project you will create computer generated modern art. You will use func
   
 + If you ‘Run’ your code now you don’t get a random coloured turtle. That’s because you have defined your function, but not called it yet. 
   
-    Add a line to call your new function:
++ Add a line to call your new function:
   
     ![screenshot](images/modern-call-colour.png)
 
@@ -117,6 +117,7 @@ Now let’s create some modern art by drawing lots of rectangles of different si
 
 + You can comment out your turtle art code by placing a `#` at the beginning of each line so that it doesn’t run while you are working on rectangle art. (Then you can uncomment it later to show off all of your work.)
 
+    ![screenshot](images/modern-comment.png)
  
 + Now let’s add a function to draw a random-sized, random-coloured rectangle at a random location! 
     
@@ -158,7 +159,7 @@ Now let’s create some modern art by drawing lots of rectangles of different si
 ## Challenge: More modern art { .challenge}
 Can you create a function that draws a shape and calls your `randomcolour()` and / or `randomplace()` functions? 
 
-You can call your function from inside a `for` loop as you did in the rectangle art to generate modern art.  
+You can call your function from inside a `for` loop as you did in the rectangle art to generate modern art. 
 
 Ideas:
 
@@ -166,7 +167,7 @@ Ideas:
     
     ![screenshot](images/modern-circles.png)
     
-- Look in `snippets.py` for example code to draw shapes with the turtle.
+- Look in `snippets.py` for example code to draw stars with the turtle.
     
     ![screenshot](images/modern-stars.png) 
 

@@ -20,7 +20,7 @@ In this project you will create a dictionary of colours which maps hard to remem
 
 ## Activity Checklist { .check}
 
-Python turtle has predefined colours such as 'red' and 'white' but you can also use hex colour codes (you may have seen these in the HTML course.) 
+Python turtle has predefined colours such as 'red' and 'white' but you can also use hex colour codes (you may have seen these in the HTML & CSS course.) 
 
 + Create a new Python trinket <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
@@ -40,7 +40,7 @@ Python turtle has predefined colours such as 'red' and 'white' but you can also 
   
 + Copy the hex code, including the hash, by highlighting it and then right-clicking and choosing Copy, or using Ctrl-C. 
   
-+ Now change the the line of code that sets the screen colour to use your colour. For example:
++ Now change the line of code that sets the screen colour to use your colour. For example:
 
    ![screenshot](images/colourful-background.png)
    
@@ -50,7 +50,12 @@ Python turtle has predefined colours such as 'red' and 'white' but you can also 
 
    ![screenshot](images/colourful-write.png)
    
+   You don't have to use the 'Arial' font, you could try 'Verdana', 'Times' or 'Courier'.
+   
+   '40' is the font size, you can try changing that too.  
+   
 + Try different colours until you get two that you really like that look good together. 
+
 
 ## Save Your Project {.save}
 
@@ -68,15 +73,15 @@ Let's create a dictionary to map from human-friendly colour names (keys) to comp
 
   Create an empty dictionary called `colours`:
 
-   ![screenshot](images/colourful-write.png)
+   ![screenshot](images/colourful-dict.png)
    
-+ Here's an example colour dictionary:
++ Choose cool names for your colours and edit the `colours = {} ` line to add entries to the dictionary for them. 
+
+  Here's an example colour dictionary:
 
    ![screenshot](images/colourful-colours.png)
    
    A colon ':' separates the key (colour name) from the value (hex code.) You need a comma ',' between each key:value pair in the dictionary. 
-   
-+ Choose cool names for your colours and add entries to the dictionary for them. 
 
 + Now you don't need to remember the hex codes, you can just look them up in the dictionary. 
 
@@ -90,18 +95,23 @@ Let's create a dictionary to map from human-friendly colour names (keys) to comp
 
   ![screenshot](images/colourful-use.png)
   
+  
 + Test your code to make sure your text still displays correctly. 
 
 ## Save Your Project {.save}
 
 ## Challenge: More colours! {.challenge}
 
-Can you add more colours to your dictionary and try them out? Use the colour picker website to find more colours. 
+Can you add more colours to your dictionary and try them out? Use <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> to find more colours. 
+
+Don't forget to give your colours awesome names. 
 
 Here's some example code to remind you how to use the turtle:
 
-  ![screenshot](images/colourful-challenge1.png)
+![screenshot](images/colourful-challenge1.png)
 
+
+## Save Your Project {.save}
 
 ## Challenge: Create a poster
 
@@ -110,7 +120,19 @@ Designers often create a 'palette' of colours that work well together for a part
 Can you create a new Python project that uses a dictionary for a themed colour palette. You could choose autumn, forest, sea, Christmas, ice cream, the colours of your favourite sports team or an idea of your own. 
 
 Create a poster using your colour palette dictionary.
+
+You can also use other turtle commands that you know such as `forward`, `right`, `left`, `penup` and `pendown`. 
+
+Maybe you could add a border to your poster?
+
+Other useful turtle commands:
++ `circle(50)` draws a circle outline with radius 50.
++ `dot(100)` draws a filled in circle with diameter 100. 
   
-  
+Here's an example:
+
+![screenshot](images/colourful-finished.png)
+
+## Save Your Project {.save}
 
 

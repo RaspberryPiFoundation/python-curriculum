@@ -78,7 +78,9 @@ You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to
 
 Collect data from your Code Club members to create your own bar graph. 
 
-Make sure that you choose a topic that everyone will know about and is suitable for the children in your class. You could try: favourite sports or ice cream flavours. You could find out which month children's birthday's are in or how they get to school (walk, cycle, car, bus.)You could pick a yes/no question such as 'Do you play Minecraft?'.  
+Make sure that you choose a topic that everyone will know about and is suitable for the children in your class. 
+
+You could try: favourite sports or ice cream flavours. You could find out which month children's birthdays are in or how they get to school (walk, cycle, car, bus.)You could pick a yes/no question such as 'Do you play Minecraft?'.  
 
 Don't ask questions that give personal data such as where people live. Ask your volunteer if you're not sure. 
 
@@ -111,7 +113,7 @@ It's useful to be able to store data in a file rather than having to including i
 
   ![screenshot](images/pets-read.png)
   
-  The for loop will loop over the lines in the file, `splitlines()` removes the newline character from the end of the line as you don't want that. 
+  The for loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that. 
   
 + Each line needs to be separated into a label and a value:
   
@@ -121,38 +123,41 @@ It's useful to be able to store data in a file rather than having to including i
   
 + You might get an error like this:
 
-  ![screenshot](images/pets-split.png)
+  ![screenshot](images/pets-error.png)
   
   This happens if you have an empty line at the end of your file. 
   
-  You can fix the error only getting the label and value if the line isn't empty:
+  You can fix the error by only getting the label and value if the line isn't empty:
   
-  ![screenshot](images/pets-split.png)
+  ![screenshot](images/pets-fix.png)
   
 + Now let's add the label and value to a new Pie Chart and render it:
 
   ![screenshot](images/pets-pie2.png)
   
-  Note that add expects the value to be a number,  `int(value)` turns the value from a string into an integer.
+  Note that `add` expects the value to be a number,  `int(value)` turns the value from a string into an integer.
   
   If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead. 
   
   
 ## Save Your Project {.save}
 
-## Challenge: Create a bar chart from a file {.challenge}
+## Challenge: Create a new chart from a file {.challenge}
 
-Can you create a bar chart from the data you collected in the earlier challenge? You'll need to create a new .txt file. 
+Can you create a new bar graph or pie chart from data in a file? You'll need to create a new .txt file. 
 
-![screenshot](images/pets-pn.png)
-
- Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
+Tip: If you want to have spaces in the labels then use `line.split(': ')` and add colons to your data file, e.g. 'Red Admiral: 6'
  
- ![screenshot](images/pets-butterflies.png)
+![screenshot](images/pets-butterflies.png)
  
  
 ## Challenge: More charts and graphs! {.challenge}
 
 Can you create a pie chart and a bar chart from the same file? You can either use the data you collected earlier or collect some new data. 
+
+![screenshot](images/pets-pn-bar.png)
+
+![screenshot](images/pets-pn.png)
+
 
 ## Save Your Project {.save}

@@ -8,7 +8,7 @@ new: true
 
 # Introduction { .intro}
 
-In this project you will read data from a file to create Robot Trump cards. Then you can play Robot Trumps with a friend.
+In this project you will read data from a file to create Robot Trump cards. Then you can play Robotrumps with a friend.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -34,7 +34,6 @@ It's often useful to be able to read information from a file. You can then chang
   Click on `cards.txt` to see the data:
 
   ![screenshot](images/robotrumps-cards.png)
-
 
   Each line has data about a robot. The data items are separated by commas. 
 
@@ -96,6 +95,11 @@ Now you can display the robot data in a more interesting way.
 
 Let’s display a robot trump card with an image and data for its intelligence and usefulness. 
 
+When you've completed this step you'll be able to display robots like this:
+
+![screenshot](images/robotrumps-example.png)
+
+
 ## Activity Checklist { .check}
 
 + Ask the user which robot they would like to see:
@@ -139,9 +143,9 @@ Let’s display a robot trump card with an image and data for its intelligence a
   
 + You can now access the stats for the robot as items in a list:
 
-  + stats[0] is intelligence
-  + stats[1] is battery
-  + stats[2] is the image name
+  stats[0] is intelligence
+  stats[1] is battery
+  stats[2] is the image name
   
   Add code to display the intelligence and battery stats:
   
@@ -158,7 +162,7 @@ Let’s display a robot trump card with an image and data for its intelligence a
   
   ![screenshot](images/robotrumps-register.png)
      
-+ And code to position and stamp the image:
++ And add code to position and stamp the image:
 
   ![screenshot](images/robotrumps-image.png)
   
@@ -176,12 +180,15 @@ Can you add data about more robots to `cards.txt`.
 
 Click on the images button to see the robot images that you can use. 
 
-You get to decide how much battery and intelligence they have. 
+You get to decide how much battery and intelligence they have.
+
+![screenshot](images/robotrumps-yellow.png)
+
 
 ## Save Your Project {.save}
 
-## Challenge: Add more categories to the robots {.challenge}
-Can you think of more data categories to add to the robots. You could add ‘speed’ or ‘battery’ or come up with your own ideas. 
+## Challenge: Add more stats to the robots {.challenge}
+Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
 
 You’ll need to:
 
@@ -192,6 +199,11 @@ You’ll need to:
 You could even add a colour and show the stats for robots in their own color. 
 
 Hint: Use `color('red')` to change the turtle's text to red before writing. 
+
+Example: 
+
+![screenshot](images/robotrumps-jet.png) 
+
 
 ## Save Your Project {.save}
 
@@ -213,8 +225,10 @@ Let’s add code so that you get a random robot when you type Random instead of 
 ## Save Your Project {.save}
 
 ## Challenge: Play robot trumps with a friend {.challenge}
-Share your project with a friend and play robot trumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over. 
+Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over. 
 
-The game works best if you both play with the same set of cards, otherwise each player can just choose really high values for all of their cards. 
+The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck. 
+
+![screenshot](images/robotrumps-play.png)
 
 ## Save Your Project {.save}

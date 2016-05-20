@@ -22,10 +22,10 @@ You're going to create a game with racing turtles. First they'll need a race tra
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/turtle-race-resources" target="_blank">jumpto.cc/turtle-race-resources</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Create a new Python trinket <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
-<iframe src="https://trinket.io/embed/python/1a21d94352?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 + Add the following code to draw a line using the 'turtle':
@@ -98,7 +98,7 @@ Now for the fun bit. Let's add some racing turtles. It would be really boring if
 
 + When you use commands like `forward(20)` you are using the default turtle. But you can create more turtles. Add the following code to the end of your script:
 
-  ![screenshot](images/race-speed.png)
+  ![screenshot](images/race-red.png)
 
   The first line creates a turtle called 'red'. The next lines set the colour and shape of the turtle. Now it really looks like a turtle!
   
@@ -106,7 +106,12 @@ Now for the fun bit. Let's add some racing turtles. It would be really boring if
 
    ![screenshot](images/race-start.png)
    
-+ Now you need to make the turtle race. The `randint` function returns a random integer between the values chosen. The turtle will move forward 1, 2, 3, 4, or 5 steps at each turn. 
++ Now you need to make the turtle race by moving a random number of steps at a time. You'll need the `randint` function from the Python `random` library. Add this `import` line to the top of your script:
+
+  ![screenshot](images/race-randint.png)
+
+
++ The `randint` function returns a random integer between the values chosen. The turtle will move forward 1, 2, 3, 4, or 5 steps at each turn. 
 
   ![screenshot](images/race-random.png)
   
@@ -124,21 +129,26 @@ Now you're ready to race. Pick a turtle and an opponent and see who wins.
 
 Can you add more turtles so you can race with more friends?
 
- ![screenshot](images/race-more.png)
+![screenshot](images/race-more.png)
+ 
+Colours include: orange, purple, violet, tomato, turquoise, magenta and brown
+
+## Save Your Project {.save}
  
 ## Challenge: Do a twirl {.challenge}
 
-Can you make each turtle do a twirl after they get to the starting line? They'll need to make sure they are facing in the right direction at the start of the race!
+Can you use a `for turn in range():` loop to make each turtle do a twirl after they get to the starting line? They'll need to make sure they are facing in the right direction at the start of the race!
 
 `red.right(36)` will turn the red turtle right by 36 degrees. 
 
-Hint: A full turn is 360 degrees. A turtle could turn right 10 degrees 36 times. Or left 5 degrees 72 times. Or ...
+**Hint:** A full turn is 360 degrees. A turtle could turn right 10 degrees 36 times. Or left 5 degrees 72 times. Or ...
 
 ## Challenge: Dashed lines {.challenge}
 
-Can you use a loop to make the track lines dashed instead of solid?
+Can you use a loop to make the track lines dashed instead of solid? 
 
-  ![screenshot](images/race-finished.png)
+![screenshot](images/race-finished.png)
   
+**Hint:** Find the code that draws a straight line. Try using:`for`, `forward()`, `penup()` and `pendown()`
 
 ## Save Your Project {.save}
