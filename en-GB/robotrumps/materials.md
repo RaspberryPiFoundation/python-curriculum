@@ -13,7 +13,7 @@ project-resources:
     type: file
   - url: robotrumps/cards.txt
     type: file
- - url: robotrumps/space.png
+  - url: robotrumps/space.png
     type: file
   - url: robotrumps/rainbow.png
     type: file
