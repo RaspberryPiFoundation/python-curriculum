@@ -11,7 +11,7 @@ This project uses Python 2. We recommend using [trinket](https://trinket.io/) to
 
 + [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing a sample solution to the challenges:
+There is also a trinket containing the finished project:
 
 + [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
@@ -20,7 +20,7 @@ There is also a trinket containing a sample solution to the challenges:
 #Offline Resources
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
 
-You can find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+You can find the completed project in the 'Volunteer Resources' section, which contains:
 
 + messages-finished/messages.py
 + messages-finished/friends.py
