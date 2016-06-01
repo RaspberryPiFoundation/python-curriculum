@@ -11,7 +11,7 @@ This project uses Python 2. We recommend using [trinket](https://trinket.io/) to
 
 + ['CodeCraft' starting point -- jumpto.cc/codecraft-go](http://jumpto.cc/codecraft-go)
 
-There is also a trinket containing a sample solution to the challenges:
+There is also a trinket containing the completed project:
 
 + [‘CodeCraft’ Finished -- trinket.io/python/9ac3995d69](https://trinket.io/python/9ac3995d69)
 
@@ -26,7 +26,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 + codecraft/water.png
 + codecraft/brick.png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
 + codecraft-finished/codecraft.py
 + codecraft-finished/variables.py

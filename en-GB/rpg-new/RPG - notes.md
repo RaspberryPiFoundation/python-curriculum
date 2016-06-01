@@ -12,7 +12,7 @@ This project uses Python 2. We recommend using [trinket](https://trinket.io/) to
 
 + ['RPG' starting point -- jumpto.cc/rpg-go](http://jumpto.cc/rpg-go)
 
-There is also a trinket containing a sample solution to the challenges:
+There is also a trinket containing the finished project:
 
 + [‘RPG’ Finished -- trinket.io/python/d06adeb527](https://trinket.io/python/d06adeb527)
 
@@ -21,7 +21,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 
 + rpg/rpg.py
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+You can also find the completed project project in the 'Volunteer Resources' section, which contains:
 
 + rpg-finished/rpg.py
 
