@@ -13,7 +13,7 @@ In this project you will use a web service to find out the current location of t
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b95851338c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
-  <img src="images/iss-finished.png">
+  <img src="images/iss-final.png">
 </div>
 
 # Step 1: Who is in Space? { .activity}
@@ -48,7 +48,7 @@ You should see something like this:
 }
 ```
 
-The data is live so you may see a different result. The format is called JSON. 
+The data is live so you may see a different result. The format is called JSON (say Jason). 
 
 + Let’s call the web service from Python so we can use the results.
 
@@ -58,7 +58,7 @@ Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/i
 <iframe src="https://trinket.io/embed/python/649a766f84?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-+ The `urll.request` and `json` modules have already been imported for you. 
++ The `url.request` and `json` modules have already been imported for you. 
 
   Add the following code to `main.py` to put the web address you just used into a variable:
 
@@ -83,6 +83,8 @@ You should see something like this:
 This is a Python dictionary with 3 keys: message, number and people. 
 
 The ‘success’ value of message tells you that the request was successful. Good. 
+
+Note that you will see different results depending on who is currently in space!
 
 
 + Now let's print the information in a more readable way. 
@@ -121,11 +123,20 @@ You are using live data so your results will depend on the number of people curr
 
 ## Save Your Project {.save}
 
-## Challenge: Craft {.challenge}
+## Challenge: Show the Craft {.challenge}
 
 As well as the name of the astronaut the web service also provides the craft that they are in (such as the ISS.)
 
 Can you add to your script so that it also prints out the craft that the astronaut is in. 
+
+Example:
+
+```
+People in Space:  3
+Yuri Malenchenko in ISS
+Timothy Kopra in ISS
+Timothy Peake in ISS
+```
 
 ## Save Your Project {.save}
 
@@ -139,13 +150,13 @@ Let’s use another web service to find out where the International Space Statio
 
 + First open the url for the web service in a new tab in your web browser:
 
-  '''
+  ```
   http://api.open-notify.org/iss-now
-  '''
+  ```
   
   You should see something like this:
   
-  '''
+  ```
   {
   "iss_position": {
     "latitude": 8.54938193505081, 
@@ -154,7 +165,7 @@ Let’s use another web service to find out where the International Space Statio
   "message": "success", 
   "timestamp": 1461931913
   }
-  ''' 
+  ```
   
   The result contains the coordinates of the spot on Earth that the ISS is currently over. 
 
@@ -185,7 +196,7 @@ Let’s use another web service to find out where the International Space Statio
   
   The map is centered at 0, 0 which is just what you need. 
 
-+ You need to set the screen size to match the size of the image which is 720 by 360 pixels. 
++ You need to set the screen size to match the size of the image which is 720 by 360 pixels so that it's easy to plot coordinates. 
 
   Add `screen.setup(720, 360)`:
 
@@ -197,12 +208,15 @@ Let’s use another web service to find out where the International Space Statio
   
   Now the coordinates will match the latitude and longitude coordinates that we get back from the web service. 
 
-+ Let’s create a turtle for the ISS and plot it on the map. 
++ Let’s create a turtle for the ISS. 
 
-[Will use an ISS image here.]
+  ![screenshot](images/iss-image.png)
 
+  Your project includes 'iss.png' and 'iss2.png', try them both and see which one you prefer. 
 
-  ![screenshot](images/iss-coords.png)
++ The ISS starts off in the centre of the map, now let's move it to the correct location on the map:
+
+  ![screenshot](images/iss-plot.png)
   
   Note that latitude is normally given first, but we need to give longitude first when plotting (x,y) coordinates. 
 
@@ -210,44 +224,73 @@ Let’s use another web service to find out where the International Space Statio
 The ISS should move to it’s current location above Earth. 
 Wait a few seconds and run your program again to see where the ISS has moved to. 
 
-+ Step 3: When will the ISS be overhead? { .activity}
+  ![screenshot](images/iss-plotted.png)
+
+# Step 3: When will the ISS be overhead? { .activity}
 
 ## Activity Checklist { .check}
 
 There’s also a web service that you can call to find out when the ISS will next be over a particular location. 
+Let’s find out when the ISS will next be over the Space Centre in Houston, US which is at latitude 29.5502 and longitude = -95.097.
 
-+ Let’s find out when the ISS will next be over the Space Centre in Houston, US. 
++ First let’s plot a dot on the map at these coordinates:
 
-lat = 29.5502
-lon = -95.097
-First let’s plot a dot on the map at these coordinates:
-location = turtle.Turtle()
-location.penup()
-location.color('green')
-location.goto(2*lon,2*lat)
-location.dot(5)
-location.hideturtle()
+  ![screenshot](images/iss-location.png)
+
++ Now let’s get the date and time that the ISS is next overhead. As before we can call the web service by pasting the url into the address bar of a web browser. 
+
+  ```
+  http://api.open-notify.org/iss-pass.json
+  ```
+
+  You should see an error:
+
+  ![screenshot](images/iss-pass-error.png)
+
++ This web service takes latitude and longitude as inputs so we have to include them in the url we use.
+
+  Inputs are added after a `?` and separated with `&`. 
+
+  Add the `lat` and `lon` inputs to the url as shown:
+
+  ```
+  http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1
+  ```
+  ![screenshot](images/iss-passtimes.png)
+  
+  The response includes several pass over times, we’ll just look at the first one. The time is given in a standard time format, you'll be able to convert it to a readable time in Python.
+
++  Now let's call the web service from Python. Add the following code to the end of your script:
+
+  ![screenshot](images/iss-passover.png)
+
++ Now let's get the first pass over time from the result.
+
+Add the following code:
+
+  ![screenshot](images/iss-print-pass.png)
 
 
-Now let’s get the date and time that the ISS is next overhead. 
-This web service takes latitude and longitude as inputs so we have to include them in the url we use:
-url = "http://api.open-notify.org/iss-pass.json?lat=" + str(lat) + "&lon=" + str(lon)
-response = urllib.request.urlopen(url)
-result = json.loads(response.read())
-The response includes five pass over times, we’ll just look at the first one. 
-import time
-over = result['response'][1]['risetime']
-The time is given as a timestamp so we’ll need the Python time module so we can print it in a readable form and convert it to local time. Let’s get the turtle to write the passover time by the dot. 
-location.write(time.ctime(over))
++ The time is given as a timestamp so we’ll need the Python time module so we can print it in a readable form and convert it to local time. Let’s get the turtle to write the passover time by the dot. 
+
++ Add an `import time` line at the top of your script:
+
+  ![screenshot](images/iss-time.png)
+
++ The `time.cime()` function will convert the time to a readable form that you can write with the turtle: 
+
+  ![screenshot](images/iss-pass-write.png)
+ 
+  (You can remove or comment out the `print` line.)
 
 ## Save Your Project {.save}
 
-## Challenge: Find more passover times
+## Challenge: Find more passover times {.challenge}
 
 You can use a website such as http://www.latlong.net/ to look up the latitude and longitude of locations you are interested in. 
 
 Can you look up and plot the passover times for more locations? You’ll need to change the latitude and longitude inputs to the web service. 
 
-You could request the latitude and longitude from the user. 
+![screenshot](images/iss-final.png)
 
 ## Save Your Project {.save}
