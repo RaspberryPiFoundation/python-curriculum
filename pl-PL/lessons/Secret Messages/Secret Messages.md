@@ -30,23 +30,26 @@ Aby odszyfrować wiadomość trzeba każdą literę przesunąć z powrotem o 3 m
 + Zacznijmy od napisania programu do szyfrowania liter. Uruchom poniższy program i sprawdź czy działa, gdy wpiszesz literę "a":
 
 	```python
-	#lista liter do szyfrowania
+	# lista liter do szyfrowania
 	alfabet = "abcdefghijklmnopqrstuvwxyz"
 
-	#tajny klucz to 3
+	# tajny klucz to 3
 	klucz = 3
 
 	litera = input("Wprowadz litere do zaszyfrowania: ")
 
-	#znajdz pozycje litery w alfabecie
-	#na przyklad "a" jest na pozycji 0, "e" jest na pozycji 4, itd.
+	# znajdz pozycje litery w alfabecie
+	# na przyklad "a" jest na pozycji 0,
+	# "e" jest na pozycji 4, itd.
 	pozycja = alfabet.find(litera)
 
-	#dodaj tajny klucz, aby otrzymac pozycje zaszyfrowanej litery
+	# dodaj tajny klucz, aby otrzymac pozycje
+	# zaszyfrowanej litery
 	# % 26 oznacza "wroc do 0 kiedy osiagniesz 26"
 	nowaPozycja = (pozycja + klucz) % 26
 
-	#zaszyfrowana litera znajduje sie na pozycji nowaPozycja w alfabecie
+	# zaszyfrowana litera znajduje sie
+	# na pozycji nowaPozycja w alfabecie
 	zaszyfrowanaLitera = alfabet[nowaPozycja]
 
 	print("Twoja litera po zaszyfrowaniu to " + zaszyfrowanaLitera)
@@ -96,7 +99,7 @@ Aby odszyfrować wiadomość trzeba każdą literę przesunąć z powrotem o 3 m
 	Jeśli wolisz mieć osobne programy do szyfrowania i odszyfrowania, po prostu zamień kod powyżej tak, aby poruszał się wstecz po alfabecie:
 
 	```python
-	#odejmij wartosc klucza aby sie cofnac
+	# odejmij wartosc klucza aby sie cofnac
 	nowaPozycja = (pozycja - klucz) % 26
 	```
 
@@ -131,7 +134,7 @@ Zamiast szyfrować i odszyfrowywać wiadomości litera po literze, napiszmy prog
 	```python
 	imie = input("Jak masz na imie? ")
 
-	#wyświetl każdą literę imienia po kolei
+	# wyświetl każdą literę imienia po kolei
 	for litera in imie:
 		print(litera)
 	```
@@ -143,42 +146,48 @@ Zamiast szyfrować i odszyfrowywać wiadomości litera po literze, napiszmy prog
 + Możesz użyć tego typu pętli do zaszyfrowania całej wiadomości i odszyfrowania jej litera po literze:
 
 	```python
-	#lista liter do szyfrowania
+	# lista liter do szyfrowania
 	alfabet = "abcdefghijklmnopqrstuvwxyz"
 
-	#wczytaj wiadomosc uzytkownika
+	# wczytaj wiadomosc uzytkownika
 	wiadomosc = input("Prosze wprowadzic wiadomosc do zaszyfrowania: ").lower()
 
-	#ta zmienna bedzie zawierac zaszyfrowana wiadomosc
+	# ta zmienna bedzie zawierac zaszyfrowana
+	# wiadomosc
 	zaszyfrowanaWiadomosc = ""
 
-	#wczytaj klucz
+	# wczytaj klucz
 	klucz = input("Podaj klucz: ")
-	#ta akcja jest potrzebna aby miec pewnosc ze program wczytal klucz jako liczbe
+	# ta akcja jest potrzebna aby miec pewnosc
+	# ze program wczytal klucz jako liczbe
 	klucz = int(klucz)
 
-	#wykonaj petle na kazdej literze w wiadomosci
+	# wykonaj petle na kazdej literze w wiadomosci
 	for litera in wiadomosc:
 
 	    if litera in alfabet:
 
-          #znajdz pozycje litery w alfabecie
-          #na przyklad "a" jest na pozycji 0, "e" jest na pozycji 4, itd.
-	        pozycja = alfabet.find(litera)
+          # znajdz pozycje litery w alfabecie
+          # na przyklad "a" jest na pozycji 0,
+          # "e" jest na pozycji 4, itd.
+          pozycja = alfabet.find(litera)
 
-          #dodaj tajny klucz aby otrzymac pozycje zaszyfrowanej litery
+          # dodaj tajny klucz aby otrzymac pozycje
+          # zaszyfrowanej litery
           # % 26 oznacza "wroc do 0 kiedy osiagniesz 26"
           nowaPozycja = (pozycja + klucz) % 26
 
-	        #dolacz zaszyfrowana litere do wiadomosci
-	        #zaszyfrowana litera znajduje sie na pozycji nowaPozycja w alfabecie
-	        zaszyfrowanaWiadomosc = zaszyfrowanaWiadomosc + alfabet[nowaPozycja]
+          # dolacz zaszyfrowana litere do wiadomosci
+          # zaszyfrowana litera znajduje sie
+          # na pozycji nowaPozycja w alfabecie
+          zaszyfrowanaWiadomosc = zaszyfrowanaWiadomosc + alfabet[nowaPozycja]
 
-	    else:
+      else:
 
-	        #niektore litery (np. '£', '?') nie sa uwzglednione w alfabecie,
-	        # dlatego po prostu dodaj je w niezaszyfrowanej formie
-	        zaszyfrowanaWiadomosc = zaszyfrowanaWiadomosc + litera
+          # niektore litery (np. '£', '?') nie sa
+          # uwzglednione w alfabecie, dlatego po prostu
+          # dodaj je w niezaszyfrowanej formie
+          zaszyfrowanaWiadomosc = zaszyfrowanaWiadomosc + litera
 
 	print("Twoja zaszyfrowana wiadomosc:" , zaszyfrowanaWiadomosc)
 	```
