@@ -66,9 +66,9 @@ Aby odszyfrować wiadomość trzeba każdą literę przesunąć z powrotem o 3 m
 
 	Następnie tajny klucz jest dodany do `pozycji`, przez co otrzymujemy `nowaPozycje` zaszyfrowanej litery. W naszym przykładzie, "a" jest na pozycji 0, więc po dodaniu tajnego klucza mamy `0 + 3 = 3`.
 
-  Kod `% 26` oznacza, że podczas szukania numeru pozycji zaszyfrowanej litery, numer jest cofany do 0 jeśli osiągnie wartość 26. To oznacza że litera "z" w naszym kodzie jest tak jakby na pozycji przy literze "a".
+	Kod `% 26` oznacza, że podczas szukania numeru pozycji zaszyfrowanej litery, numer jest cofany do 0 jeśli osiągnie wartość 26. To oznacza że litera "z" w naszym kodzie jest tak jakby na pozycji przy literze "a".
 
-  Następnie, używamy obliczonego numeru nowej pozycji do znalezienia zakodowanej litery w `alfabecie` i wyświetlenia jej na ekranie.
+	Następnie, używamy obliczonego numeru nowej pozycji do znalezienia zakodowanej litery w `alfabecie` i wyświetlenia jej na ekranie.
 
 	```python
 	alfabet[nowaPozycja]
