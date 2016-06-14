@@ -54,9 +54,9 @@ Aby odszyfrować wiadomość trzeba każdą literę przesunąć z powrotem o 3 m
 
 	![screenshot](encryption-letter.png)
 
-+ W Pythonie, tekst może być rozumiany jako wiele pojedynczych liter złączonych razem (nazywanych _tablicą_ znaków)
++ W Pythonie tekst może być rozumiany jako wiele pojedynczych liter złączonych razem (nazywanych _tablicą_ znaków)
 
-  ```python
+	```python
 	pozycja = alfabet.find(litera)
 	```
 
