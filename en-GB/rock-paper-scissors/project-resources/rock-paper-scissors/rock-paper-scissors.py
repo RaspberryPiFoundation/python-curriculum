@@ -1,0 +1,6 @@
+
+from random import randint
+
+
+
+
