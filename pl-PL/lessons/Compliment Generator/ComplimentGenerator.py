@@ -1,13 +1,13 @@
-import random
+from random import *
 
-print("Compliment Generator")
-print("--------------------")
+print("Generator Komplementow")
+print("----------------------")
 
-compliments = [ "Great job on that thing you did. Really super." ,
-                "You have really really nice programming skills." ,
-                "You make an excellent human."
+komplementy = [ "Wykonałeś świetną robotę. Naprawdę super." ,
+                "Programowanie idzie Ci znakomicie." ,
+                "Jesteś wspaniałym człowiekiem."
               ]
 
-#print a random item in the 'compliments' list
-print(random.choice(compliments))
-print("You're welcome!")
+#wyswietl losowy element z listy 'komplementy'
+print(choice(komplementy))
+print("Proszę bardzo!")

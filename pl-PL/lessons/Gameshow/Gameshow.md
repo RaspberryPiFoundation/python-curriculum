@@ -1,81 +1,81 @@
 ---
-title: Gameshow
+title: Teleturniej
 level: Python 1
-language: en
+language: pl
 stylesheet: python
 embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 ...
 
-#Introduction:  { .intro}
+#Wprowadzenie:  { .intro}
 
-In this project you'll learn how to make a guessing game, in which you have to guess which door will reveal a prize.
+W tym projekcie nauczysz się jak stworzyć grę, w której trzeba zgadnąć za którymi drzwiami ukryta jest nagroda.
 
-#Step 1: What's behind the door? { .activity}
-## Activity Checklist { .check}
+#Krok 1: Co jest za drzwiami? { .activity}
+## Lista zadań { .check}
 
-+ Imagine a gameshow, where there is an amazing prize behind one of 3 doors. If you pick the correct door, you win the prize! Pick the wrong door, and you get nothing!
++ Wyobraź sobie teleturniej, w którym za jednymi z drzwi skrywa się wspaniała nagroda. Jeśli wybierzesz właściwe drzwi, wygrasz! Jeśli wybierzesz niewłaściwe drzwi, zostaniesz z niczym!
 
-    You can play this game by running the following program:
+    Możesz zagrać w tę grę uruchamiając następujący program:
 
     ```python
     from random import *
 
-    #print the 3 doors and the game instructions
+    #wyswietl 3 drzwi i zasady gry
     print('''
-    Gameshow!
+    Teleturniej!
     =========
 
-    There's a prize behind one of the 3 doors!
-    Guess the correct door to win the prize!
+    Za jednymi z tych drzwi znajduje się nagroda!
+    Wybierz te własciwe i zgarnij nagrode!
       _____   _____   _____
      |     | |     | |     |
      | [1] | | [2] | | [3] |
      |   o | |   o | |   o |
      |_____| |_____| |_____|
 
-    Choose a door (1, 2 or 3):
+    Wybierz drzwi (1, 2 or 3):
     ''')
 
-    #get the chosen door and store it as an integer (whole number)
-    chosenDoor = input()
-    chosenDoor = int(chosenDoor)
+    #wczytaj wybrane drzwi i zapisz je jako liczbe całkowita
+    wybraneDrzwi = input()
+    wybraneDrzwi = int(wybraneDrzwi)
 
-    #randomly choose the winning door number (between 1 and 3)
-    winningDoor = randint(1,3)
+    #losowo wybierz liczbę oznaczajaca zwycieskie drzwi (liczbe pomiedzy 1 a 3)
+    drzwiZNagroda = randint(1,3)
 
-    #show the player the winning and chosen door numbers
-    print("The chosen door is", chosenDoor)
-    print("The winning door is", winningDoor)
+    #wyswietl graczowi wybrane i zwycieskie drzwi
+    print("Wybrales drzwi numer", wybraneDrzwi)
+    print("Wygrywaja drzwi numer", drzwiZNagroda)
 
-    #player wins if the chosen door and winning door number are the same
-    if chosenDoor == winningDoor:
-        print("Well done!")
+    #gracz wygrywa jesli wybrane drzwi i wygrywajace drzwi sa takie same
+    if wybraneDrzwi == drzwiZNagroda:
+        print("Gratulacje!")
     else:
-        print("Unlucky!")
+        print("Niestety, przegrales")
 
     ```
 
     ![screenshot](gameshow.png)
 
-    Here's how the program works: first, a random number between 1 and 3 is chosen, which is the door containing the prize. `randint(1,3)` means 'choose a random integer between 1 and 3'. The program then asks the player for their choice of door, and says "Well done!" if the two numbers are the same or "Unlucky!" if they are different.
+    Oto jak działa ten program: najpierw wybierana jest losowa liczba od 1 do 3, która oznacza drzwi za którymi jest nagroda. `randint(1,3)` oznacza 'wybierz losową liczbę całkowitą pomiędzy 1 a 3'. Następnie program pyta gracza o jego wybór i wyświetla "Gratulacje!" jeśli te dwie liczby są sobie równe lub "Niestety, przegrałeś!" jeśli się różnią.
 
-    A random number is used so that the winning door is different every time. However, Python can't generate random numbers without importing the code to do this, which is why the `random` library is imported at the top of the program. 
+    Liczba losowa użyta jest po to, aby wygrywające drzwi były za każdym razem inne. Żeby to zrobić, Python potrzebuje zaimportować kod, który pokaże mu jak to zrobić -  dlatego na początku programu wczytywana jest bilbioteka `random`.
 
-    The lines starting with `#` are comments. These comments are ignored by Python, but are really useful for reminding you what your program does! Try to use comments in your code from now on, to make difficult bits of your programs easier to understand.
+    Linie rozpoczynające się od znaku `#` to komentarze. Są one ignorowane przez Pythona, ale bardzo pomocne w przypominaniu, co dokładnie robi Twój program! Na przyszłość staraj się używać komentarzy w swoich programach do objaśniania bardziej skomplikowanych sekcji.
 
-+ Using what you already know about loops, you could easily improve this game to allow the player to have 3 guesses, instead of just 1. Run the following program:
++ Korzystając z tego, czego nauczyliśmy się do tej pory o pętlach, możesz w prosty sposób ulepszyć program tak, by gracz miał trzy szanse zamiast jednej. Uruchom poniższy program:
 
     ```python
     from random import *
 
-    #print the 3 doors and the game instructions
+    #wyswietl 3 drzwi i zasady gry
     print('''
-    Gameshow!
+    Teleturniej!
     =========
 
-    There's a prize behind one of the 3 doors!
-    Guess the correct door to win the prize!
+    Za jednymi z tych drzwi znajduje się nagroda!
+    Wybierz te własciwe i zgarnij nagrode!
       _____   _____   _____
      |     | |     | |     |
      | [1] | | [2] | | [3] |
@@ -83,63 +83,62 @@ In this project you'll learn how to make a guessing game, in which you have to g
      |_____| |_____| |_____|
     ''')
 
-    #allow the player 3 attempts
-    for attempt in range(3):
+    #daj graczowi 3 szanse
+    for szansa in range(3):
 
-        print("\nChoose a door (1, 2 or 3):")
+        print("\nWybierz drzwi (1, 2 or 3):")
 
-        #get the chosen door and store it as an integer (whole number)
-        chosenDoor = input()
-        chosenDoor = int(chosenDoor)
-
-        #randomly choose the winning door number (between 1 and 3)
-        winningDoor = randint(1,3)
-
-        #show the player the winning and chosen door numbers
-        print("The chosen door is", chosenDoor)
-        print("The winning door is", winningDoor)
-
-        #player wins if the chosen door and winning door number are the same
-        if chosenDoor == winningDoor:
-            print("Well done!")
+        #wczytaj wybrane drzwi i zapisz je jako liczbe całkowita
+        wybraneDrzwi = input()
+        wybraneDrzwi = int(wybraneDrzwi)
+    
+        #losowo wybierz liczbę oznaczajaca zwycieskie drzwi (liczbe pomiędzy 1 a 3)
+        drzwiZNagroda = randint(1,3)
+    
+        #wyswietl graczowi wybrane i zwycieskie drzwi
+        print("Wybrales drzwi numer", wybraneDrzwi)
+        print("Wygrywaja drzwi numer", drzwiZNagroda)
+    
+        #gracz wygrywa jesli wybrane drzwi i wygrywające drzwi są takie same
+        if wybraneDrzwi == drzwiZNagroda:
+            print("Gratulacje!")
         else:
-            print("Unlucky!")
-
+            print("Niestety, przegrales")
     ```
 
     ![screenshot](gameshow-loop3.png)
 
-    In this program, notice that the code for printing the 3 doors is _outside_ of the loop, as they only need to be printed once. The code for generating random numbers and asking the player to pick a door is _inside_ the loop, as these will each need to be done 3 times. If the code for choosing a random winning door was outside of the loop, then the winning door would be the same door for each of the 3 guesses.
+    Zauważ, że w tym programie kod wyświetlający drzwi jest _na_ _zewnątrz_ pętli, ponieważ potrzebujemy wyświetlić je tylko raz. Kod w którym generujemy liczby losowe i pytający gracza o wybór drzwi jest _wewnątrz_ pętli, ponieważ każda z tych czynności powinna być wykonana 3 razy. Gdyby kod generujący liczbę losową był umieszczony na zewnątrz pętli, drzwi z nagrodą byłyby takie same dla każdej szansy gracza.
 
-    Also, `\n` in the line `print("\nChoose a door (1, 2 or 3):")` prints a new blank line to the screen. This is done to split up the printed text, to make it easier to read.
+    Dodatkowo, `\n` w linii `print("\nWybierz drzwi (1, 2 or 3):")` wywietla nową pustą linię na ekranie. Dzięki temu tekst jest podzielony i łatwiejszy do przeczytania.
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Keeping score { .challenge}
-Create a variable to keep track of how many times the player guesses the correct door. If you need help, remember that this will work in a similar way to the `score` variable in your quiz program! Remember to show the player their final score, at the end of the program (outside of the loop).
+## Wyzwanie: Liczenie punktów { .challenge}
+Stwórz zmienną, w której zapisywane będzie ile razy gracz odgadnął właściwe drzwi. Potrzebujesz pomocy? Pamiętaj, że to zadanie jest podobne do liczenia punktów w programie `quiz`! Nie zapomnij wyświetlić graczowi ilości punktów na końcu programu (na zewnątrz pętli).
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-#Step 2: `while` loops { .activity}
-## Activity Checklist { .check}
+#Krok 2: Pętle `while` { .activity}
+## Lista Zadań { .check}
 
-+ Instead of making your program loop a set number of times, it might be more interesting to let the player choose how long they want to play for. To do this, you'll need to use a different loop, called a `while` loop. Try out this program:
++ Zamiast powtarzać program w pętli zadaną ilość razy, może lepiej byłoby pozwolić graczowi odpowiadać tak długo, jak długo chce grać? Aby to osiągnąć potrzebna będzie inna pętla, nazywana pętlą `while`. Wypróbuj ten program:
 
     ```python
     from random import *
 
-    #the user changes this variable to end the game
-    playing = True
+    #gracz ustawia ta zmienna aby zakonczyc gre ('True' po angielsku znaczy prawda)
+    gramDalej = True
 
-    score = 0
+    punkty = 0
 
-    #print the 3 doors and the game instructions
+    #wyswietl 3 drzwi i zasady gry
     print('''
-    Gameshow!
+    Teleturniej!
     =========
 
-    There's a prize behind one of the 3 doors!
-    Guess the correct door to win the prize!
+    Za jednymi z tych drzwi znajduje się nagroda!
+    Wybierz te właściwe i zgarnij nagrodę!
       _____   _____   _____
      |     | |     | |     |
      | [1] | | [2] | | [3] |
@@ -147,76 +146,76 @@ Create a variable to keep track of how many times the player guesses the correct
      |_____| |_____| |_____|
     ''')
 
-    #repeat as long as the 'playing' variable is set to 'True'
-    while playing == True:
+    #powtarzaj zawsze wtedy, gdy  zmienna 'gramDalej' jest ustawiona na 'True'
+    while gramDalej == True:
 
-        print("\nChoose a door (1, 2 or 3):")
+        print("\nWybierz drzwi (1, 2 or 3):")
 
-        #get the chosen door and store it as an integer (whole number)
-        chosenDoor = input()
-        chosenDoor = int(chosenDoor)
+        #wczytaj wybrane drzwi i zapisz je jako liczbe calkowita
+        wybraneDrzwi = input()
+        wybraneDrzwi = int(wybraneDrzwi)
 
-        #randomly choose the winning door number (between 1 and 3)
-        winningDoor = randint(1,3)
+        #losowo wybierz liczbe oznaczajaca zwycieskie drzwi (liczbe pomiedzy 1 a 3)
+        drzwiZNagroda = randint(1,3)
 
-        #show the player the winning and chosen door numbers
-        print("The chosen door is", chosenDoor)
-        print("The winning door is", winningDoor)
+        #wyswietl graczowi wybrane i zwycieskie drzwi
+        print("Wybrales drzwi numer", wybraneDrzwi)
+        print("Wygrywaja drzwi numer", drzwiZNagroda)
 
-        #player wins if the chosen door and winning door number are the same
-        if chosenDoor == winningDoor:
-            print("Well done!")
-            score = score + 1
+        #gracz wygrywa, jesli wybrane drzwi i wygrywajace drzwi sa takie same
+        if wybraneDrzwi == drzwiZNagroda:
+            print("Gratulacje!")
+            punkty = punkty + 1
         else:
-            print("Unlucky!")
+            print("Niestety, przegrales!")
 
-        print("Your score is now", score)
+        print("Twoja liczba punktow to", punkty)
 
-        #ask the player if they want to keep playing
-        print("\nDo you want to play again? (y/n)")
-        answer = input()
-        #end the game if the player types 'n'
-        if answer == 'n':
-            playing = False
+        #zapytaj gracza, czy chce kontynuowac gre
+        print("\nCzy chcesz kontynuowac gre? (t/n)")
+        odpowiedz = input()
+        #zakoncz gre jesli gracz wpisze 'n'
+        if odpowiedz == 'n':
+            gramDalej = False
 
-    print("Thanks for playing.")
-    print("Your final score is", score)
+    print("Dzieki za gre.")
+    print("Twoja koncowa liczba punktow to", punkty)
     ```
 
     ![screenshot](gameshow-while.png)
 
-    A `while` loop allows your program to repeat _until_ something happens to stop it. In this program, you want to keep playing the game as long as the variable `playing` is set to `True`. If the player decides that they don't want to play again and inputs `n`, the variable `playing` is set to `False`, and the loop stops running. The name for data that is either `True` or `False` is _Boolean_ data.
+    Pętla `while` pozwala powtarzać program _do_ _momentu_, w którym stanie się coś, co go zatrzyma. W tym programie gracz gra tak długo, jak długo zmienna `gramDalej` jest ustawiona na `True`. Jeśli gracz nie ma ochoty grać dalej i wpisze `n`, zmienna `gramDalej` ustawiana jest na `False` (`False` po angielsku to nieprawda) i pętla przestaje się wykonywać. Dane, które mają dwa stany: `True` i `False` nazywane są zmiennymi _logicznymi_ (lub _boolowskimi_).
 
-+ Get someone to test out your game, to make sure that it runs until they input `n` to end the game. 
++ Poproś kogoś, by pomógł Ci przetestować Twoją grę, aby upewnić się, że program wykonuje się dopóki nie zostanie wpisanie `n`.
 
-## Challenge: Fixing the input { .challenge}
-+ What happens if the player tries to quit by typing `N` instead of `n`? Can you use the `lower()` function to fix this problem?
+## Wyzwanie: Naprawianie odpowiedzi gracza { .challenge}
++ Co się stanie, kiedy gracz spróbuje zakończyć grę wpisując `N` zamiast `n`? Potrafisz użyć funkcji `lower()` do naprawienia tego problemu?
 
-+ What happens if they type `no` instead of just `n`? Can you fix your program, so that the program ends if the user's `answer == 'n' or answer == 'no'`?
++ Co się stanie, jeśli gracz wpisze `no` , a nie po prostu `n`? Czy potrafisz poprawić swój program tak, aby zakończył się, jeśli racz wpisze `odpowiedz == 'n' lub odpowiedz == 'no'`answer == 'n' or answer == 'no'`?? 
 
-## Challenge: Losing the game { .challenge}
-Can you modify your game, so that the player's score is set to 0 whenever they choose the wrong door? Does this change make the game more fun? Or does it make the game too hard?
+## Wyzwanie: Przegrana { .challenge}
+Czy potrafisz zmodyfikować swoją grę tak, aby suma punktów gracza spadała do zera, kiedy wybierze niewłaściwe drzwi? Czy po takiej zmianie jest jeszcze zabawniej czy gra staje się zbyt trudna?
 
-#Step 3: How lucky are you? { .activity}
-## Activity Checklist { .check}
+#Krok 3: Czy masz szcęście? { .activity}
+## Lista Zadań { .check}
 
-+ Instead of looping the game until the player decides to quit, you could instead loop the game until the player scores 3 points. The aim of the game could then be to score 3 points in as few attempts as possible:
++ Zamiast powtarzać próby, aż gracz postanowi zakończyć grę, można ustawić grę tak, aby kończyła się po zdobyciu przez gracza trzech punktów. Celem gry byłoby wtedy zgromadzenie trzech punktów w jak najmniejszej liczbie prób:
 
     ```python
     from random import *
 
-    #this variable stores the number of times the game is played
-    attempts = 0
+    #ta zmienna mówi, ile prób już wykorzystano
+    liczbaProb = 0
 
-    score = 0
+    punkty = 0
 
-    #print the 3 doors and the game instructions
+    #wyswietl 3 drzwi i zasady gry
     print('''
-    Gameshow!
+    Teleturniej!
     =========
 
-    There's a prize behind one of the 3 doors!
-    Guess the correct door 3 times in as few attempts as possible!
+    Za jednymi z tych drzwi znajduje się nagroda!
+    Wybierz te właściwe i zgarnij nagrodę!
       _____   _____   _____
      |     | |     | |     |
      | [1] | | [2] | | [3] |
@@ -224,68 +223,68 @@ Can you modify your game, so that the player's score is set to 0 whenever they c
      |_____| |_____| |_____|
     ''')
 
-    #repeat as long as the score is less than 3
-    while score < 3:
+    #powtarzaj, dopóki suma punktów jest mniejsza od 3
+    while punkty < 3:
 
-        #add 1 to the number of attempts
-        attempts = attempts + 1
+        #dodaj 1 do liczby wykorzystanych prób
+        liczbaProb = liczbaProb + 1
         
-        print("\nAttempt", attempts, ": Choose a door (1, 2 or 3):")
+        print("\nProba", liczbaProb, ": Wybierz drzwi (1, 2 or 3):")
 
-        #get the chosen door and store it as an integer (whole number)
-        chosenDoor = input()
-        chosenDoor = int(chosenDoor)
+        #wczytaj wybrane drzwi i zapisz je jako liczbe calkowita
+        wybraneDrzwi = input()
+        wybraneDrzwi = int(wybraneDrzwi)
+        
+        #losowo wybierz liczbe oznaczajaca zwycieskie drzwi (liczbe pomiedzy 1 a 3)
+        drzwiZNagroda = randint(1,3)
 
-        #randomly choose the winning door number (between 1 and 3)
-        winningDoor = randint(1,3)
+        #wyswietl graczowi wybrane i zwycieskie drzwi
+        print("Wybrales drzwi numer", wybraneDrzwi)
+        print("Wygrywaja drzwi numer", drzwiZNagroda)
 
-        #show the player the winning and chosen door numbers
-        print("The chosen door is", chosenDoor)
-        print("The winning door is", winningDoor)
-
-        #player wins if the chosen door and winning door number are the same
-        if chosenDoor == winningDoor:
-            print("Well done!")
-            score = score + 1
+        #gracz wygrywa, jesli wybrane drzwi i wygrywajace drzwi sa takie same
+        if wybraneDrzwi == drzwiZNagroda:
+            print("Gratulacje!")
+            punkty = punkty + 1
         else:
-            print("Unlucky!")
+            print("Niestety, przegrales!")
 
-        print("Your score is now", score)
-
-    print("\n** You did it! That look you", attempts, "attempts **")
+        print("Twoja liczba punktow to", punkty)
+        
+    print("\n** Udalo sie! Zgromadziles trzy punkty w", liczbaProb,"probach **")
     ```
 
-    The `while` loop in this program continues to run as long as the score is less than 3 (`while score < 3:`). Once the score gets to 3, the program ends, and the number of attempts is printed.
+    Pętla `while` w tym programie wykonuje się tak długo, jak długo suma punktów gracza jest mniejsza od trzech (`while punkty < 3:`). Gdy gracz zgromadzi trzy punkty, program się kończy i wyświetla liczbę wykonanych prób.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-## Challenge: Twenty-one { .challenge}
-Can you create a game where the aim is to score exactly 21 points? The program should pick a random number between 1 and 10, which is added to the player's score. The player can then choose to stick with the score they have, or choose to add another random number to their score. The player wins the game if they manage to get to exactly 21 points. Remember to add comments to your program!
+## Wyzwanie: Dwadzieścia jeden { .challenge}
+Czy potrafisz stworzyć grę, której celem jest zgromadzenie dokładnie 21 punktów? Program powinien wybrać losową liczbę od 1 do 10, która zostanie dodana do sumy punktów zdobytych przez gracza. Następnie gracz wybiera pommiędzy zachowaniem obecnej sumy punktów lub dodaniem do niej oklejnej losowo wybranej liczby. Wygrana oznacza zgromadzenie dokładnie 21 punktów. Pamiętaj o dodaniu komentarzy do swojego programu! 
 
-Here is an example of the game:
+Oto przykład gry:
 
 ![screenshot](gameshow-21.png)
 
-You can use (or change) parts of your gameshow program to make this new game. Here are some hints that you can use to help you:
+Możesz używać (lub zmieniać) elementów swojego programy "Teleturniej", by utworzyć nową grę. Oto kilka wskazówek:
 
-+ You can use a `while` loop to run the game as long as the player wants to keep playing:
-
-```python
-while playing == True:
-```
-
-+ If the user enters `n` because they wish to stick with the score they have, you can set the `playing` variable to `False`:
++ Możesz użyć pętli `while`, aby program wykonywał się tak długo, jak gracz będzie chciał kontynuować:
 
 ```python
-if answer == 'n':
-    playing = False
+while gramDalej == True:
 ```
 
-+ At the end of the program (outside of the `while` loop), you can say "Well done!" to the player if their score is exactly 21:
++ Jeśli gracz wpisze `n` aby zachować obecną sumę punktów, możesz ustawić wartość zmiennej `gramDalej` na `False`:
 
 ```python
-if score == 21:
-    print("Well done!")
+if odpowiedz == 'n':
+    gramDalej = False
 ```
 
-## Save Your Project {.save}
++ Na końcu programu (na zewnątrz pętli `while`), możesz wyświetlić "Gratulacje!" graczowi, który zdobędzie dokładnie 21 punktów:
+
+```python
+if punkty == 21:
+    print("Gratulacje!")
+```
+
+## Zapisz swój projekt {.save}

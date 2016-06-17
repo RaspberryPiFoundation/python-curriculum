@@ -1,0 +1,15 @@
+{
+    "description": "Python 2",
+    "id": "python",
+    "language": "pl-PL",
+    "number": 10,
+    "title": "Python 2",
+    "category": "cat-python",
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/Secret Messages/Secret Messages.md",
+            "note":     "lessons/Secret Messages/Secret Messages - notes.md"
+        }
+    ]
+}

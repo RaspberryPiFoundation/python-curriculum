@@ -1,262 +1,262 @@
 ---
-title: Compliment Generator
+title: Generator Komplementów
 level: Python 1
-language: en
+language: pl
 stylesheet: python
 embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 ...
 
-#Introduction:  { .intro}
+#Wprowadzenie:  { .intro}
 
-Learn how to use lists, to store lots of data in 1 variable.
+Nauczymy się korzystać z list, aby zapisywać wiele danych w jednej zmiennej.
 
-#Step 1: It's nice to be nice { .activity}
+#Step 1: Miło jest być miłym { .activity}
 
-In this project, you'll make a program to give the user a randomly generated compliment!
+W tym projekcie napiszesz program, który będzie wyświetlał użytkownikowi losowy komplement!
 
-## Activity Checklist { .check}
+## Lista zadań { .check}
 
-+ In your projects so far, you've used a variable to store a single piece of data, such as a name or a score. But what if you want to store lots of data? In Python, you can use a _list_ to store lots of data in 1 variable:
++ Do tej pory w projektach korzystaliśmy ze zmiennych aby zapisać pojedynczą informację, taką jak imię lub ilość punktów. Co, jeśli chcielibyśmy zapisać większą ilość informacji? W Pythonie można użyć _listy_ do zapisania większej ilości danych w jednej zmiennej:
 
     ```python
-    bigPlanets = [ "jupiter" , "saturn" , "uranus" , "neptune"]
+    duzePlanety = [ "jowisz" , "saturn" , "uran" , "neptun"]
     ```
 
-    This list of text is also known as an _array_ of text. To access items in the list, you just need to know the position of the item. Run this program to give yourself a better idea of how lists work:
+    Ta lista teksu jest również znana pod nazwą _tablica_ tekstu (po angielsku _array_). Aby uzyskać dostęp do konkretnej wartości, wystarczy znać jej pozycję w tablicy. Uruchom poniższy program żeby lepiej zrozumieć, jak działają listy:
 
     ```python
-    bigPlanets = [ "jupiter" , "saturn" , "uranus" , "neptune"]
-    print( bigPlanets )
-    print( bigPlanets[0] )
-    print( bigPlanets[1] )
-    print( bigPlanets[2] )
-    print( bigPlanets[3] )
+    duzePlanety = [ "jowisz" , "saturn" , "uran" , "neptun"]
+    print( duzePlanety )
+    print( duzePlanety[0] )
+    print( duzePlanety[1] )
+    print( duzePlanety[2] )
+    print( duzePlanety[3] )
     ```
 
     ![screenshot](compliment-planets.png)
 
-    As you can see, positions start at 0 and not 1, so `bigPlanets[1]` is "saturn" (the second item) and not "jupiter".
+    Jak widzisz, pozycje zaczynają się od 0 a nie od 1, dlatego `duzePlanety[1]` to "saturn" (drugi element) a nie "jowisz".
 
-+ You can use a list called `compliments` to store all of the possible compliments for your compliment generator program, and then use `choice(compliments)` to choose a random compliment for the user:
++ Możesz skorzystać z listy `komplementy` do zapisania wszystkich możliwych komplementów do twojego generatora komplementów, a potem użyć `choise(komplementy)` do wybrania losowego komplementu dla użytkownika:
 
     ```python
     from random import *
 
-    print("Compliment Generator")
-    print("--------------------")
+    print("Generator Komplementow")
+    print("----------------------")
 
-    compliments = [ "Great job on that thing you did. Really super." ,
-                    "You have really really nice programming skills." ,
-                    "You make an excellent human."
+    komplementy = [ "Wykonałeś świetną robotę. Naprawdę super." ,
+                    "Programowanie idzie Ci znakomicie." ,
+                    "Jesteś wspaniałym człowiekiem."
                   ]
 
-    #print a random item in the 'compliments' list
-    print(choice(compliments))
-    print("You're welcome!")
+    #wyswietl losowy element z listy 'komplementy'
+    print(choice(komplementy))
+    print("Proszę bardzo!")
     ```
 
     ![screenshot](compliment-list.png)
 
-+ You could make your compliments a little more interesting, by combining random items from 2 different lists:
++ Możesz sprawić, że Twoje komplementy będą odrobinę bardziej interesujące dzięki połączeniu elementów 2 różnych list:
 
     ```python
     from random import *
 
-    print("Compliment Generator")
-    print("--------------------")
+    print("Generator Komplementow")
+    print("----------------------")
 
-    adjectives = [ "amazing" , "above-average" , "excellent" ]
-    hobbies = [ "riding a bike" , "programming" , "making a cup of tea" ]
+    przymiotniki = [ "wspaniale" , "znakomicie" , "doskonale" ]
+    zainteresowania = [ "jeździsz na rowerze" , "programujesz" , "parzysz herbatę" ]
 
-    name = input("What is your name?: ")
-    print( "Here is your compliment" , name , ":" )
+    imie = input("Jak masz na imię?: ")
+    print( "Oto Twój komplement" , imie , ":" )
 
-    #get a random item from both lists, and add them to the compliment
-    print( name , "you are" , choice(adjectives) , "at" , choice(hobbies) )
-    print( "You're welcome!" )
+    #pobierz dowolny element z obu list i połącz je w komplement
+    print( imie , choice(przymiotniki) , choice(zainteresowania) )
+    print( "Proszę bardzo!" )
     ```
 
     ![screenshot](compliment-2lists.png)
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Adding more compliments { .challenge}
-Try to think of some more compliments, and add them to your program! Remember that you need to add a comma (`,`) between the items in your lists.
+## Wyzwanie: Dodanie większej ilości komplementów { .challenge}
+Spróbuj wymyślić więcej komplementów i dodaj je do programu! Pamiętaj, że musisz dodać przecinek (`,`) pomiędzy elementami na twojej liście.
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-#Step 2: Endless compliments { .activity}
+#Krok 2: Niekończące się komplementy { .activity}
 
-## Activity Checklist { .check}
+## Lista zadań { .check}
 
-+ Using what you know about `while` loops and `if` statements, you could modify your program to keep giving out compliments until the user decides to quit:
++ Wykorzystując to, co wiesz o pętlach `while` i warunkach `if`, możesz zmienić program w taki sposób, żeby prawił komplementy do momentu, kiedy użytkownik nie zdecyduje, aby przestał:
 
     ```python
     from random import *
 
-    #the program loops as long as this variable is 'True'
-    running = True
+    #program jest zapętlony tak długo, jak ta zmienna jest 'True'
+    generujDalej = True
 
-    adjectives = [ "amazing" , "above-average" , "excellent" ]
-    hobbies = [ "riding a bike" , "programming" , "making a cup of tea" ]
+    przymiotniki = [ "wspaniale" , "znakomicie" , "doskonale" ]
+    zainteresowania = [ "jeździsz na rowerze" , "programujesz" , "parzysz herbatę" ]
 
-    print("Compliment Generator")
-    print("--------------------")
+    print("Generator Komplementow")
+    print("----------------------")
 
-    name = input("What is your name?: ")
+    name = input("Jak masz na imię?: ")
 
     print('''
     Menu
-      c = get compliment
-      q = quit
+      n = nastepny komplement
+      k = koniec
     ''')
 
-    while running == True:
+    while generujDalej == True:
 
-        menuChoice = input("\n>_").lower()
+        wyborMenu = input("\n>_").lower()
 
-        #'c' for a compliment
-        if menuChoice == 'c':
+        #'n' aby wygenerowac nowy komplement
+        if wyborMenu == 'n':
 
-            print( "Here is your compliment" , name , ":" )
+            print( "Oto twoj komplement" , name , ":" )
 
-            #get a random item from both lists, and add them to the compliment
-            print( name , "you are" , choice(adjectives) , "at" , choice(hobbies) )
-            print( "You're welcome!" )
+            #pobierz losowe elementy z dwoch list i polacz je w komplement
+            print( name , choice(przymiotniki) , choice(zainteresowania) )
+            print( "Prosze bardzo!" )
 
-        #'q' to quit
-        elif menuChoice == 'q':
+        #'k' aby zakonczyc
+        elif wyborMenu == 'k':
 
-            running = False
-            
+            generujDalej = False
+
         else:
 
-            print("Please choose a valid option!")
+            print("Proszę wybrać poprawną opcję!")
     ```
 
     ![screenshot](compliment-loop.png)
 
-    Remember that the the `while` loop continues to run as long as the variable `running` is set to `True`. If the user inputs `q` to quit, `running` is set to `False`.
+    Pamiętaj, że pętla `while` będzie trwała tak długo, aż zmienna `generujDalej` będzie ustawiona na `True`. Kiedy użytkownik wybierze `k`, `generujDalej` jest ustawione na `False`.
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-#Step 3: Personalising compliments { .activity}
+#Krok 3: Dopasowanie komplementów { .activity}
 
-## Activity Checklist { .check}
+## Lista zadań { .check}
 
-+ Your compliment generator is starting to take shape, but it has a problem: what if your user can't ride a bike or make a cup of tea? In that case, your compliments won't be true, and won't cheer them up!
++ Twój generator komplementów zaczyna wyglądać porządnie, ale jest jeden problem: co, jeśli użytkownik nie potrafi jeździć na rowerze ani parzyć herbaty? W takim przypadku komplementy nie będą prawdziwe i nie podniosą go na duchu!
 
-    Let's modify your program, so that the user can choose to add or remove items from the `hobbies` list, to allow them to personalise the compliments they receive:
+    Zmodyfikujmy Twój program w taki sposób, aby użytkownik mógł zmieniać zawartość listy `zainteresowania` i dopasować do siebie komplementy, które otrzymuje:
 
     ```python
     from random import *
 
-    running = True
-    adjectives = [ "amazing" , "above-average" , "excellent" ]
-    hobbies = [ "riding a bike" , "programming" , "making a cup of tea" ]
+    generujDalej = True
+    przymiotniki = [ "wspaniale" , "znakomicie" , "doskonale" ]
+    zainteresowania = [ "jeździsz na rowerze" , "programujesz" , "parzysz herbatę" ]
 
-    print("Compliment Generator")
-    print("--------------------")
+    print("Generator Komplementow")
+    print("----------------------")
 
-    name = input("What is your name?: ")
+    name = input("Jak masz na imię?: ")
 
     print('''
     Menu
-      c = get compliment
-      a = add hobby to list
-      d = delete hobby from list
-      p = print hobbies
-      q = quit
+      n = nastepny komplement
+      d = dodaj zainteresowanie
+      u = usun zainteresowania z listy
+      p = pokaz zainteresowania
+      k = koniec
     ''')
 
-    while running == True:
+    while generujDalej == True:
 
-        menuChoice = input("\n>_").lower()
+        wyborMenu = input("\n>_").lower()
 
-        #'c' for a compliment
-        if menuChoice == 'c':
+        #'n' aby wygenerowac nowy komplement
+        if wyborMenu == 'n':
 
-            print( "Here is your compliment" , name , ":" )
+            print( "Oto Twój komplement" , name , ":" )
 
-            #get a random item from both lists, and add them to the compliment
-            print( name , "you are" , choice(adjectives) , "at" , choice(hobbies) )
-            print( "You're welcome!" )
+            #pobierz losowe elementy z dwoch list i polacz je w komplement
+            print( name , choice(przymiotniki) , choice(zainteresowania) )
+            print( "Prosze bardzo!" )
 
-        #'a' to add a hobby
-        elif menuChoice == 'a':
+        #'d' aby dodac zainteresowanie
+        elif wyborMenu == 'd':
 
-            itemToAdd = input("Please enter the hobby to add: ")
-            hobbies.append(itemToAdd)
+            elementDoDodania = input("Wprowadź zainteresowanie do dodania do listy: ")
+            zainteresowania.append(elementDoDodania)
 
-        #'d' to delete a hobby
-        elif menuChoice == 'd':
+        #'u' aby usunac zainteresownie z listy
+        elif wyborMenu == 'u':
 
-            itemToDelete = input("Please enter the hobby to remove: ")
-            hobbies.remove(itemToDelete)
+            elementDoUsuniecia = input("Wprowadź zainteresownie do usunięcia z listy: ")
+            zainteresowania.remove(elementDoUsuniecia)
 
-        #'p' to print the hobbies list
-        elif menuChoice == 'p':
-            print(hobbies)
+        #'p' wyświetl listę zainteresowań
+        elif wyborMenu == 'p':
+            print(zainteresowania)
 
-        #'q' to quit
-        elif menuChoice == 'q':
+        #'k' aby zakonczyć
+        elif wyborMenu == 'k':
 
-            running = False
-            
+            generujDalej = False
+
         else:
-            
-            print("Please choose a valid option!")
+
+            print("Proszę wybrać poprawną opcję!")
     ```
 
-    As you can see, you can use `append()` to add to a list, and `remove()` to remove an item. Run this program, and personalise the hobbies in the list to suit you. Ask the program for compliments until you're in a good mood!
+    Jak widzisz, można używać `append()` do dodawania elementów do listy i `remove()` do ich kasownia. Uruchom ten program i dopasuj zainteresowania do Twoich potrzeb. Proś program o komplementy, aż poprawi Ci się humor!
 
-+ When testing the program above, did you run into any problems? At the moment, your compliment generator crashes if you try and remove a compliment that isn't in the list:
++ Czy podczas testowania powyższego programu pojawiły się jakieś problemy? W tej chwili, Twój program zawiesza się, kiedy próbujesz usunąć element, który nie jest na liście:
 
     ![screenshot](compliment-error.png)
 
-    You can fix this problem, by first checking that the item to remove exists in the list. Replace your code to remove a hobby with this code:
+    Można to naprawić, sprawdzając najpierw, czy element który chcesz usunąć jest już na liście. Podmień kod usuwający zainteresowanie na taki:
 
     ```python
-        #'d' to delete a hobby
-        elif menuChoice == 'd':
+        #'u' aby usunac zainteresownie z listy
+        elif wyborMenu == 'u':
 
-            itemToDelete = input("Please enter the hobby to remove: ")
-            #only remove an item if it's in the list
-            if itemToDelete in hobbies:
-            	hobbies.remove(itemToDelete)
+            elementDoUsuniecia = input("Wprowadz zainteresownie do usuniecia z listy: ")
+            #usun element tylko wtedy kiedy znajduje sie na liscie
+            if elementDoUsuniecia in zainteresowania:
+            	zainteresowania.remove(elementDoUsuniecia)
             else:
-            	print("Hobby not in list!")
+            	print("Zainteresownie nie znajduje sie na liscie!")
     ```
 
-    Now run the program and try to delete a hobby that isn't in the list:
+    Uruchom program i spróbuj usunąć zainteresowanie z poza listy:
 
     ![screenshot](compliment-errorfix.png)
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Duplicate hobbies { .challenge}
-Another problem with the program is that it is possible to add the same hobby more than once:
+## Wyzwanie: Powtarzające się zainteresowania { .challenge}
+Innym problemem jest to, że możliwe jest dodanie kilku takich samych zainteresowań:
 
 ![screenshot](compliment-hobbiesx2.png)
 
-Can you fix this problem, so that a hobby can only be added if it isn't already in the list:
+Czy umiesz naprawić ten problem w taki sposób, aby można było dodać zainteresowanie tylko, jeśli nie ma go jeszcze na liście:
 
 ```python
-if itemToAdd not in hobbies:
-	#add code here...
+if elementDoDodania not in zainteresowania:
+	#dodaj tutaj swoj kod...
 ```
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
 
-## Challenge: Pet naming service { .challenge}
-Write a program to help a new pet owner to name their pet:
+## Wyzwanie: Usługa nazywania zwierzaków { .challenge}
+Napisz program, który pomoże właścicielom nazywać ich podopiecznych:
 
 ![screenshot](compliment-pet.png)
 
-Your program could:
-+ allow the user to add and remove names from the list;
-+ give different names for male and female pets, or different types of animal;
-+ ask the user how many names they need, in case they have more than 1 pet to name.
+Twój program może:
++ pozwalać użytkownikowi dodawać i usuwać imiona z listy;
++ nadawać różne imiona chłopcom i dziewczynkom albo różnym gatunkom zwierząt;
++ zapytać użytkownika, ile imion będzie im potrzebne, na wypadek gdyby mieli kilka zwierząt.
 
-## Save Your Project {.save}
+## Zapisz Swój Projekt {.save}
