@@ -18,9 +18,9 @@ In this project you will make a Rock, Paper, Scissors game and play against the 
 
 # Step 1: Player's Turn { .activity}
 
-## Activity Checklist { .check}
-
 First, let the player choose Rock, Paper or Scissors. 
+
+## Activity Checklist { .check}
 
 + Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/rps-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
@@ -47,9 +47,10 @@ First, let the player choose Rock, Paper or Scissors.
 
 # Step 2: Computer's Turn { .activity}
 
+Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors. 
+
 ## Activity Checklist { .check}  
 
-Now it's the computer's turn. You can use the `randint` function to generate a random number to decide between rock, paper and scissors. 
 
 + Use `randint` to generate a random number to decide whether the computer has chosen rock, paper or scissors. 
 
