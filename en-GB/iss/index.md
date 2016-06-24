@@ -18,13 +18,13 @@ In this project you will use a web service to find out the current location of t
 
 # Step 1: Who is in Space? { .activity}
 
-## Activity Checklist { .check}
-
 You’re going to use a web service that provides live information about space. First let’s find out who is currently in space. 
+
+## Activity Checklist { .check}
 
 + A web service has an address (url) just like a web page does. Instead of returning HTML for a web page it returns data. 
 
-Open `http://api.open-notify.org/astros.json` in a web browser. 
+Open <a href="http://api.open-notify.org/astros.json" target="_blank">http://api.open-notify.org/astros.json</a> in a web browser. 
 
 You should see something like this:
 ```
@@ -48,7 +48,7 @@ You should see something like this:
 }
 ```
 
-The data is live so you may see a different result. The format is called JSON (say Jason). 
+The data is live so you will see a different result. The format is called JSON (say Jason). 
 
 + Let’s call the web service from Python so we can use the results.
 
@@ -58,7 +58,7 @@ Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/i
 <iframe src="https://trinket.io/embed/python/649a766f84?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-+ The `url.request` and `json` modules have already been imported for you. 
++ The `urllib.request` and `json` modules have already been imported for you. 
 
   Add the following code to `main.py` to put the web address you just used into a variable:
 
@@ -93,7 +93,7 @@ Note that you will see different results depending on who is currently in space!
   
   ![screenshot](images/iss-result.png)
 
-  `result[‘number’]` will print the value associated with the key ‘number’ in the result dictionary. In the example this is 3. 
+  `result['number']` will print the value associated with the key ‘number’ in the result dictionary. In the example this is 3. 
 
 + The value associated with the ‘people’ key is a list of dictionaries! Let’s put that value into a variable so you can use it:
 
@@ -142,17 +142,13 @@ Timothy Peake in ISS
 
 # Step 2: Where is the ISS? { .activity}
 
-## Activity Checklist { .check}
-
 The International Space Station is in orbit around Earth. It orbits the earth roughly every hour and a half. The ISS travels at an average speed of 7.66 km per second. It’s fast! 
 
 Let’s use another web service to find out where the International Space Station is. 
 
-+ First open the url for the web service in a new tab in your web browser:
+## Activity Checklist { .check}
 
-  ```
-  http://api.open-notify.org/iss-now
-  ```
++ First open the url for the web service in a new tab in your web browser: <a href="http://api.open-notify.org/astros.json" target="_blank">http://api.open-notify.org/astros.json</a>
   
   You should see something like this:
   
@@ -196,7 +192,7 @@ Let’s use another web service to find out where the International Space Statio
   
   The map is centered at 0, 0 which is just what you need. 
 
-+ You need to set the screen size to match the size of the image which is 720 by 360 pixels so that it's easy to plot coordinates. 
++ You need to set the screen size to match the size of the image which is 720 by 360. 
 
   Add `screen.setup(720, 360)`:
 
@@ -221,28 +217,26 @@ Let’s use another web service to find out where the International Space Statio
   Note that latitude is normally given first, but we need to give longitude first when plotting (x,y) coordinates. 
 
 + Test your program by running it.
-The ISS should move to it’s current location above Earth. 
+The ISS should move to its current location above Earth. 
 Wait a few seconds and run your program again to see where the ISS has moved to. 
 
   ![screenshot](images/iss-plotted.png)
 
 # Step 3: When will the ISS be overhead? { .activity}
 
-## Activity Checklist { .check}
-
 There’s also a web service that you can call to find out when the ISS will next be over a particular location. 
-Let’s find out when the ISS will next be over the Space Centre in Houston, US which is at latitude 29.5502 and longitude = -95.097.
+Let’s find out when the ISS will next be over the Space Centre in Houston, US which is at latitude 29.5502 and longitude = 95.097.
+  
+## Activity Checklist { .check} 
 
 + First let’s plot a dot on the map at these coordinates:
 
-  ![screenshot](images/iss-location.png)
+  ![screenshot](images/iss-houston.png)
 
-+ Now let’s get the date and time that the ISS is next overhead. As before we can call the web service by pasting the url into the address bar of a web browser. 
++ Now let’s get the date and time that the ISS is next overhead. 
 
-  ```
-  http://api.open-notify.org/iss-pass.json
-  ```
-
+  As before we can call the web service by entering the url into the address bar of a web browser: <a href="http://api.open-notify.org/iss-pass.json" target="_blank">http://api.open-notify.org/iss-pass.json</a>
+  
   You should see an error:
 
   ![screenshot](images/iss-pass-error.png)
@@ -251,11 +245,8 @@ Let’s find out when the ISS will next be over the Space Centre in Houston, US 
 
   Inputs are added after a `?` and separated with `&`. 
 
-  Add the `lat` and `lon` inputs to the url as shown:
-
-  ```
-  http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1
-  ```
+  Add the `lat` and `lon` inputs to the url as shown: <a href="http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1"target="_blank">http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1</a>
+  
   ![screenshot](images/iss-passtimes.png)
   
   The response includes several pass over times, we’ll just look at the first one. The time is given in a standard time format, you'll be able to convert it to a readable time in Python.
@@ -287,9 +278,12 @@ Add the following code:
 
 ## Challenge: Find more passover times {.challenge}
 
-You can use a website such as http://www.latlong.net/ to look up the latitude and longitude of locations you are interested in. 
+You can use a website such as <a href="http://www.latlong.net/" target="_blank">http://www.latlong.net/</a> to look up the latitude and longitude of locations you are interested in. 
 
-Can you look up and plot the passover times for more locations? You’ll need to change the latitude and longitude inputs to the web service. 
+Can you look up and plot the passover times for more locations? 
+
++ You’ll need to change the latitude and longitude inputs to the web service. 
++ You'll need to plot the location and result on the map. 
 
 ![screenshot](images/iss-final.png)
 
