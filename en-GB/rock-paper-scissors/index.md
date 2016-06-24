@@ -83,7 +83,7 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
 
   This time we can just use `else` which means otherwise. 
   
-    ![screenshot](images/rps-else-3.png)
+  ![screenshot](images/rps-else-3.png)
   
 + Now, instead of printing out the random number that the computer chose you can print the letter. 
 
@@ -102,7 +102,7 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
    
 + Play the game a few times by clicking Run and making a choice.
 
-  For now you'll have to work out who won yourself. Later you'll add the Python code to work this out.   
+  For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.   
   
 ## Save Your Project {.save}
 
@@ -133,7 +133,7 @@ Now let's add the code to see who won.
   
   ![screenshot](images/rps-player-rock.png)
   
-+ Next let's look add the cases where the player chose 'p' (paper) but the computer didn't:
++ Next let's look at the cases where the player chose 'p' (paper) but the computer didn't:
 
   ![screenshot](images/rps-player-paper.png)
   
