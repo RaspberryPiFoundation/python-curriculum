@@ -1,5 +1,5 @@
 ---
-title: Where is the International Space Station?
+title: Where is the Space Station?
 description: Call a web service to get data on the location of the ISS. 
 notes: "ISS - notes.md"
 layout: project
@@ -27,6 +27,7 @@ You’re going to use a web service that provides live information about space. 
 Open <a href="http://api.open-notify.org/astros.json" target="_blank">http://api.open-notify.org/astros.json</a> in a web browser. 
 
 You should see something like this:
+
 ```
 {
   "message": "success", 
@@ -91,7 +92,7 @@ Note that you will see different results depending on who is currently in space!
 
   First, let's look up the number of people in space and print it:
   
-  ![screenshot](images/iss-result.png)
+  ![screenshot](images/iss-number.png)
 
   `result['number']` will print the value associated with the key ‘number’ in the result dictionary. In the example this is 3. 
 
@@ -107,7 +108,7 @@ You should see something like:
 
 + Now you need to print out a line for each astronaut.
 
-You can use a for loop to do this in Python. Each time through the loop p will be set to a dictionary for a different astronaut. You can then look up the values for ‘name’ and ‘craft’
+You can use a for loop to do this in Python. Each time through the loop `p` will be set to a dictionary for a different astronaut. You can then look up the values for ‘name’ and ‘craft’
 
   ![screenshot](images/iss-people-2.png)
   
