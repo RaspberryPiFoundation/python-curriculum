@@ -8,7 +8,7 @@ This project teaches game design through the development of an RPG maze game. In
 
 #Online Resources
 
-This project uses Python 2. We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 + ['RPG' starting point -- jumpto.cc/rpg-go](http://jumpto.cc/rpg-go)
 

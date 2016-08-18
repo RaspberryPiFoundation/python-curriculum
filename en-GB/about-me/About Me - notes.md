@@ -7,7 +7,7 @@ In this project, children will learn how to write a Python program telling peopl
 
 #Online Resources
 
-This project uses Python 2. We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 + [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 

@@ -12,7 +12,7 @@ This project makes use of a set of web services. Please make sure you can access
 
 + [Open Nofify APIs -- http://api.open-notify.org/] (http://api.open-notify.org/)
 
-This project uses Python 2. We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 + ['Where is the ISS?' starting point -- jumpto.cc/iss-go](http://jumpto.cc/iss-go)
 

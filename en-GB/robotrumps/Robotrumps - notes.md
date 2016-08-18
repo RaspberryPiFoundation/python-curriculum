@@ -8,7 +8,7 @@ This project introduces for loops through a fun turtle race game. Loops are used
 
 #Online Resources
 
-This project uses Python 2. We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 + ['Robotrumps' starting point -- jumpto.cc/robotrumps-go](http://jumpto.cc/robotrumps-go)
 
