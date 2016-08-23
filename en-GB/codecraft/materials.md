@@ -13,23 +13,23 @@ project-resources:
     type: file
   - url: variables.py
     type: file
-  - url: brick.png
+  - url: brick.gif
     type: image
-  - url: dirt.png
+  - url: dirt.gif
     type: image
-  - url: glass.png
+  - url: glass.gif
     type: image
-  - url: grass.png
+  - url: grass.gif
     type: image
-  - url: plank.png
+  - url: plank.gif
     type: image
-  - url: player.png
+  - url: player.gif
     type: image
-  - url: sand.png
+  - url: sand.gif
     type: image
-  - url: water.png
+  - url: water.gif
     type: image
-  - url: wood.png
+  - url: wood.gif
     type: image
 volunteer-resources:
   - url: codecraft-volunteer-resources.zip
@@ -43,22 +43,22 @@ volunteer-resources:
     type: file
   - url: variables.py
     type: file
-  - url: brick.png
+  - url: brick.gif
     type: image
-  - url: dirt.png
+  - url: dirt.gif
     type: image
-  - url: glass.png
+  - url: glass.gif
     type: image
-  - url: grass.png
+  - url: grass.gif
     type: image
-  - url: plank.png
+  - url: plank.gif
     type: image
-  - url: player.png
+  - url: player.gif
     type: image
-  - url: sand.png
+  - url: sand.gif
     type: image
-  - url: water.png
+  - url: water.gif
     type: image
-  - url: wood.png
+  - url: wood.gif
     type: image
 ---

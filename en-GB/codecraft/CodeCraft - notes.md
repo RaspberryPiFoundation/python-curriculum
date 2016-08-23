@@ -20,23 +20,23 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 
 + codecraft/codecraft.py
 + codecraft/variables.py
-+ codecraft/player.png
-+ codecraft/dirt.png
-+ codecraft/grass.png
-+ codecraft/water.png
-+ codecraft/brick.png
++ codecraft/player.gif
++ codecraft/dirt.gif
++ codecraft/grass.gif
++ codecraft/water.gif
++ codecraft/brick.gif
 
 You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
 + codecraft-finished/codecraft.py
 + codecraft-finished/variables.py
-+ codecraft-finished/player.png
-+ codecraft-finished/dirt.png
-+ codecraft-finished/grass.png
-+ codecraft-finished/water.png
-+ codecraft-finished/brick.png
-+ codecraft-finished/wood.png
-+ codecraft-finished/plank.png
++ codecraft-finished/player.gif
++ codecraft-finished/dirt.gif
++ codecraft-finished/grass.gif
++ codecraft-finished/water.gif
++ codecraft-finished/brick.gif
++ codecraft-finished/wood.gif
++ codecraft-finished/plank.gif
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
@@ -57,6 +57,7 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 
 #Frequently Asked Questions
++ __Offline Python does not work with .png images. .gif images have been supplied for offline use.__
 + Children may need reminding that elements of a dictionary/list are separated by a comma. For example, when adding inventory items, graphics and crafting rules to the game.
 
 
