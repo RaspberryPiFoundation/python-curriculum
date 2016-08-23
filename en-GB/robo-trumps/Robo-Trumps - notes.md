@@ -42,6 +42,7 @@ You can also find a completed version of this project's challenges in the 'Volun
 + Play Robotrumps with a friend.
 
 #Frequently Asked Questions
++ __Offline Python does not work with .png images. .gif images have been supplied for offline use.__
 + Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket. 
 + You need to click in the trinket text window before typing. 
 + Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network. 

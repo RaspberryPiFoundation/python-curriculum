@@ -13,29 +13,29 @@ project-resources:
     type: file
   - url: robo-trumps/cards.txt
     type: file
-  - url: robo-trumps/space.png
+  - url: robo-trumps/space.gif
     type: file
-  - url: robo-trumps/rainbow.png
+  - url: robo-trumps/rainbow.gif
     type: file
-  - url: robo-trumps/bird.png
+  - url: robo-trumps/bird.gif
     type: file
-  - url: robo-trumps/dog.png
+  - url: robo-trumps/dog.gif
     type: file
-  - url: robo-trumps/jet.png
+  - url: robo-trumps/jet.gif
     type: file
-  - url: robo-trumps/round.png
+  - url: robo-trumps/round.gif
     type: file- 
-  - url: robo-trumps/brains.png
+  - url: robo-trumps/brains.gif
     type: file
-  - url: robo-trumps/twoheads.png
+  - url: robo-trumps/twoheads.gif
     type: file
-  - url: robo-trumps/shades.png
+  - url: robo-trumps/shades.gif
     type: file
-  - url: robo-trumps/hair.png
+  - url: robo-trumps/hair.gif
     type: file
-  - url: robo-trumps/tv.png
+  - url: robo-trumps/tv.gif
     type: file
-  - url: robo-trumps/yellow.png
+  - url: robo-trumps/yellow.gif
     type: file                      
 volunteer-resources:
   - url: robotrumps-volunteer-resources.zip
@@ -49,28 +49,28 @@ volunteer-resources:
     type: file
   - url: robo-trumps-finished/cards.txt
     type: file
-  - url: robo-trumps-finished/space.png
+  - url: robo-trumps-finished/space.gif
     type: file
-  - url: robo-trumps-finished/rainbow.png
+  - url: robo-trumps-finished/rainbow.gif
     type: file
-  - url: robo-trumps-finished/bird.png
+  - url: robo-trumps-finished/bird.gif
     type: file
-  - url: robo-trumps-finished/dog.png
+  - url: robo-trumps-finished/dog.gif
     type: file
-  - url: robo-trumps-finished/jet.png
+  - url: robo-trumps-finished/jet.gif
     type: file
-  - url: robo-trumps-finished/round.png
+  - url: robo-trumps-finished/round.gif
     type: file- 
-  - url: robo-trumps-finished/brains.png
+  - url: robo-trumps-finished/brains.gif
     type: file
-  - url: robo-trumps-finished/twoheads.png
+  - url: robo-trumps-finished/twoheads.gif
     type: file
-  - url: robo-trumps-finished/shades.png
+  - url: robo-trumps-finished/shades.gif
     type: file
-  - url: robo-trumps-finished/hair.png
+  - url: robo-trumps-finished/hair.gif
     type: file
-  - url: robo-trumps-finished/tv.png
+  - url: robo-trumps-finished/tv.gif
     type: file
-  - url: robo-trumps-finished/yellow.png
+  - url: robo-trumps-finished/yellow.gif
     type: file 
 ---
