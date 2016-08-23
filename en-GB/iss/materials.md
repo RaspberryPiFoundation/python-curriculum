@@ -11,11 +11,11 @@ project-resources:
     description: .zip file containing all project resources
   - url: iss/iss.py
     type: file
-  - url: iss/map.jpg
+  - url: iss/map.gif
     type: file
-  - url: iss/iss.png
+  - url: iss/iss.gif
     type: file
-  - url: iss/iss2.png
+  - url: iss/iss2.gif
     type: file                      
 volunteer-resources:
   - url: iss-volunteer-resources.zip
@@ -27,10 +27,10 @@ volunteer-resources:
     description: Online completed Trinket project
   - url: iss-finished/iss.py
     type: file
-  - url: iss-finished/map.jpg
+  - url: iss-finished/map.gif
     type: file
-  - url: iss-finished/iss.png
+  - url: iss-finished/iss.gif
     type: file
-  - url: iss-finished/iss2.png
+  - url: iss-finished/iss2.gif
     type: file 
 ---

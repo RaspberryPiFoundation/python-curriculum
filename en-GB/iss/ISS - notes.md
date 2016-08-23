@@ -24,16 +24,16 @@ There is also a trinket containing a sample solution to the challenges:
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 + iss/iss.py
-+ iss/map.jpg
-+ iss/iss.png
-+ iss/iss2.png
++ iss/map.gif
++ iss/iss.gif
++ iss/iss2.gif
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + iss-finished/iss.py
-+ iss-finished/map.jpg
-+ iss-finished/iss.png
-+ iss-finished/iss2.png
++ iss-finished/map.gif
++ iss-finished/iss.gif
++ iss-finished/iss2.gif
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
@@ -46,6 +46,7 @@ You can also find a completed version of this project's challenges in the 'Volun
 + Find more passover times - Passing inputs to a web service;
 
 #Frequently Asked Questions
++ __Offline Python does not work with .png images. .gif images have been supplied for offline use.__
 + Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket. 
 
 

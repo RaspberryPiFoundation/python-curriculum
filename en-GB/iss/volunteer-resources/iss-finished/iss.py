@@ -31,14 +31,14 @@ print('Longitude: ', lon)
 screen = turtle.Screen()
 screen.setup(720, 360)
 screen.setworldcoordinates(-180, -90, 180, 90)
-screen.register_shape('iss.png')
+screen.register_shape('iss.gif')
 
 # image source: 
 # map.jpg: http://visibleearth.nasa.gov/view.php?id=57752 Credit: NASA
-screen.bgpic('map.jpg')
+screen.bgpic('map.gif')
 
 iss = turtle.Turtle()
-iss.shape('iss.png')
+iss.shape('iss.gif')
 iss.setheading(90)
 iss.penup()
 
