@@ -21,13 +21,13 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 
 + robotrumps/robotrumps.py
 + robotrumps/cards.txt
-+ Several robot .png images
++ Several robot .gif images
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + robotrumps-finished/robotrumps.py
 + robotrumps-finished/cards.txt
-+ Several robot .png images
++ Several robot .gif images
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
