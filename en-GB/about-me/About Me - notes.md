@@ -33,5 +33,5 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 #Challenges
 + What's on your mind? - writing a first Python program using the `print` statement.
-+ "About yourself" - printing text and ASCII art to the screen.
++ "About yourself" - printing text and ASCII art to the screen. __Remember that the code children write in Trinket is public. Remind them not to share any personal information like their full name or address.__
 + "Your age in dog years" - performing a calculation based on the user's input.

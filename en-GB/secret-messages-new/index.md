@@ -9,7 +9,7 @@ layout: project
 In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/c322fd1dae?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/messages-finished.png">
 </div>
@@ -20,13 +20,13 @@ A cipher is a type of secret code, where you swap the letters around so that no-
 
 You'll be using one of the oldest and most famous ciphers, the __Caesar cipher__, which is named after Julius Caesar.
 
-Let's try using the Caesar cipher to hide a word.
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
 ## Activity Checklist { .check}
 
 + Hiding a word is called __encryption__.
 
-	Let's start by encrypting the letter 'a'. To do this, start by drawing the alphabet in a circle, like this:
+	Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
 
 	![screenshot](images/messages-wheel.png)
 
@@ -67,7 +67,7 @@ Let's write a Python program to encrypt a single character.
 
 ## Activity Checklist { .check}
 
-+ Open this blank trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -77,11 +77,15 @@ Let's write a Python program to encrypt a single character.
 
 	![screenshot](images/messages-alphabet.png)
 
++ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
+
+	![screenshot](images/messages-array.png)
+
 + You can get a letter from your `alphabet` variable by writing the position in square brackets.
 
 	![screenshot](images/messages-alphabet-array.png)
 
-	You can delete this code once you've tried it out.
+	You can delete the `print` ststements once you've tried this out.
 
 + Next, you'll need to store the secret `key` in a variable.
 
@@ -90,10 +94,6 @@ Let's write a Python program to encrypt a single character.
 + Next, ask the user for a single letter (called a `character`) to encrypt.
 
 	![screenshot](images/messages-character.png)
-
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
-
-	![screenshot](images/messages-array.png)
 
 + Find the `position` of the `character`.
 
@@ -119,7 +119,7 @@ Let's write a Python program to encrypt a single character.
 
 	Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
 
-+ You can use a `%` to tell the new position to go back to letter 'a' once it gets to 'z'. 
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26. 
 
 	![screenshot](images/messages-modulus.png)
 
@@ -178,7 +178,7 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 
 	![screenshot](images/messages-print-message-characters.png)
 
-+ If you un-indent the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
 
 	![screenshot](images/messages-print-message-comment.png)
 
@@ -223,14 +223,7 @@ Some characters aren't in the alphabet, which causes an error.
 ## Challenge: Encrypting and decrypting messages { .challenge}
 Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
 
-## Save Your Project {.save}
-
-## Challenge: Improving your cipher { .challenge}
-Can anyone decrypt your messages without the key? Can you change your program, to make it harder for people to crack your messages? Here are some ideas:
-
-+ Jumble up the letters in the `alphabet` variable;
-+ Add 1 to the key each time a letter is encrypted;
-+ Remove any spaces and other characters from the encrypted message.
+You could also duplicate the project and create a separate program for decrypting messages.
 
 ## Save Your Project {.save}
 

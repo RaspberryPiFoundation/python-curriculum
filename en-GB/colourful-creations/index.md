@@ -1,6 +1,6 @@
 ---
 title: Colourful Creations
-description: Create a dictionary of custom colours and use your colour palette to create a colourful poster. 
+description: Create your own custom colours, and use them to create a colourful poster. 
 notes: "Colourful Creations - notes.md"
 layout: project
 new: true
@@ -22,7 +22,7 @@ In this project you will create a dictionary of colours which maps hard to remem
 
 Python turtle has predefined colours such as 'red' and 'white' but you can also use hex colour codes (you may have seen these in the HTML & CSS course.) 
 
-+ Create a new Python trinket <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -65,9 +65,9 @@ Python turtle has predefined colours such as 'red' and 'white' but you can also 
  
 Using hex colour codes is really flexible but they are hard to remember. 
 
-As you probably already know, a dictionary allows you to look up a word, and see it’s meaning. In Python, a dictionary is even more flexible that that - it allows you to map a 'key' to a 'value'.
+As you probably already know, a dictionary allows you to look up a word, and see it’s meaning. In Python, a dictionary is even more flexible that that - it allows you to look up a value for any 'key' in the dictionary.
 
-Let's create a dictionary to map from human-friendly colour names (keys) to computer-friendly hex codes (values). 
+Let's create a dictionary to map from human-friendly colour names (keys) to computer-friendly hex codes (values).
 
 + A dictionary is contained in curly brackets. 
 
@@ -81,7 +81,7 @@ Let's create a dictionary to map from human-friendly colour names (keys) to comp
 
    ![screenshot](images/colourful-colours.png)
    
-   A colon ':' separates the key (colour name) from the value (hex code.) You need a comma ',' between each key:value pair in the dictionary. 
+   A colon `:` separates the key (colour name) from the value (hex code.) You need a comma `,` between each key:value pair in the dictionary. 
 
 + Now you don't need to remember the hex codes, you can just look them up in the dictionary. 
 
@@ -126,6 +126,7 @@ You can also use other turtle commands that you know such as `forward`, `right`,
 Maybe you could add a border to your poster?
 
 Other useful turtle commands:
+
 + `circle(50)` draws a circle outline with radius 50.
 + `dot(100)` draws a filled in circle with diameter 100. 
   

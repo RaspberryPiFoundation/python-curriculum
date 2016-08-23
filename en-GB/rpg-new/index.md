@@ -19,7 +19,7 @@ In this project, you’ll design and code your own RPG maze game. The aim of the
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/rpg-go" target="_blank">jumpto.cc/rpg-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Some code for this game has been provided for you. pen this trinket: <a href="http://jumpto.cc/rpg-go" target="_blank">jumpto.cc/rpg-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/09fa4faae7?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -49,7 +49,7 @@ In this project, you’ll design and code your own RPG maze game. The aim of the
 
   ![screenshot](images/rpg-dining.png)
 
-  You need to add a 3rd room, called the `dining room`. You also need to link it to room 1 (the hall) to the west. You also need to add code to the hall, so that you can move to the dining room to the east.
+  You need to add a 3rd room, called the `dining room`. You also need to link it to room 1 (the hall) to the west. You also need to add data to the hall, so that you can move to the dining room to the east.
 
   ![screenshot](images/rpg-dining-code.png)
 

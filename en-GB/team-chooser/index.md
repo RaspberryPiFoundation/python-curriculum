@@ -1,8 +1,9 @@
 ---
 title: Team Chooser
-description: Make a program to choose players for 2 random teams.
+description: Make a program to split players into 2 random teams.
 notes: "Team Chooser - notes.md"
 layout: project
+new: true
 ---
 
 #Introduction:  { .intro}
@@ -20,7 +21,7 @@ Let's start by creating a list of players to choose from.
 
 ## Activity Checklist { .check}
 
-+ Open this blank trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -36,16 +37,16 @@ Let's start by creating a list of players to choose from.
 
 	![screenshot](images/team-print-players.png)
 
-+ You can get to individual items in the list by adding its position in square brackets after the variable name.
++ You can get to an item in the list by adding its position in square brackets after the variable name.
 
-	The first item in the list is at __position 0__.
+	The first item in the list is at __position 0__. This is different to Scratch, which starts at position 1.
 
 	![screenshot](images/team-print-players-index.png)
 
 ## Save Your Project {.save}
 
 ## Challenge: Adding more players { .challenge}
-Can you add more players to your list? You can add as many players as you like, but make sure that there are an even number of players.
+Can you add more players to your list? You can add as many players as you like, but make sure that there is an __even__ number of players.
 
 You can also change the names of the first 2 players if you prefer.
 
@@ -59,15 +60,15 @@ Let's choose random players!
 
 ## Activity Checklist { .check}
 
-+ To be able to get a random player from your `players` list, first you'll need to import the `random` module.
++ To be able to get a random player from your `players` list, first you'll need to import the `choice` part of the `random` module.
 
 	![screenshot](images/team-import-random.png)
 
-+ To get a random player, you can use `random.choice`. (You can also delete the code to print individual players.)
++ To get a random player, you can use `choice`. (You can also delete the code to print individual players.)
 
 	![screenshot](images/team-random-player.png)
 
-+ Test your `random.choice` code a few times and you should see a different player being chosen each time.
++ Test your `choice` code a few times and you should see a different player being chosen each time.
 
 + You can also create a new variable called `playerA`, and use it to store your random player.
 
@@ -101,9 +102,9 @@ Let's choose random players!
 Can you add code to choose a player at random for team B? You'll need to:
 
 + Create a new `teamB` list
-+ Choose a `random` player for team B (called `playerB`)
++ Choose a random player for team B (called `playerB`)
 + `append` the chosen player to your `teamB` list
-+ `remove` the chosen player from you list of `players`
++ `remove` the chosen player from your list of `players`
 
 The code you'll need for `teamB` will be __very__ similar to the code you've already written for `teamA`!
 
@@ -189,7 +190,7 @@ Let's improve your program to work with an odd number of players.
 
 	![screenshot](images/team-error.png)
 
-+ The error is because your program keeps choosing random players for team A and then team B. However, if there are an odd number of players then after choosing a player for team A there are no players left to choose from for team B.
++ The error is because your program keeps choosing random players for team A and then team B. However, if there is an odd number of players then after choosing a player for team A there are no players left to choose from for team B.
 
 	To fix this bug, you can tell your program to `break` out of your `while` loop if your `players` list is empty.
 

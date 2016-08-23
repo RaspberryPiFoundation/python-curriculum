@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: ...
+description: Write and create pictures about yourself.
 notes: "About Me - notes.md"
 layout: project
 project-type: sample
@@ -23,7 +23,7 @@ Let's start by writing some text.
 
 ## Activity Checklist { .check}
 
-+ Create a new Python trinket <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ Change the code above, to print something more interesting about you!
 
 #Step 2: ASCII art { .activity}
 
-Let’s print something much more fun than text… ASCII art! ASCII art (pronounced '_as-key_') is creating __pictures out of text__.
+Let’s print something much more fun than text… ASCII art! ASCII art (pronounced '_ask-e_') is creating __pictures out of text__.
 
 ## Activity Checklist { .check}
 
@@ -96,6 +96,8 @@ Let’s print something much more fun than text… ASCII art! ASCII art (pronoun
 
 ## Challenge: About yourself { .challenge}
 Write a Python program to tell others about yourself, by using text and ASCII art. You can create images of your hobbies, friends… or anything you like!
+
+__Remember that the code you write in Trinket is public. Don't share any personal information like your full name or address!__
 
 Here’s an example:
 
@@ -149,6 +151,8 @@ You can also do calculations and print numbers. Let's find out how old you'll be
 Write a program to ask the user their age, and then tell them their age in dog years! You can calculate a person’s age in dog years by multiplying their age by 7.
 
 ![screenshot](images/me-dog-years.png)
+
+In programming, the symbol for __multiplication__ is `*`, and is usually __shift+8__ on the keyboard.
 
 ## Save Your Project {.save}
 

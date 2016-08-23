@@ -1,14 +1,20 @@
 ---
 title: Rock, Paper, Scissors
-description: Use conditional logic to write a Rock, Paper Scissors game with ASCII art. 
+description: Create your own 'Rock, Paper Scissors' game. 
 notes: "Rock Paper Scissors - notes.md"
 layout: project
+project-type: sample
 new: true
 ---
 
 # Introduction { .intro}
 
 In this project you will make a Rock, Paper, Scissors game and play against the computer.  
+
+Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
++ Rock blunts scissors
++ Paper covers rock
++ Scissors cut paper
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/e1e1d873be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -22,7 +28,7 @@ First, let the player choose Rock, Paper or Scissors.
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/rps-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/de918c4f5d?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -60,21 +66,23 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
   
   You should see that 'chosen' is randomly set to either 1, 2 or 3. 
   
-+ Let's say 1 means rock, 2 means paper and 3 means scissors. 
++ Let's say:
+  
+  + 1 = rock (r)
+  + 2 = paper (p)
+  + 3 = scissors (s)
 
-  Use `if` to check the number and select the corresponding letter. 
+  Use `if` to check if the chosen number is `1` (`==` is used to see if 2 things are the same). 
   
   ![screenshot](images/rps-if-1.png)
   
-+ Python uses indentation to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the tab key (usually above CAPSLOCK on the keyboard.)
++ Python uses __indentation__ (moving the code to the right) to show which code is inside the `if`. You can either use two spaces (tap the spacebar twice) or tap the __tab key__ (usually above CAPSLOCK on the keyboard.)
 
   Set `computer` to 'r' inside the `if` using indentation:
   
   ![screenshot](images/rps-indent.png)
   
-  Note that `==` does a comparison and `=` stores a value. 
-  
-+ You can add an alternative check using `elif`:
++ You can add an alternative check using `elif` (short for _else if_):
 
   ![screenshot](images/rps-elif-2.png)
 
@@ -90,10 +98,11 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
 
    ![screenshot](images/rps-print-computer.png)
    
+   You can either delete the line `print(chosen)`, or make the computer ignore it be adding a `#` at the start of the line.
       
 + Test your code by clicking Run and choosing your option. 
 
-+ Hmm, the computer's choice gets printed on a new line. You can fix that by adding a comma `,` after `vs`, that tells Python not to start a new line. 
++ Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line. 
 
    ![screenshot](images/rps-same-line.png)
    
@@ -177,7 +186,7 @@ Hint:
 
 ![screenshot](images/rps-player-ascii.png)
 
-Remember that adding a comma ',' to the end of a `print` stops it starting a new line. 
+Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line. 
 
 ## Save Your Project {.save}
 

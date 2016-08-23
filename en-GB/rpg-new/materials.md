@@ -9,7 +9,7 @@ project-resources:
     type: link
     text: jumpto.cc/rpg-go
     description: Online Trinket containing all 'RPG' project resources
-  - url: rpg.py
+  - url: rpg/rpg.py
     type: file
 volunteer-resources:
   - url: rpg-volunteer-resources.zip
@@ -19,6 +19,6 @@ volunteer-resources:
     type: link
     text: trinket.io/python/d06adeb527
     description: Online completed Trinket project
-  - url: rpg.py
+  - url: rpg-finished/rpg.py
     type: file
 ---

@@ -1,11 +1,11 @@
 ---
-title: Where is the ISS? - Materials
+title: Where is the Space Station? - Materials
 layout: project-materials
 project-resources:     
   - url: http://jumpto.cc/iss-go
     type: link
     text: jumpto.cc/iss-go
-    description: Online Trinket containing 'Where is the ISS?' starter resources
+    description: Online Trinket containing 'Where is the Space Station?' starter resources
   - url: iss-project-resources.zip
     type: file
     description: .zip file containing all project resources

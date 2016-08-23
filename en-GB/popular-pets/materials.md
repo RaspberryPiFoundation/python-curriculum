@@ -5,8 +5,9 @@ project-resources:
   - url: popular-pets-project-resources.zip
     type: file
     description: .zip file containing all project resources
-  - url: popular-pets/popular-pets.py
+  - url: new/new.py
     type: file
+    description: Online blank Python Trinket
 volunteer-resources:
   - url: popular-pets-volunteer-resources.zip
     type: file

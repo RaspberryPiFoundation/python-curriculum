@@ -1,6 +1,6 @@
 ---
 title: Modern Art
-description: Use functions to create computer generated modern art. 
+description: Code your own computer-generated modern art. 
 notes: "Modern Art - notes.md"
 layout: project
 new: true
@@ -48,9 +48,9 @@ In this project you will create computer generated modern art. You will use func
 
 + That’s fun, but it’s a lot to remember and type every time you want to set a turtle to a random colour and it’s not very easy to read. 
 
-    In Python we can use def to define a function that we can call whenever we need to set the turtle to a random colour. 
+    In Python we can write `def` to define a function that we can call whenever we need to set the turtle to a random colour. 
 
-    Note that you’ve been calling functions already, `color()` and `randint()` are functions that have been defined for you. 
+    You’ve been calling functions already, `color()` and `randint()` are functions that have been defined for you. 
 
     Let’s put the random colour code into a function using def:
   
@@ -97,11 +97,11 @@ Can you define a `randomheading()` function that will make the turtle point in a
 
 Hints:
 
-- `setheading(<number>)` will change the direction the turtle is facing in
+- `setheading(<number>)` will change the direction the turtle is facing in.
 
 - `<number>` should be between 1 and 360 (the number of degrees in a circle)
 
-- You can use `randint(1, 360)` to choose a number between 1 and 360. 
+- You can use `randint(1, 360)` to choose a number between 1 and 360.
 
 ## Save Your Project {.save}
 
@@ -154,8 +154,6 @@ Now let’s create some modern art by drawing lots of rectangles of different si
     
     `speed(0)` is the fastest or you can use numbers from 1 (slow) to 10 (fast.) Experiment until you find a speed you like. 
 
-
-
 ## Challenge: More modern art { .challenge}
 Can you create a function that draws a shape and calls your `randomcolour()` and / or `randomplace()` functions? 
 
@@ -163,7 +161,7 @@ You can call your function from inside a `for` loop as you did in the rectangle 
 
 Ideas:
 
-- Turtles have a function called dot that takes a radius (distance from the centre to the edge of the circle) as a parameter. E.g. turtle.dot(10) You could create a `drawcircle()` function that draws a circle with a random radius. 
+- Turtles have a function called dot that takes a radius (distance from the centre to the edge of the circle) as input. E.g. turtle.dot(10) You could create a `drawcircle()` function that draws a circle with a random radius. 
     
     ![screenshot](images/modern-circles.png)
     

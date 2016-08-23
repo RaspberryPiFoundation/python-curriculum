@@ -5,8 +5,9 @@ project-resources:
   - url: colourful-creations-project-resources.zip
     type: file
     description: .zip file containing all project resources
-  - url: colourful-creations/colourful-creations.py
+  - url: new/new.py
     type: file
+    description: Online blank Python Trinket
 volunteer-resources:
   - url: colourful-creations-volunteer-resources.zip
     type: file

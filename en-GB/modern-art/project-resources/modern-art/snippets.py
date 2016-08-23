@@ -1,3 +1,5 @@
+#!/bin/python3
+
 # Code to draw a random-sized rectangle
   hideturtle()
   length = randint(10, 100)

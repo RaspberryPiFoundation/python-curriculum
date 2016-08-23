@@ -36,7 +36,6 @@ You can find the completed project in the 'Volunteer Resources' section, which c
 + Use a Caesar cipher - encrypy and decrypt letters and words manually;
 + Variable keys - allowing the user to input a chosen key;
 + Encrypting and decrypting messages - encrypting and decrypting whole messages;
-+ Improving your cipher - modifying the program to make cracking the cipher more difficult;
 + Friendship calculator - applying text iteration to a new problem.
 
 #Frequently Asked Questions

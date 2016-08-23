@@ -1,6 +1,6 @@
 ---
 title: Popular Pets
-description: Create pie charts and bar graphs from data using the PyGal library. 
+description: Create pie charts and bar graphs from data you collect. 
 notes: "Popular Pets - notes.md"
 layout: project
 new: true
@@ -33,7 +33,7 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
   
   ![screenshot](images/pets-favourite.png)
 
-+ Create a new Python trinket <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -46,7 +46,7 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
   ![screenshot](images/pets-pygal.png)
 
 
-+ Now let's create a Pie chart and display (render) it:
++ Now let's create a Pie chart and render (display) it:
 
   ![screenshot](images/pets-pie.png)
   
@@ -74,26 +74,29 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
 
 ## Challenge: Create your own bar chart {.challenge}
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart and then add data and render in the same way as for a chart. 
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a chart. 
 
-Collect data from your Code Club members to create your own bar graph. 
+Collect data from your Code Club members to create your own bar graph.
 
-Make sure that you choose a topic that everyone will know about and is suitable for the children in your class. 
+Make sure that you choose a topic that everyone will know about!
 
-You could try: favourite sports or ice cream flavours. You could find out which month children's birthdays are in or how they get to school (walk, cycle, car, bus.)You could pick a yes/no question such as 'Do you play Minecraft?'.  
+Here are some ideas:
 
-Don't ask questions that give personal data such as where people live. Ask your volunteer if you're not sure. 
++ What is your favourite sport?
++ What is your favourite ice cream flavour?
++ How do you get to school?
++ What month is your birthday?
++ Do you play Minecraft? (yes/no)
+
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure. 
 
 Examples:
 
-![screenshot](images/pets-bar.png)
- 
-![screenshot](images/pets-pn-bar.png)
-  
+![screenshot](images/pets-bar-examples.png)
 
 # Step 2: Read data from a file { .activity}
 
-It's useful to be able to store data in a file rather than having to including it in your code. 
+It's useful to be able to store data in a file rather than having to include it in your code. 
 
 ## Activity Checklist { .check}
 
@@ -101,11 +104,11 @@ It's useful to be able to store data in a file rather than having to including i
 
   ![screenshot](images/pets-file.png)
 
-+ Now add data to the file. You can use the favourite pets data that you collected or the example data. 
++ Now add data to the file. You can use the favourite pets data that you collected or the example data.
 
   ![screenshot](images/pets-data.png)
   
-+ Switch back to `main.py` and comment out the lines that render (display) charts and graphs:
++ Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
 
   ![screenshot](images/pets-comment.png)
 
@@ -127,7 +130,9 @@ It's useful to be able to store data in a file rather than having to including i
   
   This happens if you have an empty line at the end of your file. 
   
-  You can fix the error by only getting the label and value if the line isn't empty:
+  You can fix the error by only getting the label and value if the line isn't empty.
+
+  To do this, indent the code inside your `for` loop and add the code `if line:` above it:
   
   ![screenshot](images/pets-fix.png)
   
@@ -135,7 +140,7 @@ It's useful to be able to store data in a file rather than having to including i
 
   ![screenshot](images/pets-pie2.png)
   
-  Note that `add` expects the value to be a number,  `int(value)` turns the value from a string into an integer.
+  Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
   
   If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead. 
   

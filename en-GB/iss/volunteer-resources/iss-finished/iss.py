@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import json
 import urllib.request
 import turtle
@@ -8,21 +10,23 @@ url = 'http://api.open-notify.org/astros.json'
 response = urllib.request.urlopen(url)
 result = json.loads(response.read())
 
-print 'People in Space: ', result['number']
+print('People in Space: ', result['number'])
 
 people = result['people']
 
 for p in people:
-  print p['name'] + ' in ' + p['craft']
+  print(p['name'], ' in ', p['craft'])
 
 
 url = 'http://api.open-notify.org/iss-now.json'
 response = urllib.request.urlopen(url)
 result = json.loads(response.read())
 
-print 'Latitude: ', result['iss_position']['latitude']
-print 'Longitude: ', result['iss_position']['longitude']
-
+location = result['iss_position']
+lat = location['latitude']
+lon = location['longitude']
+print('Latitude: ', lat)
+print('Longitude: ', lon)
 
 screen = turtle.Screen()
 screen.setup(720, 360)
@@ -37,7 +41,8 @@ iss = turtle.Turtle()
 iss.shape('iss.png')
 iss.setheading(90)
 iss.penup()
-iss.goto(result['iss_position']['longitude'], result['iss_position']['latitude'])
+
+iss.goto(lon, lat)
 
 # When Does ISS next pass over me?
 #london
@@ -65,7 +70,4 @@ result = json.loads(response.read())
 
 #print result
 over = result['response'][1]['risetime']
-#ctime currently gives the wrong date???
 location.write(time.ctime(over))
-
-

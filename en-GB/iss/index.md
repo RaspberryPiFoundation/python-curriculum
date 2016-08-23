@@ -1,6 +1,6 @@
 ---
 title: Where is the Space Station?
-description: Call a web service to get data on the location of the ISS. 
+description: Plot the exact location of the ISS. 
 notes: "ISS - notes.md"
 layout: project
 new: true
@@ -53,11 +53,11 @@ The data is live so you will see a different result. The format is called JSON (
 
 + Let’s call the web service from Python so we can use the results.
 
-Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/iss-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
+  Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/iss-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/649a766f84?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+  <div class="trinket">
+    <iframe src="https://trinket.io/embed/python/649a766f84?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  </div>
 
 + The `urllib.request` and `json` modules have already been imported for you. 
 
@@ -87,14 +87,13 @@ The ‘success’ value of message tells you that the request was successful. Go
 
 Note that you will see different results depending on who is currently in space!
 
-
 + Now let's print the information in a more readable way. 
 
   First, let's look up the number of people in space and print it:
   
   ![screenshot](images/iss-number.png)
 
-  `result['number']` will print the value associated with the key ‘number’ in the result dictionary. In the example this is 3. 
+  `result['number']` will print the value associated with the key ‘number’ in the result dictionary. In the example this is `3`. 
 
 + The value associated with the ‘people’ key is a list of dictionaries! Let’s put that value into a variable so you can use it:
 
@@ -108,19 +107,24 @@ You should see something like:
 
 + Now you need to print out a line for each astronaut.
 
-You can use a for loop to do this in Python. Each time through the loop `p` will be set to a dictionary for a different astronaut. You can then look up the values for ‘name’ and ‘craft’
+  You can use a for loop to do this in Python. Each time through the loop `p` will be set to a dictionary for a different astronaut.
+
+  ![screenshot](images/iss-people-1a.png)
+
++ You can then look up the values for ‘name’ and ‘craft’
 
   ![screenshot](images/iss-people-2.png)
   
-You should see something like:
+  You should see something like:
 
-```
-People in Space:  3
-Yuri Malenchenko
-Timothy Kopra
-Timothy Peake
-```
-You are using live data so your results will depend on the number of people currently in space. 
+  ```
+  People in Space:  3
+  Yuri Malenchenko
+  Timothy Kopra
+  Timothy Peake
+  ```
+
+  You are using live data so your results will depend on the number of people currently in space. 
 
 ## Save Your Project {.save}
 
@@ -175,7 +179,7 @@ Let’s use another web service to find out where the International Space Statio
   ![screenshot](images/iss-location.png)
 
 
-+ Let’s print out the coordinates:
++ Let’s create variables to store the latitude and longitude, and then print them:
 
   ![screenshot](images/iss-coordinates.png)
 

@@ -1,4 +1,3 @@
-
 ---
 title: RPG — Volunteer Notes
 ---

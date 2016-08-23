@@ -1,7 +1,7 @@
+#!/bin/python3
+
 from turtle import *
 from random import *
-
-# Skills: functions
 
 def randomcolour():
   red = randint(0, 255)

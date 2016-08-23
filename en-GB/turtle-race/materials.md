@@ -5,7 +5,7 @@ project-resources:
   - url: turtle-race-project-resources.zip
     type: file
     description: .zip file containing all project resources
-  - url: turtle-race/turtle-race.py
+  - url: new/new.py
     type: file
 volunteer-resources:
   - url: turtle-race-volunteer-resources.zip
