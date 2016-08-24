@@ -1,14 +1,14 @@
 ---
 title: Robo-Trumps - Materials
 layout: project-materials
-project-resources:     
+project-resources:
+  - url: robo-trumps-project-resources.zip
+    type: file
+    description: .zip file containing all project resources
   - url: http://jumpto.cc/trumps-go
     type: link
     text: jumpto.cc/robotrumps-go
     description: Online Trinket containing 'Robo-Trumps' starter resources
-  - url: robo-trumps-project-resources.zip
-    type: file
-    description: .zip file containing all project resources
   - url: robo-trumps/robo-trumps.py
     type: file
   - url: robo-trumps/cards.txt

@@ -5,8 +5,13 @@ project-resources:
   - url: turtle-race-project-resources.zip
     type: file
     description: .zip file containing all project resources
+  - url: http://jumpto.cc/python-new
+    type: link
+    text: jumpto.cc/python-new
+    description: Online blank Python Trinket
   - url: new/new.py
     type: file
+    description: Offline blank Python file
 volunteer-resources:
   - url: turtle-race-volunteer-resources.zip
     type: file

@@ -11,6 +11,7 @@ project-resources:
     description: Online blank Python Trinket
   - url: new/new.py
     type: file
+    description: Offline blank Python file
 volunteer-resources:
   - url: about-me-volunteer-resources.zip
     type: file

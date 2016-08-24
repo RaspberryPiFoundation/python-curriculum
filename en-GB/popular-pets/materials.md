@@ -5,9 +5,13 @@ project-resources:
   - url: popular-pets-project-resources.zip
     type: file
     description: .zip file containing all project resources
+  - url: http://jumpto.cc/python-new
+    type: link
+    text: jumpto.cc/python-new
+    description: Online blank Python Trinket
   - url: new/new.py
     type: file
-    description: Online blank Python Trinket
+    description: Offline blank Python file
 volunteer-resources:
   - url: popular-pets-volunteer-resources.zip
     type: file

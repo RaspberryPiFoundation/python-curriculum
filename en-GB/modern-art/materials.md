@@ -5,14 +5,14 @@ project-resources:
   - url: modern-art-project-resources.zip
     type: file
     description: .zip file containing all project resources
-  - url: modern-art/modern-art.py
-    type: file
-  - url: modern-art/snippets.py
-    type: file
   - url: http://jumpto.cc/modern-go
     type: link
     text: jumpto.cc/modern-go
     description: Online Trinket containing 'Modern Art' starter resources
+  - url: modern-art/modern-art.py
+    type: file
+  - url: modern-art/snippets.py
+    type: file
 volunteer-resources:
   - url: modern-art-volunteer-resources.zip
     type: file
