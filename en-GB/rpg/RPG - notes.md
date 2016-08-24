@@ -5,14 +5,26 @@ title: RPG — Volunteer Notes
 #Introduction:
 This project teaches game design through the development of an RPG maze game. In this game, the player has to pick up objects within a house and get to a specific room, while avoiding monsters lurking in some of the rooms. This game will be achieved by manipulating dictionaries and lists.
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+#Online Resources
 
-Children will also need to make use of the materials which accompany this project. Files included in the 'Project Materials link:
+__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-+ RPG.py
++ ['RPG' starting point -- jumpto.cc/rpg-go](http://jumpto.cc/rpg-go)
 
-Make sure that each child has read and write access to their own copy of these resources.
+There is also a trinket containing the finished project:
+
++ [‘RPG’ Finished -- trinket.io/python/d06adeb527](https://trinket.io/python/d06adeb527)
+
+#Offline Resources
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+
++ rpg/rpg.py
+
+You can also find the completed project project in the 'Volunteer Resources' section, which contains:
+
++ rpg-finished/rpg.py
+
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
 #Learning Objectives
 + Game design;

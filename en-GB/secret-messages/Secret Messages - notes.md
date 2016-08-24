@@ -3,35 +3,43 @@ title: Secret Messages — Volunteer Notes
 ---
 
 #Introduction:
-This project teaches iteration over a text string, and now it can be used to create a Caesar cipher.
+In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
+#Online Resources
 
-Children can also make use of the materials which accompany these challenges. Files included in the 'Project Materials link:
+__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-+ Encryption.py
++ [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-Make sure that each child has read and write access to their own copy of these resources.
+There is also a trinket containing the finished project:
 
-You can find a completed version of this project's challenges by clicking the 'Project Materials' link for this project, which contains:
++ [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-+ LoveCalculator.py
++ [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+
+#Offline Resources
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+
+You can find the completed project in the 'Volunteer Resources' section, which contains:
+
++ messages-finished/messages.py
++ messages-finished/friends.py
+
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
 #Learning Objectives
-+ Iteration over a string variable;
++ Iteration (looping) over a string variable;
 + The `find()` method;
 + The modulus operator (`%`).
 
 #Challenges
++ Use a Caesar cipher - encrypy and decrypt letters and words manually;
 + Variable keys - allowing the user to input a chosen key;
-+ Encrypting and decrypting characters - single character encrypting and decrypting;
 + Encrypting and decrypting messages - encrypting and decrypting whole messages;
-+ Improving your cipher - modifying the program to make cracking the cipher more difficult;
-+ Love calculator - applying text iteration to a new problem.
++ Friendship calculator - applying text iteration to a new problem.
 
 #Frequently Asked Questions
-+ When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children should use:
++ When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
 
 ```python
 message = input("Please enter a message to encrypt: ").lower()
