@@ -7,7 +7,7 @@ project-resources:
     description: .zip file containing all project resources
   - url: http://jumpto.cc/trumps-go
     type: link
-    text: jumpto.cc/robotrumps-go
+    text: jumpto.cc/trumps-go
     description: Online Trinket containing 'Robo-Trumps' starter resources
   - url: robo-trumps/robo-trumps.py
     type: file
