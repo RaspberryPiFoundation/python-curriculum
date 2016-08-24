@@ -5,7 +5,7 @@ newMessage = ''
   
 message = input('Please enter a message: ')
 
-key = input('Enter a key: ')
+key = input('Enter a key (1-26): ')
 key = int(key)
 
 for character in message:

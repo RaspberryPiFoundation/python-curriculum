@@ -1,4 +1,3 @@
-
 ---
 title: Robotrumps — Volunteer Notes
 ---

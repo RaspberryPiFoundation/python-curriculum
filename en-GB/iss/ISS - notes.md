@@ -1,4 +1,3 @@
-
 ---
 title: Where is the Space Station? — Volunteer Notes
 ---

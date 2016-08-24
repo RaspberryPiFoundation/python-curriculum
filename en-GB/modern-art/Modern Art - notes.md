@@ -1,4 +1,3 @@
-
 ---
 title: Modern Art — Volunteer Notes
 ---

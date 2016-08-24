@@ -9,27 +9,27 @@ project-resources:
     type: link
     text: jumpto.cc/codecraft-go
     description: Online Trinket containing all 'CodeCraft' project resources
-  - url: codecraft.py
+  - url: codecraft/codecraft.py
     type: file
-  - url: variables.py
+  - url: codecraft/variables.py
     type: file
-  - url: brick.gif
+  - url: codecraft/brick.gif
     type: image
-  - url: dirt.gif
+  - url: codecraft/dirt.gif
     type: image
-  - url: glass.gif
+  - url: codecraft/glass.gif
     type: image
-  - url: grass.gif
+  - url: codecraft/grass.gif
     type: image
-  - url: plank.gif
+  - url: codecraft/plank.gif
     type: image
-  - url: player.gif
+  - url: codecraft/player.gif
     type: image
-  - url: sand.gif
+  - url: codecraft/sand.gif
     type: image
-  - url: water.gif
+  - url: codecraft/water.gif
     type: image
-  - url: wood.gif
+  - url: codecraft/wood.gif
     type: image
 volunteer-resources:
   - url: codecraft-volunteer-resources.zip
@@ -39,26 +39,26 @@ volunteer-resources:
     type: link
     text: trinket.io/python/9ac3995d69
     description: Online completed Trinket project
-  - url: codecraft.py
+  - url: codecraft-finished/codecraft.py
     type: file
-  - url: variables.py
+  - url: codecraft-finished/variables.py
     type: file
-  - url: brick.gif
+  - url: codecraft-finished/brick.gif
     type: image
-  - url: dirt.gif
+  - url: codecraft-finished/dirt.gif
     type: image
-  - url: glass.gif
+  - url: codecraft-finished/glass.gif
     type: image
-  - url: grass.gif
+  - url: codecraft-finished/grass.gif
     type: image
-  - url: plank.gif
+  - url: codecraft-finished/plank.gif
     type: image
-  - url: player.gif
+  - url: codecraft-finished/player.gif
     type: image
-  - url: sand.gif
+  - url: codecraft-finished/sand.gif
     type: image
-  - url: water.gif
+  - url: codecraft-finished/water.gif
     type: image
-  - url: wood.gif
+  - url: codecraft-finished/wood.gif
     type: image
 ---

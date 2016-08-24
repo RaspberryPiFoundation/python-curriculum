@@ -12,11 +12,11 @@ project-resources:
   - url: iss/iss.py
     type: file
   - url: iss/map.gif
-    type: file
+    type: image
   - url: iss/iss.gif
-    type: file
+    type: image
   - url: iss/iss2.gif
-    type: file                      
+    type: image                      
 volunteer-resources:
   - url: iss-volunteer-resources.zip
     type: file
@@ -28,9 +28,9 @@ volunteer-resources:
   - url: iss-finished/iss.py
     type: file
   - url: iss-finished/map.gif
-    type: file
+    type: image
   - url: iss-finished/iss.gif
-    type: file
+    type: image
   - url: iss-finished/iss2.gif
-    type: file 
+    type: image 
 ---

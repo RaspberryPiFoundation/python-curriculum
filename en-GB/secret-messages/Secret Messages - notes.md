@@ -41,8 +41,8 @@ You can find the completed project in the 'Volunteer Resources' section, which c
 #Frequently Asked Questions
 + When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
 
-```python
-message = input("Please enter a message to encrypt: ").lower()
-```
+	```python
+	message = input("Please enter a message to encrypt: ").lower()
+	```
 
-to make the input lower case before searching.
+	to make the input lower case before searching.
