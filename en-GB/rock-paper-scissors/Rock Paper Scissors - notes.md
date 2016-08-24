@@ -28,8 +28,8 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 #Learning Objectives
 + Variables;
-+ Selection (if, elif, else); 
-+ Boolean '==' and 'and'.
++ Selection (`if`, `elif`, `else`); 
++ Boolean `==` and `and`.
 
 #Challenges
 + "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 

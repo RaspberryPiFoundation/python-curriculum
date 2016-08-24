@@ -9,7 +9,7 @@ project-resources:
     type: link
     text: jumpto.cc/rps-go
     description: Online Trinket containing all 'Rock, Paper, Scissors' project resources
-  - url: rock-paper-scissors.py
+  - url: rock-paper-scissors/rock-paper-scissors.py
     type: file
 volunteer-resources:
   - url: rock-paper-scissors-volunteer-resources.zip
@@ -19,6 +19,6 @@ volunteer-resources:
     type: link
     text: trinket.io/python/e1e1d873be
     description: Online completed Trinket project
-  - url: rock-paper-scissors.py
+  - url: rock-paper-scissors-finished/rock-paper-scissors.py
     type: file
 ---

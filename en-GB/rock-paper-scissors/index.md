@@ -12,6 +12,7 @@ new: true
 In this project you will make a Rock, Paper, Scissors game and play against the computer.  
 
 Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+
 + Rock blunts scissors
 + Paper covers rock
 + Scissors cut paper
