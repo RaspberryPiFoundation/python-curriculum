@@ -1,0 +1,12 @@
+rainbow, 10, 34, 8, 9, rainbow.gif, orange
+space, 13, 28, 11, 12, space.gif, grey
+bird, 6, 4, 5, 20, bird.gif, blue
+jet, 2, 5, 3, 25, jet.gif, coral
+twoheads, 4, 64, 18, 6, twoheads.gif, green
+dog, 10, 12, 20, 9, dog.gif, turquoise
+round, 12, 33, 29, 7, round.gif, blue
+brains, 9, 88, 15, 7, brains.gif, brown
+tv, 18, 6, 5, 16, tv.gif, black
+hair, 8, 88, 18, 9, hair.gif, teal
+shades, 22, 43, 18, 10, shades.gif, coral
+yellow, 2, 3, 9, 5, yellow.gif, gold
