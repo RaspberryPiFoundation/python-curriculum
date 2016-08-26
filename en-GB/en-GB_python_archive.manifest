@@ -1,8 +1,8 @@
 {
-    "description": "Archived Python Projects",
-    "id": "python",
+    "description": false,
+    "id": "python_archive",
     "language": "en-GB",
-    "number": 20,
+    "number": 9,
     "title": "Archived Python Projects",
     "category": "cat-python",
     "projects": [
