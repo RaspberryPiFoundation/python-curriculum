@@ -9,7 +9,7 @@ This project introduces the use of web services to find the current location of 
 
 This project makes use of a set of web services. Please make sure you can access them from the computers that you will be using for Code Club. 
 
-+ [Open Nofify APIs -- http://api.open-notify.org/] (http://api.open-notify.org/)
++ [Open Nofify APIs -- api.open-notify.org/](http://api.open-notify.org/)
 
 __This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
