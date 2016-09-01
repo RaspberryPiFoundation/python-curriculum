@@ -96,7 +96,7 @@ Now for the fun bit. Let's add some racing turtles. It would be really boring if
 
 ## Activity Checklist { .check}
 
-+ When you use commands like `forward(20)` you are using the 1 turtle. But you can create more turtles. Add the following code to the end of your script:
++ When you use commands like `forward(20)` you are using a single turtle. But you can create more turtles. Add the following code to the end of your script (but make sure it's not indented):
 
   ![screenshot](images/race-red.png)
 
@@ -118,7 +118,7 @@ Now for the fun bit. Let's add some racing turtles. It would be really boring if
 
   ![screenshot](images/race-blue.png)
   
-  Note that the code for moving the blue turtle needs to be in the same `for` loop as the code for moving the red turtle so that they each make a move every turn. 
+  Note that the code for moving the blue turtle needs to be in __the same__ `for` loop as the code for moving the red turtle so that they each make a move every turn. 
   
 ## Save Your Project {.save}
 
@@ -140,7 +140,7 @@ Can you use a `for turn in range():` loop to make each turtle do a 360 degree tw
 
 `red.right(36)` will turn the red turtle right by 36 degrees. 
 
-**Hint:** A full turn is 360 degrees. A turtle could turn right 10 degrees 36 times. Or left 5 degrees 72 times. Or ...
+**Hint:** A full turn is 360 degrees. A turtle could turn right 10 degrees 36 times, or left 5 degrees 72 times, or any other numbers make 360!
 
 ## Challenge: Dashed lines {.challenge}
 

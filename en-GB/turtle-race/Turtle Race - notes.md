@@ -38,6 +38,8 @@ You can also find a completed version of this project's challenges in the 'Volun
 + Dashed lines - change solid lines into dashed lines, requires a nested loop.
 
 #Frequently Asked Questions
-+ Children may need reminding about the colon ':' at the end of a `for`, it's easy to omit. 
-+ Incorrect indentation is a common problem when writing loops. 
++ Children may need reminding about the colon `:` at the end of a `for`, it's easy to omit. 
++ Incorrect indentation is a common problem when writing loops.
++ Children may need reminding that there shouldn't be a space in the code `forward(100)`.
++ Children should make sure that they write 'color' and 'center' using the American spelling.
 
