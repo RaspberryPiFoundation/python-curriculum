@@ -153,7 +153,7 @@ Let’s use another web service to find out where the International Space Statio
 
 ## Activity Checklist { .check}
 
-+ First open the url for the web service in a new tab in your web browser: <a href="http://api.open-notify.org/astros.json" target="_blank">http://api.open-notify.org/astros.json</a>
++ First open the url for the web service in a new tab in your web browser: <a href="http://api.open-notify.org/iss-now.json" target="_blank">http://api.open-notify.org/iss-now.json</a>
   
   You should see something like this:
   
