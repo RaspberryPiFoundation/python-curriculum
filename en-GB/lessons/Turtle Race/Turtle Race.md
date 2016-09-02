@@ -4,7 +4,7 @@ level: Python 1
 language: en-GB
 stylesheet: python
 embeds: "*.png"
-materials: ["project-resources/*.*", "volunteer-resources/*.*"]
+materials: ["project-resources/new/*.*", "volunteer-resources/turtle-race-finished/*.*"]
 ...
 
 # Introduction { .intro}
