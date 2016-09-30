@@ -100,7 +100,7 @@ Now for the fun bit. Let's add some racing turtles. It would be really boring if
 
   ![screenshot](images/race-red.png)
 
-  The first line creates a turtle called 'red'. The next lines set the colour and shape of the turtle. Now it really looks like a turtle!
+  The first line creates a turtle called 'ada'. The next lines set the colour and shape of the turtle. Now it really looks like a turtle!
   
 + Let's send the turtle to the starting line:
 
@@ -138,7 +138,7 @@ Colours include: orange, purple, violet, tomato, turquoise, magenta and brown - 
 
 Can you use a `for turn in range():` loop to make each turtle do a 360 degree twirl after they get to the starting line? You'll need to make sure they are facing in the right direction at the start of the race!
 
-`red.right(36)` will turn the red turtle right by 36 degrees. 
+`ada.right(36)` will turn the red turtle right by 36 degrees. 
 
 **Hint:** A full turn is 360 degrees. A turtle could turn right 10 degrees 36 times, or left 5 degrees 72 times, or any other numbers make 360!
 
