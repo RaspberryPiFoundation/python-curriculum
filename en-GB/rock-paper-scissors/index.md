@@ -99,18 +99,14 @@ Now it's the computer's turn. You can use the `randint` function to generate a r
 
    ![screenshot](images/rps-print-computer.png)
    
-   You can either delete the line `print(chosen)`, or make the computer ignore it be adding a `#` at the start of the line.
+   You can either delete the line `print(chosen)`, or make the computer ignore it by adding a `#` at the start of the line.
       
 + Test your code by clicking Run and choosing your option. 
 
 + Hmm, the computer's choice gets printed on a new line. You can fix that by adding `end=' '` after `vs`, that tells Python to end with a space instead of a new line. 
 
    ![screenshot](images/rps-same-line.png)
-   
-   Putting a hash '#' at the beginning of a line tells Python not to run that line. 
-   
-   You can delete the line once you have tested your new code.
-   
+      
 + Play the game a few times by clicking Run and making a choice.
 
   For now you'll have to work out who won yourself. Next you'll add the Python code to work this out.   
