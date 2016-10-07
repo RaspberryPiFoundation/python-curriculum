@@ -52,14 +52,10 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
 	+ o - 3 = __l__
 	+ r - 3 = __o__	
 
-## Save Your Project {.save}
-
 ## Challenge: Use a Caesar cipher { .challenge}
 Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
 
 You could even send entire sentences to each other!
-
-## Save Your Project {.save}
 
 #Step 2: Encrypting letters { .activity}
 
