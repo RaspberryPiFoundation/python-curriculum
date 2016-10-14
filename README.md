@@ -1,6 +1,6 @@
 # Code Club Python Curriculum
 
-This repository contains the Code Club Python curriculum. It consists of lesson notes and plans in markdown format along with Python project files.
+This repository contains the materials for the [Code Club Python projects](https://codeclubprojects.org/en-GB/python/). It consists of lesson notes and plans in markdown format along with Python project files.
 
 __More information on our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/README.md).__
 
