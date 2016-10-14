@@ -13,29 +13,3 @@ If you're a club leader trying out new projects, please complete <a href="https:
 This material is openly available for everyone to use and contribute to. Right now, we’re receiving translations from all over the world.
 
 Instructions on how to contribute to our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/contributing.md).
-
-##Python 1
-* ASCII Art
-* The Year 2025
-* Quiz
-* Turtle Power
-* Gameshow
-* Compliment Generator
-
-##Python 2
-* Secret Messages
-* Teaching Turtles
-* Text-speak Converter
-* Pokedex
-* RPG
-* Minecraft 2D
-
-##Archived Projects
-* Turtles All The Way Down
-* Hangman
-* Noughts and Crosses
-* Playing Against the Computer
-
-
-
-
