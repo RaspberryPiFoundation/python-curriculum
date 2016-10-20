@@ -1,9 +1,9 @@
 distances = {
-    "mercury"   : 91700000,
-    "mars"      : 54600000
+    "mercúrio"   : 91700000,
+    "marte"      : 54600000
 }
 
-planet = input("Enter a planet: ").lower()
+planet = input("Digite um planeta: ").lower()
 distance = distances[planet]
 
-print(planet , "is" , distance , "km from the Earth")
+print(planet , "está a" , distance , "km da Terra")

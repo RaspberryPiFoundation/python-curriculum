@@ -4,18 +4,18 @@ passwordDictionary = {
     
     }
 
-print("Super-secret program")
+print("Programa super secreto")
 print("====================")
 
 
-name = input("Name : ").lower()
-password = input("Password : ").lower()
+name = input("Nome : ").lower()
+password = input("Senha : ").lower()
 
 if name in passwordDictionary and passwordDictionary[name] == password:
 
-    print("\nWELCOME", name.upper())
+    print("\nBEM-VINDO", name.upper())
 
 else:
     
-    print("Access denied")
+    print("Acesso negado")
 
