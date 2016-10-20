@@ -1,40 +1,40 @@
 {
-    "description": "Python 2",
-    "id": "python",
+    "description": false,
+    "id": "python_02",
     "language": "en-GB",
-    "number": 10,
+    "number": 8,
     "title": "Python 2",
     "category": "cat-python",
     "projects": [
         {
             "number":   1,
-            "filename": "lessons/Secret Messages/Secret Messages.md",
-            "note":     "lessons/Secret Messages/Secret Messages - notes.md"
+            "filename": "lessons/Modern Art/Modern Art.md",
+            "note":     "lessons/Modern Art/Modern Art - notes.md"
         },
         {
             "number":   2,
-            "filename": "lessons/Teaching Turtles/Teaching Turtles.md",
-            "note":     "lessons/Teaching Turtles/Teaching Turtles - notes.md"
+            "filename": "lessons/Popular Pets/Popular Pets.md",
+            "note":     "lessons/Popular Pets/Popular Pets - notes.md"
         },
         {
             "number":   3,
-            "filename": "lessons/Text-speak Converter/Text-speak Converter.md",
-            "note":     "lessons/Text-speak Converter/Text-speak Converter - notes.md"
-        },
-        {
-            "number":   4,
-            "filename": "lessons/Pokedex/Pokedex.md",
-            "note":     "lessons/Pokedex/Pokedex - notes.md"
-        },
-        {
-            "number":   5,
             "filename": "lessons/RPG/RPG.md",
             "note":     "lessons/RPG/RPG - notes.md"
         },
         {
+            "number":   4,
+            "filename": "lessons/ISS/ISS.md",
+            "note":     "lessons/ISS/ISS - notes.md"
+        },
+        {
+            "number":   5,
+            "filename": "lessons/Robo-Trumps/Robo-Trumps.md",
+            "note":     "lessons/Robo-Trumps/Robo-Trumps.md"
+        },
+        {
             "number":   6,
-            "filename": "lessons/Minecraft2D/Minecraft2D.md",
-            "note":     "lessons/Minecraft2D/Minecraft2D - notes.md"
+            "filename": "lessons/CodeCraft/CodeCraft.md",
+            "note":     "lessons/CodeCraft/CodeCraft - notes.md"
         }
     ]
 }

@@ -1,41 +1,41 @@
 from random import *
 
-#the user changes this varialbe to end the game
-playing = True
+#gracz zmienia ta zmienna zeby zakonczyc gre
+gramDalej = True
 
-score = 0
+punkty = 0
 
-#print the game instructions
+#wyswietl instrukcje gry
 print('''
-Twenty One!
-===========
-Try to score exactly 21 points!
+Dwadziescia jeden!
+==================
+Sproboj zebrac dokladnie 21 punktow
 ''')
 
-#repeat as long as the 'playing' variable is set to 'True'
-while playing == True:
+#powtarzaj tak dlugo jak zmienna gramDalej jest uswationwa na True
+while gramDalej == True:
 
-    #randomly choose a number between 1 and 10
-    newNumber = randint(1,10)
+    #losowo wybierz liczbe od 1 do 10
+    nowaLiczba = randint(1,10)
 
-    #add the new number to the score
-    score = score + newNumber
+    #dodaj nowa liczbe do punktow
+    punkty = punkty + nowaLiczba
 
-    #show the data to the player
-    print("\nYour next number is", newNumber)
-    print("Your score is now", score)
+    #wyswiell nowe dane 
+    print("\nTwoja nowa liczba to ", nowaLiczba)
+    print("Twoja obecna liczba puntkow to", punkty)
 
-    #end the game if the user types 'n'
-    #or if the score is over 21
-    print("\nDo you want to add another number? (y/n)")
-    answer = input()
-    if answer.lower() == 'n' or score > 21:
-        playing = False
+    #zakoncz gre jesli gracz odpowie 'n'
+    #lub jesli liczba punktow jest wieksza od 21
+    print("\nCzy chcesz dodac kolejna liczbe? (t/n)")
+    odpowiedz = input()
+    if odpowiedz.lower() == 'n' or punkty > 21:
+        gramDalej = False
     
-print("\nYour final score is", score)
+print("\nTwoja koncowa liczba punktow to", punkty)
 
-#the player wins if they score 21
-if score == 21:
-    print("YOU WIN!!")
+#gracz zwycieza jesli punkty wynosza 21
+if punkty == 21:
+    print("WYGRALES!!")
 else:
-    print("Unlucky!")
+    print("Niestety, przegrales!")

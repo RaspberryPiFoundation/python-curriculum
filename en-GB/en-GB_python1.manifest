@@ -1,40 +1,40 @@
 {
-    "description": "Python 1",
-    "id": "python",
+    "description": false,
+    "id": "python_01",
     "language": "en-GB",
-    "number": 9,
+    "number": 7,
     "title": "Python 1",
     "category": "cat-python",
     "projects": [
         {
             "number":   1,
-            "filename": "lessons/ASCII Art/ASCII Art.md",
-            "note":     "lessons/ASCII Art/ASCII Art - notes.md"
+            "filename": "lessons/About Me/About Me.md",
+            "note":     "lessons/About Me/About Me - notes.md"
         },
         {
             "number":   2,
-            "filename": "lessons/The Year 2025/The Year 2025.md",
-            "note":     "lessons/The Year 2025/The Year 2025 - notes.md"
+            "filename": "lessons/Rock Paper Scissors/Rock Paper Scissors.md",
+            "note":     "lessons/Rock Paper Scissors/Rock Paper Scissors - notes.md"
         },
         {
             "number":   3,
-            "filename": "lessons/Quiz/Quiz.md",
-            "note":     "lessons/Quiz/Quiz - notes.md"
+            "filename": "lessons/Turtle Race/Turtle Race.md",
+            "note":     "lessons/Turtle Race/Turtle Race.md"
         },
         {
             "number":   4,
-            "filename": "lessons/Turtle Power/Turtle Power.md",
-            "note":     "lessons/Turtle Power/Turtle Power - notes.md"
+            "filename": "lessons/Team Chooser/Team Chooser.md",
+            "note":     "lessons/Team Chooser/Team Chooser - notes.md"
         },
         {
             "number":   5,
-            "filename": "lessons/Gameshow/Gameshow.md",
-            "note":     "lessons/Gameshow/Gameshow - notes.md"
+            "filename": "lessons/Colourful Creations/Colourful Creations.md",
+            "note":     "lessons/Colourful Creations/Colourful Creations - notes.md"
         },
         {
             "number":   6,
-            "filename": "lessons/Compliment Generator/Compliment Generator.md",
-            "note":     "lessons/Compliment Generator/Compliment Generator - notes.md"
+            "filename": "lessons/Secret Messages/Secret Messages.md",
+            "note":     "lessons/Secret Messages/Secret Messages - notes.md"
         }
     ],
 

@@ -1,12 +1,12 @@
 from random import *
 
-#print the 3 doors and the game instructions
+#wyswietl 3 drzwi i zasady gry
 print('''
-Gameshow!
+Teleturniej!
 =========
 
-There's a prize behind one of the 3 doors!
-Guess the correct door to win the prize!
+Za jednymi z tych drzwi znajduje siê nagroda!
+Wybierz te w³aœciwe i zgarnij nagrodê!
   _____   _____   _____
  |     | |     | |     |
  | [1] | | [2] | | [3] |
@@ -14,29 +14,31 @@ Guess the correct door to win the prize!
  |_____| |_____| |_____|
 ''')
 
-score = 0
+punkty = 0
 
-#allow the player 3 attempts
-for attempt in range(3):
+#daj graczowi 3 szanse
+for szansa in range(3):
 
-    print("\nChoose a door (1, 2 or 3):")
+    print("\nWybierz drzwi (1, 2 or 3):")
 
-    #get the chosen door and store it as an integer (whole number)
-    chosenDoor = input()
-    chosenDoor = int(chosenDoor)
+    #wczytaj wybrane drzwi i zapisz je jako liczbe calkowita
+    wybraneDrzwi = input()
+    wybraneDrzwi = int(wybraneDrzwi)
 
-    #randomly choose the winning door number (between 1 and 3)
-    winningDoor = randint(1,3)
+    #losowo wybierz liczbe oznaczajaca zwycieskie drzwi (liczbe pomiedzy 1 a 3)
+    drzwiZNagroda = randint(1,3)
 
-    #show the player the winning and chosen door numbers
-    print("The chosen door is", chosenDoor)
-    print("The winning door is", winningDoor)
+    #wyswietl graczowi wybrane i zwycieskie drzwi
+    print("Wybrales drzwi numer", wybraneDrzwi)
+    print("Wygrywaja drzwi numer", drzwiZNagroda)
 
-    #player wins if the chosen door and winning door number are the same
-    if chosenDoor == winningDoor:
-        print("Well done!")
-        score += 1
+    #gracz wygrywa, jesli wybrane drzwi i wygrywajace drzwi sa takie same
+    if wybraneDrzwi == drzwiZNagroda:
+        print("Gratulacje!")
+        punkty = punkty + 1
     else:
-        print("Unlucky!")
+        print("Niestety, przegrales!")
 
-print("\nYour final score is", score)
+    print("Twoja liczba punktow to", punkty)
+
+print("Twoja koncowa liczba punktow to", punkty)

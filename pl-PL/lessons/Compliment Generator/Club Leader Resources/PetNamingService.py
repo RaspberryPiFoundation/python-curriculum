@@ -1,9 +1,9 @@
 from random import *
 
-print("Pet naming service")
-print("------------------")
+print("Uslugi nazywania zwierzakow")
+print("---------------------------")
 
-names = ["Bob", "Fluffy", "Martin", "Spot"]
+imiona = ["Reksio", "Azor", "Mruczek", "As"]
 
-#print a random name in the 'names' list
-print("You should name your new pet" , choice(names))
+#wyswietl losowe imie z listy 'imiona'
+print("Nazwij swojego zwierzaka" , choice(imiona))

@@ -1,20 +1,20 @@
-#a list of the letters to encrypt
-alphabet = "abcdefghijklmnopqrstuvwxyz"
+#lista liter do szyfrowania
+alfabet = "abcdefghijklmnopqrstuvwxyz"
 
-#the secret key is 3
-key = 3
+#tajny klucz to 3
+klucz = 3
 
-character = input("Please enter a character to encrypt: ")
+litera = input("Wprowadz litere do zaszyfrowania: ")
 
-#find the position of the character in the alphabet
-#e.g. 'a' is position 0, 'e' is position 4, etc.
-position = alphabet.find(character)
+#znajdz pozycje litery w alfabecie
+#na przyklad 'a' jest na pozycji 0, 'e' jest na pozycji 4, itd.
+pozycja = alfabet.find(litera)
 
-#add the secret key to find the encrypted character position
-# % 26 means 'go back to 0 once you get to 26'
-newPosition = (position + key) % 26
+#dodaj tajny klucz aby otrzymac pozycje zaszyfrowanej litery
+# % 26 oznacza 'wroc do 0 kiedy osiagniesz 26'
+nowaPozycja = (pozycja + klucz) % 26
 
-#the encrypted letter is in the alphabet at newPosition
-encryptedLetter = alphabet[newPosition]
+#zaszyfrowana litera znajduje sie na pozycji nowaPozycja w alfabecie
+zaszyfrowanaLitera = alfabet[nowaPozycja]
         
-print("Your encrypted letter is" , encryptedLetter)
+print("Twoja litera po zaszyfrowaniu to" , zaszyfrowanaLitera)
