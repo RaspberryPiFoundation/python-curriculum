@@ -1,328 +1,328 @@
 ---
-title: Text-speak Converter
+title: Conversor de expressões
 level: Python 2
-language: en
+language: pt-BR
 stylesheet: python
 embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 ...
 
-#Introduction:  { .intro}
+#Introdução:  { .intro}
 
-In this project you'll learn how to make a program for translating text-speak into sentences.
+Neste projeto, você vai aprender a criar um programa para traduzir expressões em frases.
 
-#Step 1: Translating words { .activity}
+#Etapa 1: Traduzindo palavras { .activity}
 
-Let's make a program to convert text-speak to English.
+Vamos fazer um programa para converter expressões para o português.
 
-## Activity Checklist { .check}
+## Lista de verificação da atividade { .check}
 
-+ As you probably already know, a dictionary allows you to look up a word, and see it's meaning. In Python, a dictionary is even more flexible that that - it allows you to map anything (called a _key_) to anything else! Here's a dictionary that links text-speak words to their meaning:
++ Como você provavelmente sabe, um dicionário serve para que você procure por uma palavra e encontre seu significado. Em Python, um dicionário é ainda mais flexível que isso - ele permite que você mapeie qualquer coisa (que chamamos chave, ou _key_) para qualquer outra coisa! Temos aqui um dicionário que relaciona expressões a seus significados:
 
     ```python
     textSpeakDictionary = {
-        "lol"   : "laugh out loud" ,
-        "idk"   : "I don't know"
+        "rs"   : "risos" ,
+        "tmb"   : "também"
     }
     ```
 
-    So, in the dictionary above, the key "lol" maps to the text "laugh out loud", and the key "idk" maps to the text "I don't know". You should use a colon (`:`) to map the text-speak keys to their meanings, and put a comma between each dictionary entry.
+    Assim, no dicionário acima, a chave "rs" se relaciona ao texto "risos", e a chave "tmb" ao texto "também". Você deve usar o sinal de dois pontos (`:`) para mapear as chaves das expressões a seus significados, e colocar uma vírgula entre cada item do dicionário.
 
-+ Getting information out of the dictionary is easy; you just need to add the key after the dictionary variable name, in square brackets. Here's a short program that shows how this works:
++ Obter informações do dicionário é fácil; você só precisa adicionar a chave depois do nome da variável que representa o dicionário, entre colchetes. Temos aqui um pequeno programa que mostra como isso funciona:
 
     ```python
     textSpeakDictionary = {
-        "lol"   : "laugh out loud" ,
-        "idk"   : "I don't know"
+        "rs"   : "risos" ,
+        "tmb"   : "também"
     }
 
-    #print the entire dictionary
-    print( "Dictionary =" , textSpeakDictionary )
+    #imprime o dicionário inteiro
+    print( "Dicionário =" , textSpeakDictionary )
 
-    #print just the entry for "lol"
-    print( "\nlol =" , textSpeakDictionary["lol"] )
+    #imprime apenas o conteúdo relacionado à chave "rs"
+    print( "\nrs =" , textSpeakDictionary["rs"] )
 
-    #the entry for the user's input
-    key = input("\nWhat would you like to translate? : ")
+    #texto que pede a entrada do usuário
+    key = input("\nO que você gostaria de converter? : ")
     print( key , "=" , textSpeakDictionary[key] )
     ```
 
     ![screenshot](textspeak-dictionary.png)
 
-    This program prints 3 things: the entire dictionary, the dictionary entry for "lol" and finally the dictionary entry for whatever the user inputs.
+    Este programa imprime 3 coisas: o dicionário inteiro, o conteúdo relacionado à chave "rs" e por fim a mensagem do dicionário para qualquer entrada do usuário.
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}
 
-#Step 2: Translating sentences { .activity}
+#Etapa 2: Traduzindo frases { .activity}
 
-Let's amend your program, so that you can translate whole sentences instead of just single words.
+Vamos melhorar nosso programa, assim você pode traduzir frases inteiras ao invés de uma única palavra.
 
-## Activity Checklist { .check}
+## Lista de verificação da atividade { .check}
 
-+ Run this program, which splits up a sentence into individual words, and then translates each word (if it exists in the dictionary):
++ Execute este programa, que ajuda a dividir uma frase em palavras individuais, e depois traduza cada palavra (se ela existir no dicionário):
 
     ```python
     textSpeakDictionary = {
-        "lol"   : "laugh out loud" ,
-        "idk"   : "I don't know"
+        "rs"   : "risos" ,
+        "tmb"   : "também"
     }
 
-    #get the sentence to translate
+    #obtém a frase para tradução
     sentence = input("Enter a sentence to translate: ").lower()
 
-    #this splits up the sentence into a list of words
+    #divide a frase em uma lista de palavras
     wordsToTranslate = sentence.split()
 
     translatedSentence = ""
 
-    #loop through each word in the list
+    #passa por cada palavra da lista
     for word in wordsToTranslate:
 
-    	#add the translated word if it exists in the dictionary
+    	#adiciona a palavra traduzida caso ela exista no dicionário
         if word in textSpeakDictionary:
 
             translatedSentence += textSpeakDictionary[word] + " "
 
-        #just keep the original word if there's no translation
+        #mantém a palavra original caso não exista tradução
         else:
 
             translatedSentence += word + " "
 
-    #print the translated sentence
+    #imprime a frase traduzida
     print("==>")
     print(translatedSentence)
     ```
 
     ![screenshot](textspeak-sentence.png)
 
-    Each word is taken in turn, and the program checks whether the word to translate is in the dictionary. If it is, then the translated text added to the `translatedSentence` variable, which is printed at the end of the program. If the word isn't in the dictionary, then just the original word is added to the `translatedSentence` variable.
+    O programa pega uma palavra de cada vez e verifica se ela está no dicionário. Se estiver, então o texto traduzido é adicionado à variável `translatedSentence`, que é exibida no final do programa. Se a palavra não estiver no dicionário, então apenas a palavra original é adicionada à variável `translatedSentence`.
 
-    Notice that whenever a word is added to `translatedSentence`, a space is also added (` + " "`). What do you think would happen if this space wasn't added?
+    Observe que sempre uma palavra é adicionada à `translatedSentence`, um espaço também é adicionado (` + " "`). O que você acha que aconteceria se esse espaço não fosse adicionado?
 
-## Challenge: Adding translations { .challenge}
-+ Add some more translations to the program above. For example:
+## Desafio: Adicionando traduções { .challenge}
++ Adicione mais algumas traduções ao programa acima. Por exemplo:
 	
-	+ "jk" = "just kidding"
-	+ "bc" = "because"
+	+ "vc" = "você"
+	+ "pq" = "porque"
 
-You might need to research some text-speak if you don't know any.
+Você deve pesquisar algumas expressões caso não conheça nenhuma.
 
-+ Try out the program above, with a number of different sentences, to test that your program works.
++ Experimente o programa acima, com um número diferente de frases, para ver se ele funciona.
 
 ![screenshot](textspeak-test.png)
 
-+ Did you (or your friends) do anything to break your program? If so, can you fix any problems?
++ Você ou seus amigos fizeram alguma coisa para travar o programa? Se sim, você consegue resolver o problema?
 
-#Step 3: Adding and deleting translations { .activity}
-## Activity Checklist { .check}
+#Etapa 3: Adição e remoção de traduções { .activity}
+## Lista de verificação da atividade { .check}
 
-+ Just like with your 'compliment generator' program, it would be nice to allow the user to add and remove words from the dictionary. You can do this, by creating a menu system:
++ Assim como o seu programa 'gerador de cumprimentos', seria legal permitir que o usuário adicione e remova palavras do dicionário. Você pode fazer isso criando um menu:
 
     ```python
     def displayMenu():
-        print("txt spk cnvtr")
+        print("trdtr de exprss")
         print("=" * 13)
         print("Menu:")
-        print("  c = convert a sentence")
-        print("  p = print dictionary")
-        print("  a = add a word")
-        print("  d = delete a word")
-        print("  q = quit")
+        print("  c = converter uma frase")
+        print("  p = imprimir dicionário")
+        print("  a = adicionar uma palavra")
+        print("  d = remover uma palavra")
+        print("  q = sair")
 
     #-------------------------------------------------------
 
     def convertSentence():
-        sentence = input("Enter a sentence to translate: ").lower()
+        sentence = input("Insira uma frase para traduzir: ").lower()
         translatedSentence = ""
 
-        #this splits up the sentence into a list of words
+        #divide a frase em uma lista de palavras
         listOfWords = sentence.split()
 
         for word in listOfWords:
-            #add the translated word if it exists in the dictionary
+            #adiciona a palavra traduzida se ela existir no dicionário
             if word in textSpeakDictionary:
 
                 translatedSentence += textSpeakDictionary[word] + " "
 
-            #just keep the original word if there's no translation
+            #mantém a palavra original caso não exista tradução
             else:
 
                 translatedSentence += word + " "
 
-        #print the translated sentence
+        #imprime a frase traduzida
         print("==>")
         print(translatedSentence)  
 
     #-------------------------------------------------------
 
     def addDictionaryItem():
-        txtToAdd = input("Enter the text-speak to add to the dictionary: ")
-        meaning = input("What does this mean?: ")
-        #add the new translation to the dictionary
+        txtToAdd = input("Insira a expressão a ser adicionada ao dicionário: ")
+        meaning = input("O que ela significa?: ")
+        #adiciona a nova tradução ao dicionário
         textSpeakDictionary[txtToAdd] = meaning
 
     #-------------------------------------------------------
 
     def deleteDictionaryItem():
-        txtToDelete = input("Enter the text-speak to delete from the dictionary: ")
-        #delete the translation from the dictionary
+        txtToDelete = input("Insira a expressão a ser removida ao dicionário: ")
+        #remove a tradução do dicionário
         del textSpeakDictionary[txtToDelete]
 
     #-------------------------------------------------------
-    # main program starts here!
+    # o programa principal começa aqui!
     #-------------------------------------------------------
 
     textSpeakDictionary = {
-        "lol"  : "laugh out loud" ,
-        "idk"  : "I don't know" ,
-        "jk"   : "just kidding" ,
-        "bc"   : "because"
+        "rs"  : "risos" ,
+        "tmb"  : "também" ,
+        "vc"   : "você" ,
+        "pq"   : "porque"
     }
 
     running = True
 
     displayMenu()
 
-    #repeat until the user inputs 'q' to quit
+    #repete até que o usuário digite 'q' para sair
     while running == True:
         
         menuChoice = input(">_").lower()
 
-        #c to convert
+        #c para converter
         if menuChoice == 'c':
             convertSentence()
             
-        #p to print
+        #p para imprimir
         elif menuChoice == 'p':
             print(textSpeakDictionary)
 
-        #a to add
+        #a para adicionar
         elif menuChoice == 'a':
             addDictionaryItem()
 
-        #d to delete
+        #d para remover
         elif menuChoice == 'd':
             deleteDictionaryItem()
 
-        #q to quit
+        #q para sair
         elif menuChoice == 'q':
             running = False
 
         else:
-            print("Invalid menu choice!")
+            print("Escolha inválida!")
     ```
 
     ![screenshot](textspeak-menu.png)
 
-    Although this is a loooong program, you've seen most of this code before in other programs. The new bits are just the code to add an item to the dictionary:
+    Apesar de esse programa ser loooongo, você já viu a maior parte desse código em outros programas. Os novos trechos são apenas o código para adicionar um item ao dicionário.
 
     ```python
-    txtToAdd = input("Enter the text-speak to add to the dictionary: ")
-    meaning = input("What does this mean?: ")
-    #add the new translation to the dictionary
+    txtToAdd = input("Insira a expressão a ser adicionada ao dicionário: ")
+    meaning = input("O que ela significa?: ")
+    #adiciona a nova tradução ao dicionário
     textSpeakDictionary[txtToAdd] = meaning
     ```
 
-    ...and the code to remove an item:
+    ...e o código para remover um item:
 
     ```python
-    txtToDelete = input("Enter the text-speak to delete from the dictionary: ")
-    #delete the translation from the dictionary
+    txtToDelete = input("Insira a expressão a ser removida ao dicionário: ")
+    #remove a tradução do dicionário
     del textSpeakDictionary[txtToDelete]
     ```
 
-    The code for each of the menu options is also in it's own function, to make the code much easier to read.
+    O código para cada uma das opções do menu também está em sua própria função, para tornar o código mais fácil de ler.
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}
 
-## Challenge: Testing your program { .challenge}
-Run your program, and try to add a word that already exists in the dictionary. What happens? What happens when you try and remove something that isn't in the dictionary? Can you improve your program so that:
+## Desafio: Testando seu programa { .challenge}
+Execute seu programa e tente adicionar uma palavra que já existe no dicionário. O que acontece? O que acontece quando você tenta remover algo que não está no dicionário? Você pode melhorar seu programa para que:
 
-+ you can only add dictionary keys that don't already exist?
++ você só possa adicionar chaves que ainda não existem?
 
 ```python
 if itemToAdd not in textSpeakDictionary:
-	#Add your code here!
+	#Adicione seu código aqui!
 ```
 
-+ you can only delete keys if they already exist in the dictionary?
++ você só possa remover chaves se elas já existirem no dicionário?
 
 ```python
 if itemToDelete not in textSpeakDictionary:
-	#Add your code here!
+	#Adicione seu código aqui!
 ```
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}
 
-#Step 4: Fixing your program { .activity}
-## Activity Checklist { .check}
+#Etapa 4: Arrumando seu programa { .activity}
+## Lista de verificação da atividade { .check}
 
-+ You've already done lots of testing to improve your program, but there's one more thing that you can fix, to make your program even better. Look what happens when you test your program with the following sentence:
++ Você já fez vários testes para melhorar seu programa, mas ainda há coisa que você pode arrumar para deixar seu programa ainda melhor. Veja o que acontece quando você testa seu programa com a seguinte frase:
 
     ![screenshot](textspeak-punctuation.png)
 
-    It doesn't get translated properly. Try it out for yourself.
+    Ela não é traduzida corretamente. Experimente você mesmo.
 
-+ Why doesn't your program convert the 'lol' in this sentence? It's because your program splits up the sentence into words, like this:
++ Por que seu programa não converte a expressão 'rs' dessa frase? É porque seu programa divide a frase em palavras, assim:
 
     ```python
-    words = [ "hello" , "lol!" ]
+    words = [ "oi" , "rs!" ]
     ```
 
-    It then looks up the key `"lol!"` in your dictionary (with the exclaimation mark), and can't find a translation for it, because `"lol!"` doesn't exist! One simple way to avoid this problem is to remove some punctuation from the sentence before it is translated. Add this code to your `convertSentence()` function:
+    Então, ele procura pela chave `"rs!"` em seu dicionário (com o ponto de exclamação), e não encontra tradução alguma, porque `"rs!"` não existe! Uma forma simples de evitar esse problema é remover a pontuação da frase antes de traduzi-la. Adicione esse código à função `convertSentence()`:
 
     ```python
     def convertSentence():
-        sentence = input("Enter a sentence to translate: ").lower()
+        sentence = input("Insira uma frase para traduzir: ").lower()
         translatedSentence = ""
 
-        #take out some punctuation from the sentence
+        #remove a pontuação da frase
         for char in '?!.,':
         	sentence = sentence.replace(char,'') 
 
-        #this splits up the sentence into a list of words
+        #divide a frase em uma lista de palavras
         listOfWords = sentence.split()
         ...
     ```
 
-    This extra code loops through each of the punctuation marks `?!.,` in turn, and replaces them in the sentence with... nothing! This removes the punctuation from the sentence.
+    Esse código extra passa por cada ponto `?!.,` e os substitui na frase por... nada! Ele remove a pontuação da frase.
 
-+ After adding in this code to take out the punctuation, try translating `"hello, lol!"` again, to check whether you've solved the problem.
++ Depois de adicionar esse código para remover a pontuação, tente traduzir `"oi, rs!"` novamente, para verificar se o problema foi resolvido.
 
-## Challenge: Distant planets { .challenge}
-Make a program to give the user information about any topic you like. For example planets, and their distances from the Earth. You can store this data in a dictionary that links planets and distances. 
+## Desafio: Planetas distantes { .challenge}
+Faça um programa para dar informações ao usuário sobre o tópico que você quiser. Por exemplo: planetas e suas distâncias da Terra. Você pode armazenar esses dados em um dicionário que liga planetas e distâncias. 
 
 ![screenshot](textspeak-planets.png)
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}
 
-## Challenge: Password protection { .challenge}
-Create a password-protection program, that asks the user for their name and password, and checks a dictionary to see if they've entered the correct details. 
+## Desafio: Proteção de senha { .challenge}
+Crie um programa de proteção de senha, que pede que o usuário informe seu nome e senha e verifica se os dados estão corretos em um dicionário. 
 
 ![screenshot](textspeak-password.png)
 
-Your program will need to check that the user's name exists in the dictionary, _and_ that the correct password for that user has been entered. You can use this code to help you:
+Seu programa precisa verificar se o nome do usuário existe no dicionário _e_ se a senha para esse usuário foi fornecida. Você pode usar esse código como guia:
 
 ```python
-#check that the name exists, and that the password is correct
+#verifica se o nome existe e se a senha está correta
 if name in passwordDictionary and password == passwordDictionary[name]:
-	#add code here!
+	#adicione o código aqui!
 ```
 
-Make sure that your program works, by testing what happens when the user enters valid and invalid names and passwords.
+Verifique se seu programa funciona testando o que acontece quando o usuário entra com nomes e senhas válidos e inválidos.
 
-If you feel like it, you could also:
+Se quiser, você também pode:
 
-+ add this login code to one of the programs you've already created, so that the program can only be used by your friends.
++ adicionar esse código de login a um dos programas que você já criou, assim ele só poderá ser usado por seus amigos.
 
-+ only allow the user 3 attempts to login..., adding 1 to `loginAttempts` whenever access is denied.
++ permitir apenas 3 tentativas de login..., somando 1 a `loginAttempts` sempre que um acesso for negado.
 
 ```python
 loginAttempts = 0
 while loginAttempts < 3:
-    #login code goes here!
+    #insira o código do login aqui!
 ```
 
-+ You could even use what you've learnt about dictionaries to create a program for storing your friend's email addresses, or translating text from one language to another. You could even password-protect this program to make it secure!
++ Você pode usar até o que você aprendeu sobre dicionários para criar um programa para armazenar os endereços de e-mail dos seus amigos, ou traduzir um texto de um idioma para outro. Você pode até criar uma proteção de senha para que esse programa seja seguro!
 
-## Save Your Project {.save}
+## Salve seu projeto {.save}

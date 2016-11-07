@@ -1,54 +1,54 @@
 def displayMenu():
-    print("txt spk cnvtr")
+    print("trdtr de exprss")
     print("=" * 13)
     print("Menu:")
-    print("  c = convert a sentence")
-    print("  p = print dictionary")
-    print("  a = add a word")
-    print("  d = delete a word")
-    print("  q = quit")
+    print("  c = converter uma frase")
+    print("  p = imprimir dicionário")
+    print("  a = adicionar uma palavra")
+    print("  d = remover uma palavra")
+    print("  q = sair")
 
 #-------------------------------------------------------
 
 def convertSentence():
-    sentence = input("Enter a sentence to translate: ").lower()
+    sentence = input("Insira uma frase para traduzir: ").lower()
     translatedSentence = ""
 
-    #this splits up the sentence into a list of words
+    #divide a frase em uma lista de palavras
     listOfWords = sentence.split()
 
     for word in listOfWords:
-        #add the translated word if it exists in the dictionary
+        #adiciona a palavra traduzida se ela existir no dicionário
         if word in textSpeakDictionary:
 
             translatedSentence += textSpeakDictionary[word] + " "
 
-        #just keep the original word if there's no translation
+        #mantém a palavra original caso não exista tradução
         else:
 
             translatedSentence += word + " "
 
-    #print the translated sentence
+    #imprime a frase traduzida
     print("==>")
     print(translatedSentence)  
 
 #-------------------------------------------------------
 
 def addDictionaryItem():
-    txtToAdd = input("Enter the text-speak to add to the dictionary: ")
-    meaning = input("What does this mean?: ")
-    #add the new translation to the dictionary
+    txtToAdd = input("Insira a expressão a ser adicionada ao dicionário: ")
+    meaning = input("O que isso significa?: ")
+    #adiciona a nova tradução ao dicionário
     textSpeakDictionary[txtToAdd] = meaning
 
 #-------------------------------------------------------
 
 def deleteDictionaryItem():
-    txtToDelete = input("Enter the text-speak to delete from the dictionary: ")
-    #delete the translation from the dictionary
+    txtToDelete = input("Insira a expressão a ser removida ao dicionário: ")
+    #remove a tradução do dicionário
     del textSpeakDictionary[txtToDelete]
 
 #-------------------------------------------------------
-# main program starts here!
+# o programa principal começa aqui!
 #-------------------------------------------------------
 
 textSpeakDictionary = {
@@ -62,30 +62,30 @@ running = True
 
 displayMenu()
 
-#repeat until the user inputs 'q' to quit
+#repete até que o usuário digite 'q' para sair
 while running == True:
 
     menuChoice = input(">_").lower()
 
-    #c to convert
+    #c para converter
     if menuChoice == 'c':
         convertSentence()
 
-    #p to print
+    #p para imprimir
     elif menuChoice == 'p':
         print(textSpeakDictionary)
 
-    #a to add
+    #a para adicionar
     elif menuChoice == 'a':
         addDictionaryItem()
 
-    #d to delete
+    #d para remover
     elif menuChoice == 'd':
         deleteDictionaryItem()
 
-    #q to quit
+    #q para sair
     elif menuChoice == 'q':
         running = False
 
     else:
-        print("Invalid menu choice!")
+        print("Escolha inválida!")

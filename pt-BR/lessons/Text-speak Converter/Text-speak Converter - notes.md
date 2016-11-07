@@ -1,36 +1,36 @@
 ---
-title: Text-speak Converter — Notes for Club Leaders
-language: en
+title: Conversor de expressões — Notas para instrutores
+language: pt-BR
 embeds: "*.png"
 ...
 
-#Introduction:
-This project teaches children how to use dictionaries as a way of storing data.
+#Introdução:
+Este projeto ensina as crianças a usar dicionários como uma forma de armazenar dados.
 
 #Recursos
-Para este projeto, é necessário ter Python instalado. É recomendado que a versão 3.2 do Python seja utilizada.
+Para este projeto, é necessário ter Python instalado. Recomendamos usar a versão 3.2 do Python.
 
-As crianças precisarão usar os materiais que acompanham este projeto. Os arquivos incluídos na pasta 'Recurso de Projetos' (encontrados no link '/baixe Materiais de Projeto'):
+As crianças também vão precisar usar os materiais que acompanham este projeto. Arquivos da pasta 'Project Resources' (encontrados sob o link 'Download Project Materials'):
 
 + TextSpeak.py
 
-Certifique-se que cada criança tenha acesso de leitura e escrita à sua própria cópia destes recursos.
+Verifique se todas as crianças têm acesso de leitura e escrita às cópias desses recursos.
 
-Você pode encontrar uma versão completa dos desafios deste projeto clicando no link 'Baixe Materiais de Projeto' referente a este projeto, lá você encontrará:
+Você pode encontrar uma versão completa dos desafios deste projeto clicando no link 'Download Project Materials' para este projeto, que contém:
 
 + TextSpeakFinished.py
 + DistantPlanets.py
 + PasswordProtection.py
 
-#Objetivos de Aprendizado
-+ Using dictionaries to store and retrieve data;
-+ Removing dictionary data using the (`del`) method.
+#Objetivos de aprendizado
++ Usar dicionários para armazenar e obter dados;
++ Remover dados do dicionário usando o método (`del`).
 
-#Challenges
-+ Adding translations - manipulating and using dictionaries;
-+ Testing your program - making the program more robust;
-+ Distant planets - applying the use of dictionaries to a new problem;
-+ Password protection - combining dictionaries with previously learnt concepts.
+#Desafios
++ Adicionando traduções - manipule e use dicionários;
++ Testando seu programa - torne o programa mais robusto;
++ Planetas distantes - aplique o uso de dicionários a um novo problema;
++ Proteção de senha - combine dicionários com conceitos previamente aprendidos.
 
-#Perguntas Frequentes
-+ Children may need to be reminded that dictionary keys and associated data are separated by a colon, that dictionary items are separated by a comma, and that there is no comma after the last item in a dictionary.
+#Perguntas frequentes
++ As crianças devem se lembrar que as chaves do dicionário e os dados associados são separados por dois pontos, que os itens do dicionário são separados por vírgula, e que não há vírgula depois do último item de um dicionário.

@@ -3,12 +3,12 @@ textSpeakDictionary = {
     "idk"   : "I don't know"
 }
 
-#print the entire dictionary
-print( "Dictionary =" , textSpeakDictionary )
+#imprima o dicionário inteiro
+print( "Dicionário =" , textSpeakDictionary )
 
-#print just the entry for "lol"
+#imprime apenas o conteúdo relacionado à chave "lol"
 print( "lol =" , textSpeakDictionary["lol"] )
 
-#ask for the key to find the entry for
-key = input("What would you like to translate? : ")
+#texto que pede a entrada do usuário
+key = input("O que você gostaria de converter? : ")
 print( key , "=" , textSpeakDictionary[key] )
