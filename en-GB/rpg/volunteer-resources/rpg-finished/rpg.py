@@ -17,7 +17,7 @@ Commands:
 def showStatus():
   #print the player's current status
   print('---------------------------')
-  print('You are in the ' + rooms[currentRoom]['name'])
+  print('You are in the ' + currentRoom)
   #print the current inventory
   print("Inventory : " + str(inventory))
   #print an item if there is one
@@ -31,32 +31,27 @@ inventory = []
 #a dictionary linking a room to other room positions
 rooms = {
 
-            1 : { 'name'  : 'Hall',
-                  'south' : 2,
-                  'east'  : 3,
+            'Hall' : { 'south' : 'Kitchen',
+                  'east'  : 'Dining Room',
                   'item'  : 'key'
                 },        
 
-            2 : { 'name'  : 'Kitchen',
-                  'north' : 1,
+            'Kitchen' : { 'north' : 'Hall',
                   'item'  : 'monster'
                 },
                 
-            3 : { 'name'  : 'Dining Room',
-                  'west'  : 1,
-                  'south' : 4,
+            'Dining Room' : { 'west'  : 'Hall',
+                  'south' : 'Garden',
                   'item'  : 'potion'
               
                 },
                 
-            4 : { 'name'  : 'Garden',
-                  'north' : 3
-                }
+            'Garden' : { 'north' : 'Dining Room' }
 
          }
 
-#start the player in room 1
-currentRoom = 1
+#start the player in the Hall
+currentRoom = 'Hall'
 
 showInstructions()
 
@@ -69,7 +64,11 @@ while True:
   #.split() breaks it up into an list array
   #eg typing 'go east' would give the list:
   #['go','east']
-  move = input('>').lower().split()
+  move = ''
+  while move == '':  
+    move = input('>')
+    
+  move = move.lower().split()
 
   #if they type 'go' first
   if move[0] == 'go':
@@ -102,7 +101,7 @@ while True:
     break
 
   # player wins if they get to the garden with a key and a shield
-  if currentRoom == 4 and 'key' in inventory and 'potion' in inventory:
+  if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
     print('You escaped the house... YOU WIN!')
     break
   
