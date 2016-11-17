@@ -41,16 +41,15 @@ In this project, you’ll design and code your own RPG maze game. The aim of the
 
   ![screenshot](images/rpg-rooms.png)
 
-  Actually, this is a dictionary that links a room number to another dictionary, containing all of the information about the room.
+  Each room is a dictionary and rooms are linked together using directions.  
   
-  For example, room 1 in the code above is the hall. The hall is linked to room 2 (the kitchen) to the south. Room 2 (the kitchen) also links to room 1 (the hall) to the north.
 
 + Let’s add a dining room to your map, to the east of the hall.
 
   ![screenshot](images/rpg-dining.png)
 
-  You need to add a 3rd room, called the `dining room`. You also need to link it to room 1 (the hall) to the west. You also need to add data to the hall, so that you can move to the dining room to the east.
-
+  You need to add a 3rd room, called the `dining room`. You also need to link it to the hall to the west. You also need to add data to the hall, so that you can move to the dining room to the east.
+  
   ![screenshot](images/rpg-dining-code.png)
 
 + Try out the game with your new dining room:
