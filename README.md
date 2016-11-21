@@ -1,6 +1,6 @@
 # Code Club Python Curriculum
 
-This repository contains the Code Club Python curriculum. It consists of lesson notes and plans in markdown format along with Python project files.
+This repository contains the materials for the [Code Club Python projects](https://codeclubprojects.org/en-GB/python/). It consists of lesson notes and plans in markdown format along with Python project files.
 
 __More information on our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/README.md).__
 
@@ -14,27 +14,6 @@ This material is openly available for everyone to use and contribute to. Right n
 
 Instructions on how to contribute to our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/contributing.md).
 
-##Python 1
-* ASCII Art
-* The Year 2025
-* Quiz
-* Turtle Power
-* Gameshow
-* Compliment Generator
-
-##Python 2
-* Secret Messages
-* Teaching Turtles
-* Text-speak Converter
-* Pokedex
-* RPG
-* Minecraft 2D
-
-##Archived Projects
-* Turtles All The Way Down
-* Hangman
-* Noughts and Crosses
-* Playing Against the Computer
 
 
 
