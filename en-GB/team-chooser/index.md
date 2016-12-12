@@ -82,15 +82,11 @@ Let's choose random players!
 
 	![screenshot](images/team-teamA-add.png)
 
-+ You can test that this works by adding a `print` command to show who has been added to your `teamA` list.
-
-	![screenshot](images/team-teamA-test.png)
-
 + Now that your player has been chosen, you can remove them from your list of `players`.
 
 	![screenshot](images/team-players-remove.png)
 
-+ Test this code by adding another `print` command, to show the `players` left to choose from.
++ Test this code by adding a `print` command, to show the `players` left to choose from.
 
 	![screenshot](images/team-players-remove-test.png)
 
@@ -128,7 +124,7 @@ Next you'll need to make sure that every player has been chosen for a team.
 
 	![screenshot](images/team-loop-test.png)
 
-+ Cut and paste the code that prints your `teamA` list to __after__ your `while` loop (making sure it is not indented).
++ Add code to print your `teamA` list __after__ your `while` loop (making sure it is not indented).
 
 	This means that `teamA` will only be printed once, after all the players have been chosen.
 
