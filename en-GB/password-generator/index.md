@@ -1,7 +1,7 @@
 ---
-title: Password Creator
+title: Password Generator
 description: Create your own passwords that no one will be able to guess!
-notes: "Password Creator - notes.md"
+notes: "Password Generator - notes.md"
 layout: project
 project-type: sample
 ---

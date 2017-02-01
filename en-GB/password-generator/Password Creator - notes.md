@@ -1,5 +1,5 @@
 ---
-title: Password Creator — Volunteer Notes
+title: Password Generator — Volunteer Notes
 ---
 
 #Introduction:

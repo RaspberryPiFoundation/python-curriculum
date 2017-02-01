@@ -3,7 +3,7 @@
 import random
 
 print('''
-Password Creator
+Password Generator
 ==================
 ''')
 
