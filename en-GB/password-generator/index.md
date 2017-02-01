@@ -2,6 +2,7 @@
 title: Password Generator
 description: Create your own passwords that no one will be able to guess!
 notes: "Password Generator - notes.md"
+new: true
 layout: project
 project-type: sample
 ---
