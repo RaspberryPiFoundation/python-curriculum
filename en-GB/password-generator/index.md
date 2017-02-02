@@ -31,7 +31,7 @@ Let's find out how long it would take a computer to guess your password.
 
 	![screenshot](images/passwords-secure.png)
 
-+ Type in "letmein" as the password. You'll see that a computer would guess this password __instantly__!
++ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
 
 	![screenshot](images/passwords-letmein.png)
 
@@ -45,10 +45,10 @@ Let's find out how long it would take a computer to guess your password.
 
 	+ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
 
-+ Enter a password that you use regularly. How long would it take a computer to guess your password? Does your password make any of the same mistakes as the password above?
++ Try entering a dictionary word. How long would it take a computer to guess that password? 
 
 ## Challenge: Creating a better password { .challenge}
-Can you enter a password that would take a computer more than 1,000 years to crack?
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
 ![screenshot](images/passwords-13000.png)
 
@@ -57,6 +57,9 @@ Remember that your password is harder to guess if it's:
 + Long
 + Not a word in the dictionary
 + Contains letters, numbers and punctuation
+
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
+
 
 #Step 2: Random characters { .activity}
 
@@ -92,7 +95,7 @@ Let's create a program to choose a random character for your password.
 
 	If you run your program a few times, you should see different characters appear.
 
-+ A password isn't very secure if it only contains numbers. Add some numbers to your `chars` variable.
++ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
 
 	![screenshot](images/passwords-numbers.png)
 
@@ -104,7 +107,7 @@ Let's create a program to choose a random character for your password.
 Can you improve your program, so that it also chooses from:
 
 + Capital letters (A-Z)
-+ Numberes (0-9)
++ Numbers (0-9)
 + Punctuation (!?.,-)
 
 You'll need to add to your `chars` variable. Remember to test your improved program!
