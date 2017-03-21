@@ -17,11 +17,12 @@ Python permite que você transforme uma série de instruções em programas e jo
 #Passo 1: Dizendo oi { .activity}
 ## Lista de Atividades { .check}
 
-+ Vamos começar escrevendo um programa bem simples, para que você aprenda como rodar um programa em Python. Abra o IDLE, que é o editor que iremos utilizar:
++ Vamos começar escrevendo um programa bem simples, para que você aprenda como rodar um programa em Python. Mas antes disso você vai precisar abrir o IDLE, que é o editor que iremos utilizar:
     + No Windows, procure o IDLE no Menu Iniciar;
     + No Mac, abra o Terminal.app, digite `idle` e pressione enter;
-	+ No Linux, abra o Terminal, digite `idle` e pressione enter;
+    + No Linux, abra o Terminal, digite `idle` e pressione enter;
 
++ Se você não encontrou o IDLE baixe e instale o python à partir do site https://www.python.org/downloads/
 + Clique em `File → New Window`, e, na janela que aparecer, digite:
 
     ```python
