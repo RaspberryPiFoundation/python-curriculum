@@ -48,13 +48,18 @@ You can also find a completed version of this project in the 'Volunteer Resource
 	+ Lists;
 	+ Dictionaries.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets.](https://www.raspberrypi.org/curriculum/design/creator)
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + "Build your world" - Playing the game, placing and crafting existing blocks;
 + "Change your world size" - editing the `MAPWIDTH` and `MAPHEIGHT` variables to change the world size;
 + "Creating sand" - Creating a new sand resource, along with associated game data.
 + "Crafting glass from sand" - Creating a new craftable glass resource.
 + "Create more resources" - Use what's been learnt to create more blocks and crafting rules.
-
 
 #Frequently Asked Questions
 + __Offline Python does not work with .png images. .gif images have been supplied for offline use.__

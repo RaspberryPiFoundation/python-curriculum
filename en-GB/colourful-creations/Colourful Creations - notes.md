@@ -30,6 +30,12 @@ You can also find a completed version of this project's challenges in the 'Volun
 + Dictionaries - creating and looking up values;
 + Turtle graphics - text, fonts and colours;
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
++ [Design basic 2D and 3D assets.](https://www.raspberrypi.org/curriculum/design/creator)
+
 #Challenges
 + More colours! - Use a colour picker website to find hexcodes for more colours and add them to a dictionary. 
 + Create a poster - Create a custom colour palette dictionary and use it to create a poster using Turtle graphics. 

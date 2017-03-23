@@ -31,6 +31,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 + Random;
 + Python turtle graphics
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + More lines - changing the number of times a loop repeats;
 + Race times - adding more turtles, includes adding code inside a loop;

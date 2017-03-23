@@ -30,6 +30,10 @@ You can also find a completed version of this project in the 'Volunteer Resource
 + Lists;
 + Loading list data from a file.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + "Adding more players" - adding elements to a `players` list;
 + "Choosing for team B" - creating a new `teamB` list to add random players to;

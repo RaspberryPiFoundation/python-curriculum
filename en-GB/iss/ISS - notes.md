@@ -40,6 +40,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 + Using web services to get live data;
 + Consolidation: using Python data structures and turtle graphics. 
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + Show the Craft - Reading data from a returned data structure;
 + Find more passover times - Passing inputs to a web service;

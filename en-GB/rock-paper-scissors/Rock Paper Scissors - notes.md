@@ -31,6 +31,10 @@ You can also find a completed version of this project in the 'Volunteer Resource
 + Selection (`if`, `elif`, `else`); 
 + Boolean `==` and `and`.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
 + "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 

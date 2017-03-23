@@ -33,6 +33,10 @@ You can also find the completed project project in the 'Volunteer Resources' sec
 	+ Dictionaries.
 + Boolean expressions.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + Adding new rooms;
 + Adding items to collect;

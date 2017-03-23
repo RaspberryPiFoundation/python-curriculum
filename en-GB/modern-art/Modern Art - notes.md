@@ -30,6 +30,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 #Learning Objectives
 + Functions;
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + Turtle art - define a new function to complete the turtle art generator.
 + More modern art - create a new function that calls other functions to generate modern art. 

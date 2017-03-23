@@ -31,6 +31,10 @@ You can also find a completed version of this project in the 'Volunteer Resource
 + Variables;
 + Converting between text and integer (whole number) data types.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + What's on your mind? - writing a first Python program using the `print` statement.
 + "About yourself" - printing text and ASCII art to the screen. __Remember that the code children write in Trinket is public. Remind them not to share any personal information like their full name or address.__

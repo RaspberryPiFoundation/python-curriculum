@@ -31,6 +31,10 @@ You can find the completed project in the 'Volunteer Resources' section, which c
 + Repetition;
 + The `random.choice()` method;
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + "Creating a better password" - using <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a> to create secure passwords.
 + "Using numbers and punctuation" - adding text to a string variable, giving a wider choice of random characters.

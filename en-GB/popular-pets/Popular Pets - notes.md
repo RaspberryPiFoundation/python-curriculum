@@ -33,6 +33,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 + Data - Pygal charts and graphs
 + Reading from files
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + Create your own bar chart;
 + Create a bar chart from a file;

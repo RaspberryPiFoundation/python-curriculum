@@ -32,6 +32,10 @@ You can find the completed project in the 'Volunteer Resources' section, which c
 + The `find()` method;
 + The modulus operator (`%`).
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + Use a Caesar cipher - encrypy and decrypt letters and words manually;
 + Variable keys - allowing the user to input a chosen key;
