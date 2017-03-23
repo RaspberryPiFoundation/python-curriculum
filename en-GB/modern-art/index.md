@@ -20,11 +20,7 @@ In this project you will create computer generated modern art. You will use func
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/modern-go" target="_blank">jumpto.cc/modern-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
-
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/3549b126c4?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
++ Open this trinket: <a href="http://jumpto.cc/modern-go" target="_blank">jumpto.cc/modern-go</a>. 
 
 + You can set the colour of a turtle by saying how much red, green and blue you would like from 0 to 255. 
 

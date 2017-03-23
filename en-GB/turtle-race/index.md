@@ -22,11 +22,7 @@ You're going to create a game with racing turtles. First they'll need a race tra
 
 ## Activity Checklist { .check}
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
-
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
 
 + Add the following code to draw a line using the 'turtle':
 

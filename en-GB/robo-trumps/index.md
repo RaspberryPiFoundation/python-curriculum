@@ -23,11 +23,7 @@ It's often useful to be able to read information from a file. You can then chang
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
-
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/e32251230a?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
++ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>. 
 
 + Your starter project includes a `cards.txt` file which contains data about robots. 
 

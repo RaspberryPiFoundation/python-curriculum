@@ -19,11 +19,7 @@ In this project, you’ll design and code improvements to a 2D version of Minecr
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/codecraft-go" target="_blank">jumpto.cc/codecraft-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
-
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/fdd32064f8?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
++ Open this trinket: <a href="http://jumpto.cc/codecraft-go" target="_blank">jumpto.cc/codecraft-go</a>. 
 
 + Use the WASD keys to move your player around the world, which is full of different resources (dirt, grass and water).
 

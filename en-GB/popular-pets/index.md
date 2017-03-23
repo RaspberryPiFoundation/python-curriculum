@@ -33,11 +33,7 @@ Pie Charts are are useful way of showing data. Let's do a survey of favourite pe
   
   ![screenshot](images/pets-favourite.png)
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you're reading this online, you can also use the embedded version of this trinket below.
-
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
 
 + Let's create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
 
@@ -135,6 +131,8 @@ It's useful to be able to store data in a file rather than having to include it 
   To do this, indent the code inside your `for` loop and add the code `if line:` above it:
   
   ![screenshot](images/pets-fix.png)
+  
++ You can remove the `print(label, value)` line now everything is working. 
   
 + Now let's add the label and value to a new Pie Chart and render it:
 
