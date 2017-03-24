@@ -66,6 +66,8 @@ You're going to create a game with racing turtles. First they'll need a race tra
 
   ![screenshot](images/race-lines.png)
   
+  `right(90)` makes the turtle turn right 90 degrees (a right angle.) Moving `forward(10)` before putting the pen down leaves a small gap between the number and the start of the line. After drawing the line you lift up the pen and go `backward(160)` the length of the line plus the gap. 
+  
 + It looks neater if you centre the numbers:
 
   ![screenshot](images/race-center.png)
