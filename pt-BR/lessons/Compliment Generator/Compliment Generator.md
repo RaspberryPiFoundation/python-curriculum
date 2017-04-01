@@ -17,7 +17,7 @@ Neste projeto, você vai fazer um programa que dá um cumprimento gerado aleator
 
 ## Lista de verificação da atividade { .check}
 
-+ Em seus projetos, até agora você usou uma variável para armazenar um único dado, como um nome ou uma pontuação. Mas e se você quiser armazenar vários dados? Em Python, você pode usar uma _lista_ para armazenar vários dados em 1 variável:
++ Em seus projetos, até agora você usou uma variável para armazenar um único dado, como um nome ou uma pontuação. Mas e se você quiser armazenar vários dados? Em Python, você pode usar uma _lista_ para armazenar vários dados em uma variável:
 
     ```python
     bigPlanets = [ "júpiter" , "saturno" , "urano" , "netuno"]
