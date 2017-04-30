@@ -1,0 +1,41 @@
+{
+    "description": false,
+    "id": "python_02",
+    "language": "zh-CN",
+    "number": 8,
+    "title": "Python 2",
+    "category": "cat-python",
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/Modern Art/Modern Art.md",
+            "note":     "lessons/Modern Art/Modern Art - notes.md"
+        },
+        {
+            "number":   2,
+            "filename": "lessons/Popular Pets/Popular Pets.md",
+            "note":     "lessons/Popular Pets/Popular Pets - notes.md"
+        },
+        {
+            "number":   3,
+            "filename": "lessons/RPG/RPG.md",
+            "note":     "lessons/RPG/RPG - notes.md"
+        },
+        {
+            "number":   4,
+            "filename": "lessons/ISS/ISS.md",
+            "note":     "lessons/ISS/ISS - notes.md"
+        },
+        {
+            "number":   5,
+            "filename": "lessons/Robo-Trumps/Robo-Trumps.md",
+            "note":     "lessons/Robo-Trumps/Robo-Trumps.md"
+        },
+        {
+            "number":   6,
+            "filename": "lessons/CodeCraft/CodeCraft.md",
+            "note":     "lessons/CodeCraft/CodeCraft - notes.md"
+        }
+    ]
+}
+
