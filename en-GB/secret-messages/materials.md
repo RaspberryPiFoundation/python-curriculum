@@ -2,7 +2,7 @@
 title: Secret Messages - Materials
 layout: project-materials
 project-resources:     
-  - url: messages-project-resources.zip
+  - url: secret-messages-project-resources.zip
     type: file
     description: .zip file containing all project resources
   - url: http://jumpto.cc/python-new
@@ -13,7 +13,7 @@ project-resources:
     type: file
     description: Offline blank Python file
 volunteer-resources:
-  - url: messages-volunteer-resources.zip
+  - url: secret-messages-volunteer-resources.zip
     type: file
     description: .zip file containing all completed project resources
   - url: https://trinket.io/python/402256078c
