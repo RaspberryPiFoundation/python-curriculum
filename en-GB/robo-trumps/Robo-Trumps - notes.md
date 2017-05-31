@@ -1,9 +1,9 @@
 ---
-title: Robotrumps — Volunteer Notes
+title: Robo-Trumps — Volunteer Notes
 ---
 
 #Introduction:
-This project introduces for loops through a fun turtle race game. Loops are used to draw the race track and to make the turtles move a random number of steps each turn. A group of children can each pick a turtle, the one that gets the furthest is the winner. 
+In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
 
 #Online Resources
 
@@ -46,7 +46,6 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 #Frequently Asked Questions
 + __Offline Python does not work with .png images. .gif images have been supplied for offline use.__
-+ Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket. 
-+ You need to click in the trinket text window before typing. 
-+ Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network. 
-
++ Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket.
++ You need to click in the trinket text window before typing.
++ Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network.
