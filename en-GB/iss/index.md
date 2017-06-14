@@ -246,7 +246,7 @@ Let’s find out when the ISS will next be over the Space Centre in Houston, US 
 
   Inputs are added after a `?` and separated with `&`. 
 
-  Add the `lat` and `lon` inputs to the url as shown: <a href="http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1"target="_blank">http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1</a>
+  Add the `lat` and `lon` inputs to the url as shown: <a href="http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1" target="_blank">http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1</a>
   
   ![screenshot](images/iss-passtimes.png)
   
