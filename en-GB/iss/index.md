@@ -53,7 +53,7 @@ You’re going to use a web service that provides live information about space. 
 
 + Let’s call the web service from Python so we can use the results.
 
-      Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/iss-go</a>. 
+    Open this trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/iss-go</a>. 
 
 + The `urllib.request` and `json` modules have already been imported for you. 
 
@@ -73,9 +73,9 @@ You’re going to use a web service that provides live information about space. 
 
     You should see something like this:
 
-      ```
-      {'message': 'success', 'number': 3, 'people': [{'craft': 'ISS', 'name': 'Yuri Malenchenko'}, {'craft': 'ISS', 'name': 'Timothy Kopra'}, {'craft': 'ISS', 'name': 'Timothy Peake'}]}
-      ```
+    ```
+    {'message': 'success', 'number': 3, 'people': [{'craft': 'ISS', 'name': 'Yuri Malenchenko'}, {'craft': 'ISS', 'name': 'Timothy Kopra'}, {'craft': 'ISS', 'name': 'Timothy Peake'}]}
+    ```
 
     This is a Python dictionary with 3 keys: message, number and people. 
 
@@ -97,6 +97,7 @@ You’re going to use a web service that provides live information about space. 
 
 
     You should see something like: 
+    
     ```
     [{'craft': 'ISS', 'name': 'Yuri Malenchenko'}, {'craft': 'ISS', 'name': 'Timothy Kopra'}, {'craft': 'ISS', 'name': 'Timothy Peake'}]
     ```
@@ -249,7 +250,7 @@ Let’s find out when the ISS will next be over the Space Centre in Houston, US 
 
     Inputs are added after a `?` and separated with `&`. 
 
-    Add the `lat` and `lon` inputs to the url as shown: <a href="http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1"target="_blank">http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1</a>
+    Add the `lat` and `lon` inputs to the url as shown: <a href="http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1" target="_blank">http://api.open-notify.org/iss-pass.json?lat=29.55&lon=95.1</a>
   
     ![screenshot](images/iss-passtimes.png)
   
