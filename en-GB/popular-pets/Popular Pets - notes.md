@@ -24,7 +24,7 @@ You can also find a completed version of this project's challenges in the 'Volun
 
 + popular-pets-finished/popular-pets.py
 + popular-pets-finished/pets.txt
-+ popular-pets-finished/butterfiles.txt
++ popular-pets-finished/butterflies.txt
 + popular-pets-finished/piratesinjas.txt
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
@@ -43,6 +43,5 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + More charts and graphs!
 
 #Frequently Asked Questions
-+ Step 1 asks the volunteer to help the group organise a survey to collect data about favourite pets. If you only have a small number of children working on the project you can use the included sample data or make it up. 
-+ For the challenges you can either choose to do surveys as a group and record the results on a whiteboard for all club members to use, or you can allow children so do their own surveys and record their own data. 
-
++ Step 1 asks the volunteer to help the group organise a survey to collect data about favourite pets. If you only have a small number of children working on the project you can use the included sample data or make it up.
++ For the challenges you can either choose to do surveys as a group and record the results on a whiteboard for all club members to use, or you can allow children so do their own surveys and record their own data.
