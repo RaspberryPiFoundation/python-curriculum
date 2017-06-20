@@ -1,5 +1,5 @@
 ---
-title: O poder da Tartaruga (Turtle)
+title: Poder da Tartaruga
 level: Python 1
 language: pt-BR
 stylesheet: python
@@ -77,14 +77,14 @@ Vamos nos divertir programando tartarugas (turtles). A tartaruga (turtle) é um 
 
 + O código acima contém uma série de comandos:
 
-	+ `color("Purple")` faz com que a tartaruga e a caneta fiquem roxas. Note que estamos usando a ortografia americana da palavra cor (color) e não a britânica (colour),  which doesn't have a 'u' in it. Você também pode especificar as cores em *hexadecimal*, como foi feito em CSS. Ao invés de usar `pencolor("Red")` você poderia usar `pencolor("#FF0000")`.
+	+ `color("Purple")` faz com que a tartaruga e a caneta fiquem roxas. Você também pode especificar as cores em *hexadecimal*, como foi feito em CSS. Ao invés de usar `pencolor("Red")` você poderia usar `pencolor("#FF0000")`.
 
-	+ `penup()` - "pen up" significa "levantar caneta". Este comando tira a caneta  da tela. E `pendown()`, que significa "baixar caneta" coloca a caneta novamente na tela. Isto significa que você pode mover a tartaruga sem que ela desenhe o caminho feito!
+	+ `penup()` - "pen up" significa "levantar caneta". Este comando tira a caneta  da tela. E `pendown()`, que significa "baixar caneta" coloca a caneta novamente na tela. Isto significa que você pode mover a tartaruga sem que ela deixe nenhum rastro!
 
 ## Salve seu projeto {.save}
 
 ## Desenhe: Desenhando formatos { .challenge}
-+ Voc~e consegue usar os comandos de tartaruga acima para desenhar:
++ Você consegue usar os comandos de tartaruga acima para desenhar:
 	+ Um quadrado?
 	+ Um triângulo?
 
@@ -92,7 +92,7 @@ Vamos nos divertir programando tartarugas (turtles). A tartaruga (turtle) é um 
 
 ## Salve Seu Projeto {.save}
 
-# Step 2: Repetindo você mesmo { .activity }
+# Step 2: Auto repetição { .activity }
 
 Quando desenhamos um quadrado ou um triângulo, o programa repete a mesma sequência de comandos várias vezes seguida. Vamos fazer com que o Python os repita para nós!
 
@@ -151,7 +151,7 @@ Quando desenhamos um quadrado ou um triângulo, o programa repete a mesma sequê
 
 	![screenshot](turtle_octagon.png)
 
-	Este programa trabalha da mesma maneira que o programa que desenha qudrado, exceto que que repete 8 vezes, e apenas gira 45 graus para cada vértice. Isto significa que o código desenha uma figura de oito lados (um octógono), e veja que o total dos ângulos dos vértices totaliza 360 graus (360 dividido por 8 é 45).
+	Este programa trabalha da mesma maneira que o programa que desenha qudrado, exceto que se repete 8 vezes, e apenas gira 45 graus para cada vértice. Isto significa que o código desenha uma figura de oito lados (um octógono), e veja que o total dos ângulos dos vértices totaliza 360 graus (360 dividido por 8 é 45).
 
 + Aqui temos outro exemplo do que podemos criar usando um laço `for`. O que este programa desenha?
 
