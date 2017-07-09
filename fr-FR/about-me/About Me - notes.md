@@ -1,39 +1,41 @@
 ---
-title: About Me — Notes for Club Leaders
-language: en
+title: À propos de moi — Notes pour leaders de Clubs
+language: fr
 embeds: "*.png"
 ...
 
 #Introduction:
-In this project, children will learn how to write a Python program telling people all about themselves. They will create ASCII art (images from text) and perform calculations based on user input.
+Au cours de ce projet, les enfants vont apprendre à écrire un programme Python parlant d'eux même aux autres. Ils vont créer de l'art ASCII (images faites de texte) et faire des calculs à partir de données entrées par l'utilisateur.
 
-#Online Resources
+#Ressources en-ligne
 
-__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__Ce projet utilise Python 3.__ Nous recommandons l'utilisation de [Trinket](https://trinket.io/) pour écrire du code Python en-ligne. Ce projet contient les Trinkets suivants:
 
-+ [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
++ [Nouveau Trinket Python vierge -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the completed project:
+Il y a aussi un Trinket contenant le projet complété:
 
-+ [‘About Me’ Finished -- trinket.io/python/a1f663ae0d](https://trinket.io/python/a1f663ae0d)
++ ["À propos de moi" complété -- trinket.io/python/6c989280c4](https://trinket.io/python/6c989280c4)
 
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+#Resources hors-ligne
+
+Ce projet peut être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) (page en Anglais) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien "Matériaux du projet". Ce lien contient une section "Ressources du projet" qui inclus les ressources dont les enfants auront besoin pour compléter le projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclus les fichiers suivants:
 
 + about/about.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi trouver une version complétée du projet dans la section "Ressources du bénévole" qui contient:
 
 + about-finished/about.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Toutes les ressources ci-dessus peuvent aussi être téléchargées dans les fichiers `.zip` projet et bénévole)
 
-#Learning Objectives
-+ Sequencing;
-+ Variables;
-+ Converting between text and integer (whole number) data types.
+#Objectifs d'apprentissage
 
-#Challenges
-+ What's on your mind? - writing a first Python program using the `print` statement.
-+ "About yourself" - printing text and ASCII art to the screen. __Remember that the code children write in Trinket is public. Remind them not to share any personal information like their full name or address.__
-+ "Your age in dog years" - performing a calculation based on the user's input.
++ Séquençage,
++ Variables,
++ Conversion entre données de type texte et nombre entier (integer).
+
+#Défis
++ "Qu'est-ce qui te passe par la tête?" - écriture d'un premier programme Python utilisant la commande `print()`.
++ "À propos de toi" - affichage de texte et d'art ASCII à l'écran. __N'oubliez pas que le code écrit dans Trinket est public. Rappelez au enfants de ne pas partager d'informations personnelles comme leur nom complet ou leur adresse.__
++ "Ton age en années de chien" - réaliser des calculs à partir de données entrées par l'usager.
