@@ -35,7 +35,7 @@ Commençons par écrire un peu de texte.
 
     La ligne `#!/bin/python3` indique simplement à Trinket que nous utilisons Python 3 (la version la plus récente).
 
-+ Clique sur 'Run' et tu devrais voir que la commande `print()` affiche tout ce qui est inclus à l'intérieur des apostrophes `''`.
++ Clique sur "Run" et tu devrais voir que la commande `print()` affiche tout ce qui est inclus à l'intérieur des apostrophes `''`.
 
     ![screenshot](images/me-hi-test.png)
 
@@ -45,17 +45,17 @@ Commençons par écrire un peu de texte.
 
     ![screenshot](images/me-syntax.png)
 
-+ Replace l'apostrophe' ou la parenthèse puis clique sur 'Run' pour t'assurer que ton projet fonctionne à nouveau.
++ Replace l'apostrophe' ou la parenthèse puis clique sur "Run" pour t'assurer que ton projet fonctionne à nouveau.
 
 ## Sauvegarde ton projet {.save}
 
 __Tu n'as pas besoin d'un compte Trinket pour sauvegarder ton projet!__
 
-Si tu n'as pas de compte Trinket, clique sur le bouton de menu en haut à gauche puis clique 'Share'. Ceci te donnera un lien que tu peux sauvegarder pour y revenir plus tard. Tu devra faire ceci à chaque fois que tu fais des changements puisque le lien changera.
+Si tu n'as pas de compte Trinket, clique sur le bouton de menu en haut à gauche puis clique "Share". Ceci te donnera un lien que tu peux sauvegarder pour y revenir plus tard. Tu devra faire ceci à chaque fois que tu fais des changements puisque le lien changera.
 
 ![screenshot](images/me-link.png)
 
-Si tu as un compte Trinket, tu peux cliquer 'Save' pour sauvegarder ta propre copie du Trinket.
+Si tu as un compte Trinket, tu peux cliquer "Save" pour sauvegarder ta propre copie du Trinket.
 
 ![screenshot](images/me-remix.png)
 
@@ -68,8 +68,7 @@ Change le code ci-dessus pour afficher quelque chose de plus intéressant à pro
 
 #Étape 2: Art ASCII { .activity}
 
-Affichons quelque chose de plus amusant que du texte... De l'art ASCII (prononcé '_aski_') consiste à créer des __images à l'aide de texte__.
-Let’s print something much more fun than text… ASCII art! ASCII art (pronounced '_ask-e_') is creating __pictures out of text__.
+Affichons quelque chose de plus amusant que du texte... De l'art ASCII (prononcé "_aski_") consiste à créer des __images à l'aide de texte__.
 
 ## Liste de contrôle d'activité { .check}
 
@@ -77,7 +76,7 @@ Let’s print something much more fun than text… ASCII art! ASCII art (pronoun
 
     ![screenshot](images/me-dog.png)
 
-+ Si tu cliques sur 'Run', tu verras qu'il y a un 'bug' dans ton nouveau code.
++ Si tu cliques sur "Run", tu verras qu'il y a un "bug" dans ton nouveau code.
 
     ![screenshot](images/me-dog-bug.png)
 
@@ -120,9 +119,9 @@ Tu peux aussi faire des calculs et afficher des nombres. Trouvons quel age tu au
 
     Remarque que tu n'as pas besoin de mettre d'apostrophes `''` autour des nombres.
 
-    (Tu devra changer le nombre `2006` si tu es né(e) une autre année.)
+    (Tu devra changer le nombre `2006` si tu es né(e) une année différente.)
 
-+ Clique 'Run'. Ton programme devrait afficher ton age en l'an 2025.
++ Clique "Run". Ton programme devrait afficher ton age en l'an 2025.
 
     ![screenshot](images/me-calc-run.png)
 
@@ -134,7 +133,7 @@ Tu peux aussi faire des calculs et afficher des nombres. Trouvons quel age tu au
 
     C'est parce que tout ce que tu tapes dans ton programme est du __texte__ et tu dois le convertir en un __nombre__.
 
-    Tu peux utiliser la fonction `int()` pour convertir le texte en un __nombre entier__ ('int' pour 'integer' signifie nombre entier en anglais).
+    Tu peux utiliser la fonction `int()` pour convertir le texte en un __nombre entier__ ("int" pour "integer" signifie nombre entier en anglais).
 
     ![screenshot](images/me-input-test.png)
 
@@ -149,7 +148,7 @@ Tu peux aussi faire des calculs et afficher des nombres. Trouvons quel age tu au
 ## Sauvegarde ton projet {.save}
 
 ## Défi: Ton âge en années de chien { .challenge}
-Écris un programme qui demande à l'usager son âge puis lui dit son age en années de chien! Tu peux calculer l'âge d'une personne en années de chien en multipliant leur âge par 7.
+Écris un programme qui demande à l'usager son âge puis lui dit son age en années de chien! Tu peux calculer l'âge d'une personne en années de chien en multipliant son âge par 7.
 
 ![screenshot](images/me-dog-years.png)
 
@@ -158,7 +157,7 @@ En programmation, le symbole de __multiplication__ est `*` et correspond génér
 ## Sauvegarde ton projet {.save}
 
 ## Défi: calculer du texte { .challenge}
-Savais-tu que tu pouvais aussi 'calculer' du texte?!
+Savais-tu que tu pouvais aussi "calculer" du texte?!
 
 Qu'est-ce que le programme suivant affiche à l'écran? Essaie de deviner avant d'exécuter le programme.
 
