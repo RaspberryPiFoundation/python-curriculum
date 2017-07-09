@@ -82,7 +82,7 @@ Affichons quelque chose de plus amusant que du texte... De l'art ASCII (prononc�
 
     C'est parce que ton texte contient deux apostrophes et Python croit qu'elles signifient les limites du texte!
 
-    ![screenshot](images/me-dog-bug.png)
+    ![screenshot](images/me-dog-quote.png)
 
 + Pout régler ce problème, ajoute simplement une barre oblique inverse `\` devant l'apostrophe dans les mots `l'image` et `d'un`. Ceci indique à Python que l'apostrophe fait partie du texte.
 
