@@ -1,6 +1,6 @@
 ---
 title: À propos de moi — Notes pour leaders de Clubs
-language: fr
+language: fr-FR
 embeds: "*.png"
 ...
 
