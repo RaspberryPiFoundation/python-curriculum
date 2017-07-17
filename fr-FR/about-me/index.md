@@ -9,11 +9,10 @@ new: true
 
 #Introduction:  { .intro}
 
-Au cours de ce projet, vous apprendrez comment écrire un programme Python permettant aux autres d'apprendre à vous connaître.
+Au cours de ce projet, tu apprendras comment écrire un programme Python permettant aux autres d'apprendre à te connaître.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6c989280c4?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-  </iframe>
   <img src="images/me-final.png">
 </div>
 
@@ -23,13 +22,13 @@ Commençons par écrire un peu de texte.
 
 ## Liste de contrôle d'activité { .check}
 
-+ Ouvrez le modèle de Trinket Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. Si vous lisez ceci en-ligne, vous pouvez aussi utiliser la version intégrée de ce Trinket ci-dessous.
++ Ouvre le modèle de Trinket Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. Si tu lis ceci en-ligne, tu peux aussi utiliser la version intégrée de ce Trinket ci-dessous.
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/33e5c3b81b?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-+ Tappez ce qui suit dans la fenêtre qui apparaît:
++ Tape ce qui suit dans la fenêtre qui apparaît:
 
     ![screenshot](images/me-hi.png)
 
@@ -45,13 +44,13 @@ Commençons par écrire un peu de texte.
 
     ![screenshot](images/me-syntax.png)
 
-+ Replace l'apostrophe' ou la parenthèse puis clique sur "Run" pour t'assurer que ton projet fonctionne à nouveau.
++ Replace l'apostrophe `'` ou la parenthèse `)` puis clique sur "Run" pour t'assurer que ton projet fonctionne à nouveau.
 
 ## Sauvegarde ton projet {.save}
 
 __Tu n'as pas besoin d'un compte Trinket pour sauvegarder ton projet!__
 
-Si tu n'as pas de compte Trinket, clique sur le bouton de menu en haut à gauche puis clique "Share". Ceci te donnera un lien que tu peux sauvegarder pour y revenir plus tard. Tu devra faire ceci à chaque fois que tu fais des changements puisque le lien changera.
+Si tu n'as pas de compte Trinket, clique sur le bouton de menu en haut à gauche puis clique "Share". Ceci te donnera un lien que tu peux sauvegarder pour y revenir plus tard. Tu devras faire ceci à chaque fois que tu fais des changements puisque le lien changera.
 
 ![screenshot](images/me-link.png)
 
@@ -80,7 +79,7 @@ Affichons quelque chose de plus amusant que du texte... De l'art ASCII (prononc�
 
     ![screenshot](images/me-dog-bug.png)
 
-    C'est parce que ton texte contient deux apostrophes et Python croit qu'elles signifient les limites du texte!
+    C'est parce que ton texte contient deux apostrophes et Python croit qu'elles indiquent les limites du texte!
 
     ![screenshot](images/me-dog-quote.png)
 
@@ -107,7 +106,7 @@ Voici un exemple:
 
 #Étape 3: L'an 2025 { .activity}
 
-Tu peux aussi faire des calculs et afficher des nombres. Trouvons quel age tu auras en l'an 2025.
+Tu peux aussi faire des calculs et afficher des nombres. Trouvons quel âge tu auras en l'an 2025.
 
 ## Liste de contrôle d'activité { .check}
 
