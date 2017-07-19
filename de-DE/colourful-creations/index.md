@@ -1,7 +1,7 @@
 ---
 title: Colourful Creations
 description: "Kreiere deine eigenen Farben und benutze sie, um ein buntes Poster anzufertigen" 
-notes: "Colourful Creations - notes.md“
+notes: "Colourful Creations - notes.md"
 layout: project
 new: true
 ---
