@@ -4,7 +4,7 @@ layout: project-materials
 Projekt-Ressourcen:     
   - url: messages-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enthält
+    description: ".zip Datei, die alle Projekt-Ressourcen enthält"
   - url: http://jumpto.cc/python-new
     type: link
     Text: jumpto.cc/python-new
@@ -15,7 +15,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: messages-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enthält
+    description: ".zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enthält"
   - url: https://trinket.io/python/402256078c
     type: link
     Text: trinket.io/python/402256078c
@@ -25,8 +25,7 @@ Helfer-Ressourcen:
   - url: https://trinket.io/python/2e852cd687
     type: link
     Text: trinket.io/python/2e852cd687
-    description: Online beendete 'Friendship calculator' (Freundschaftsrechner) Aufgabe
+    description: "Online beendete 'Friendship calculator' (Freundschaftsrechner) Aufgabe"
   - url: friendship-calculator-finished/friends.py
     type: file
-    Beschreibung:Eine Aufgabe, die offline beendet wird: 'Friendship calculator' (Freundschaftsrechner)
 ---

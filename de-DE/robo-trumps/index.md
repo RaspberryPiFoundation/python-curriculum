@@ -1,6 +1,6 @@
 ---
 title: Robo-Trumps
-description: Erstelle eine Datenbank mit Robotern und spiele Robo-Trumps mit einem Freund/einer Freundin!
+description: "Erstelle eine Datenbank mit Robotern und spiele Robo-Trumps mit einem Freund/einer Freundin!"
 notes:  "Robo-Trumps - notes.md“
 layout: project
 new: true
