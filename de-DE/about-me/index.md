@@ -17,7 +17,7 @@ In diesem Projekt lernst du, wie man ein Python Programm schreibt und wie du and
   <img src="images/me-final.png">
 </div>
 
-#Schritt 1: „Hallo” sagen { .activity}
+#Schritt 1: Hallo sagen { .activity}
 
 Wir beginnen damit, einfach einen Text zu schreiben.
 
