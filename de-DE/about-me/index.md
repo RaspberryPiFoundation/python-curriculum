@@ -1,6 +1,6 @@
 ---
 title: "Über Mich"
-description: Schreibe über dich und erstelle Bilder von dir.
+description: "Schreibe über dich und erstelle Bilder von dir."
 notes: "Über Mich - notes.md"
 layout: project
 project-type: sample
