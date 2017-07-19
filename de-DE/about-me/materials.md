@@ -1,10 +1,10 @@
 ---
-title: Über Mich: Materialien
+title: "Über Mich: Materialien"
 layout: project-materials
 Projekt-Ressourcen:
   - url: about-me-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enthält
+    description: '.zip Datei, die alle Projekt-Ressourcen enthält'
   - url: http://jumpto.cc/python-new
     type: link
     Text: jumpto.cc/python-new
@@ -15,7 +15,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: about-me-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enthält
+    description: '.zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enthält'
   - url: https://trinket.io/python/a1f663ae0d
     type: link
     Text: trinket.io/python/a1f663ae0d
