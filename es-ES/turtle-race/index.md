@@ -1,6 +1,6 @@
 ---
 title: Carrera de Tortugas
-description: En este proyecto utilizaremos bucles para crear un juego de carrera de tortugas y dibujar una pista de carreras.  
+description: ¡Haz que las tortugas compitan entre sí!
 layout: project
 notes: "Turtle Race - notes.md"
 ...
