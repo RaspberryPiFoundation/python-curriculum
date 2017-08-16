@@ -16,7 +16,7 @@ Dans ce projet tu vas utiliser un web-service pour trouver la position actuelle 
   <img src="images/iss-final.png">
 </div>
 
-# Étape 1: Qui est dans l'Espace ? { .activity}
+# Étape 1 : Qui est dans l'Espace ? { .activity}
 
 Tu vas utiliser un web-service qui fournit des informations en temps réel à propos de l'espace. D'abord on va découvrir qui est actuellement dans l'espace.
 
@@ -142,7 +142,7 @@ Timothy Peake in ISS
 
 ## Sauvegarde ton projet {.save}
 
-# Étape 2: Où est l'ISS ? { .activity}
+# Étape 2 : Où est l'ISS ? { .activity}
 
 La Station Spatiale Internationale orbite autour de la Terre. Elle fait le tour de la Terre environ toutes les 90 minutes. L'ISS se déplace à une vitesse moyenne de 7.66 km par seconde. C'est du rapide !
 
@@ -226,7 +226,7 @@ Utilisons un autre web-service pour trouver où se situe la Station Spatiale Int
 
 ## Sauvegarde ton projet {.save}
 
-# Étape 3: Quand est-ce l'ISS sera au-dessus d'une position ? { .activity}
+# Étape 3 : Quand est-ce l'ISS sera au-dessus d'une position ? { .activity}
 
 Il existe aussu un web-service que tu peux appeler pour savoir quand est-ce que l'ISS sera au-dessus d'une certaine position.
 
