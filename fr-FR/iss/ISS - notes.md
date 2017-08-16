@@ -40,7 +40,7 @@ Vous pouvez aussi trouver une version finalisée des défis de ce projet dans la
 + L'utilisation de web-services pour accéder à des données en temps réel;
 + Consolidation : l'utilisation de structures de données Python et des graphiques 'turtle'.
 
-Ce projet couvre des élements des parcours suivants du [Programme de Créativité Numérique Raspberry Pi](http://rpf.io/curriculum):
+Ce projet couvre des élements des parcours suivants du [Programme de Créativité Numérique Raspberry Pi](http://rpf.io/curriculum) :
 
 + [Combiner des structures de programmatino afin de résoudre des problèmes.](https://www.raspberrypi.org/curriculum/programming/builder)
 
