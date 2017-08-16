@@ -19,7 +19,7 @@ In this project, you’ll design and code your own RPG maze game. The aim of the
 
 ## Activity Checklist { .check}
 
-+ Some code for this game has been provided for you. pen this trinket: <a href="http://jumpto.cc/rpg-go" target="_blank">jumpto.cc/rpg-go</a>. 
++ Some code for this game has been provided for you. Open this trinket: <a href="http://jumpto.cc/rpg-go" target="_blank">jumpto.cc/rpg-go</a>. 
 
 + This is a very basic RPG game that only has 2 rooms. Here’s a map of the game:
 
