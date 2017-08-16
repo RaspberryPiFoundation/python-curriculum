@@ -172,7 +172,7 @@ When you've completed this step you'll be able to display robots like this:
 
 ## Challenge: Add more robots {.challenge}
 
-Can you add data about more robots to `cards.txt`. 
+Can you add data about more robots to `cards.txt`? 
 
 Click on the images button to see the robot images that you can use. 
 
@@ -184,12 +184,12 @@ You get to decide how much battery and intelligence they have.
 ## Save Your Project {.save}
 
 ## Challenge: Add more stats to the robots {.challenge}
-Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
+Can you think of more stats to add to the robots? You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
 
 You’ll need to:
 
 + Add data to the file for each new category 
-+ Add the new category to the code that read in the data
++ Add the new category to the code that reads in the data
 + Write the new category out when you display a trump card
 
 You could even add a colour and show the stats for robots in their own color. 
