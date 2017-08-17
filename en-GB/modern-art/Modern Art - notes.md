@@ -3,13 +3,13 @@ title: Modern Art — Volunteer Notes
 ---
 
 #Introduction:
-This project introduces functions through a colourful modern art generator. Functions are used to package useful turtle graphics code which can then easily be used to create funky art. 
+This project introduces functions through a colourful modern art generator. Functions are used to package useful turtle graphics code which can then easily be used to create funky art.
 
 #Online Resources
 
 __This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-+ ['Turtle Race' starting point -- jumpto.cc/modern-go](http://jumpto.cc/modern-go)
++ ['Modern Art' starting point -- jumpto.cc/modern-go](http://jumpto.cc/modern-go)
 
 There is also a trinket containing a sample solution to the challenges:
 
@@ -36,10 +36,9 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 #Challenges
 + Turtle art - define a new function to complete the turtle art generator.
-+ More modern art - create a new function that calls other functions to generate modern art. 
++ More modern art - create a new function that calls other functions to generate modern art.
 
 
 #Frequently Asked Questions
-+ To avoid having to wait for earlier code to run when adding to the project children can comment out code using a '#' at the beginning of a line. 
++ To avoid having to wait for earlier code to run when adding to the project children can comment out code using a '#' at the beginning of a line.
 + If they do want all of their code to run then `clear()` can be used to clear the screen.  
-
