@@ -19,7 +19,7 @@ In this project you create pie charts and bar graphs from data that you collect 
 
 # Step 1: Create a Pie Chart { .activity}
 
-Pie Charts are are useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
+Pie Charts are a useful way of showing data. Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
 ## Activity Checklist { .check}
 
