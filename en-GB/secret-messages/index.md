@@ -6,7 +6,7 @@ layout: project
 project-type: sample
 ---
 
-#Introduction:  { .intro}
+# Introduction:  { .intro}
 
 On 15 December 2015, British astronaut Tim Peake set off on the Principia mission to the International Space Station which is in orbit around Earth. This project ties in with the The Principia Space Diary, a free resource for UK schools, produced as part of European Space Agency Astronaut Tim Peake’s Principia Mission. For more information about the Space Diary, visit [http://principiaspacediary.org](http://principiaspacediary.org).
 
@@ -20,7 +20,7 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-#Step 1: The Caesar cipher { .activity}
+# Step 1: The Caesar cipher { .activity}
 
 A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
@@ -56,20 +56,20 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
 	+ h - 3 = __e__
 	+ o - 3 = __l__
 	+ o - 3 = __l__
-	+ r - 3 = __o__	
+	+ r - 3 = __o__
 
 ## Challenge: Use a Caesar cipher { .challenge}
 Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
 
 You could even send entire sentences to each other!
 
-#Step 2: Encrypting letters { .activity}
+# Step 2: Encrypting letters { .activity}
 
-Let's write a Python program to encrypt a single character. 
+Let's write a Python program to encrypt a single character.
 
 ## Activity Checklist { .check}
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
 
@@ -87,7 +87,7 @@ Let's write a Python program to encrypt a single character.
 
 + Next, you'll need to store the secret `key` in a variable.
 
-	![screenshot](images/messages-key.png)	
+	![screenshot](images/messages-key.png)
 
 + Next, ask the user for a single letter (called a `character`) to encrypt.
 
@@ -105,7 +105,7 @@ Let's write a Python program to encrypt a single character.
 
 	![screenshot](images/messages-newposition.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable. 
++ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
 
 	For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
 
@@ -117,7 +117,7 @@ Let's write a Python program to encrypt a single character.
 
 	Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26. 
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
 
 	![screenshot](images/messages-modulus.png)
 
@@ -142,7 +142,7 @@ You can then use a negative key to decrypt messages!
 
 ## Save Your Project {.save}
 
-#Step 2: Encrypting entire messages { .activity}
+# Step 3: Encrypting entire messages { .activity}
 
 Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
 
@@ -182,7 +182,7 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 
 ## Save Your Project {.save}
 
-#Step 3: Extra characters { .activity}
+# Step 4: Extra characters { .activity}
 
 Some characters aren't in the alphabet, which causes an error.
 
