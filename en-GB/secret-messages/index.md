@@ -172,7 +172,7 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 
 	![screenshot](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is begin encrypted.
++ You can `print` the `newMessage` as it is being encrypted.
 
 	![screenshot](images/messages-print-message-characters.png)
 
