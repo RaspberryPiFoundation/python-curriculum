@@ -8,10 +8,10 @@ embeds: "*.png"
 materials: ["Recursos do Projeto/*.*","Club Leader Resources/*.*"]
 ...
 
-#Introdução:  { .intro}
+# Introdução:  { .intro}
 Neste projeto você aprenderá como fazer seu próprio programa de criptografia, assim você poderá enviar e receber mensagens secretas de um amigo.
 
-#Passo 1: Criptografando mensagens { .activity}
+# Passo 1: Criptografando mensagens { .activity}
 
 Uma cifra é um tipo de código secreto, onde você troca as letras e ninguém consegue ler suas mensagens. Você usará uma das mais antigas e mais famosas cifras, a cifra de César, que foi nomeada em homenagem a um tal de Júlio César. 
 
@@ -27,7 +27,7 @@ Para descriptografar a mensagem, você simplesmente move 3 letras no sentido ant
 
 ## Lista de Atividades{ .check}
 
-+ Vamos começar escrevendo um programa Python que criptografa um único caracter. Execute este programa, e entre a letra 'a' para verificar se ele funciona:
++ Vamos começar escrevendo um programa Python que criptografa um único caracter. Execute este programa, e entre com a letra 'a' para verificar se ele funciona:
 
 	```python
 	#lista de letras para criptografar
@@ -36,14 +36,14 @@ Para descriptografar a mensagem, você simplesmente move 3 letras no sentido ant
 	#a chave secreta é  3
 	chave = 3
 
-	letra = input("Por favor, entre uma letra para criptografar: ")
+	letra = input("Por favor, entre com uma letra para criptografar: ")
 
 	#encontre a posição da letra em alfabeto
 	#exemplo: 'a' está na posição 0, 'e' está na posição 4, etc.
 	posicao = alfabeto.find(letra)
 
 	#some a chave secreta para encontrar a posição da letra criptografada
-	# % 26 significa 'volte para 0 quando você chegar no 26'
+	#% 26 significa 'volte para 0 quando você chegar no 26'
 	novaPosicao = (posicao + chave) % 26
 
 	#a letra criptografada está no alfabeto na nova posição
@@ -101,8 +101,8 @@ Para descriptografar a mensagem, você simplesmente move 3 letras no sentido ant
 
 ## Salve Seu Projeto {.save}
 
-## Challenge: Chaves variáveis { .challenge}
-Modifique o programa de criptografia acima, de modo que o usuário possa entrar sua própria chave. Você precisará capturar a entrada do usuário, e armazenar em uma variável `chave`. Lembre-se de usar a função `int()` para converter a entrada em um número inteiro.
+## Desafio: Chaves variáveis { .challenge}
+Modifique o programa de criptografia acima, de modo que o usuário possa entrar com sua própria chave. Você precisará capturar a entrada do usuário, e armazenar em uma variável `chave`. Lembre-se de usar a função `int()` para converter a entrada em um número inteiro.
 
 ## Salve Seu Projeto {.save}
 
@@ -115,7 +115,7 @@ Modifique o programa de criptografia acima, de modo que o usuário possa entrar 
 
 ## Salve Seu Projeto {.save}
 
-#Step 2: Criptografando mensagens { .activity}
+# Passo 2: Criptografando mensagens { .activity}
 
 Ao invés de criptografar e descriptografar um caracter da mensagem por vez, vamos escrever um programa para criptografar e descriptografar mensagens inteiras!
 
@@ -125,7 +125,7 @@ Ao invés de criptografar e descriptografar um caracter da mensagem por vez, vam
 	+ um determinado número de vezes;
 	+ até que algo aconteça em seu programa.
 
-	Existe um terceiro modo de usar laços, que é repetir o código para cada elemento em um dado. Por exemplo, For example, se você quiser percorrer e imprimir cada caracter do nome de alguém, você pode usar este programa: 
+	Existe um terceiro modo de usar laços, que é repetir o código para cada elemento em um dado. Por exemplo, se você quiser percorrer e imprimir cada caracter do nome de alguém, você pode usar este programa: 
 
 	```python
 	nome = input("Qual seu nome? ")
@@ -146,7 +146,7 @@ Ao invés de criptografar e descriptografar um caracter da mensagem por vez, vam
 	alfabeto = "abcdefghijklmnopqrstuvwxyz"
 
 	#capture a mensagem do usuário
-	mensagem = input("Por favor, entre a mensagem a ser criptografada: ").lower()
+	mensagem = input("Por favor, entre com a mensagem a ser criptografada: ").lower()
 
 	#esta variável armazenará a mensagem criptografada
 	mensagemCriptografada = ""
@@ -161,12 +161,12 @@ Ao invés de criptografar e descriptografar um caracter da mensagem por vez, vam
 
 	    if char in alfabeto:
 	        
-			#encontre a posicao de caracter em alfabeto
+			#encontre a posição de caracter em alfabeto
 			#por exemplo, 'a' está na posição 0, 'e' está na posição 4, etc.
 	        posicao = alfabeto.find(char)
 	        
 			#some a chave secreta para encontrar a posição do caracter criptografado 
-	        # % 26 significa 'volte para 0 quando você atingir 26'
+	        #% 26 significa 'volte para 0 quando você atingir 26'
 	        novaPosicao = (posicao + chave) % 26
 	        
 	        #acrescente a letra descriptografada à mensagem
@@ -191,7 +191,7 @@ Ao invés de criptografar e descriptografar um caracter da mensagem por vez, vam
 ## Salve Seu Projeto {.save}
 
 ## Desafio: Criptografando e descriptografando mensagens { .challenge}
-Criptografe algumas mensagens, e as de a um amigo junto com a chave secreta. Veja se seus amigos conseguem descriptografá-las usando o programa deles!
+Criptografe algumas mensagens, e as de um amigo junto com a chave secreta. Veja se seus amigos conseguem descriptografá-las usando o programa deles!
 
 ## Salve Seu Projeto {.save}
 
@@ -215,11 +215,11 @@ o programa poderia percorrer cada caracter nos 2 nomes, e acrescentar pontos à 
 if char in "aeiou":
 	placar = placar + 5
 
-if char in "loves":
+if char in "amor":
 	placar = placar + 10
 ```
 
-Você pode mostrar mensagens personalizadas, baseadas on placar de compatibilidade:
+Você pode mostrar mensagens personalizadas, baseadas no placar de compatibilidade:
 
 ```python
 if placar < 10:
