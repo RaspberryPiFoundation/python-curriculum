@@ -17,7 +17,7 @@ Neste projeto você aprenderá como criar uma interface gráfica de usuário(GUI
 ## Dados do Pokemon { .challenge }
 Os dados do Pokemon a serem usados neste projeto podem ser acessados através de <a href="http://pokeapi.co/">pokeAPI</a>. Eles foram criados por Paul Hallett.
 
-#Step 1: Widgets! { .activity}
+# Passo 1: Widgets! { .activity}
 ## Lista de atividades { .check}
 
 + A interface gráfica de usuário (GUIs) poder ser criada facilmente usando o módulo 'tkinter'. Uma GUI contém muitas "coisas" diferentes, chamadas _widgets_. Por exemplo:
@@ -89,7 +89,7 @@ Os dados do Pokemon a serem usados neste projeto podem ser acessados através de
 
 	Perceba que vários comentários úteis foram adicionados para te lembrar para quê cada widget é usado. O nome das variáveis dos widgets também foram alteradas para tornar o programa mais fácil de ser entendido.
     
-## Salve Seu Projeto {.save}
+## Salve seu projeto {.save}
 
 ## Desafio: Mais widgets { .challenge}
 Você consegue terminar de criar a interface GUI para que ela mostre os detalhes do Pokemon e para que ela fique com essa aparência:
@@ -108,13 +108,13 @@ Sua interface GUI precisará de:
 
 Lembre-se que se você acrescentar comentários e utilizar nomes de variáveis significativos, isto te ajudará bastante mais tarde!
 
-## Salve Seu Projeto {.save}
+## Salve seu projeto {.save}
 
-#Step 2: Customizando seus widgets { .activity}
+# Passo 2: Customizando seus widgets { .activity}
 
 Agora que você já tem vários widgets diferentes na sua janela GUI, você pode mudar a aparência deles. 
 
-## Lista de Atividades { .check}
+## Lista de atividades { .check}
 
 + Primeiro vamos mudar algumas cores para que os widgets fiquem mais interessantes. Mude o código que que mostra a janela principal:
 
@@ -167,7 +167,7 @@ Agora que você já tem vários widgets diferentes na sua janela GUI, você pode
 
     ![screenshot](gui-font.png)
 
-## Salve Seu Projeto {.save}
+## Salve seu projeto {.save}
 
 ## Desafio: Fazendo com que os widgets fiquem mais bonitos { .challenge}
 Você consegue acrescentar fontes e cores para melhorar a aparência da GUI do seu Pokedex. Veja aqui um exemplo de como ele pode ficar:
@@ -176,13 +176,13 @@ Você consegue acrescentar fontes e cores para melhorar a aparência da GUI do s
 
 Seu Pokedex pode ter uma aparência diferente desta. Você pode usar diferentes fontes, por exemplo `Times`, `Courier`, ou qualquer outra fonte instalada no seu computador. Você também pode escolher suas próprias <a href="https://www.tcl.tk/man/tcl8.6/TkCmd/colors.htm">cores</a> (incluindo <a href="http://www.colorpicker.com/">código hexadecimal de cores</a>).
 
-## Salve Seu Projeto {.save}
+## Salve seu projeto {.save}
 
-#Step 3: Adicionando comandos { .activity }
+# Passo 3: Adicionando comandos { .activity }
 
 Agora que você tem uma GUI com uma aparência fantástica, vamos fazer um botão que realmente mostre os dados do Pokemon!
 
-## Lista de Atividades { .check}
+## Lista de atividades { .check}
 
 + Primeiro, tenha certeza que você tem um arquivo chamado `pokeapi.py` salvo no mesmo diretório do seu programa de interface GUI do Pokedex. Peça ajuda ao líder do seu clube se você não conseguir encontrar o arquivo. Este arquivo contém uma função chamada `getPokemonData()`, que obtém todos os dados de um Pokemon específico. Para usar esta função, você tem apenas que importá-lo do arquivo `pokeapi.py`, para isto, acrescente este código no início do seu programa:
 
@@ -219,7 +219,7 @@ Agora que você tem uma GUI com uma aparência fantástica, vamos fazer um botã
 
     ![screenshot](gui-command.png)
 
-+ Você pode até mesmo fazer um jogo de Top Pokemon, para isto basta remover o widget the entrada de texto e, ao invés disto pegar um Pokemon aleatório a cada vez. Apenas mude a função `mostreDadosDoPokemon()` para:
++ Você pode até mesmo fazer um jogo de Top Pokemon, para isto basta remover o widget de entrada de texto e, ao invés disto pegar um Pokemon aleatório a cada vez. Apenas mude a função `mostreDadosDoPokemon()` para:
 
     ```python
     #função para mostrar dados para um número de pokemon
@@ -232,7 +232,7 @@ Agora que você tem uma GUI com uma aparência fantástica, vamos fazer um botã
 
 	Lembre-se de importar o módulo `random` no início do seu programa (`from random import *`). Você pode competir com um amigo, comparando quem obteve o maior número para uma habilidade particular.
     
-## Salve Seu Projeto {.save}
+## Salve seu projeto {.save}
 
 ## Desafio: Terminar o seu Pokedex { .challenge}
 + Adicione código à sua função  `mostreDadosDoPokemon()` para mostrar o ataque, a defesa e a velocidade do Pokemon. Você precisará saber que as chaves do dicionário são:
@@ -244,9 +244,9 @@ Agora que você tem uma GUI com uma aparência fantástica, vamos fazer um botã
 
 ![screenshot](gui-pokedex-finished.png)
 
-## Salve Seu Projeto {.save}
+## Salve seu projeto {.save}
 
-#Step 4: (Opcional) Acrescentando uma imagem { .activity }
+# Passo 4: (Opcional) Acrescentando uma imagem { .activity }
 
 Também é possível mostrar a foto do Pokemon selecionado no seu Pokedex!
 
@@ -255,7 +255,7 @@ Também é possível mostrar a foto do Pokemon selecionado no seu Pokedex!
 ## Nota { .challenge }
 Você só pode completar este passo se você tiver o módulo 'pillow' instalado no seu computador. Se você não tem certeza, pergunte ao seu líder de clube.
 
-## Lista de Atividades { .check}
+## Lista de atividades { .check}
 
 + É um pouco difícil mostar a imagem de um Pokemon no seu Pokedex, mas não se preocupe - existe uma função `getPokemonImage()` no arquivo `pokeapi.py` para fazer o trabalho difícil para você! Esta função obtém a imagem do Pokemon, que pode ser mostrada em uma etiqueta. Primeiro, vamos criar uma etiqueta para mostrar a imagem dentro. Adicione este código em algum ponto do seu programa principal, juntamente com as outras etiquetas:
 
@@ -294,4 +294,4 @@ Você só pode completar este passo se você tiver o módulo 'pillow' instalado 
 
     ![screenshot](gui-pokedex-image.png)
 
-## Salve Seu Projeto {.save}
+## Salve seu projeto {.save}
