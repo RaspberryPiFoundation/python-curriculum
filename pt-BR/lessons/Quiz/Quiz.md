@@ -51,15 +51,15 @@ Neste projeto, você irá fazer um quiz para desafiar seus amigos.
 	print("Obrigado por jogar!")
 	```
 
-	Experimente este novo programa. O que acontece quando você escreve a resposta certa? O que acontece quando você entra em qualquer outra coisa?
+	Experimente este novo programa. O que acontece quando você escreve a resposta certa? O que acontece quando você escreve qualquer outra coisa?
 
 	![screenshot](quiz-if-else.png)
 
 ## Salve seu projeto {.save}
 
-## Desafio: Question time { .challenge}
+## Desafio: Questão de Tempo { .challenge}
 
-Use o que você aprendeu para criar seu próprio quiz. Você pode escolher qualquer coisa que você goste, e seu quiz deve usar `if` and `else` statements para deixar que o jogador saibe o que ele está fazendo.
+Use o que você aprendeu para criar seu próprio quiz. Você pode escolher qualquer coisa que você goste, e seu quiz deve usar as instruções `if` e `else` para deixar que o jogador saiba o que ele está fazendo.
 
 ## Salve seu projeto {.save}
 
@@ -73,7 +73,7 @@ Use o que você aprendeu para criar seu próprio quiz. Você pode escolher qualq
 
 	![screenshot](quiz-test.png)
 
-	Isso acontece porque o Python é muito rigoroso quando se compara a resposta do jogador para com resposta correta. Para Python, "V" não é o mesmo que "v", e por isso, se o jogador usa todas as letras maiúsculas em sua resposta, Python acha a resposta está errada!
+	Isso acontece porque o Python é muito rigoroso quando se compara a resposta do jogador com resposta correta. Para Python, "V" não é o mesmo que "v", e por isso, se o jogador usa todas as letras maiúsculas em sua resposta, Python acha que a resposta está errada!
 
 	Teste isso em seu jogo, para ver se a mesma coisa acontece.
 
@@ -119,7 +119,7 @@ Use o que você aprendeu para criar seu próprio quiz. Você pode escolher qualq
 
 + Adicione o código acima no seu quiz, de forma que você tenha uma questão de múltipla escolha.
 
-+ Teste essa nova questão 4 vezes, paar que você veja cada uma das 4 mensagens.
++ Teste essa nova questão 4 vezes, para que você veja cada uma das 4 mensagens.
 
 	![screenshot](quiz-elif.png)
 
@@ -133,7 +133,7 @@ Adicione algumas questões de múltipla escolha ao seu quiz. Uma vez que você t
 
 ## Desafio: Mantendo a pontuação  { .challenge}
 
-Você consegue usar uma variavel `score` no seu quiz,para medirar o progresso da pontuação do jogador? A variável pode ser usada desta forma:
+Você consegue usar uma variavel `score` no seu quiz, para medir o progresso da pontuação do jogador? A variável pode ser usada desta forma:
 
 + No começo do programa, deixe a pontuação em 0.
 + Sempre que uma pergunta é respondida corretamente, adicione 1 na pontuação do jogador. (`score = score + 1`)
