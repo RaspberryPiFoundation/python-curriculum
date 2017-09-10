@@ -13,10 +13,10 @@ __Ce projet utilise Python 3.__ Nous vous conseillons d'utiliser [trinket](https
 
 Il y a également un trinket qui contient un exemple de solution aux défis :
 
-+ [‘Robotrumps’ Finished -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
++ [‘Robo-Atout’ terminé -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
 # Ressources hors-ligne
-Ce projet peut être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) i préférable. Vous pouvez accéder aux ressources du projet en cliquant sur 'Matériaux du Projet'. Ce lien contient une section 'Ressources du projet', y compris vers des ressources dont les enfants auraient besoin pour compléter le projet hors-ligne. Vérifiez que chaque enfant a accès à une copie de ces ressources. Cette section comporte les fichiers suivants :
+Ce projet pourrait être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si préférable. Vous pouvez accéder aux ressources du projet en cliquant sur 'Matériaux du Projet'. Ce lien contient une section 'Ressources du projet', y compris vers des ressources dont les enfants auraient besoin pour compléter le projet hors-ligne. Vérifiez que chaque enfant ait accès à une copie de ces ressources. Cette section comporte les fichiers suivants :
 
 + robotrumps/robotrumps.py
 + robotrumps/cards.txt
@@ -28,7 +28,7 @@ Vous pouvez aussi trouver une version finalisée des défis de ce projet dans la
 + robotrumps-finished/cards.txt
 + Plusieurs images .gif de robots
 
-(Toutes les ressources ci-dessus sont également téléchargeable comme des fichiers `.zip` pour le projet et les volontaires.)
+(Toutes les ressources ci-dessus sont également téléchargeables comme des fichiers `.zip` pour le projet et les volontaires.)
 
 # Objectifs pédagogiques
 + Consolidation: structures de données, lire à partir d'un fichier et "turtle graphics" (interface graphique de la "tortue");

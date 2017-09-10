@@ -16,7 +16,7 @@ Il y a également un trinket qui contient le projet fini :
 + [‘Jeu de rôle’ finalisé -- trinket.io/python/d06adeb527](https://trinket.io/python/d06adeb527)
 
 # Ressources hors-ligne
-Ce projet peut être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) i préférable. Vous pouvez accéder aux ressources du projet en cliquant sur 'Matériaux du Projet'. Ce lien contient une section 'Ressources du projet', y compris vers des ressources dont les enfants auraient besoin pour compléter le projet hors-ligne. Vérifiez que chaque enfant a accès à une copie de ces ressources. Cette section comporte les fichiers suivants :
+Ce projet peut être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) i préférable. Vous pouvez accéder aux ressources du projet en cliquant sur 'Matériaux du Projet'. Ce lien contient une section 'Ressources du projet', y compris vers des ressources dont les enfants auraient besoin pour compléter le projet hors-ligne. Vérifiez que chaque enfant a accès à une copie de ces ressources. Cette section comporte le fichier suivant :
 
 + rpg/rpg.py
 

@@ -44,7 +44,7 @@ volunteer-resources:
   - url: https://trinket.io/python/9ccc368bd5
     type: link
     text: trinket.io/python/9ccc368bd5
-    description: Online completed Trinket project
+    description: Projet finalisé Trinket en ligne
   - url: robo-trumps-finished/robo-trumps.py
     type: file
   - url: robo-trumps-finished/cards.txt
