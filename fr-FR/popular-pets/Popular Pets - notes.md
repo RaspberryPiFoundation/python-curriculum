@@ -16,7 +16,7 @@ Il y a également un trinket qui contient un exemple de solution aux défis :
 + [‘Animaux de compagnie préférés’ terminé -- trinket.io/python/9339862606](https://trinket.io/python/9339862606)
 
 # Ressources hors-ligne
-Ce projet pourrait être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si préférable. Vous pouvez accéder aux ressources du projet en cliquant sur 'Matériaux du Projet'. Ce lien contient une section 'Ressources du projet', y compris vers des ressources dont les enfants auraient besoin pour compléter le projet hors-ligne. Vérifiez que chaque enfant ait accès à une copie de ces ressources. Cette section comporte les fichiers suivants :
+Ce projet pourrait être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si préférable. Vous pouvez accéder aux ressources du projet en cliquant sur 'Matériaux du Projet'. Ce lien contient une section 'Ressources du projet', y compris vers des ressources dont les enfants auraient besoin pour compléter le projet hors-ligne. Vérifiez que chaque enfant ait accès à une copie de ces ressources. Cette section comporte le fichier suivant :
 
 + popular-pets/popular-pets.py
 

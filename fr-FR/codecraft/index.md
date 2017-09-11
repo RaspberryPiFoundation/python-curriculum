@@ -15,7 +15,7 @@ Dans ce projet, tu vas dessiner et coder des améliorations dans une version 2D 
   <img src="images/craft-finished.png">
 </div>
 
-# Étape 1: Jouer le jeu { .activity}
+# Étape 1 : Jouer le jeu { .activity}
 
 ## Liste de contrôle { .check}
 
@@ -50,7 +50,7 @@ Peux-tu construire une maison, avec un jardin et une piscine ? Que peux-tu crée
 
 ## Sauvegarde ton projet {.save}
 
-# Étape 2: Customisation de ton jeu { .activity}
+# Étape 2 : Customisation de ton jeu { .activity}
 
 Modifions quelques variable pour changer le fonctionnement de ton jeu.
 
@@ -73,7 +73,7 @@ Saurais-tu changer les valeurs des variables `MAPWIDTH` et `MAPHEIGHT` pour chan
 
 ## Sauvegarde ton projet {.save}
 
-# Étape 3: Créer une nouvelle ressource en bois { .activity}
+# Étape 3 : Créer une nouvelle ressource en bois { .activity}
 
 Créons une nouvelle ressource en bois. Pour faire ceci, il faudrait ajouter quelques variables à ton fichier `variables.py`.
 
@@ -136,7 +136,7 @@ Le projet inclut déjà une image `sand.png`, mais tu peux créer et transférer
 
 ## Sauvegarde ton projet {.save}
 
-# Étape 4: Façonner des planches de bois { .activity}
+# Étape 4 : Façonner des planches de bois { .activity}
 
 Créons une nouvelle ressource planche qui sera façonnée de bois.
 

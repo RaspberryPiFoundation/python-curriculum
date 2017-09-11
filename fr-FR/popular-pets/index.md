@@ -1,7 +1,7 @@
 ---
 title: Animaux de compagnie préférés
 description: Créer des camemberts et des histogrammes à partir de données que tu colliges.
-notes: "Animaux de compagnie préférés - notes.md"
+notes: "Popular Pets - notes.md"
 layout: project
 new: true
 ---

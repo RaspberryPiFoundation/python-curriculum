@@ -4,7 +4,7 @@ language: fr-FR
 embeds: "*.png"
 ...
 
-#Introduction:
+# Introduction :
 Au cours de ce projet, les enfants vont apprendre à écrire un programme Python parlant d'eux même aux autres. Ils vont créer de l'art ASCII (images faites de texte) et faire des calculs à partir de données entrées par l'utilisateur.
 
 #Ressources en-ligne
