@@ -12,17 +12,17 @@ materials: ["Project Resources/*.*"]
 Neste desafio, você vai desenvolver e programar seu próprio jogo de labirinto no estilo RPG. O objetivo do jogo é coletar objetos e escapar de uma casa, desviando de todos os monstros!
 
 # Etapa 1: Adicionando novos cômodos { .activity}
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
   + Se você executar o arquivo RPG.py, você vai poder jogar um jogo básico de RPG com apenas 2 cômodos. Esse é o mapa do jogo:
 
     ![screenshot](rpg-map1.png)
 
-    Você pode digitar `ir para o sul` para ir da sala para o cozinha, e depois `ir para o norte` para ir novamente para a sala!
+    Você pode digitar `ir sul` para ir da sala para o cozinha, e depois `ir norte` para ir novamente para a sala!
 
     ![screenshot](rpg-controls.png)
 
-  + Você também pode ver o que acontece quando você digita uma direção na qual você não pode ir. Por exemplo, não há nenhum cômodo a oeste da sala, então se você digitar `ir para o oeste`, uma mensagem de erro será obtida.
+  + Você também pode ver o que acontece quando você digita uma direção na qual você não pode ir. Por exemplo, não há nenhum cômodo a oeste da sala, então se você digitar `ir oeste`, uma mensagem de erro será obtida.
 
     ![screenshot](rpg-error.png)
 
@@ -72,7 +72,7 @@ Neste desafio, você vai desenvolver e programar seu próprio jogo de labirinto 
              }
     ```
 
-    Para adicionar esse cômodo ao jogo, observe que você precisa adicionar um novo cômodo (cômodo número 3), e dar um nome a ele. Você também precisa conectar o cômodo 1 (a sala) ao oeste do novo cômodo. Você precisa adicionar informações ao dicionário da sala, para permitir que você acesse a sala de jantar pelo leste. Lembre-se de adicionar uma vírgula depois do segundo cômodo no dicionário, caso contrário seu código não vai funcionar!
+    Para adicionar esse cômodo ao jogo, observe que você precisa adicionar um novo cômodo (cômodo número 3), e dar um nome a ele. Você também precisa conectar o cômodo 1 (a sala) a oeste do novo cômodo. Você precisa adicionar informações ao dicionário da sala, para permitir que você acesse a sala de jantar pelo leste. Lembre-se de adicionar uma vírgula depois do segundo cômodo no dicionário, caso contrário seu código não vai funcionar!
 
   + Experimente jogar com a nova sala de jantar:
 
@@ -92,7 +92,7 @@ Adicione mais cômodos ao seu jogo. Por exemplo, você pode criar uma sala de es
 
 Agora que você tem vários cômodos, vamos deixar alguns itens neles para o jogador coletar conforme se move pelo labirinto.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
   + Adicionar um item em um cômodo é fácil. Você pode simplesmente adicioná-lo ao dicionário de um cômodo. Por exemplo, vamos colocar uma chave na sala.
 
@@ -138,7 +138,7 @@ Adicione um item a alguns dos cômodos do seu jogo. Você pode adicionar qualque
 
 Esse jogo está muito fácil! Vamos adicionar alguns inimigos em alguns cômodos dos quais o jogador precisa desviar.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
   + Adicionar um inimigo em um cômodo é tão fácil quanto adicionar qualquer outro item. Vamos adicionar um monstro faminto na cozinha:
 
@@ -167,7 +167,7 @@ Esse jogo está muito fácil! Vamos adicionar alguns inimigos em alguns cômodos
              }
     ```
 
-  + Você também precisa fazer com que o jogo acabe se o jogador entrar em um cômodo no qual há um monstro. Você pode fazer isso com o código a seguir, que você adicionar ao final do jogo.
+  + Você também precisa fazer com que o jogo acabe se o jogador entrar em um cômodo no qual há um monstro. Você pode fazer isso com o código a seguir, que você vai adicionar ao final do jogo.
 
     ```python
         # o jogador perde se entrar em um cômodo com um monstro
@@ -196,9 +196,9 @@ Adicione mais monstros ao seu jogo para que escapar da casa fique mais difícil!
 
 Vamos dar uma missão ao jogador, a qual precisa ser realizada para que ele vença o jogo.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
-  + Neste jogo, o jogador ganha se chegar ao jardim e escapar da casa. Eles também precisam ter a chave e o escudo em seu inventário. Temos aqui o mapa do jogo.
+  + Neste jogo, o jogador ganha se chegar ao jardim e escapar da casa. Ele também precisa ter a chave e a poção mágica em seu inventário. Temos aqui o mapa do jogo.
 
     ![screenshot](rpg-final-map.png)
 
@@ -206,20 +206,20 @@ Vamos dar uma missão ao jogador, a qual precisa ser realizada para que ele ven�
 
   + Use as orientações da etapa 1 acima para adicionar um jardim ao seu jogo. Lembre-se de adicionar portas, para conectá-lo aos demais cômodos da casa.
 
-  + Use as orientações da etapa 2 acima para adicionar um escudo à sala de jantar (ou a outro cômodo da casa).
+  + Use as orientações da etapa 2 acima para adicionar uma poção à sala de jantar (ou a outro cômodo da casa).
 
-  + Para permitir que o jogador vença o jogo quando chegar ao jardim com a chave e o escudo, adicione este código ao final do seu jogo:
+  + Para permitir que o jogador vença o jogo quando chegar ao jardim com a chave e a poção mágica, adicione este código ao final do seu jogo:
 
     ```python
-        # o jogador vence o jogo se ele chegar ao jardim com uma chave e um escudo
-        if localAtual == 4 and 'chave' in inventario and 'escudo' in inventario:
+        # o jogador vence o jogo se ele chegar ao jardim com uma chave e uma poção
+        if localAtual == 4 and 'chave' in inventario and 'poção' in inventario:
             print("Você escapou da casa... VOCÊ VENCEU!")
             print("Pressione qualquer tecla para sair")
             input()
             break
     ```
 
-    Novamente, verifique se seu código está indentado e alinhado com o código acima. Este código significa que a mensagem `...VOCÊ VENCEU!` é exibida se o jogador estiver no cômodo 4 (o jardim) e se a chave e o escudo estiverem no inventário. Se você tiver mais de 4 cômodos, você pode precisar usar um número diferente para o jardim no código acima.
+    Novamente, verifique se seu código está indentado e alinhado com o código acima. Este código significa que a mensagem `...VOCÊ VENCEU!` é exibida se o jogador estiver no cômodo 4 (o jardim) e se a chave e a poção estiverem no inventário. Se você tiver mais de 4 cômodos, você pode precisar usar um número diferente para o jardim no código acima.
 
   + Teste seu jogo para garantir que o jogador consiga vencer!
 
