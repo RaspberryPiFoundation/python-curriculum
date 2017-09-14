@@ -29,15 +29,15 @@ Neste projeto, você desenhará e fará melhorias no código de uma versão 2D d
 
     ![screenshot](mine1-4.png)
 
-  + Você pode fabricar um item mantendo pressionada a tecla Shift e pressionando um número. Esse processo de fabricação significa que você combinará items que você já tem em seu estoque para criar outros items novos. Tente manter pressionada a tecla Shift e pressionar o número 4 para criar um novo tijolo (desde que você tenha 2 sujeiras e 1 água no seu estoque).
+  + Você pode fabricar um item mantendo pressionada a tecla Shift e pressionando um número. Esse processo de fabricação significa que você combinará itens que você já tem em seu estoque para criar outros itens novos. Tente manter pressionada a tecla Shift e pressionar o número 4 para criar um novo tijolo (desde que você tenha 2 sujeiras e 1 água no seu estoque).
 
     ![screenshot](mine1-5.png)
 
-  + À medida em que você joga, você notará que você pode manter apenas um máximo de 20 unidades de cada recurso no seu estoque. Se você quiser aumentar este limite, você pode mudar o valor de uma variável chamada `MAXTILES` que está no arquivo variables.py.
+  + A medida em que você joga, você notará que você pode manter apenas um máximo de 20 unidades de cada recurso no seu estoque. Se você quiser aumentar este limite, você pode mudar o valor de uma variável chamada `MAXTILES` que está no arquivo variables.py.
 
     ```python
   	# a quantidade máxima de cada recurso que você pode manter no seu estoque
-  	# ----------------------------------------------------
+  	""" ---------------------------------------------------------------------
 
   	MAXTILES  = 20
     ```
@@ -98,7 +98,7 @@ Edite estas 2 linhas de código para customizar o jogo. Lembre-se que se você m
 
 # Passo 3: Acrescentando novos recursos { .activity}
 
-Você tem apenas 4 recursos no seu jogo; sujeria, grama, água e tijolo. Vamos acrescentar mais!
+Você tem apenas 4 recursos no seu jogo: sujeria, grama, água e tijolo. Vamos acrescentar mais!
 
 ## Lista de Atividades { .check}
 
@@ -146,7 +146,7 @@ Você tem apenas 4 recursos no seu jogo; sujeria, grama, água e tijolo. Vamos a
 
     Note que você precisa acrescentar uma vírgula (`,`) depois da imagem do tijolo na linha acima.
 
-  + Você pode também acrescentar madeira ao dicionário do estoque. Você pode escolher com quantas unidade de madeira você inicia o jogo:
+  + Você pode também acrescentar madeira ao dicionário do estoque. Você pode escolher com quantas unidades de madeira você inicia o jogo:
 
     ```python
     # A quantidade de cada recurso que você tem no início do jogo
@@ -161,7 +161,7 @@ Você tem apenas 4 recursos no seu jogo; sujeria, grama, água e tijolo. Vamos a
                 }
     ```
 
-  + Se você rodar o jogo, você verá que agora você tem madeira que você pode colocar no mapa, e você verá também que no início, ainda não existe nenhuma madeira no mapa:
+  + Se você rodar o jogo, você verá que agora você tem madeira e pode colocar no mapa, e você verá também que no início, ainda não existe nenhuma madeira no mapa:
 
     ![screenshot](mine3-6.png)
 
@@ -192,7 +192,7 @@ Você tem apenas 4 recursos no seu jogo; sujeria, grama, água e tijolo. Vamos a
 
 ## Desafio: Acrescentado recursos { .challenge}
 
-Use as intruções acima para acrescentar seus próprios recursos. Você pode acrescentar lava, metal, areia ou qualquer outra coisa que você conseguir imaginar!
+Use as instruções acima para acrescentar seus próprios recursos. Você pode acrescentar lava, metal, areia ou qualquer outra coisa que você conseguir imaginar!
 
 ## Salve Seu Projeto {.save}
 
