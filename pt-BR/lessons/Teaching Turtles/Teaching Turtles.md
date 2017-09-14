@@ -1,6 +1,6 @@
 
 ---
-title: Ensinamento de Tartarugas
+title: Ensinando com as Tartarugas
 level: Python 2
 language: pt-BR
 stylesheet: python
@@ -13,7 +13,7 @@ Neste projeto, você vai aprender mais sobre desenhos com a tartaruga, e como _f
 
 #Etapa 1: Desenhando estrelas { .activity}
 
-## Lista de verificação da atividade { .check}
+## Lista de atividade { .check}
 
 + Vamos começar usando o que você já sabe sobre tartarugas para desenhar uma estrela. Execute este programa, mas lembre-se de *não* chamá-lo de `turtle.py` - qualquer outro nome é permitido! 
 
@@ -106,7 +106,7 @@ print("Olá")
 ```
 ...que diz para a função `print` para imprimir "Olá" na tela.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividade { .check}
 
 + Temos aqui um programa com uma função `drawStar()` que pode desenhar estrelas de tamanhos diferentes usando qualquer número passado para ela.
 
@@ -191,7 +191,7 @@ Crie uma função para desenhar um planeta chamada `drawPlanet()`. Passe dados p
 
 Vamos usar a função `drawStar()` para desenhar estrelas de tamanhos diferentes aleatoriamente pela tela.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividade { .check}
 
 + Execute este programa, que move a tartaruga para uma nova posição, e então desenha uma estrela branca:
 
@@ -273,7 +273,7 @@ Vamos usar a função `drawStar()` para desenhar estrelas de tamanhos diferentes
 
 Você pode escrever funções que usam outras funções, o que facilita ainda mais na hora de escrever programas maiores!
 
-## Lista de verificação da atividade { .check}
+## Lista de atividade { .check}
 
 + Seria ótimo se pudéssemos adicionar uma galáxia de pequenas estrelas multicoloridas ao nosso desenho. Como já temos uma função para desenhar estrelas, podemos criar outra função chamada `drawGalaxy()` que usa a função `drawStar()` que já temos:
 
