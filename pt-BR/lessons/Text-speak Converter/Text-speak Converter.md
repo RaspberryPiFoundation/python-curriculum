@@ -7,15 +7,15 @@ embeds: "*.png"
 materials: ["Project Resources/*.*","Club Leader Resources/*.*"]
 ...
 
-#Introdução:  { .intro}
+# Introdução:  { .intro}
 
 Neste projeto, você vai aprender a criar um programa para traduzir expressões em frases.
 
-#Etapa 1: Traduzindo palavras { .activity}
+# Etapa 1: Traduzindo palavras { .activity}
 
 Vamos fazer um programa para converter expressões para o português.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividade { .check}
 
 + Como você provavelmente sabe, um dicionário serve para que você procure por uma palavra e encontre seu significado. Em Python, um dicionário é ainda mais flexível que isso - ele permite que você mapeie qualquer coisa (que chamamos chave, ou _key_) para qualquer outra coisa! Temos aqui um dicionário que relaciona expressões a seus significados:
 
@@ -57,7 +57,7 @@ Vamos fazer um programa para converter expressões para o português.
 
 Vamos melhorar nosso programa, assim você pode traduzir frases inteiras ao invés de uma única palavra.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividade { .check}
 
 + Execute este programa, que ajuda a dividir uma frase em palavras individuais, e depois traduza cada palavra (se ela existir no dicionário):
 
@@ -68,7 +68,7 @@ Vamos melhorar nosso programa, assim você pode traduzir frases inteiras ao inv�
     }
 
     #obtém a frase para tradução
-    sentence = input("Enter a sentence to translate: ").lower()
+    sentence = input("Insira uma frase para traduzir: ").lower()
 
     #divide a frase em uma lista de palavras
     wordsToTranslate = sentence.split()
@@ -113,8 +113,8 @@ Você deve pesquisar algumas expressões caso não conheça nenhuma.
 
 + Você ou seus amigos fizeram alguma coisa para travar o programa? Se sim, você consegue resolver o problema?
 
-#Etapa 3: Adição e remoção de traduções { .activity}
-## Lista de verificação da atividade { .check}
+# Etapa 3: Adição e remoção de traduções { .activity}
+## Lista de atividade { .check}
 
 + Assim como o seu programa 'gerador de cumprimentos', seria legal permitir que o usuário adicione e remova palavras do dicionário. Você pode fazer isso criando um menu:
 
@@ -254,10 +254,10 @@ if itemToDelete not in textSpeakDictionary:
 
 ## Salve seu projeto {.save}
 
-#Etapa 4: Arrumando seu programa { .activity}
-## Lista de verificação da atividade { .check}
+# Etapa 4: Arrumando seu programa { .activity}
+## Lista de atividade { .check}
 
-+ Você já fez vários testes para melhorar seu programa, mas ainda há coisa que você pode arrumar para deixar seu programa ainda melhor. Veja o que acontece quando você testa seu programa com a seguinte frase:
++ Você já fez vários testes para melhorar seu programa, mas ainda há uma coisa que você pode arrumar para deixar seu programa ainda melhor. Veja o que acontece quando você testa seu programa com a seguinte frase:
 
     ![screenshot](textspeak-punctuation.png)
 
@@ -304,7 +304,7 @@ Crie um programa de proteção de senha, que pede que o usuário informe seu nom
 Seu programa precisa verificar se o nome do usuário existe no dicionário _e_ se a senha para esse usuário foi fornecida. Você pode usar esse código como guia:
 
 ```python
-#verifica se o nome existe e se a senha está correta
+# verifica se o nome existe e se a senha está correta
 if name in passwordDictionary and password == passwordDictionary[name]:
 	#adicione o código aqui!
 ```
