@@ -13,3 +13,5 @@ If you're a club leader trying out new projects, please complete <a href="https:
 This material is openly available for everyone to use and contribute to. Right now, we’re receiving translations from all over the world.
 
 Instructions on how to contribute to our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/contributing.md).
+
+**You should switch to the correct branch to contribute. The content for the [projects.codeclubworld.org](http://projects.codeclubworld.org/) can be found in the `master` branch and the content for the [codeclubprojects.org](https://codeclubprojects.org/) site can be found in the `new-layout` branch.**
