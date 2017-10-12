@@ -217,6 +217,10 @@ Let’s add code so that you get a random robot when you type Random instead of 
 
   ![screenshot](images/robotrumps-choice.png)
   
+  In Python 3 you need to use `list` to turn the results of `keys` into a list. 
+  
+  Tip: Make sure you check your brackets carefully! 
+  
 
 ## Save Your Project {.save}
 
