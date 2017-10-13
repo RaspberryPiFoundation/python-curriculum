@@ -22,9 +22,9 @@ print('Robots: ', ', '.join(robots.keys()), ' (or random)')
 while True:
   robot = input("Choose a robot: ")
   if(robot == "random"):
-    robot = choice(robots.keys())
+    robot = choice(list(robots.keys()))
     print(robot)
-  
+
   if robot in robots:
     stats = robots[robot]
     style = ('Courier', 14, 'bold')
@@ -45,6 +45,6 @@ while True:
     write('Usefulness: ' + stats[2], font=style, align='center')
     forward(25)
     write('Speed: ' + stats[3], font=style, align='center')
-    
+
   else:
     print("Robot doesn't exist!")
