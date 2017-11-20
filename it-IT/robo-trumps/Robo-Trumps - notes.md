@@ -1,5 +1,5 @@
 ---
-title: Carte Robotiche – Note per i Volontari
+title: Carte Robotiche â€“ Note per i Volontari
 ---
 
 #Introduzione:
@@ -7,22 +7,22 @@ In questo progetto, gli allievi leggeranno dati da un file in un dizionario per 
 
 #Risorse online
 
-__Questo progetto utilizza Python 3.__ È consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
+__Questo progetto utilizza Python 3.__ Ãˆ consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
 
 + [punto d'inizio 'Carte Robotiche' -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
-È disponibile anche un trinket con esempi di soluzioni alle sfide:
+Ãˆ disponibile anche un trinket con esempi di soluzioni alle sfide:
 
 + [Carte Robotiche - Finito -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
 #Risorse offline
-Questo progetto può essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. È possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. È bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
+Questo progetto puÃ² essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. Ãˆ possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. Ãˆ bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
 
 + robotrumps/robotrumps.py
 + robotrumps/cards.txt
 + Varie immagini .gif di robot
 
-Una versione completa delle sfide di questo progetto è presente anche nella sezione "Risorse per i volontari", che contiene:
+Una versione completa delle sfide di questo progetto Ã¨ presente anche nella sezione "Risorse per i volontari", che contiene:
 
 + robotrumps-finished/robotrumps.py
 + robotrumps-finished/cards.txt
@@ -46,6 +46,6 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 
 #Domande frequenti
 + __Python offline non consente di utilizzare immagini .png. Per l'utilizzo offline sono fornite immagini .gif.__
-+ Nota che questo progetto usa sia input di testo che cursori tartaruga, puoi regolare la quantità di spazio data in ogni trinket.
++ Nota che questo progetto usa sia input di testo che cursori tartaruga, puoi regolare la quantitÃ  di spazio data in ogni trinket.
 + Prima di digitare, dovrai cliccare nella finestra di testo del trinket.
 + I bambini possono usare l'opzione 'Condividi' nel trinket per ottenere un link al loro progetto. Se hanno accesso alle email, possono mandare il link a un amico, altrimenti possono semplicemente leggerlo, annotarlo su un foglio di carta o salvarlo in un file di testo sulla rete locale.
