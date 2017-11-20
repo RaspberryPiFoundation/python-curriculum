@@ -27,11 +27,11 @@ Regole: Sia tu che il computer sceglierete sasso, carta o forbici. Il vincitore 
 
 Per prima cosa, fate scegliere Sasso, Carta o Forbici al giocatore. 
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Apri questo trinket: <a href="http://jumpto.cc/rps-go" target="_blank">jumpto.cc/rps-go</a>. 
 
-+ Il progetto contiene gi‡ il codice per importare una funzione che userai in questo progetto. 
++ Il progetto contiene gi√† il codice per importare una funzione che userai in questo progetto. 
 
   ![screenshot](images/rps-imports.png)
   
@@ -50,9 +50,9 @@ Per prima cosa, fate scegliere Sasso, Carta o Forbici al giocatore.
 
 # Passo 2: Turno del Computer { .activity}
 
-Adeso Ë il turno del computer. Puoi usare la funzione 'randint' per generare un numero a caso e decidere tra sasso, carta e forbici. 
+Adeso √® il turno del computer. Puoi usare la funzione 'randint' per generare un numero a caso e decidere tra sasso, carta e forbici. 
 
-## Lista di controllo delle attivit‡ { .check}  
+## Lista di controllo delle attivit√† { .check}  
 
 
 + Usa 'randint' per generare un numero a caso per decidere se il computer ha scelto sasso, carta o forbici. 
@@ -61,7 +61,7 @@ Adeso Ë il turno del computer. Puoi usare la funzione 'randint' per generare un 
   
 + Esegui tante volte il tuo script (dovrai inserire ogni volta 'r', 'p' o 's'.)
   
-  Dovresti vedere che 'chosen' Ë regolato a caso a 1, 2 o 3. 
+  Dovresti vedere che 'chosen' √® regolato a caso a 1, 2 o 3. 
   
 + Diciamo:
   
@@ -69,7 +69,7 @@ Adeso Ë il turno del computer. Puoi usare la funzione 'randint' per generare un 
   + 2 = carta (p)
   + 3 = forbici (s)
 
-  Usa 'if' per controllare se il numero scelto Ë '1' (`==` Ë usato per vedere se 2 cose sono le stesse). 
+  Usa 'if' per controllare se il numero scelto √® '1' (`==` √® usato per vedere se 2 cose sono le stesse). 
   
   ![screenshot](images/rps-if-1.png)
   
@@ -83,7 +83,7 @@ Adeso Ë il turno del computer. Puoi usare la funzione 'randint' per generare un 
 
   ![screenshot](images/rps-elif-2.png)
 
-  Questa condizione verr‡ controllata solo se la prima condizione fallisce (se il computer non sceglie '1')
+  Questa condizione verr√† controllata solo se la prima condizione fallisce (se il computer non sceglie '1')
   
 + E per finire, se il computer non sceglie '1' o '2' allora deve avere scelto '3'. 
 
@@ -114,15 +114,15 @@ Adeso Ë il turno del computer. Puoi usare la funzione 'randint' per generare un 
 
 Ora aggiungiamo il codice per vedere chi ha vinto. 
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Dovrai paragonare le variabili 'player' e 'computer' per vedere chi ha vinto. 
 
-  Se sono le stesse, allora ci sar‡ un pareggio.
+  Se sono le stesse, allora ci sar√† un pareggio.
   
   ![screenshot](images/rps-draw.png)
   
-+ Prova il tuo codice giocando un po' di volte finchÈ non raggiungi un pareggio. 
++ Prova il tuo codice giocando un po' di volte finch√© non raggiungi un pareggio. 
 
   Dovrai cliccare 'Run' per cominciare una nuova partita. 
 

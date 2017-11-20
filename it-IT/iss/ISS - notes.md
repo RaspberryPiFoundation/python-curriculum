@@ -1,5 +1,5 @@
 ---
-title: Dov'Ë la Stazione Spaziale? - Note per i Volontari
+title: Dov'√® la Stazione Spaziale? - Note per i Volontari
 ---
 
 #Introduzione:
@@ -11,23 +11,23 @@ Questo progetto usa una serie di servizi web. Siete pregati di assicurarvi che p
 
 + [Apri Nofify APIs -- api.open-notify.org/](http://api.open-notify.org/)
 
-__Questo progetto utilizza Python 3.__ » consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
+__Questo progetto utilizza Python 3.__ √à consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
 
-+ ['Dov'Ë il punto iniziale della ISS?' -- jumpto.cc/iss-go](http://jumpto.cc/iss-go)
++ ['Dov'√® il punto iniziale della ISS?' -- jumpto.cc/iss-go](http://jumpto.cc/iss-go)
 
-» disponibile anche un trinket con esempi di soluzioni alle sfide:
+√à disponibile anche un trinket con esempi di soluzioni alle sfide:
 
-+ [Dov'Ë la ISS? Finito' -- trinket.io/python/9ccc368bd5](https://trinket.io/python/b95851338c)
++ [Dov'√® la ISS? Finito' -- trinket.io/python/9ccc368bd5](https://trinket.io/python/b95851338c)
 
 #Risorse offline
-Questo progetto puÚ essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. » possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. » bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
+Questo progetto pu√≤ essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. √à possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. √à bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
 
 + iss/iss.py
 + iss/map.gif
 + iss/iss.gif
 + iss/iss2.gif
 
-Una versione completa delle sfide di questo progetto Ë presente anche nella sezione "Risorse per i volontari", che contiene:
+Una versione completa delle sfide di questo progetto √® presente anche nella sezione "Risorse per i volontari", che contiene:
 
 + iss-finished/iss.py
 + iss-finished/map.gif
@@ -50,6 +50,6 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 
 #Domande frequenti
 + __Python offline non consente di utilizzare immagini .png. Per l'utilizzo offline sono fornite immagini .gif.__
-+ Nota che questo progetto usa sia input di testo che cursori tartaruga, puoi regolare la quantit‡ di spazio data in ogni trinket. 
++ Nota che questo progetto usa sia input di testo che cursori tartaruga, puoi regolare la quantit√† di spazio data in ogni trinket. 
 
 

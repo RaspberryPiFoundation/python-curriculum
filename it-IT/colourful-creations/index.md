@@ -8,7 +8,7 @@ new: true
 
 # Introduzione {.intro}
 
-In questo progetto creerai un dizionario di colori che mappa i codici dei colori (difficilissimi da ricordare) con dei nomi pi˘ descrittivi.  
+In questo progetto creerai un dizionario di colori che mappa i codici dei colori (difficilissimi da ricordare) con dei nomi pi√π descrittivi.  
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/41a99e668b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -18,9 +18,9 @@ In questo progetto creerai un dizionario di colori che mappa i codici dei colori
 
 # Passo 1: Come usare i codici esadecimali dei colori { .activity}
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
-La "tartaruga" di Python contiene gi‡ dei colori predefiniti ("red" per rosso, "white" per bianco, ecc.) ma puoi utilizzare anche i codici esadecimali dei colori (che forse hai gi‡ visto nel corso di HTML e CSS). 
+La "tartaruga" di Python contiene gi√† dei colori predefiniti ("red" per rosso, "white" per bianco, ecc.) ma puoi utilizzare anche i codici esadecimali dei colori (che forse hai gi√† visto nel corso di HTML e CSS). 
 
 + Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
 
@@ -28,9 +28,9 @@ La "tartaruga" di Python contiene gi‡ dei colori predefiniti ("red" per rosso, "
 
     ![screenshot](images/colourful-setup.png)
     
-    Nota che hai usato un colore con un nome gi‡ assegnato: "white", il bianco.
+    Nota che hai usato un colore con un nome gi√† assegnato: "white", il bianco.
     
-+ Tartaruga contiene gi‡ un elenco di nomi di colori che puoi usare, ma alle volte potresti voler scegliere dei colori personali. Tartaruga ti consente di usare i codici esadecimali dei colori. 
++ Tartaruga contiene gi√† un elenco di nomi di colori che puoi usare, ma alle volte potresti voler scegliere dei colori personali. Tartaruga ti consente di usare i codici esadecimali dei colori. 
 
   Apri <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> e scegli un colore che ti piace. Trova il suo codice esadecimale, che comincia con "#", ad esempio "#A7E30E". 
   
@@ -57,11 +57,11 @@ La "tartaruga" di Python contiene gi‡ dei colori predefiniti ("red" per rosso, "
 
 # Passo 2: Un dizionario di colori{ .activity}
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
  
 I codici esadecimali dei colori sono molto utili, ma sono difficili da ricordare. 
 
-Come certamente sai, un dizionario ti consente di cercare una parola e vedere cosa vuol dire. In Python, un dizionario Ë persino pi˘ potente. Ti permette di cercare un valore per ogni "chiave" contenuta nel dizionario.
+Come certamente sai, un dizionario ti consente di cercare una parola e vedere cosa vuol dire. In Python, un dizionario √® persino pi√π potente. Ti permette di cercare un valore per ogni "chiave" contenuta nel dizionario.
 
 Creiamo adesso un dizionario per mappare la corrispondenza fra i normali nomi dei colori che capiscono le persone (chiavi) e il codici esadecimali (valori) che capiscono i computer.
 
@@ -73,13 +73,13 @@ Creiamo adesso un dizionario per mappare la corrispondenza fra i normali nomi de
    
 + Scegli dei nomi carinissimi per i tuoi colori e modifica la riga "colours = {}" per aggiungere le corrispondenti voci al dizionario. 
 
-  Questo Ë un esempio di dizionario di colori:
+  Questo √® un esempio di dizionario di colori:
 
    ![screenshot](images/colourful-colours.png)
    
    I due punti (:) separano la chiave (nome del colore) dal valore (codice esadecimale). Nel dizionario, ogni coppia chiave:valore deve essere separata dalle altre con una virgola (,). 
 
-+ Adesso non Ë pi˘ necessario ricordare i codici esadecimali: puoi semplicemente cercarli nel dizionario. 
++ Adesso non √® pi√π necessario ricordare i codici esadecimali: puoi semplicemente cercarli nel dizionario. 
 
   Adatta il seguente codice per usare i tuoi nomi di colori:
   

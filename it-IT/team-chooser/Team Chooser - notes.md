@@ -1,5 +1,5 @@
 ---
-title: Creatore di Squadre – Note per i Volontari
+title: Creatore di Squadre â€“ Note per i Volontari
 ---
 
 #Introduzione:
@@ -7,20 +7,20 @@ In questo progetto, i bambini impareranno a creare un programma per dividere una
 
 #Risorse online
 
-__Questo progetto utilizza Python 3.__ È consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
+__Questo progetto utilizza Python 3.__ Ãˆ consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
 
 + [Trinket di Python nuovo (vuoto) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-È presente anche un trinket che contiene il progetto completato:
+Ãˆ presente anche un trinket che contiene il progetto completato:
 
 + [Creatore di Squadre - Finito -- trinket.io/python/a699c44ce6](https://trinket.io/python/a699c44ce6)
 
 #Risorse offline
-Questo progetto può essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. È possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. È bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
+Questo progetto puÃ² essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. Ãˆ possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. Ãˆ bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
 
 + team/team.py
 
-Una versione completa di questo progetto è presente anche nella sezione "Risorse per i volontari", che contiene:
+Una versione completa di questo progetto Ã¨ presente anche nella sezione "Risorse per i volontari", che contiene:
 
 + team-finished/team.py
 

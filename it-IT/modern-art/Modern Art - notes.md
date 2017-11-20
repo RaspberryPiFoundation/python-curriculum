@@ -1,5 +1,5 @@
 ---
-title: Arte Moderna – Note per i Volontari
+title: Arte Moderna â€“ Note per i Volontari
 ---
 
 #Introduzione:
@@ -7,21 +7,21 @@ Questo progetto introduce funzioni attraverso un generatore di colorata arte mod
 
 #Risorse online
 
-__Questo progetto utilizza Python 3.__ È consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
+__Questo progetto utilizza Python 3.__ Ãˆ consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
 
 + ['Turtle Race' punto iniziale -- jumpto.cc/modern-go](http://jumpto.cc/modern-go)
 
-È disponibile anche un trinket con esempi di soluzioni alle sfide:
+Ãˆ disponibile anche un trinket con esempi di soluzioni alle sfide:
 
 + ['Arte Moderna' Finito -- trinket.io/python/9339862606](https://trinket.io/python/9339862606)
 
 #Risorse offline
-Questo progetto può essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. È possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. È bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
+Questo progetto puÃ² essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. Ãˆ possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. Ãˆ bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
 
 + modern-art/modern-art.py
 + modern-art/snippets.py
 
-Una versione completa delle sfide di questo progetto è presente anche nella sezione "Risorse per i volontari", che contiene:
+Una versione completa delle sfide di questo progetto Ã¨ presente anche nella sezione "Risorse per i volontari", che contiene:
 
 + modern-art-finished/modern-art.py
 
@@ -41,5 +41,5 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 
 #Domande frequenti
 + Per evitare di dover aspettare che il codice precedente inizi a funzionare quando viene aggiunto al progetto, i bambini possono commentare il codice usando un '#' all'inizio di una linea. 
-+ Se non vogliono eseguire tutti i loro codici, allora si può usare 'clear()' per ripulire lo schermo.s  
++ Se non vogliono eseguire tutti i loro codici, allora si puÃ² usare 'clear()' per ripulire lo schermo.s  
 

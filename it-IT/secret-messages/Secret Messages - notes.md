@@ -1,5 +1,5 @@
 ---
-title: Messaggi Segreti – Note per i Volontari
+title: Messaggi Segreti â€“ Note per i Volontari
 ---
 
 #Introduzione:
@@ -7,20 +7,20 @@ In questo progetto, i bambini impareranno a creare il tuo programma di criptaggi
 
 #Risorse online
 
-__Questo progetto utilizza Python 3.__ È consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
+__Questo progetto utilizza Python 3.__ Ãˆ consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
 
 + [Trinket di Python nuovo (vuoto) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-È presente anche un trinket che contiene il progetto completato:
+Ãˆ presente anche un trinket che contiene il progetto completato:
 
 + [Messaggi Segreti - Finito -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
 + [Calcolatore di Amicizia - Finito -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
 #Risorse offline
-Questo progetto può essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito.
+Questo progetto puÃ² essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito.
 
-Una versione completa di questo progetto è presente anche nella sezione "Risorse per i volontari", che contiene:
+Una versione completa di questo progetto Ã¨ presente anche nella sezione "Risorse per i volontari", che contiene:
 
 + messages-finished/messages.py
 + messages-finished/friends.py

@@ -19,7 +19,7 @@ In questo progetto, imparerai come creare 2 squadre a caso da una lista di gioca
 
 Iniziamo creando una lista di giocatori dalla quale scegliere.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
 
@@ -35,7 +35,7 @@ Iniziamo creando una lista di giocatori dalla quale scegliere.
 
 + Puoi raggiungere una voce della lista aggiungendo la sua posizione in parentesi quadre dopo il nome della variabile.
 
-	La prima voce nella lista Ë alla_posizione 0_. Questa Ë diversa da Scratch, che inizia alla posizione 1.
+	La prima voce nella lista √® alla_posizione 0_. Questa √® diversa da Scratch, che inizia alla posizione 1.
 
 	![screenshot](images/team-print-players-index.png)
 
@@ -54,7 +54,7 @@ Puoi aggiungere un codice per stampare_solo uno_dei tuoi nuovi giocatori?
 
 Scegliamo dei giocatori a caso!
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Per riuscire a ottenere un giocatore a caso dalla lista dei tuoi 'players', prima dovrai importare la parte 'choice' del modulo 'random'.
 
@@ -64,7 +64,7 @@ Scegliamo dei giocatori a caso!
 
 	![screenshot](images/team-random-player.png)
 
-+ Prova pi˘ volte il tuo codice 'choice' e vedrai che verr‡ scelto un giocatore diverso ogni volta.
++ Prova pi√π volte il tuo codice 'choice' e vedrai che verr√† scelto un giocatore diverso ogni volta.
 
 + Puoi anche creare una nuova variabile chiamata 'playerA', e usarla per salvare il tuo giocatore a caso.
 
@@ -74,11 +74,11 @@ Scegliamo dei giocatori a caso!
 
 	![screenshot](images/team-teamA.png)
 
-+ Puoi ora aggiungere il tuo giocatore scelto a caso al 'teamA'. Per fare ciÚ, puoi usare 'teamA.append'  (_append (allegare)_significa aggiungere alla fine).
++ Puoi ora aggiungere il tuo giocatore scelto a caso al 'teamA'. Per fare ci√≤, puoi usare 'teamA.append'  (_append (allegare)_significa aggiungere alla fine).
 
 	![screenshot](images/team-teamA-add.png)
 
-+ Ora che il tuo giocatore Ë stato scelto, puoi rimuoverlo dalla tua lista di 'players'.
++ Ora che il tuo giocatore √® stato scelto, puoi rimuoverlo dalla tua lista di 'players'.
 
 	![screenshot](images/team-players-remove.png)
 
@@ -86,7 +86,7 @@ Scegliamo dei giocatori a caso!
 
 	[screenshot](images/team-players-remove-test.png)
 
-	Nell'esempio di sopra, Hermione Ë stata scelta per il 'teamA', ed Ë quindi stata rimossa dalla lista di 'players'.
+	Nell'esempio di sopra, Hermione √® stata scelta per il 'teamA', ed √® quindi stata rimossa dalla lista di 'players'.
 
 ## Salva il progetto {.save}
 
@@ -98,7 +98,7 @@ Puoi aggiungere un codice per scegliere un giocatore a caso per la squadra B? Av
 + 'append' il giocatore scelto alla tua lista 'teamB'
 + 'remove' il giocatore scelto dalla tua lista di 'players'
 
-Il codice che ti servir‡ per il 'teamB' sar‡_molto_simile al codice che hai gi‡ scritto per il 'teamA'!
+Il codice che ti servir√† per il 'teamB' sar√†_molto_simile al codice che hai gi√† scritto per il 'teamA'!
 
 ## Salva il progetto {.save}
 
@@ -106,33 +106,33 @@ Il codice che ti servir‡ per il 'teamB' sar‡_molto_simile al codice che hai gi‡ 
 
 Dopo, dovrai assicurarti che ogni giocatore sia stato scelto per una squadra.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Evidenzia il tuo codice per scegliere i giocatori per la squadra A e la squadra B, e premi il tasto tab per indentare il codice.
 
 	![screenshot](images/team-loop-tab.png)
 
-+ Aggiungi un loop_while_per continuare a scegliere giocatori finchÈ la lunghezza della lista di 'players' Ë 0.
++ Aggiungi un loop_while_per continuare a scegliere giocatori finch√© la lunghezza della lista di 'players' √® 0.
 
 	![screenshot](images/team-loop-while.png)
 
-+ Lancia il codice per vedere se funziona. Vedrai che verranno scelti giocatori per la squadra A e la squadra B finchÈ non ne saranno rimasti pi˘.
++ Lancia il codice per vedere se funziona. Vedrai che verranno scelti giocatori per la squadra A e la squadra B finch√© non ne saranno rimasti pi√π.
 
 	![screenshot](images/team-loop-test.png)
 
 + Aggiungi un codice per stampare la tua lista 'teamA'_dopo_il tuo loop 'while' (assicurandoti che non sia indentato).
 
-	Questo significa che il 'teamA' verr‡ stampato solo una volta, dopo che sono stati scelti tutti i giocatori.
+	Questo significa che il 'teamA' verr√† stampato solo una volta, dopo che sono stati scelti tutti i giocatori.
 
 	![screenshot](images/team-teamA-paste.png)
 
-+ Puoi fare la stessa cosa per 'teamB' e puoi anche cancellare gli altri comandi di stampa, in quanto erano lÏ solo per provare il tuo codice.
++ Puoi fare la stessa cosa per 'teamB' e puoi anche cancellare gli altri comandi di stampa, in quanto erano l√¨ solo per provare il tuo codice.
 
-	Il tuo codice dovrebbe apparire cosÏ:
+	Il tuo codice dovrebbe apparire cos√¨:
 
 	![screenshot](images/team-loop-finished.png)
 
-+ Prova di nuovo il tuo codice e vedrai la tua lista di giocatori cosÏ come le squadre finali.
++ Prova di nuovo il tuo codice e vedrai la tua lista di giocatori cos√¨ come le squadre finali.
 
 	![screenshot](images/team-loop-finished-test.png)
 
@@ -142,7 +142,7 @@ Dopo, dovrai assicurarti che ogni giocatore sia stato scelto per una squadra.
 
 Puoi usare un file per salvare la tua lista di giocatori.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Clicca sull'icona + e crea un nuovo file chiamato 'players.txt'.
 
@@ -160,11 +160,11 @@ Puoi usare un file per salvare la tua lista di giocatori.
 
 	![screenshot](images/team-file-open.png)
 
-+ Leggi la lista dal file e aggiungi alla tua lista di 'players'. (Il codice 'splitlines' significa che ogni linea nel file Ë una nuova voce nella lista di 'players').
++ Leggi la lista dal file e aggiungi alla tua lista di 'players'. (Il codice 'splitlines' significa che ogni linea nel file √® una nuova voce nella lista di 'players').
 
 	![screenshot](images/team-file-load.png)
 
-+ Se provi il tuo codice, dovrebbe funzionare esattamente come prima. Tuttavia, ora Ë molto pi˘ facile aggiungere giocatori al tuo file 'players.txt'.
++ Se provi il tuo codice, dovrebbe funzionare esattamente come prima. Tuttavia, ora √® molto pi√π facile aggiungere giocatori al tuo file 'players.txt'.
 
 ## Salva il progetto {.save}
 
@@ -172,7 +172,7 @@ Puoi usare un file per salvare la tua lista di giocatori.
 
 Miglioriamo il programma per farlo funzionare con un numero dispari di giocatori.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Aggiungi un altro nome alla tua lista 'players.txt', in modo che tu abbia un numero dispari di giocatori.
 
@@ -182,9 +182,9 @@ Miglioriamo il programma per farlo funzionare con un numero dispari di giocatori
 
 	![screenshot](images/team-error.png)
 
-+ L'errore Ë perchÈ il tuo programma continua a scegliere giocatori a caso per la squadra A e poi la squadra B. Tuttavia, se c'Ë un numero dispari di giocatori allora dopo aver scelto un giocatore per la squadra A non ci saranno giocatori rimasti per la squadra B.
++ L'errore √® perch√© il tuo programma continua a scegliere giocatori a caso per la squadra A e poi la squadra B. Tuttavia, se c'√® un numero dispari di giocatori allora dopo aver scelto un giocatore per la squadra A non ci saranno giocatori rimasti per la squadra B.
 
-	per risolvere questo bug, puoi dire al tuo programma che rompa 'break' il tuo loop 'while' se la lista dei tuoi 'players' Ë vuota.
+	per risolvere questo bug, puoi dire al tuo programma che rompa 'break' il tuo loop 'while' se la lista dei tuoi 'players' √® vuota.
 
 	![screenshot](images/team-fix.png)
 

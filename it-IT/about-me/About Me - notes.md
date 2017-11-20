@@ -1,5 +1,5 @@
 ---
-title: Chi sono – Note per i volontari
+title: Chi sono â€“ Note per i volontari
 ---
 
 #Introduzione:
@@ -7,20 +7,20 @@ In questo progetto, i bambini impareranno a scrivere un programma Python che par
 
 #Risorse online
 
-__Questo progetto utilizza Python 3.__ È consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
+__Questo progetto utilizza Python 3.__ Ãˆ consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
 
 + [Trinket di Python nuovo (vuoto) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-È presente anche un trinket che contiene il progetto completato:
+Ãˆ presente anche un trinket che contiene il progetto completato:
 
 + ["Chi sono" finito -- trinket.io/python/a1f663ae0d](https://trinket.io/python/a1f663ae0d)
 
 #Risorse offline
-Questo progetto può essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. È possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. È bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
+Questo progetto puÃ² essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. Ãˆ possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. Ãˆ bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
 
 + about/about.py
 
-Una versione completa di questo progetto è presente anche nella sezione "Risorse per i volontari", che contiene:
+Una versione completa di questo progetto Ã¨ presente anche nella sezione "Risorse per i volontari", che contiene:
 
 + about-finished/about.py
 
@@ -37,5 +37,5 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 
 #Sfide
 + A cosa stai pensando? - scrivere il primo programma Python con l'istruzione "print".
-+ "Chi sono?" - visualizzazione a schermo di testo e disegni ASCII. __È importante osservare che il codice scritto dai bambini su Trinket è pubblico. È quindi necessario ricordargli di non indicare nessuna informazione personale, come ad esempio il loro nome e cognome completo o il loro indirizzo.__
-+ "La tua età in anni canini" - eseguire un calcolo sulla base dell'input dell'utente.
++ "Chi sono?" - visualizzazione a schermo di testo e disegni ASCII. __Ãˆ importante osservare che il codice scritto dai bambini su Trinket Ã¨ pubblico. Ãˆ quindi necessario ricordargli di non indicare nessuna informazione personale, come ad esempio il loro nome e cognome completo o il loro indirizzo.__
++ "La tua etÃ  in anni canini" - eseguire un calcolo sulla base dell'input dell'utente.

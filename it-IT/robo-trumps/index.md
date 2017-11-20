@@ -19,9 +19,9 @@ In questo progetto leggerai dati da un file per creare carte robotiche. Poi puoi
 
 # Passo 1: Leggi i dati robot da un file { .activity}
 
-Spesso Ë utile poter leggere informazioni da un file. Puoi ora cambiare i dati in un file senza dover cambiare il tuo codice. 
+Spesso √® utile poter leggere informazioni da un file. Puoi ora cambiare i dati in un file senza dover cambiare il tuo codice. 
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Apri questo trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>. 
 
@@ -40,7 +40,7 @@ Spesso Ë utile poter leggere informazioni da un file. Puoi ora cambiare i dati i
 
 + Leggiamo i dati dal file in modo che tu possa usarli. 
 
-  Il primo passo Ë di aprire nel tuo script il file 'cards.txt':
+  Il primo passo √® di aprire nel tuo script il file 'cards.txt':
   
   ![screenshot](images/robotrumps-open.png)
   
@@ -52,13 +52,13 @@ Spesso Ë utile poter leggere informazioni da un file. Puoi ora cambiare i dati i
 
   ![screenshot](images/robotrumps-close.png)
 
-+ Questo ci d‡ il file come una sequenza, dovrai romperla in pezzi di dati individuali. 
++ Questo ci d√† il file come una sequenza, dovrai romperla in pezzi di dati individuali. 
 
   Innanzitutto, puoi dividere il file in una lista di linee:
 
   ![screenshot](images/robotrumps-lines.png)
   
-  Guarda attentamente l'uscita. Ci sono tre oggetti nella lista, ciascuno Ë una linea da un file. 
+  Guarda attentamente l'uscita. Ci sono tre oggetti nella lista, ciascuno √® una linea da un file. 
   
 + Ora puoi girare su quelle linee una alla volta.
 
@@ -76,7 +76,7 @@ Spesso Ë utile poter leggere informazioni da un file. Puoi ora cambiare i dati i
   
 + Ora aggiungiamo una voce al dizionario per ciascun robot. 
 
-  Il nome Ë la chiave e il valore Ë una lista di dati per quel robot. 
+  Il nome √® la chiave e il valore √® una lista di dati per quel robot. 
 
   Aggiungi il codice evidenziato:
  
@@ -87,33 +87,33 @@ Spesso Ë utile poter leggere informazioni da un file. Puoi ora cambiare i dati i
 
 # Passo 2: Visualizza i dati { .activity}
 
-Ora puoi visualizzare i dati del robot in un modo pi˘ iinteressante. 
+Ora puoi visualizzare i dati del robot in un modo pi√π iinteressante. 
 
-Visualizziamo una carta robotica con un'immagine e i dati per la sua intelligenza e utilit‡. 
+Visualizziamo una carta robotica con un'immagine e i dati per la sua intelligenza e utilit√†. 
 
 Quando hai completato questo passo, sarai capace di visualizzare robot come questo:
 
 ![screenshot](images/robotrumps-example.png)
 
 
-## Lista delle attivit‡ { .check}
+## Lista delle attivit√† { .check}
 
 + Chiedi all'utente quale robot vorrebbe vedere:
 
   ![screenshot](images/robotrumps-choose.png)
   
-+ Se il robot Ë nel dizionario, allora controlla i suoi dati:
++ Se il robot √® nel dizionario, allora controlla i suoi dati:
 
   ![screenshot](images/robotrumps-if.png)
   
   Prova il tuo codice inserendo il nome di un robot.
 
   
-+ Se il robot non esiste, allora dar‡ un errore:
++ Se il robot non esiste, allora dar√† un errore:
 
   ![screenshot](images/robotrumps-else.png)
   
- Prova il tuo codice inserendo il nome di un robot che non Ë nel dizionario.
+ Prova il tuo codice inserendo il nome di un robot che non √® nel dizionario.
 
 + Ora userai la tartaruga Python per visualizzare i dati del robot. 
 
@@ -139,9 +139,9 @@ Quando hai completato questo passo, sarai capace di visualizzare robot come ques
   
 + Ora puoi accedere alle statistiche per il robot come oggetti in una lista:
 
-  + `stats[0]` Ë l'intelligenza
-  + `stats[1]` Ë la batteria
-  + `stats[2]` Ë il nome dell'immagine
+  + `stats[0]` √® l'intelligenza
+  + `stats[1]` √® la batteria
+  + `stats[2]` √® il nome dell'immagine
   
   Aggiungi un codice per visualizzare le statistiche dell'intelligenza e della batteria:
   
@@ -184,7 +184,7 @@ Sarai tu a decidere quanta batteria e intelligenza avranno.
 ## Salva il progetto {.save}
 
 ## Sfida: Aggiungi altre statistiche ai robot {.challenge}
-Ti vengono in mente altre statistiche da aggiungere ai robot? Potresti aggiungere 'speed' (velocit‡) o 'usefulness' (utilit‡) o pensare a qualcos'altro. 
+Ti vengono in mente altre statistiche da aggiungere ai robot? Potresti aggiungere 'speed' (velocit√†) o 'usefulness' (utilit√†) o pensare a qualcos'altro. 
 
 Dovrai:
 
@@ -207,7 +207,7 @@ Esempio:
 
 Aggiungiamo un codice in modo che tu ottenga un robot a caso quando digiti A Caso invece che il nome del robot.
 
-## Lista delle attivit‡ { .check}
+## Lista delle attivit√† { .check}
 
 + Per prima cosa, dovrai importare la funzione di selezione dal modulo a caso:
 
@@ -221,9 +221,9 @@ Aggiungiamo un codice in modo che tu ottenga un robot a caso quando digiti A Cas
 ## Salva il progetto {.save}
 
 ## Sfida: Gioca a carte robotiche con un amico {.challenge}
-Condividi il tuo progetto con un amico e gioca a Carte Robotiche. Usate entrambi lo stesso progetto cosÏ che sia equo! Il giocatore 1 richiede un robot a caso e poi sceglie una categoria. Il giocatore 2 poi richiede un robot a caso e tu controlli chi ha il punteggio pi˘ alto per la categoria scelta, poi scambiatevi. 
+Condividi il tuo progetto con un amico e gioca a Carte Robotiche. Usate entrambi lo stesso progetto cos√¨ che sia equo! Il giocatore 1 richiede un robot a caso e poi sceglie una categoria. Il giocatore 2 poi richiede un robot a caso e tu controlli chi ha il punteggio pi√π alto per la categoria scelta, poi scambiatevi. 
 
-Il gioca funziona meglio se giocate entrambi con lo stesso mazzo di carte. Condividi con un amico un link al progetto trinket cosÏ che possiate usare entrambi lo stesso mazzo di carte. 
+Il gioca funziona meglio se giocate entrambi con lo stesso mazzo di carte. Condividi con un amico un link al progetto trinket cos√¨ che possiate usare entrambi lo stesso mazzo di carte. 
 
 ![screenshot](images/robotrumps-play.png)
 

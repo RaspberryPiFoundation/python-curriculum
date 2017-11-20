@@ -18,7 +18,7 @@ In questo progetto, creerai arte moderna generata dal computer. Userai delle fun
 
 # Passo 1: Colori a caso { .activity}
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Apri questo trinket: <a href="http://jumpto.cc/modern-go" target="_blank">jumpto.cc/modern-go</a>. 
 
@@ -28,11 +28,11 @@ In questo progetto, creerai arte moderna generata dal computer. Userai delle fun
 
     ![screenshot](images/modern-purple.png)
    
-    Il viola Ë creato mescolando rosso e blu.
+    Il viola √® creato mescolando rosso e blu.
 
 + Prova numeri diversi per ottenere colori diversi. 
 
-    Ricordati che ogni numero puÚ essere da 0 a 255. 
+    Ricordati che ogni numero pu√≤ essere da 0 a 255. 
 
 + Che ne dici di scegliere un colore a caso?
 
@@ -40,13 +40,13 @@ In questo progetto, creerai arte moderna generata dal computer. Userai delle fun
     
     ![screenshot](images/modern-random-colour.png)
 
-+ Clicca pi˘ volte 'Run' per ottenere tartarughe di diversi colori.
++ Clicca pi√π volte 'Run' per ottenere tartarughe di diversi colori.
 
-+ PuÚ essere divertente, ma c'Ë anche tanto da ricordare e digitare ogni volta che vuoi assegnare un colore a caso alla tartaruga, e non Ë molto facile da leggere. 
++ Pu√≤ essere divertente, ma c'√® anche tanto da ricordare e digitare ogni volta che vuoi assegnare un colore a caso alla tartaruga, e non √® molto facile da leggere. 
 
     In Python, possiamo scrivere 'def' per definire una funzione che possiamo chiamare ogni volta che vogliamo assegnare un colore a caso alla tartaruga. 
 
-    Stai gi‡ chiamando funzioni, 'color()Ï e 'randint()Ï sono funzioni che sono state definite per te. 
+    Stai gi√† chiamando funzioni, 'color()√¨ e 'randint()√¨ sono funzioni che sono state definite per te. 
 
     Mettiamo il codice dei colori a caso in una funzione usando def:
   
@@ -54,33 +54,33 @@ In questo progetto, creerai arte moderna generata dal computer. Userai delle fun
     
   Assicurati di far rientrare il codice dentro la funzione. Le funzioni sono di solito collocate in cima allo script dopo le importazioni. 
   
-+ Se esegui il tuo codice adesso, non otterrai una tartaruga di un colore a caso. Questo succede perchÈ hai definito la tua funzione, ma non l'hai ancora chiamata. 
++ Se esegui il tuo codice adesso, non otterrai una tartaruga di un colore a caso. Questo succede perch√© hai definito la tua funzione, ma non l'hai ancora chiamata. 
   
 + Aggiungi una linea per chiamare la tua nuova funzione:
   
     ![screenshot](images/modern-call-colour.png)
 
-    Nota che il tuo nuovo codice Ë molto pi˘ facile da capire perchÈ la parte complessa sta nella funzione. » facile capire cosa fa 'randomcolour()' (colori a caso.).
+    Nota che il tuo nuovo codice √® molto pi√π facile da capire perch√© la parte complessa sta nella funzione. √à facile capire cosa fa 'randomcolour()' (colori a caso.).
 
 # Passo 2: Luogo a caso { .activity}
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
-Creiamo un'altra funzione per muovere la tartaruga verso un luogo a caso sullo schermo. Il centro dello schermo Ë (0,0) quindi posizioneremo tartarughe in un'area quadrata attorno al centro. 
+Creiamo un'altra funzione per muovere la tartaruga verso un luogo a caso sullo schermo. Il centro dello schermo √® (0,0) quindi posizioneremo tartarughe in un'area quadrata attorno al centro. 
 
 + Aggiungi una funzione 'randomplace()' (luogo a caso):
 
     ![screenshot](images/modern-place-function.png)
     
-+ Prova la tua nuova funzione chiamandola e poi chiamando 'stamp()', puoi chiamarla pi˘ di una volta:
++ Prova la tua nuova funzione chiamandola e poi chiamando 'stamp()', puoi chiamarla pi√π di una volta:
 
     ![screenshot](images/modern-call-place.png)
 
-+ Ops, la tartaruga disegna quando si muove. Mettiamo la penna su all'inizio e gi˘ fino alla fine cosÏ che la tartaruga non disegni mentre si muove:
++ Ops, la tartaruga disegna quando si muove. Mettiamo la penna su all'inizio e gi√π fino alla fine cos√¨ che la tartaruga non disegni mentre si muove:
 
     ![screenshot](images/modern-place-pen.png)
     
-    Hai notato che hai dovuto solo 'aggiustare' il codice in un posto? Questa Ë un'altra cosa buona delle funzioni. 
+    Hai notato che hai dovuto solo 'aggiustare' il codice in un posto? Questa √® un'altra cosa buona delle funzioni. 
 
 + Ora prova il tuo codice un po' di volte.
 
@@ -93,7 +93,7 @@ Puoi definire una funzione 'randomheading()' che possa far puntare la tartaruga 
 
 Suggerimenti:
 
-- `setheading(<number>)` cambier‡ la direzione verso cui si rivolge la tartaruga. 
+- `setheading(<number>)` cambier√† la direzione verso cui si rivolge la tartaruga. 
 
 - `<number>` dovrebbe essere tra 1 e 360 (il numero di gradi in un cerchio)
 
@@ -103,7 +103,7 @@ Suggerimenti:
 
 # Passo 3: Crea arte moderna rettangolare { .activity}
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 Ora creiamo dell'arte moderna disegnando tanti rettangoli di diversa misura e colore. 
 
@@ -111,7 +111,7 @@ Ora creiamo dell'arte moderna disegnando tanti rettangoli di diversa misura e co
 
     ![screenshot](images/modern-reset.png)
 
-+ Puoi commentare l'arte della tua tartaruga posizionando un `#` all'inizio di ogni linea cosÏ che non venga eseguito mentre lavori all'arte dei rettangoli. (Puoi sempre eliminare il commento dopo per esibire la tua opera).
++ Puoi commentare l'arte della tua tartaruga posizionando un `#` all'inizio di ogni linea cos√¨ che non venga eseguito mentre lavori all'arte dei rettangoli. (Puoi sempre eliminare il commento dopo per esibire la tua opera).
 
     ![screenshot](images/modern-comment.png)
  
@@ -129,13 +129,13 @@ Ora creiamo dell'arte moderna disegnando tanti rettangoli di diversa misura e co
     
     Esegui diverse volte il tuo script per vedere il cambiamento di altezza e larghezza. 
    
-+ Il rettangolo Ë sempre dello stesso colore e inizia alla stessa posizione. 
++ Il rettangolo √® sempre dello stesso colore e inizia alla stessa posizione. 
 
-    Ora dovrai assegnare alla tartaruga un colore a caso e poi muoverla verso un luogo a caso. Ma, aspetta, non hai gi‡ creato delle funzioni per quello? Fantastico. Semplicemente chiamale dall'inizio della funzione 'drawrectangle': 
+    Ora dovrai assegnare alla tartaruga un colore a caso e poi muoverla verso un luogo a caso. Ma, aspetta, non hai gi√† creato delle funzioni per quello? Fantastico. Semplicemente chiamale dall'inizio della funzione 'drawrectangle': 
     
     ![screenshot](images/modern-random-rect.png)
     
-    Incredibile, senza fatica e molto pi˘ facile da leggere. 
+    Incredibile, senza fatica e molto pi√π facile da leggere. 
 
     
 + Ora chiamiamo 'drawrectangle()' in loop per creare bella arte moderna:
@@ -148,7 +148,7 @@ Ora creiamo dell'arte moderna disegnando tanti rettangoli di diversa misura e co
     
     ![screenshot](images/modern-speed.png)
     
-    'speed(0)' Ë la pi˘ veloce o puoi usare numeri che vanno da 1 (lento) a 10 (veloce). Sperimenta fino ad ottenere la velocit‡ che preferisci. 
+    'speed(0)' √® la pi√π veloce o puoi usare numeri che vanno da 1 (lento) a 10 (veloce). Sperimenta fino ad ottenere la velocit√† che preferisci. 
 
 ## Sfida: Altra arte moderna { .challenge}
 Puoi creare una funzione che disegna una forma e chiama le tue funzioni 'randomcolour()' e / o 'randomplace()'? 

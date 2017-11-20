@@ -1,5 +1,5 @@
 ---
-title: Dov'Ë la Stazione Spaziale?
+title: Dov'√® la Stazione Spaziale?
 description: Traccia la posizione esatta della ISS. 
 notes: "ISS - notes.md"
 layout: project
@@ -16,11 +16,11 @@ In questo progetto, userai un servizio web per scoprire l'attuale posizione dell
   <img src="images/iss-final.png">
 </div>
 
-# Passo 1: Chi Ë nello Spazio? { .activity}
+# Passo 1: Chi √® nello Spazio? { .activity}
 
 Userai un servizio web che fornisce informazioni sullo spazio in tempo reale. Innanzitutto, scopriamo chi si trova attualmente nello spazio. 
 
-## Lista delle attivit‡ { .check}
+## Lista delle attivit√† { .check}
 
 + Un servizio web ha un indirizzo (url) esattamente come una pagina web. Invece di restituire HTML per una pagina web, restituisce dati. 
 
@@ -49,13 +49,13 @@ Userai un servizio web che fornisce informazioni sullo spazio in tempo reale. In
     }
     ```
 
-    I dati sono in tempo reale, per cui vedrai un risultato diverso. Il formato Ë chiamato JSON (pronunciato Jason). 
+    I dati sono in tempo reale, per cui vedrai un risultato diverso. Il formato √® chiamato JSON (pronunciato Jason). 
 
-+ Facciamo una chiamata al servizio web da Python cosÏ che possiamo vedere i risultati.
++ Facciamo una chiamata al servizio web da Python cos√¨ che possiamo vedere i risultati.
 
     Apri questo trinket: <a href="http://jumpto.cc/iss-go" target="_blank">jumpto.cc/iss-go</a>. 
 
-+ I moduli `urllib.request` e `json` modules sono gi‡ stati importati. 
++ I moduli `urllib.request` e `json` modules sono gi√† stati importati. 
 
     Aggiungi il seguente codice a 'main.py' per inserire l'indirizzo web che hai appena usato in una variabile:
 
@@ -77,21 +77,21 @@ Userai un servizio web che fornisce informazioni sullo spazio in tempo reale. In
     {'message': 'success', 'number': 3, 'people': [{'craft': 'ISS', 'name': 'Yuri Malenchenko'}, {'craft': 'ISS', 'name': 'Timothy Kopra'}, {'craft': 'ISS', 'name': 'Timothy Peake'}]}
     ```
 
-    Questo Ë un dizionario Python con 3 chiavi: messaggio, numero e persone. 
+    Questo √® un dizionario Python con 3 chiavi: messaggio, numero e persone. 
 
-    Il valore 'success' del messaggio ti dice che la richiesta Ë andata a buon fine. Bene. 
+    Il valore 'success' del messaggio ti dice che la richiesta √® andata a buon fine. Bene. 
 
     Nota che vedrai risultati diversi in base a chi si trova attualmente nello spazio!
 
-+ Ora stampiamo le informazioni in una maniera pi˘ leggibile. 
++ Ora stampiamo le informazioni in una maniera pi√π leggibile. 
 
     Innanzitutto, controlliamo il numero di persone nello spazio e stampiamolo:
   
     ![screenshot](images/iss-number.png)
 
-    `result['number']` stamper‡ il valore associato con la chiave 'number' nel dizionario risultante.  Nell'esempio questo Ë '3'. 
+    `result['number']` stamper√† il valore associato con la chiave 'number' nel dizionario risultante.  Nell'esempio questo √® '3'. 
 
-+ Il valore associato con la chiave 'people' Ë una lista di dizionari. + Mettiamo quel valore in una variabile cosÏ che lo puoi usare:
++ Il valore associato con la chiave 'people' √® una lista di dizionari. + Mettiamo quel valore in una variabile cos√¨ che lo puoi usare:
 
     ![screenshot](images/iss-people.png)
 
@@ -104,7 +104,7 @@ Userai un servizio web che fornisce informazioni sullo spazio in tempo reale. In
 
 + Ora dovrai stampare una linea per ogni astronauta.
 
-    Per fare ciÚ in Python, puoi usare un loop 'for'. Attraverso ogni loop, 'p' verr‡ si collocher‡ in un dizionario per ogni astronauta diverso.
+    Per fare ci√≤ in Python, puoi usare un loop 'for'. Attraverso ogni loop, 'p' verr√† si collocher√† in un dizionario per ogni astronauta diverso.
 
     ![screenshot](images/iss-people-1a.png)
 
@@ -142,13 +142,13 @@ Timothy Peake in ISS
 
 ## Salva il progetto {.save}
 
-# Passo 2: Dov'Ë la ISS? { .activity}
+# Passo 2: Dov'√® la ISS? { .activity}
 
-La Stazione Spaziale Internazionale Ë in orbita attorno alla Terra. Orbita la terra ogni ora e mezza circa. La ISS viaggia a una velocit‡ media di 7,66 km per secondo. » veloce! 
+La Stazione Spaziale Internazionale √® in orbita attorno alla Terra. Orbita la terra ogni ora e mezza circa. La ISS viaggia a una velocit√† media di 7,66 km per secondo. √à veloce! 
 
 Usiamo ora un latro servizio web per scoprire dove si trova la Stazione Spaziale Internazionale. 
 
-## Lista delle attivit‡ { .check}
+## Lista delle attivit√† { .check}
 
 + Apri prima la url per il servizio web in un nuovo tab nel tu browser di internet: <a href="http://api.open-notify.org/iss-now.json" target="_blank">http://api.open-notify.org/iss-now.json</a>
   
@@ -167,9 +167,9 @@ Usiamo ora un latro servizio web per scoprire dove si trova la Stazione Spaziale
   
     Il risultato contiene le coordinate del luogo sulla Terra dove si trova attualmente la ISS. 
 
-    La longitudine Ë la posizione Est-Ovest e va da -180 a 180. 0 Ë il Meridiano Zero che attraversa Greenwich, a Londra. 
+    La longitudine √® la posizione Est-Ovest e va da -180 a 180. 0 √® il Meridiano Zero che attraversa Greenwich, a Londra. 
 
-    La latitudine Ë la posizione Nord-Sud e va da 90 a -90. 0 Ë l'Equatore. 
+    La latitudine √® la posizione Nord-Sud e va da 90 a -90. 0 √® l'Equatore. 
 
 + Ora devi chiamare lo stesso servzio web da PythoN. Aggiungi il seguente codice alla fine del tuo testo per ottenere l'attuale posizione della ISS:
 
@@ -180,21 +180,21 @@ Creiamo delle variabili per salvare la latitudine e la longitdine, e poi stampia
 
     ![screenshot](images/iss-coordinates.png)
 
-+ Sarebbe pi‡ utile mostrare la posizione su una mappa.
++ Sarebbe pi√† utile mostrare la posizione su una mappa.
 
     Innanzitutto, dobbiamo importare i cursori tartaruga dalla libreria. 
   
     ![screenshot](images/iss-turtle.png)
   
-Carichiamo una mappa del mondo come immagine di sfondo, ce n'Ë gi‡ una inclusa nel tuo trinket.
+Carichiamo una mappa del mondo come immagine di sfondo, ce n'√® gi√† una inclusa nel tuo trinket.
 
     ![screenshot](images/iss-map.png)
   
     La NASA ha fornito questa bellissima mappa e ci ha dato il permesso di riutilizzarla. 
   
-    La mappa Ë centrata a 0, 0 che Ë proprio quello di cui abbiamo bisogno. 
+    La mappa √® centrata a 0, 0 che √® proprio quello di cui abbiamo bisogno. 
 
-+ Dovrai impostare la misura dello schermo per combaciare la misura dell'immagine che Ë 720 per 360. 
++ Dovrai impostare la misura dello schermo per combaciare la misura dell'immagine che √® 720 per 360. 
 
     Aggiungi `setup schermo(720, 360)`:
 
@@ -220,25 +220,25 @@ Creiamo una tartaruga per la ISS.
 
 + Prova il tuo programma facendolo partire. La ISS dovrebbe muoversi verso la sua posizione attuale sopra la Terra. 
 
-    Aspetta qualche secondo e fai partire il tuo programma di nuovo per vedere dove si Ë spostata la ISS. 
+    Aspetta qualche secondo e fai partire il tuo programma di nuovo per vedere dove si √® spostata la ISS. 
 
     ![screenshot](images/iss-plotted.png)
 
 ## Salva il progetto {.save}
 
-# Passo 3: Quando sar‡ la ISS in alto? { .activity}
+# Passo 3: Quando sar√† la ISS in alto? { .activity}
 
-Esiste anche un servizio web che puoi chiamare per scoprire quando la ISS raggiunger‡ un luogo particolare. 
+Esiste anche un servizio web che puoi chiamare per scoprire quando la ISS raggiunger√† un luogo particolare. 
 
-Proviamo a scoprire quando la ISS arriver‡ al Centro Spaziale Di Houston, USA, che si trova a una latitudine 29.5502 e longitudine 95.097.
+Proviamo a scoprire quando la ISS arriver√† al Centro Spaziale Di Houston, USA, che si trova a una latitudine 29.5502 e longitudine 95.097.
   
-## Lista delle attivit‡ { .check} 
+## Lista delle attivit√† { .check} 
 
 + Innanzitutto, tracciamo un puntino sulla mappa a queste coordinate:
 
     ![screenshot](images/iss-houston.png)
 
-+ Ora otteniamo la data e l'ora in cui la ISS sar‡ in alto. 
++ Ora otteniamo la data e l'ora in cui la ISS sar√† in alto. 
 
     Come prima, possiamo chiamare il servizio web inserendo la url nella barra dell'indirizzo di un browser di internet: <a href="http://api.open-notify.org/iss-pass.json" target="_blank">http://api.open-notify.org/iss-pass.json</a>
   
@@ -254,7 +254,7 @@ Proviamo a scoprire quando la ISS arriver‡ al Centro Spaziale Di Houston, USA, c
   
     ![screenshot](images/iss-passtimes.png)
   
-    La risposta include vari passaggi a orari diversi, noi guarderemo solo il primo. L'ora viene data in un formato standard, sarai in grado di trasformarla in una ora pi˘ leggibile in Python.
+    La risposta include vari passaggi a orari diversi, noi guarderemo solo il primo. L'ora viene data in un formato standard, sarai in grado di trasformarla in una ora pi√π leggibile in Python.
 
 + Ora chiamiamo il servizio web da Python: Aggiungi il seguente codice alla fine della tua scritta:
 
@@ -267,13 +267,13 @@ Proviamo a scoprire quando la ISS arriver‡ al Centro Spaziale Di Houston, USA, c
     ![screenshot](images/iss-print-pass.png)
 
 
-+ L'ora viene data come marcatura oraria, dunque avremo bisogno del modulo orario di Python cosÏ che possiamo stamparla in una forma pi˘ leggibile e trasformarla in ora locale. Facciamo in modo che la tartaruga scriva l'orario del passaggio sul puntino. 
++ L'ora viene data come marcatura oraria, dunque avremo bisogno del modulo orario di Python cos√¨ che possiamo stamparla in una forma pi√π leggibile e trasformarla in ora locale. Facciamo in modo che la tartaruga scriva l'orario del passaggio sul puntino. 
 
 + Aggiungi una linea 'importa tempo' in cima alla tua scritta:
 
     ![screenshot](images/iss-time.png)
 
-+ La funzione `time.ctime()` trasformer‡ l'ora in una forma leggibile che potrai scrivere con la tartaruga: 
++ La funzione `time.ctime()` trasformer√† l'ora in una forma leggibile che potrai scrivere con la tartaruga: 
 
     ![screenshot](images/iss-pass-write.png)
  

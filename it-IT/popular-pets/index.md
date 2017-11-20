@@ -21,7 +21,7 @@ In questo progetto, creerai grafici circolari e a barre dai dati raccolti dai so
 
 I Grafici a Torta sono un metodo utile per mostrare i tuoi dati. Facciamo un sondaggio degli animali preferiti nel tuo Code Club e poi presentiamo i dati con un grafico circolare.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Chiedi al tuo volontario di aiutare ad organizzare un sondaggio. Puoi registrare i risultati in un computer collegato a un proiettore o a una lavagna bianca che tutti possono vedere.
 
@@ -35,7 +35,7 @@ I Grafici a Torta sono un metodo utile per mostrare i tuoi dati. Facciamo un son
 
 + Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Creiamo un grafico circolare per mostrare i risultati del tuo sondaggio. Userai la libreria PyGal per eseguire il lavoro pi˘ difficile.
++ Creiamo un grafico circolare per mostrare i risultati del tuo sondaggio. Userai la libreria PyGal per eseguire il lavoro pi√π difficile.
 
   Innanzitutto, importa la libreria Pygal:
 
@@ -46,14 +46,14 @@ I Grafici a Torta sono un metodo utile per mostrare i tuoi dati. Facciamo un son
 
   ![screenshot](images/pets-pie.png)
 
-  Non preoccuparti, diventa pi˘ interessante man mano che aggiungerai dati!
+  Non preoccuparti, diventa pi√π interessante man mano che aggiungerai dati!
 
 
 + Aggiungiamo i dati per uno degli animali. Usa i dati che hai raccolto.
 
   ![screenshot](images/pets-add.png)
 
-  C'Ë solo un dato, per cui coprir‡ l'intero grafico.
+  C'√® solo un dato, per cui coprir√† l'intero grafico.
 
 + Ora aggiungiamo gli altri dati allo stesso modo.
 
@@ -78,11 +78,11 @@ Assicurati di scegliere un argomento che tutti conoscono!
 
 Ecco alcune idee:
 
-+ Qual Ë il tuo sport preferito?
-+ Qual Ë il gusto di gelato che preferisci?
++ Qual √® il tuo sport preferito?
++ Qual √® il gusto di gelato che preferisci?
 + Con quale mezzo vai a scuola?
 + In quale mese compi gli anni?
-+ Giochi a Minecraft? (sÏ/no)
++ Giochi a Minecraft? (s√¨/no)
 
 Non fare domande che diano dati personali, come per esempio l'indirizzo delle persone. Se sei in dubbio, chiedi al leader del tuo club.
 
@@ -92,9 +92,9 @@ Esempi:
 
 # Passo 2: Leggi i dati di un file { .activity}
 
-Se possibile, Ë meglio salvare i dati in un file piuttosto che dovere includerli nel tuo codice.
+Se possibile, √® meglio salvare i dati in un file piuttosto che dovere includerli nel tuo codice.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Aggiungi un nuovo file al tuo progetto e chiamalo 'pets.txt':
 
@@ -104,7 +104,7 @@ Se possibile, Ë meglio salvare i dati in un file piuttosto che dovere includerli
 
   ![screenshot](images/pets-data.png)
 
-+ Torna a 'main.py' e commenta le linee che rappresentano grafici e tabelle (cosÏ che non vengono visualizzati):
++ Torna a 'main.py' e commenta le linee che rappresentano grafici e tabelle (cos√¨ che non vengono visualizzati):
 
   ![screenshot](images/pets-comment.png)
 
@@ -112,23 +112,23 @@ Se possibile, Ë meglio salvare i dati in un file piuttosto che dovere includerli
 
   ![screenshot](images/pets-read.png)
 
-  Il loop 'for' girer‡ sulle linee del file. `splitlines()` elimina il carattere della nuova linea dalla fine della linea. 
+  Il loop 'for' girer√† sulle linee del file. `splitlines()` elimina il carattere della nuova linea dalla fine della linea. 
 
 + Ogni linea deve essere separata in un'etichetta e un valore:
 
   ![screenshot](images/pets-split.png)
 
-  Questo divider‡ la linea agli spazi, per cui non includere gli spazi nelle etichette. (Puoi aggiungere in un secondo momento supporto per gli spazi nelle etichette.)
+  Questo divider√† la linea agli spazi, per cui non includere gli spazi nelle etichette. (Puoi aggiungere in un secondo momento supporto per gli spazi nelle etichette.)
 
-+ Potresti ottenere un errore cosÏ:
++ Potresti ottenere un errore cos√¨:
 
   ![screenshot](images/pets-error.png)
 
   Questo succede se hai una linea vuota alla fine del tuo file.
 
-  Puoi risolvere l'errore semplicemente ottenendo l'etichetta e il valore se la linea non Ë vuota.
+  Puoi risolvere l'errore semplicemente ottenendo l'etichetta e il valore se la linea non √® vuota.
 
-  Per fare ciÚ, fai rientrare il codice dentro il tuo loop 'for' e aggiungi su di esso il codice 'if line:' :
+  Per fare ci√≤, fai rientrare il codice dentro il tuo loop 'for' e aggiungi su di esso il codice 'if line:' :
 
   ![screenshot](images/pets-fix.png)
 

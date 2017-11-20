@@ -1,22 +1,22 @@
 ---
-title: CodeCraft – Note per i volontari
+title: CodeCraft â€“ Note per i volontari
 ---
 
 #Introduzione:
-In questo progetto, i bambini impareranno aspetti di grafica e design dei giochi apportando miglioramenti ad un semplice clone di Minecraft 2D. I bambini creeranno nuove risorse e concepiranno regole di fabbricazione per combinare insieme risorse e crearne di nuove. Questo obiettivo verrà realizzato tramite la comprensione e la gestione di variabili, elenchi e dizionari.
+In questo progetto, i bambini impareranno aspetti di grafica e design dei giochi apportando miglioramenti ad un semplice clone di Minecraft 2D. I bambini creeranno nuove risorse e concepiranno regole di fabbricazione per combinare insieme risorse e crearne di nuove. Questo obiettivo verrÃ  realizzato tramite la comprensione e la gestione di variabili, elenchi e dizionari.
 
 #Risorse online
 
-__Questo progetto utilizza Python 3.__ È consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
+__Questo progetto utilizza Python 3.__ Ãˆ consigliabile utilizzare [trinket](https://trinket.io/) per scrivere in linguaggio Python online. Questo progetto contiene i seguenti Trinket:
 
 + [punto di inizio di "CodeCraft" -- jumpto.cc/codecraft-go](http://jumpto.cc/codecraft-go)
 
-È presente anche un trinket che contiene il progetto completato:
+Ãˆ presente anche un trinket che contiene il progetto completato:
 
-+ [â€˜CodeCraftâ€™ Finito -- trinket.io/python/9ac3995d69](https://trinket.io/python/9ac3995d69)
++ [Ã¢â‚¬ËœCodeCraftÃ¢â‚¬â„¢ Finito -- trinket.io/python/9ac3995d69](https://trinket.io/python/9ac3995d69)
 
 #Risorse offline
-Questo progetto può essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. È possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. È bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
+Questo progetto puÃ² essere completato [offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferito. Ãˆ possibile accedere alle risorse del progetto facendo clic sul link "Materiali per il progetto". Il link apre la sezione "Risorse del progetto" che contiene le risorse necessarie ai bambini per completare il progetto offline. Ãˆ bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse. Questa sezione contiene i seguenti file:
 
 + codecraft/codecraft.py
 + codecraft/variables.py
@@ -26,7 +26,7 @@ Questo progetto può essere completato [offline](https://www.codeclubprojects.org
 + codecraft/water.gif
 + codecraft/brick.gif
 
-Una versione completa di questo progetto è presente anche nella sezione "Risorse per i volontari", che contiene:
+Una versione completa di questo progetto Ã¨ presente anche nella sezione "Risorse per i volontari", che contiene:
 
 + codecraft-finished/codecraft.py
 + codecraft-finished/variables.py
@@ -63,6 +63,6 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 
 #Domande frequenti
 + __Python offline non consente di utilizzare immagini .png. Per l'utilizzo offline sono fornite immagini .gif.__
-+ Può essere necessario ricordare ai bambini che gli elementi di un dizionario o di un elenco devono essere separati da una virgola. Ad esempio, per aggiungere al gioco elementi di inventario, elementi grafici e regole di fabbricazione.
++ PuÃ² essere necessario ricordare ai bambini che gli elementi di un dizionario o di un elenco devono essere separati da una virgola. Ad esempio, per aggiungere al gioco elementi di inventario, elementi grafici e regole di fabbricazione.
 
 

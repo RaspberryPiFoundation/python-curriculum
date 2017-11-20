@@ -17,11 +17,11 @@ In questo progetto apporterai miglioramenti al design e al codice di una version
 
 # Passo 1: Il gioco { .activity}
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Apri questo trinket: <a href="http://jumpto.cc/codecraft-go" target="_blank">jumpto.cc/codecraft-go</a>. 
 
-+ Usa i tasti WASD della tastiera per spostare il giocatore nel mondo, che Ë pieno di tante risorse diverse (terra, erba e acqua).
++ Usa i tasti WASD della tastiera per spostare il giocatore nel mondo, che √® pieno di tante risorse diverse (terra, erba e acqua).
 
     ![screenshot](images/craft-move.png)
 
@@ -29,15 +29,15 @@ In questo progetto apporterai miglioramenti al design e al codice di una version
 
     ![screenshot](images/craft-pickup.png)
 
-+ Premi i tasti numerici (da 1 a 3) per collocare una risorsa sulla mappa. Ad esempio, premi 3 per mettere un po' d'acqua sulla mappa. Questo funzioner‡ solo se hai dell' acqua nell'inventario.
++ Premi i tasti numerici (da 1 a 3) per collocare una risorsa sulla mappa. Ad esempio, premi 3 per mettere un po' d'acqua sulla mappa. Questo funzioner√† solo se hai dell' acqua nell'inventario.
 
     ![screenshot](images/craft-place-water.png)
 
-+ Puoi fabbricare un oggetto premendo il tasto visualizzato nel menu. Fabbricare significa combinare insieme elementi che hai gi‡ nell'inventario per crearne di nuovi. Prova a premere il tasto "r" per fabbricare un nuovo mattone (purchÈ tu abbia 2 terre e 1 acqua nell'inventario).
++ Puoi fabbricare un oggetto premendo il tasto visualizzato nel menu. Fabbricare significa combinare insieme elementi che hai gi√† nell'inventario per crearne di nuovi. Prova a premere il tasto "r" per fabbricare un nuovo mattone (purch√© tu abbia 2 terre e 1 acqua nell'inventario).
 
     ![screenshot](images/craft-craft-brick.png)
 
-+ DopodichÈ puoi premere il tasto "4" per collocare i mattoni che hai fabbricato.
++ Dopodich√© puoi premere il tasto "4" per collocare i mattoni che hai fabbricato.
 
     ![screenshot](images/craft-place-brick.png)
 
@@ -62,7 +62,7 @@ Modifichiamo adesso qualche variabile per vedere come funziona il gioco.
 
     ![screenshot](images/craft-background.png)
 
-+ La variabile "MAXTILES" indica la quantit‡ di ciascuna risorsa che puÚ essere tenuta nell'inventario. Modifica questa variabile per poter conservare pi˘ (o meno) di 20 unit‡ di ciascuna risorsa.
++ La variabile "MAXTILES" indica la quantit√† di ciascuna risorsa che pu√≤ essere tenuta nell'inventario. Modifica questa variabile per poter conservare pi√π (o meno) di 20 unit√† di ciascuna risorsa.
 
     ![screenshot](images/craft-maxtiles.png)
 
@@ -85,13 +85,13 @@ Creiamo una nuova risorsa di legno. Per farlo, devi prima aggiungere delle varia
 
     ![screenshot](images/craft-wood-resources.png)
 
-+ Devi anche dare alla tua risorsa un nome che verr‡ visualizzato nell'inventario.
++ Devi anche dare alla tua risorsa un nome che verr√† visualizzato nell'inventario.
 
     ![screenshot](images/craft-wood-name.png)
 
-    Nota che c'Ë una virgola alla fine della riga precedente.
+    Nota che c'√® una virgola alla fine della riga precedente.
 
-+ La tua risorsa avr‡ anche bisogno di un'immagine. Il progetto contiene gi‡ un'immagine chiamata "wood.png" che dovresti aggiungere al tuo dizionario delle immagini ("textures").
++ La tua risorsa avr√† anche bisogno di un'immagine. Il progetto contiene gi√† un'immagine chiamata "wood.png" che dovresti aggiungere al tuo dizionario delle immagini ("textures").
 
     ![screenshot](images/craft-wood-texture.png)
 
@@ -107,7 +107,7 @@ Creiamo una nuova risorsa di legno. Per farlo, devi prima aggiungere delle varia
 
     ![screenshot](images/craft-wood-test.png)
 
-+ Ma nel mondo di legno non ce n'Ë! Per correggere questo intoppo, fai clic sul file "main.py" e cerca la funzione denominata "generateRandomWorld()".
++ Ma nel mondo di legno non ce n'√®! Per correggere questo intoppo, fai clic sul file "main.py" e cerca la funzione denominata "generateRandomWorld()".
 
     ![screenshot](images/craft-wood-random1.png)    
 
@@ -117,7 +117,7 @@ Creiamo una nuova risorsa di legno. Per farlo, devi prima aggiungere delle varia
     + 3 o 4 = erba
     + tutti gli altri = terra
 
-+ Aggiungi questo codice per aggiungere legno al mondo ogni volta che il numero casuale di "randomNumber" Ë 5.
++ Aggiungi questo codice per aggiungere legno al mondo ogni volta che il numero casuale di "randomNumber" √® 5.
 
     ![screenshot](images/craft-wood-random2.png)
 
@@ -130,7 +130,7 @@ Puoi aggiungere una risorsa di sabbia ("SAND" in inglese) al gioco? Prova a usar
 
 ![screenshot](images/craft-sand.png)
 
-Il progetto contiene gi‡ un'immagine di sabbia in "sand.png" ma puoi benissimo creare e caricare una tua immagine se lo preferisci.
+Il progetto contiene gi√† un'immagine di sabbia in "sand.png" ma puoi benissimo creare e caricare una tua immagine se lo preferisci.
 
 ![screenshot](images/craft-upload.png)
 
@@ -138,7 +138,7 @@ Il progetto contiene gi‡ un'immagine di sabbia in "sand.png" ma puoi benissimo c
 
 # Passo 4: Fabbricare tavole di legno { .activity}
 
-Creiamo adesso una nuova risorsa di tavole, che puÚ essere fabbricata con il legno.
+Creiamo adesso una nuova risorsa di tavole, che pu√≤ essere fabbricata con il legno.
 
 + Per prima cosa, aggiungiamo la nuova variabile "PLANK" al gioco. Plank significa tavola in inglese.
 
@@ -152,7 +152,7 @@ Creiamo adesso una nuova risorsa di tavole, che puÚ essere fabbricata con il leg
 
     ![screenshot](images/craft-plank-names.png)
 
-+ Dai alla tua risorsa "PLANK" un'immagine. Il progetto contiene gi‡ un'immagine per la tavola in "plank.png" ma puoi benissimo creare una tua immagine se lo preferisci.
++ Dai alla tua risorsa "PLANK" un'immagine. Il progetto contiene gi√† un'immagine per la tavola in "plank.png" ma puoi benissimo creare una tua immagine se lo preferisci.
 
     ![screenshot](images/craft-plank-textures.png)
 
@@ -164,7 +164,7 @@ Creiamo adesso una nuova risorsa di tavole, che puÚ essere fabbricata con il leg
 
     ![screenshot](images/craft-plank-placekeys.png)
 
-+ Dato che questa risorsa puÚ essere fabbricata, devi creare una regola di fabbricazione, vale a dire, una tavola puÚ essere fabbricata con 3 mattonelle di legno. Aggiungi questo codice al dizionario di fabbricazione "crafting". 
++ Dato che questa risorsa pu√≤ essere fabbricata, devi creare una regola di fabbricazione, vale a dire, una tavola pu√≤ essere fabbricata con 3 mattonelle di legno. Aggiungi questo codice al dizionario di fabbricazione "crafting". 
 
     ![screenshot](images/craft-plank-crafting.png)
 
@@ -179,11 +179,11 @@ Creiamo adesso una nuova risorsa di tavole, che puÚ essere fabbricata con il leg
 ## Salva il progetto {.save}
 
 ## Sfida: Fabbricare il vetro con la sabbia { .challenge}
-Prova a creare una nuova risorsa di vetro, che puÚ essere fabbricata con la sabbia. Puoi farlo usando come guida la stessa procedura descritta qui sopra.
+Prova a creare una nuova risorsa di vetro, che pu√≤ essere fabbricata con la sabbia. Puoi farlo usando come guida la stessa procedura descritta qui sopra.
 
 ![screenshot](images/craft-glass.png)
 
-Il progetto contiene gi‡ un'immagine per il vetro in "glass.png" ma puoi benissimo creare una tua immagine se lo preferisci.
+Il progetto contiene gi√† un'immagine per il vetro in "glass.png" ma puoi benissimo creare una tua immagine se lo preferisci.
 
 ## Salva il progetto {.save}
 

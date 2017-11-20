@@ -7,7 +7,7 @@ layout: project
 
 # Introduzione:  { .intro}
 
-Disegna e codifica il tuo gioco di labirinto RPG. Lo scopo del gioco sar‡ di raccogliere oggetti e scappare da una casa, assicurandosi di evitare tutti i mostri!
+Disegna e codifica il tuo gioco di labirinto RPG. Lo scopo del gioco sar√† di raccogliere oggetti e scappare da una casa, assicurandosi di evitare tutti i mostri!
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/d06adeb527?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -17,11 +17,11 @@ Disegna e codifica il tuo gioco di labirinto RPG. Lo scopo del gioco sar‡ di rac
 
 # Passo 1: Aggiungere nuove stanze { .activity}
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Alcuni codici di questo gioco sono stati forniti. Scrivi questo trinket: <a href="http://jumpto.cc/rpg-go" target="_blank">jumpto.cc/rpg-go</a>. 
 
-+ Questo Ë un gioco RPG molto basico, dove ci sono solo 2 stanze. Ecco una mappa del gioco:
++ Questo √® un gioco RPG molto basico, dove ci sono solo 2 stanze. Ecco una mappa del gioco:
 
   ![screenshot](images/rpg-map1.png)
 
@@ -33,11 +33,11 @@ Disegna e codifica il tuo gioco di labirinto RPG. Lo scopo del gioco sar‡ di rac
 
   ![screenshot](images/rpg-error.png)
 
-+ Se trovi la variabile 'rooms', puoi vedere che la mappa Ë codificata come un dizionario di stanze:
++ Se trovi la variabile 'rooms', puoi vedere che la mappa √® codificata come un dizionario di stanze:
 
   ![screenshot](images/rpg-rooms.png)
 
-  Ogni stanza Ë un dizionario e le stanze sono collegate tra di loro usando le direzioni.  
+  Ogni stanza √® un dizionario e le stanze sono collegate tra di loro usando le direzioni.  
   
 
 + Aggiungiamo alla tua mappa una stanza da pranzo, a est dell'ingresso.
@@ -64,15 +64,15 @@ Puoi aggiungere altre stanze al tuo gioco? Per esempio, potresti creare un soggi
 
 # Passo 2: Aggiungere oggetti da raccogliere { .activity }
 
-Ora lasciamo degli oggetti nelle stanze cosÏ che il giocatore possa raccoglierli mentre si muove attraverso il labirinto.
+Ora lasciamo degli oggetti nelle stanze cos√¨ che il giocatore possa raccoglierli mentre si muove attraverso il labirinto.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
-+ Aggiungere un oggetto in una stanza Ë facile, puoi semplicemente aggiungerlo al dizionario di una stanza. Mettiamo una chiave all'ingresso.
++ Aggiungere un oggetto in una stanza √® facile, puoi semplicemente aggiungerlo al dizionario di una stanza. Mettiamo una chiave all'ingresso.
 
   ![screenshot](images/rpg-key.png)
 
-  Ricordati di inserire una virgola dopo la linea sopra il nuovo oggetto, o il tuo programma non funzioner‡!
+  Ricordati di inserire una virgola dopo la linea sopra il nuovo oggetto, o il tuo programma non funzioner√†!
 
 + Se esegui il tuo gioco aggiungendo il codice sopra, potrai vedere ora una chiave nell'ingresso, e puoi perfino prenderla (digitando 'get key') che la aggiunge al tuo inventario!
 
@@ -88,19 +88,19 @@ Aggiungi un oggetto ad alcune stanze nel tuo gioco. Puoi aggiungere quello che c
 
 # Passo 3: Aggiungere nemici { .activity }
 
-Questo gioco Ë troppo facile! Aggiungiamo ad alcune stanze dei nemici che il giocatore deve evitare.
+Questo gioco √® troppo facile! Aggiungiamo ad alcune stanze dei nemici che il giocatore deve evitare.
 
-## Lista delle attivit‡ { .check}
+## Lista delle attivit√† { .check}
 
-+ Aggiungere un nemico a una stanza Ë facile come gli altri oggetti. Aggiungiamo alla cucina un mostro affamato:
++ Aggiungere un nemico a una stanza √® facile come gli altri oggetti. Aggiungiamo alla cucina un mostro affamato:
 
   ![screenshot](images/rpg-monster-dict.png)
 
-+ Assicurati anche che il gioco finisca se il giocatore entra in una delle stanze dove si trova il mostro. Puoi fare ciÚ con il seguente codice, che dovresti aggiungere alla fine del gioco:
++ Assicurati anche che il gioco finisca se il giocatore entra in una delle stanze dove si trova il mostro. Puoi fare ci√≤ con il seguente codice, che dovresti aggiungere alla fine del gioco:
 
   ![screenshot](images/rpg-monster-code.png)
 
-  Questo codice controlla se c'Ë un oggetto nella stanza, e se c'Ë, se quell'oggetto Ë un mostro. Nota che questo codice Ë indentato, collocandolo in linea con il codice di sopra. Questo significa che il gioco controller‡ la presenza di un mostro ogni volta che il giocatore si sposta in una nuova stanza.
+  Questo codice controlla se c'√® un oggetto nella stanza, e se c'√®, se quell'oggetto √® un mostro. Nota che questo codice √® indentato, collocandolo in linea con il codice di sopra. Questo significa che il gioco controller√† la presenza di un mostro ogni volta che il giocatore si sposta in una nuova stanza.
 
 + Prova il tuo codice andando in cucina, dove adesso si trova un mostro.
 
@@ -110,7 +110,7 @@ Questo gioco Ë troppo facile! Aggiungiamo ad alcune stanze dei nemici che il gio
 
 ## Sfida: Aggiungi altri mostri {.challenge}
 
-Aggiungi altri mostri al tuo gioco per rendere pi˘ difficile la fuga dalla casa!
+Aggiungi altri mostri al tuo gioco per rendere pi√π difficile la fuga dalla casa!
 
 ## Salva il progetto {.save}
 
@@ -118,9 +118,9 @@ Aggiungi altri mostri al tuo gioco per rendere pi˘ difficile la fuga dalla casa!
 
 Diamo al tuo giocatore una missione che deve essere completata per vincere il gioco.
 
-## Lista delle attivit‡ { .check}
+## Lista delle attivit√† { .check}
 
-+ In questo gioco, il giocatore vince raggiungendo il giardino e scappando dalla casa. Avr‡ bisogno di avere anche la chiave e la pozione magica. Ecco una mappa del gioco.
++ In questo gioco, il giocatore vince raggiungendo il giardino e scappando dalla casa. Avr√† bisogno di avere anche la chiave e la pozione magica. Ecco una mappa del gioco.
 
   ![screenshot](images/rpg-final-map.png)
 
@@ -138,13 +138,13 @@ Diamo al tuo giocatore una missione che deve essere completata per vincere il gi
 
   Assicurati che questo codice sia indentato, in linea con il codice di sopra. Questo codice significa che il messaggio 'Sei scappato dalla casa...HAI VINTO!' sia visualizzato se il giocatore si trova nella stanza 4 (il giardino) e se la chiave e la pozione sono nell'inventario.
   
-  Se hai pi˘ di 4 stanze, potresti aver bisogno di usare un numero di stanza diverso per il tuo giardino nel codice sopra.
+  Se hai pi√π di 4 stanze, potresti aver bisogno di usare un numero di stanza diverso per il tuo giardino nel codice sopra.
 
 + Prova il tuo gioco per assicurarti che il giocatore possa vincere!
 
   ![screenshot](images/rpg-win-test.png)
 
-+ Per finire, aggiungiamo delle istruzioni al gioco, cosÏ che il giocatore sappia quello che deve fare. Modifica la funzione `showInstructions()` per includere altre informazioni.
++ Per finire, aggiungiamo delle istruzioni al gioco, cos√¨ che il giocatore sappia quello che deve fare. Modifica la funzione `showInstructions()` per includere altre informazioni.
 
   ![screenshot](images/rpg-instructions-code.png)
 
@@ -160,6 +160,6 @@ Diamo al tuo giocatore una missione che deve essere completata per vincere il gi
 
 Usa quello che hai imparato per creare il tuo gioco. Aggiungi stanze, mostri da evitare e oggetti da raccogliere. Ricordati di modificare il codice in modo che il giocatore vince quando raggiunge una certa stanza con alcuni degli oggetti nel suo inventario. Potrebbe essere utile abbozzare una mappa prima di iniziare a codificare! 
 
-Potresti perfino aggiungere delle scale alla tua mappa e avere pi˘ di un piano di stanze, digitando 'go up' e 'go down'.
+Potresti perfino aggiungere delle scale alla tua mappa e avere pi√π di un piano di stanze, digitando 'go up' e 'go down'.
 
 ## Salva il progetto {.save}

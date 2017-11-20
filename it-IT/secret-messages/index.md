@@ -8,11 +8,11 @@ project-type: sample
 
 #Introduzione:  { .intro}
 
-Il 15 dicembre 2015, l'astronauta inglese Tim Peake partÏ con la missione Principia alla Stazione Spaziale Internazionale che si trova in orbita attorno alla Terra. Questo progetto Ë connesso con il Diario Spaziale di Principia, una risorsa gratuita per le scuole del Regno Unito come parte della Missione Principia di Tim Peake dell'Agenzia Spaziale Astronauti Europei. Per ulteriori informazioni, visita [http://principiaspacediary.org](http://principiaspacediary.org).
+Il 15 dicembre 2015, l'astronauta inglese Tim Peake part√¨ con la missione Principia alla Stazione Spaziale Internazionale che si trova in orbita attorno alla Terra. Questo progetto √® connesso con il Diario Spaziale di Principia, una risorsa gratuita per le scuole del Regno Unito come parte della Missione Principia di Tim Peake dell'Agenzia Spaziale Astronauti Europei. Per ulteriori informazioni, visita [http://principiaspacediary.org](http://principiaspacediary.org).
 
 ![Space Diary](images/space-diary.png)
 
-In questo progetto, imparerai a creare il tuo programma di criptaggio per mandare e ricevere messaggi con un amico. Questo progetto Ë connesso con l'attivit‡ "Terra a Principia" a pagina 16 del Diario Spaziale.
+In questo progetto, imparerai a creare il tuo programma di criptaggio per mandare e ricevere messaggi con un amico. Questo progetto √® connesso con l'attivit√† "Terra a Principia" a pagina 16 del Diario Spaziale.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -22,17 +22,17 @@ In questo progetto, imparerai a creare il tuo programma di criptaggio per mandar
 
 #Passo 1: Il messaggio cifrato Cesare { .activity}
 
-Un messaggio cifrato Ë un tipo di codice segreto dove scambi le lettere in modo che nessuno possa leggere il tuo messaggio.
+Un messaggio cifrato √® un tipo di codice segreto dove scambi le lettere in modo che nessuno possa leggere il tuo messaggio.
 
-Userai uno dei messaggi cifrati pi˘ antichi e famosi, il Cesare, il cui nome deriva da Giulio Cesare.
+Userai uno dei messaggi cifrati pi√π antichi e famosi, il Cesare, il cui nome deriva da Giulio Cesare.
 
 Prima di iniziare a codificare, proviamo a usare il messaggio cifrato Cesar per nascondere una parola.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Nascondere una parola si chiama criptaggio.
 
-	Iniziamo a criptare la lettera 'a'. Per fare ciÚ, possiamo disegnare l'alfabeto in un cerchio, cosÏ:
+	Iniziamo a criptare la lettera 'a'. Per fare ci√≤, possiamo disegnare l'alfabeto in un cerchio, cos√¨:
 
 	![screenshot](images/messages-wheel.png)
 
@@ -50,7 +50,7 @@ Prima di iniziare a codificare, proviamo a usare il messaggio cifrato Cesar per 
 	+ l + 3 = __o__
 	+ o + 3 = __r__
 
-+ Far tornare il testo alla normalit‡ si chiama_decriptazione_. Per decriptare una parola, semplicemente sottrai la chiave invece di aggiungerla:
++ Far tornare il testo alla normalit√† si chiama_decriptazione_. Per decriptare una parola, semplicemente sottrai la chiave invece di aggiungerla:
 
 	+ k - 3 = __h__
 	+ h - 3 = __e__
@@ -67,7 +67,7 @@ Potete perfino mandarvi intere sentenze l'uno all'altro.
 
 Scriviamo un programma Python per criptare un singolo carattere. 
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
 
@@ -89,7 +89,7 @@ Scriviamo un programma Python per criptare un singolo carattere.
 
 	![screenshot](images/messages-key.png)	
 
-+ Poi, chiedi all'utente una lettera singola (chiamata 'characterÏ) da criptare.
++ Poi, chiedi all'utente una lettera singola (chiamata 'character√¨) da criptare.
 
 	![screenshot](images/messages-character.png)
 
@@ -105,7 +105,7 @@ Scriviamo un programma Python per criptare un singolo carattere.
 
 	![screenshot](images/messages-newposition.png)
 
-+ Prova il tuo nuovo codice. Dato che la tua 'key' Ë 3, dovrebbe aggiungere 3 alla 'position' e salvarla nella tua variabile 'newPosition'. 
++ Prova il tuo nuovo codice. Dato che la tua 'key' √® 3, dovrebbe aggiungere 3 alla 'position' e salvarla nella tua variabile 'newPosition'. 
 
 	Per esempio, la lettera 'e' si trova alla posizione 4.  Per criptare, aggiungi la 'key' (3), dando 7.
 
@@ -115,15 +115,15 @@ Scriviamo un programma Python per criptare un singolo carattere.
 
 	![screenshot](images/messages-modulus-bug.png)
 
-	Nota come la 'newPosition' Ë 27 e non ci sono 27 lettere nell'alfabeto!
+	Nota come la 'newPosition' √® 27 e non ci sono 27 lettere nell'alfabeto!
 
-+ Puoi usare un '%' per dire alla nuova posizione di tornare alla posizione 0 una volta che arriva alla posizione 26. (Questo progetto si basa sull'alfabeto inglese, che Ë composto da 26 lettere.) 
++ Puoi usare un '%' per dire alla nuova posizione di tornare alla posizione 0 una volta che arriva alla posizione 26. (Questo progetto si basa sull'alfabeto inglese, che √® composto da 26 lettere.) 
 
 	![screenshot](images/messages-modulus.png)
 
 + Per finire, stamperai la lettera alla nuova posizione.
 
-	Per esempio, aggiungendo la chiave alla lettera 'e' d‡ 7 e la lettera alla posizione 7 dell'alfabeto Ë 'h'.
+	Per esempio, aggiungendo la chiave alla lettera 'e' d√† 7 e la lettera alla posizione 7 dell'alfabeto √® 'h'.
 
 	![screenshot](images/messages-newcharacter.png)
 
@@ -146,9 +146,9 @@ Puoi dunque usare una chiave negativa per decriptare i messaggi!
 
 Invece di criptare e decriptare messaggi un carattere per volta, cambiamo il programma per criptare interi messaggi!
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
-+ Per prima cosa, controlla che il tuo codice sia cosÏ:
++ Per prima cosa, controlla che il tuo codice sia cos√¨:
 
 	![screenshot](images/messages-character-finished.png)
 
@@ -164,7 +164,7 @@ Invece di criptare e decriptare messaggi un carattere per volta, cambiamo il pro
 
 	![screenshot](images/messages-loop.png)
 
-+ Prova il codice. Dovresti notare che ogni carattere nel messaggio Ë criptato e stampato uno alla volta.
++ Prova il codice. Dovresti notare che ogni carattere nel messaggio √® criptato e stampato uno alla volta.
 
 	![screenshot](images/messages-loop-test.png)
 
@@ -186,7 +186,7 @@ Invece di criptare e decriptare messaggi un carattere per volta, cambiamo il pro
 
 Alcuni caratteri non si trovano nell'alfabeto, e questo causa un errore.
 
-## Lista di controllo delle attivit‡ { .check}
+## Lista di controllo delle attivit√† { .check}
 
 + Prova il tuo codice con alcuni caratteri che non si trovano nell'alfabeto.
 
@@ -196,7 +196,7 @@ Alcuni caratteri non si trovano nell'alfabeto, e questo causa un errore.
 
 	Nota che lo spazio e i caratteri '!' sono tutti criptati come la lettera 'c'!
 
-+ Per risolverlo, tradurrai un carattere solo se si trova nell'alfabeto. Per fare ciÚ, aggiungi una frase 'if' al tuo codice e indenta il resto del codice.
++ Per risolverlo, tradurrai un carattere solo se si trova nell'alfabeto. Per fare ci√≤, aggiungi una frase 'if' al tuo codice e indenta il resto del codice.
 
 	![screenshot](images/messages-if.png)
 
@@ -212,7 +212,7 @@ Alcuni caratteri non si trovano nell'alfabeto, e questo causa un errore.
 
 	![screenshot](images/messages-else.png)
 
-+ Prova il codice. Dovresti vedere che ogni carattere nell'alfabeto Ë criptato, ma tutti gli altri sono lasciati in pace!
++ Prova il codice. Dovresti vedere che ogni carattere nell'alfabeto √® criptato, ma tutti gli altri sono lasciati in pace!
 
 	![screenshot](images/messages-else-test.png)
 

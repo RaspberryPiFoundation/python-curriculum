@@ -20,7 +20,7 @@ In questo progetto, userai i loop per creare un gioco di tartarughe in gara e di
 
 Creerai un gioco con tartarughe che gareggiano. Per prima cosa, avranno bisogno di un percorso di gara.
 
-## Lista di controllo delle attività { .check}
+## Lista di controllo delle attivitÃ  { .check}
 
 + Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
 
@@ -40,9 +40,9 @@ Creerai un gioco con tartarughe che gareggiano. Per prima cosa, avranno bisogno 
 
   ![screenshot](images/race-markings2.png)
   
-+ Hai notato che il tuo codice è molto ripetitivo? L'unica cosa che cambia è il numero da scrivere.
++ Hai notato che il tuo codice Ã¨ molto ripetitivo? L'unica cosa che cambia Ã¨ il numero da scrivere.
 
-  C'è una maniera migliore per farlo in Python. Puoi usare il loop 'for'. 
+  C'Ã¨ una maniera migliore per farlo in Python. Puoi usare il loop 'for'. 
   
   Aggiorna il tuo codice per usare un loop 'for':
   
@@ -66,13 +66,13 @@ Creerai un gioco con tartarughe che gareggiano. Per prima cosa, avranno bisogno 
 
   ![screenshot](images/race-lines.png)
   
-  `right(90)` fa girare la tartaruga a destra di 90 gradi (un angolo retto.) Muovere 'forward(10)' prima di mettere giù la penna lascia un piccolo vuoto tra il numero e l'inizio della riga. Dopo aver disegnato la linea, solleva la penna e vai 'backward(160)' la lunghezza della linea più il vuoto. 
+  `right(90)` fa girare la tartaruga a destra di 90 gradi (un angolo retto.) Muovere 'forward(10)' prima di mettere giÃ¹ la penna lascia un piccolo vuoto tra il numero e l'inizio della riga. Dopo aver disegnato la linea, solleva la penna e vai 'backward(160)' la lunghezza della linea piÃ¹ il vuoto. 
   
-+ Se centri i numeri sembrerà più ordinato:
++ Se centri i numeri sembrerÃ  piÃ¹ ordinato:
 
   ![screenshot](images/race-center.png)
 
-+ E puoi anche accelerare la tartaruga così che disegni più velocemente:
++ E puoi anche accelerare la tartaruga cosÃ¬ che disegni piÃ¹ velocemente:
 
   ![screenshot](images/race-speed.png)
 
@@ -85,14 +85,14 @@ Puoi cambiare il tuo codice in modo che le linee del percorso attraversino lo sc
 
 ![screenshot](images/race-challenge1.png)
  
-Se vuoi fare andare la tartaruga ancora più veloce, puoi usare 'speed(0)'. 
+Se vuoi fare andare la tartaruga ancora piÃ¹ veloce, puoi usare 'speed(0)'. 
 
 
 # Passo 2: Tartarughe in gara { .activity}
 
-Ora arriva la parte divertente. Aggiungiamo alcune tartarughe che gareggiano. Se le tartarughe facessero ogni volta la stessa cosa, sarebbe molto noioso, per cui in ogni turno si muoveranno un numero di passi a caso. Vince la tartaruga che arriva più lontana in 100 turni. 
+Ora arriva la parte divertente. Aggiungiamo alcune tartarughe che gareggiano. Se le tartarughe facessero ogni volta la stessa cosa, sarebbe molto noioso, per cui in ogni turno si muoveranno un numero di passi a caso. Vince la tartaruga che arriva piÃ¹ lontana in 100 turni. 
 
-## Lista di controllo delle attività { .check}
+## Lista di controllo delle attivitÃ  { .check}
 
 + Quando usi comandi come 'forward(20)', stai usando una tartaruga singola. Ma puoi creare altre tartarughe. Aggiungi il seguente codice alla fine del tuo script (ma assicurati che non sia indentato):
 
@@ -108,11 +108,11 @@ Ora arriva la parte divertente. Aggiungiamo alcune tartarughe che gareggiano. Se
 
   ![screenshot](images/race-randint.png)
 
-+ La funzione 'randint' restituisce un numero intero a caso tra i valori scelti. La tartaruga si muoverà avanti di 1, 2, 3, 4 o 5 passi per ogni turno. 
++ La funzione 'randint' restituisce un numero intero a caso tra i valori scelti. La tartaruga si muoverÃ  avanti di 1, 2, 3, 4 o 5 passi per ogni turno. 
 
   ![screenshot](images/race-random.png)
   
-+ Una tartaruga non è abbastanza per fare una gara! Aggiungiamone un'altra:
++ Una tartaruga non Ã¨ abbastanza per fare una gara! Aggiungiamone un'altra:
 
   ![screenshot](images/race-blue.png)
   
@@ -136,9 +136,9 @@ I colori includono: arancione, viola, violetto, rosso, turchese, magenta e marro
 
 Puoi usare un loop `for turn in range():` per far compiere un giro di 360 gradi a ogni tartaruga dopo che raggiunge la linea di partenza? Dovrai assicurarti che siano rivolte nella giusta direzione all'inizio della gara!
 
-`ada.right(36)` girerà la tartaruga rossa di 36 gradi. 
+`ada.right(36)` girerÃ  la tartaruga rossa di 36 gradi. 
 
-**Suggerimento:** Un giro completo è di 360 gradi. Una tartaruga può girare a destra di 10 gradi 36 volte, o a sinistra di 5 gradi 72 volte, o qualsiasi altro numero che faccia 360!
+**Suggerimento:** Un giro completo Ã¨ di 360 gradi. Una tartaruga puÃ² girare a destra di 10 gradi 36 volte, o a sinistra di 5 gradi 72 volte, o qualsiasi altro numero che faccia 360!
 
 ## Sfida: Linee tratteggiate {.challenge}
 
