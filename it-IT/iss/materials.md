@@ -1,5 +1,5 @@
 ---
-title: Dov'è la Stazione Spaziale? Memoria - Materiali
+title: Dov'Ã¨ la Stazione Spaziale? Memoria - Materiali
 layout: project-materials
 project-resources:
   - url: iss-project-resources.zip
@@ -8,7 +8,7 @@ project-resources:
   - url: http://jumpto.cc/iss-go
     type: link
     text: jumpto.cc/iss-go
-    description: Trinket online contenente le risorse 'Dov'è la Stazione Spaziale'?
+    description: Trinket online contenente le risorse 'Dov'Ã¨ la Stazione Spaziale'?
   - url: iss/iss.py
     type: file
   - url: iss/map.gif
