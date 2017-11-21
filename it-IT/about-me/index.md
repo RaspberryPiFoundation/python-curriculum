@@ -1,6 +1,6 @@
 ---
 title: Chi sono?
-description: Scrivi e crea immagini su di te.
+description: "Scrivi e crea immagini su di te."
 notes: "Chi sono - note.md"
 layout: project
 project-type: sample
@@ -10,7 +10,7 @@ new: true
 #Introduzione:  { .intro}
 
 In questo progetto, imparerai a scrivere un programma in Python che parla di te.
- 
+
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/a1f663ae0d?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -23,7 +23,7 @@ Cominciamo a scrivere del testo.
 
 ## Lista di controllo delle attività { .check}
 
-+ Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
++ Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Nella finestra che appare scrivi:
 
@@ -35,7 +35,7 @@ Cominciamo a scrivere del testo.
 
     ![screenshot](images/me-hi-test.png)
 
-+ Se ha fatto un qualche sbaglio, apparirà invece un messaggio di errore che ti dice cosa c'è di sbagliato. 
++ Se ha fatto un qualche sbaglio, apparirà invece un messaggio di errore che ti dice cosa c'è di sbagliato.
 
     Prova! Cancella le virgolette di chiusura " o la chiusura di parentesi ) (o tutte e due) e prova a vedere cosa succede.
 
@@ -45,7 +45,7 @@ Cominciamo a scrivere del testo.
 
 ## Salva il progetto {.save}
 
-__Non è obbligatorio avere un account su Trinket per salvare i progetti!__ 
+__Non è obbligatorio avere un account su Trinket per salvare i progetti!__
 
 Se non hai un account su Trinket, fai clic prima sulla freccia in giù e poi su "Link". In questo modo potrai salvare un link che potrai aprire più tardi. Dovrai eseguire questa procedura ogni volta che farai qualche cambiamento perché cambierà anche il link!
 
@@ -78,7 +78,7 @@ Proviamo a stampare qualcosa di più interessante che semplice testo. Stampiamo 
 
     Questo è perché il testo contiene una virgoletta, che Python pensa che significa la fine del testo!
 
-    ![screenshot](images/me-dog-quote.png) 
+    ![screenshot](images/me-dog-quote.png)
 
 + Per correggere questo problema, basta aggiungere una barra rovesciata "\" prima dell'apostrofo nella parola "here's". Questo indica a Python che l'apostrofo è parte del testo.
 
@@ -164,4 +164,3 @@ Sei capace a inventare delle parole tutte tue? Puoi creare anche dei motivi arti
 ![screenshot](images/me-patterns.png)
 
 ## Salva il progetto {.save}
-

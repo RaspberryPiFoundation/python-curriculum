@@ -1,6 +1,6 @@
 ---
 title: Animali Popolari
-description: Crea grafici circolari e a barre dai dati che raccogli.
+description: "Crea grafici circolari e a barre dai dati che raccogli."
 notes: "Popular Pets - notes.md"
 layout: project
 new: true
@@ -70,7 +70,7 @@ I Grafici a Torta sono un metodo utile per mostrare i tuoi dati. Facciamo un son
 
 ## Sfida: Crea il tuo grafico a barre {.challenge}
 
-Puoi creare grafici a barre in un modo simile. Semplicemente usa `barchart = pygal.Bar()` per creare un nuovo grafico a barre, e poi aggiungi i dati e visualizzali allo stesso modo in cui hai fatto con il grafico circolare. 
+Puoi creare grafici a barre in un modo simile. Semplicemente usa `barchart = pygal.Bar()` per creare un nuovo grafico a barre, e poi aggiungi i dati e visualizzali allo stesso modo in cui hai fatto con il grafico circolare.
 
 Raccogli i dati dai soci del tuo Code Club per creare il tuo grafico a barre.
 
@@ -112,7 +112,7 @@ Se possibile, è meglio salvare i dati in un file piuttosto che dovere includerl
 
   ![screenshot](images/pets-read.png)
 
-  Il loop 'for' girerà sulle linee del file. `splitlines()` elimina il carattere della nuova linea dalla fine della linea. 
+  Il loop 'for' girerà sulle linee del file. `splitlines()` elimina il carattere della nuova linea dalla fine della linea.
 
 + Ogni linea deve essere separata in un'etichetta e un valore:
 

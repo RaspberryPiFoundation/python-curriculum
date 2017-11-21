@@ -1,6 +1,6 @@
 ---
 title: RPG
-description: Disegna e codifica il tuo gioco di labirinto RPG.
+description: "Disegna e codifica il tuo gioco di labirinto RPG."
 notes: "RPG - notes.md"
 layout: project
 ---
@@ -19,7 +19,7 @@ Disegna e codifica il tuo gioco di labirinto RPG. Lo scopo del gioco sarà di ra
 
 ## Lista di controllo delle attività { .check}
 
-+ Alcuni codici di questo gioco sono stati forniti. Scrivi questo trinket: <a href="http://jumpto.cc/rpg-go" target="_blank">jumpto.cc/rpg-go</a>. 
++ Alcuni codici di questo gioco sono stati forniti. Scrivi questo trinket: <a href="http://jumpto.cc/rpg-go" target="_blank">jumpto.cc/rpg-go</a>.
 
 + Questo è un gioco RPG molto basico, dove ci sono solo 2 stanze. Ecco una mappa del gioco:
 
@@ -38,14 +38,14 @@ Disegna e codifica il tuo gioco di labirinto RPG. Lo scopo del gioco sarà di ra
   ![screenshot](images/rpg-rooms.png)
 
   Ogni stanza è un dizionario e le stanze sono collegate tra di loro usando le direzioni.  
-  
+
 
 + Aggiungiamo alla tua mappa una stanza da pranzo, a est dell'ingresso.
 
   ![screenshot](images/rpg-dining.png)
 
   Hai bisogno di una terza stanza, denominata 'dining room'. Dovrai anche collegarla all'ingresso a ovest. Avrai anche bisogno di aggiungere dati all'ingresso, in modo che tu possa muoverti verso la stanza da pranzo a est.
-  
+
   ![screenshot](images/rpg-dining-code.png)
 
 + Prova il gioco con la tua nuova stanza da pranzo.
@@ -125,19 +125,19 @@ Diamo al tuo giocatore una missione che deve essere completata per vincere il gi
   ![screenshot](images/rpg-final-map.png)
 
 + Per prima cosa, dovrai aggiungere un giardino al sud della stanza da pranzo. Ricordati di aggiungere porte che colleghino alle altre stanze della casa.
-  
+
   ![screenshot](images/rpg-garden.png)
 
 + Aggiungi una pozione alla stanza da pranzo (o in un'altra stanza della casa).
 
   ![screenshot](images/rpg-potion.png)
-  
+
 + Aggiungi questo codice per fare in modo che il giocatore possa vincere il gioco quando arriva al giardino con la chiave e la pozione:
 
   ![screenshot](images/rpg-win-code.png)
 
   Assicurati che questo codice sia indentato, in linea con il codice di sopra. Questo codice significa che il messaggio 'Sei scappato dalla casa...HAI VINTO!' sia visualizzato se il giocatore si trova nella stanza 4 (il giardino) e se la chiave e la pozione sono nell'inventario.
-  
+
   Se hai più di 4 stanze, potresti aver bisogno di usare un numero di stanza diverso per il tuo giardino nel codice sopra.
 
 + Prova il tuo gioco per assicurarti che il giocatore possa vincere!
@@ -151,14 +151,14 @@ Diamo al tuo giocatore una missione che deve essere completata per vincere il gi
   Dovrai aggiungere istruzioni per indicare all'utente quali oggetti deve raccogliere, e cosa deve evitare!
 
 + Prova il tuo gioco e vedrai le tue nuove istruzioni!
-  
+
   ![screenshot](images/rpg-instructions-test.png)
 
 ## Salva il progetto {.save}
 
 ## Sfida: Migliora il tuo gioco { .challenge}
 
-Usa quello che hai imparato per creare il tuo gioco. Aggiungi stanze, mostri da evitare e oggetti da raccogliere. Ricordati di modificare il codice in modo che il giocatore vince quando raggiunge una certa stanza con alcuni degli oggetti nel suo inventario. Potrebbe essere utile abbozzare una mappa prima di iniziare a codificare! 
+Usa quello che hai imparato per creare il tuo gioco. Aggiungi stanze, mostri da evitare e oggetti da raccogliere. Ricordati di modificare il codice in modo che il giocatore vince quando raggiunge una certa stanza con alcuni degli oggetti nel suo inventario. Potrebbe essere utile abbozzare una mappa prima di iniziare a codificare!
 
 Potresti perfino aggiungere delle scale alla tua mappa e avere più di un piano di stanze, digitando 'go up' e 'go down'.
 

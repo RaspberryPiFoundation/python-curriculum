@@ -19,7 +19,7 @@ In questo progetto apporterai miglioramenti al design e al codice di una version
 
 ## Lista di controllo delle attività { .check}
 
-+ Apri questo trinket: <a href="http://jumpto.cc/codecraft-go" target="_blank">jumpto.cc/codecraft-go</a>. 
++ Apri questo trinket: <a href="http://jumpto.cc/codecraft-go" target="_blank">jumpto.cc/codecraft-go</a>.
 
 + Usa i tasti WASD della tastiera per spostare il giocatore nel mondo, che è pieno di tante risorse diverse (terra, erba e acqua).
 
@@ -99,7 +99,7 @@ Creiamo una nuova risorsa di legno. Per farlo, devi prima aggiungere delle varia
 
     ![screenshot](images/craft-wood-inventory.png)
 
-+ Per finire, aggiungi il tasto che bisogna premere per mettere il legno nel mondo. 
++ Per finire, aggiungi il tasto che bisogna premere per mettere il legno nel mondo.
 
     ![screenshot](images/craft-wood-placekey.png)
 
@@ -144,7 +144,7 @@ Creiamo adesso una nuova risorsa di tavole, che può essere fabbricata con il le
 
     ![screenshot](images/craft-plank-const.png)
 
-+ Aggiungi la nuova variabile "PLANK" al gioco. 
++ Aggiungi la nuova variabile "PLANK" al gioco.
 
     ![screenshot](images/craft-plank-resources.png)
 
@@ -164,7 +164,7 @@ Creiamo adesso una nuova risorsa di tavole, che può essere fabbricata con il le
 
     ![screenshot](images/craft-plank-placekeys.png)
 
-+ Dato che questa risorsa può essere fabbricata, devi creare una regola di fabbricazione, vale a dire, una tavola può essere fabbricata con 3 mattonelle di legno. Aggiungi questo codice al dizionario di fabbricazione "crafting". 
++ Dato che questa risorsa può essere fabbricata, devi creare una regola di fabbricazione, vale a dire, una tavola può essere fabbricata con 3 mattonelle di legno. Aggiungi questo codice al dizionario di fabbricazione "crafting".
 
     ![screenshot](images/craft-plank-crafting.png)
 

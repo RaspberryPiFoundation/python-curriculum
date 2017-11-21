@@ -1,6 +1,6 @@
 ---
 title: Creatore di Squadra.
-description: Creare un programma per dividere i giocatori in 2 squadre a caso.
+description: "Creare un programma per dividere i giocatori in 2 squadre a caso."
 notes: "Team Chooser - notes.md"
 layout: project
 new: true
@@ -21,9 +21,9 @@ Iniziamo creando una lista di giocatori dalla quale scegliere.
 
 ## Lista di controllo delle attività { .check}
 
-+ Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
++ Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Puoi usare una variabile per salvare una_lista_di giocatori. La lista dovrebbe essere tra parentesi quadre `[ ]`, con una virgola tra ogni voce della lista. 
++ Puoi usare una variabile per salvare una_lista_di giocatori. La lista dovrebbe essere tra parentesi quadre `[ ]`, con una virgola tra ogni voce della lista.
 
 	Aggiungiamo poi una lista di giocatori al tuo programma.
 
@@ -70,7 +70,7 @@ Scegliamo dei giocatori a caso!
 
 	![screenshot](images/team-random-playerA.png)
 
-+ Avrai bisogno di una nuova lista per salvare tutti i giocatori nella squadra A. Per prima cosa, questa lista dovrebbe essere vuota. 
++ Avrai bisogno di una nuova lista per salvare tutti i giocatori nella squadra A. Per prima cosa, questa lista dovrebbe essere vuota.
 
 	![screenshot](images/team-teamA.png)
 

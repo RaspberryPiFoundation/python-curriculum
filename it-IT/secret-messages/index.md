@@ -1,6 +1,6 @@
 ---
 title: Messaggi Segreti
-description: Crea il tuo programma di criptaggio per mandare e ricevere messaggi segreti.
+description: "Crea il tuo programma di criptaggio per mandare e ricevere messaggi segreti."
 notes: "Secret Messages - notes.md"
 layout: project
 project-type: sample
@@ -56,7 +56,7 @@ Prima di iniziare a codificare, proviamo a usare il messaggio cifrato Cesar per 
 	+ h - 3 = __e__
 	+ o - 3 = __l__
 	+ o - 3 = __l__
-	+ r - 3 = __o__	
+	+ r - 3 = __o__
 
 ## Sfida: Usa un messaggio cifrato Cesar { .challenge}
 Puoi mandare una parola segreta a un amico? Dovrete entrambi concordare su una chiave segreta prima di iniziare.
@@ -65,11 +65,11 @@ Potete perfino mandarvi intere sentenze l'uno all'altro.
 
 #Passo 2: Criptare lettere { .activity}
 
-Scriviamo un programma Python per criptare un singolo carattere. 
+Scriviamo un programma Python per criptare un singolo carattere.
 
 ## Lista di controllo delle attività { .check}
 
-+ Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
++ Apri il modello vuoto di Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Invece di disegnare l'alfabeto in un cerchio, scriviamolo come una variabile 'alphabet'.
 
@@ -87,7 +87,7 @@ Scriviamo un programma Python per criptare un singolo carattere.
 
 + In seguito, dovrai salvare la key' segreta in una variabile.
 
-	![screenshot](images/messages-key.png)	
+	![screenshot](images/messages-key.png)
 
 + Poi, chiedi all'utente una lettera singola (chiamata 'characterì) da criptare.
 
@@ -105,7 +105,7 @@ Scriviamo un programma Python per criptare un singolo carattere.
 
 	![screenshot](images/messages-newposition.png)
 
-+ Prova il tuo nuovo codice. Dato che la tua 'key' è 3, dovrebbe aggiungere 3 alla 'position' e salvarla nella tua variabile 'newPosition'. 
++ Prova il tuo nuovo codice. Dato che la tua 'key' è 3, dovrebbe aggiungere 3 alla 'position' e salvarla nella tua variabile 'newPosition'.
 
 	Per esempio, la lettera 'e' si trova alla posizione 4.  Per criptare, aggiungi la 'key' (3), dando 7.
 
@@ -117,7 +117,7 @@ Scriviamo un programma Python per criptare un singolo carattere.
 
 	Nota come la 'newPosition' è 27 e non ci sono 27 lettere nell'alfabeto!
 
-+ Puoi usare un '%' per dire alla nuova posizione di tornare alla posizione 0 una volta che arriva alla posizione 26. (Questo progetto si basa sull'alfabeto inglese, che è composto da 26 lettere.) 
++ Puoi usare un '%' per dire alla nuova posizione di tornare alla posizione 0 una volta che arriva alla posizione 26. (Questo progetto si basa sull'alfabeto inglese, che è composto da 26 lettere.)
 
 	![screenshot](images/messages-modulus.png)
 
