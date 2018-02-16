@@ -1,0 +1,47 @@
+{
+    "description": false,
+    "id": "python_01",
+    "language": "hr-HR",
+    "number": 7,
+    "title": "Python 1",
+    "category": "cat-python",
+    "projects": [
+        {
+            "number":   1,
+            "filename": "lessons/About Me/About Me.md",
+            "note":     "lessons/About Me/About Me - notes.md"
+        },
+        {
+            "number":   2,
+            "filename": "lessons/Rock Paper Scissors/Rock Paper Scissors.md",
+            "note":     "lessons/Rock Paper Scissors/Rock Paper Scissors - notes.md"
+        },
+        {
+            "number":   3,
+            "filename": "lessons/Turtle Race/Turtle Race.md",
+            "note":     "lessons/Turtle Race/Turtle Race.md"
+        },
+        {
+            "number":   4,
+            "filename": "lessons/Team Chooser/Team Chooser.md",
+            "note":     "lessons/Team Chooser/Team Chooser - notes.md"
+        },
+        {
+            "number":   5,
+            "filename": "lessons/Colourful Creations/Colourful Creations.md",
+            "note":     "lessons/Colourful Creations/Colourful Creations - notes.md"
+        },
+        {
+            "number":   6,
+            "filename": "lessons/Secret Messages/Secret Messages.md",
+            "note":     "lessons/Secret Messages/Secret Messages - notes.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Introduction to Python",
+            "note": "volunteer resources/*.md"
+        }
+    ]
+}
